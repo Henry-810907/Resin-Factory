@@ -1,6 +1,6 @@
 # Custom Plush — 毛绒玩具定制网站
 
-基于 **Next.js 14 (App Router) + TypeScript + Tailwind CSS** 搭建的毛绒玩具定制网站(Budsies 风格)。
+基于 **Next.js 14 (App Router) + TypeScript + Tailwind CSS** 搭建的 B 端定制毛绒玩具网站。
 
 所有图片与 Logo 均使用占位框,框内中文标注了所需图片的推荐尺寸,方便后续替换为真实素材。
 
