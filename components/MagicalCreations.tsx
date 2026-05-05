@@ -21,8 +21,7 @@ export default function MagicalCreations() {
         </h2>
         <p className="text-2xl text-amber-500 mb-2">4.8/5 ★★★★★</p>
         <p className="text-brand-pink font-bold">
-          We are so thankful for all the love! Share your favorites by tagging
-          @customplush #customplush
+          We are so thankful for all the love from our customers around the world.
         </p>
       </div>
 
