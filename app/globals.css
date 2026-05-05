@@ -27,3 +27,18 @@ a {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Hero 文案切换的淡入动画 */
+@keyframes heroFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-fade {
+  animation: heroFade 0.6s ease-out;
+}

@@ -3,10 +3,10 @@ import PageHero from "@/components/PageHero";
 import Placeholder from "@/components/Placeholder";
 
 const STATS = [
-  { num: "12+", label: "Years in Business" },
-  { num: "211,000+", label: "Plush Delivered" },
-  { num: "40+", label: "Countries Shipped" },
-  { num: "300+", label: "Brands Served" },
+  { num: "40+", label: "Team Members" },
+  { num: "1,200㎡", label: "Workshop Floor" },
+  { num: "80,000+", label: "Plush Delivered" },
+  { num: "150+", label: "Brands Across 25+ Countries" },
 ];
 
 const TEAM = [
@@ -21,7 +21,7 @@ export default function AboutPage() {
     <main>
       <PageHero
         title="About Us"
-        subtitle="A team of designers, makers and storytellers — turning ideas into huggable, lovable plush at scale since 2013."
+        subtitle="A 40-person workshop of designers, sewers, QA and packers — turning ideas into huggable plush since 2013."
         imageLabel="About 页 Banner 主图(团队/工厂横图)"
       />
 
@@ -40,15 +40,14 @@ export default function AboutPage() {
             </h2>
             <p className="text-lg leading-relaxed">
               We started in 2013 with one sewing machine and a stack of
-              children&apos;s drawings on a coffee table. What began as a way
-              to turn one kid&apos;s sketch into a real plush has grown into a
-              full-service custom plush manufacturer working with brands all
-              over the world.
+              children&apos;s drawings on a coffee table. Twelve years later,
+              we&apos;re still small — about 40 people in a 1,200㎡ workshop —
+              but we now ship for brands across 25+ countries.
             </p>
             <p className="text-lg leading-relaxed">
-              We still hand-finish every plush. We still treat every order —
-              one piece or ten thousand — like the most important order of the
-              day. Because for someone, somewhere, it is.
+              We hand-finish every plush. We treat every order — 50 pieces or
+              10,000 — like the most important order of the day. Because for
+              someone, somewhere, it is.
             </p>
           </div>
         </div>

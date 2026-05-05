@@ -17,7 +17,7 @@ export default function MagicalCreations() {
       {/* 标题保持居中 */}
       <div className="max-w-7xl mx-auto px-6 text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-700 mb-3">
-          211,000+ Magical Creations
+          80,000+ Magical Creations
         </h2>
         <p className="text-2xl text-amber-500 mb-2">4.8/5 ★★★★★</p>
         <p className="text-brand-pink font-bold">
