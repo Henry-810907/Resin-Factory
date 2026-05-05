@@ -203,7 +203,7 @@ export default function ValuesPage() {
 
       {/* 同事合影拼图 */}
       <section className="bg-amber-50 py-10 md:py-14">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-[1408px] mx-auto px-6">
           <div className="text-center mb-12">
             <p className="text-xs uppercase tracking-[0.2em] text-brand-blue font-bold mb-3">
               Meet the Team
@@ -232,13 +232,13 @@ export default function ValuesPage() {
               width={600}
               height={800}
               label="同事工作中(竖图)"
-              className="aspect-[3/4] w-full bg-white"
+              className="aspect-[33/40] w-full bg-white"
             />
             <Placeholder
               width={1200}
               height={900}
               label="团队合影(横图,跨 2 列)"
-              className="aspect-[4/3] w-full md:col-span-2 bg-white"
+              className="aspect-[22/15] w-full md:col-span-2 bg-white"
             />
             <div className="flex justify-center">
               <Placeholder
@@ -264,13 +264,13 @@ export default function ValuesPage() {
               width={1200}
               height={900}
               label="车间生日会(横图,跨 2 列)"
-              className="aspect-[4/3] w-full md:col-span-2 bg-white"
+              className="aspect-[22/15] w-full md:col-span-2 bg-white"
             />
             <Placeholder
               width={600}
               height={800}
               label="同事缝制中(竖图)"
-              className="aspect-[3/4] w-full bg-white"
+              className="aspect-[33/40] w-full bg-white"
             />
             <div className="flex justify-center">
               <Placeholder
