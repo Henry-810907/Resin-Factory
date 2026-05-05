@@ -34,6 +34,10 @@ export const metadata: Metadata = {
     description:
       "B2B custom plush manufacturer. Low MOQ, free design, CE/EN71 certified, worldwide shipping.",
   },
+  // 屏蔽浏览器自动翻译提示(Chrome 等)
+  other: {
+    google: "notranslate",
+  },
 };
 
 export default function RootLayout({
@@ -42,8 +46,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={chunky.variable}>
-      <body className="bg-white">
+    <html lang="en" className={chunky.variable} translate="no">
+      <body className="bg-white notranslate">
         <Header />
         {children}
         <Footer />
