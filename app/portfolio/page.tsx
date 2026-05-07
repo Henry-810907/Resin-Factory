@@ -12,20 +12,20 @@ const FILTERS = [
   "Museum & Galleries",
 ];
 
-// 12 个示例案例,部分用 col-span-2 形成瀑布流的视觉节奏
+// 12 个案例,统一 4 行 × 3 列对齐网格
 const CASES = [
-  { title: "Retail Mascot Statue — North Park", tag: "Brands", span: "md:col-span-2", image: "/pictures/jpg/img_2727.jpg" },
-  { title: "Indie Designer Toy Drop", tag: "Designer Toys", span: "", image: "/pictures/jpg/img_2716.jpg" },
-  { title: "Anime IP 1/7 Statue — Studio S", tag: "IP / Animation", span: "", image: "/pictures/jpg/img_2729.jpg" },
-  { title: "Coffee Chain Resin Promo", tag: "Brands", span: "", image: "/pictures/jpg/img_2725.jpg" },
-  { title: "Hospital Donation Series", tag: "Charity", span: "md:col-span-2", image: "/pictures/jpg/img_2747.jpg" },
-  { title: "E-Sports Team Bobblehead", tag: "E-Sports", span: "", image: "/pictures/jpg/img_2730.jpg" },
-  { title: "Toy Brand Blind Box SKU", tag: "Brands", span: "", image: "/pictures/jpg/img_2722.jpg" },
-  { title: "Museum Gift-Shop Diorama", tag: "Museum & Galleries", span: "md:col-span-2", image: "/pictures/jpg/img_2736.jpg" },
-  { title: "Convention Resin Drop", tag: "IP / Animation", span: "", image: "/pictures/jpg/img_2723.jpg" },
-  { title: "Gallery Limited Edition Statue", tag: "Museum & Galleries", span: "", image: "/pictures/jpg/img_2735.jpg" },
-  { title: "Charity Auction Resin Set", tag: "Charity", span: "", image: "/pictures/jpg/img_2740.jpg" },
-  { title: "Game Studio Collector Figure", tag: "E-Sports", span: "", image: "/pictures/jpg/img_2738.jpg" },
+  { title: "Retail Mascot Statue — North Park", tag: "Brands", image: "/pictures/jpg/img_2727.jpg" },
+  { title: "Indie Designer Toy Drop", tag: "Designer Toys", image: "/pictures/jpg/img_2716.jpg" },
+  { title: "Anime IP 1/7 Statue — Studio S", tag: "IP / Animation", image: "/pictures/jpg/img_2729.jpg" },
+  { title: "Coffee Chain Resin Promo", tag: "Brands", image: "/pictures/jpg/img_2725.jpg" },
+  { title: "Hospital Donation Series", tag: "Charity", image: "/pictures/jpg/img_2747.jpg" },
+  { title: "E-Sports Team Bobblehead", tag: "E-Sports", image: "/pictures/jpg/img_2730.jpg" },
+  { title: "Toy Brand Blind Box SKU", tag: "Brands", image: "/pictures/jpg/img_2722.jpg" },
+  { title: "Museum Gift-Shop Diorama", tag: "Museum & Galleries", image: "/pictures/jpg/img_2736.jpg" },
+  { title: "Convention Resin Drop", tag: "IP / Animation", image: "/pictures/jpg/img_2723.jpg" },
+  { title: "Gallery Limited Edition Statue", tag: "Museum & Galleries", image: "/pictures/jpg/img_2735.jpg" },
+  { title: "Charity Auction Resin Set", tag: "Charity", image: "/pictures/jpg/img_2740.jpg" },
+  { title: "Game Studio Collector Figure", tag: "E-Sports", image: "/pictures/jpg/img_2738.jpg" },
 ];
 
 export default function PortfolioPage() {
@@ -58,26 +58,26 @@ export default function PortfolioPage() {
       {/* 案例网格 */}
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {CASES.map((c) => (
               <div
                 key={c.title}
-                className={`group rounded-xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition bg-white ${c.span}`}
+                className="group rounded-lg overflow-hidden border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition bg-white flex flex-col h-full"
               >
-                <div className="relative w-full aspect-[4/3]">
+                <div className="relative w-full aspect-square">
                   <Image
                     src={c.image}
                     alt={c.title}
                     fill
-                    sizes={c.span ? "(max-width: 768px) 100vw, 66vw" : "(max-width: 768px) 100vw, 33vw"}
+                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
                     className="object-cover object-center"
                   />
                 </div>
-                <div className="p-4">
-                  <p className="text-xs uppercase tracking-wider text-brand-orange font-bold mb-1">
+                <div className="px-3 py-2.5">
+                  <p className="text-[10px] uppercase tracking-wider text-brand-orange font-bold mb-0.5">
                     {c.tag}
                   </p>
-                  <p className="font-bold text-brand-dark">{c.title}</p>
+                  <p className="text-sm font-semibold text-brand-dark leading-snug line-clamp-2">{c.title}</p>
                 </div>
               </div>
             ))}

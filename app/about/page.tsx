@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHero
         title="About Us"
         subtitle="A 50-person workshop of sculptors, mould-makers, casters, painters and QA — turning ideas into hand-painted resin figures since 2013."
-        image="/pictures/jpg/img_2710.jpg"
+        image="/factory.jpg"
       />
 
       {/* 公司故事 */}
