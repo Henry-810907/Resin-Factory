@@ -83,11 +83,6 @@ export default function PortfolioPage() {
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <button className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-8 py-3 rounded-md shadow-sm">
-              Load More
-            </button>
-          </div>
         </div>
       </section>
 
