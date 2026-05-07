@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import Placeholder from "@/components/Placeholder";
+
+export const metadata: Metadata = {
+  title: "About Us — Shenzhen Heli Toys (Resin Factory)",
+  description:
+    "A 50-person workshop of sculptors, mould-makers, casters, painters and QA in Shenzhen — turning ideas into hand-painted resin figures since 2013. Shipping for brands across 25+ countries.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    type: "website",
+    url: "/about",
+    title: "About Resin Factory · Shenzhen Heli Toys Co., Ltd.",
+    description:
+      "A 50-person Shenzhen workshop turning ideas into hand-painted resin figures since 2013. Brands across 25+ countries.",
+    images: ["/og-image.jpg"],
+  },
+};
 
 const STATS = [
   { num: "50+", label: "Team Members" },

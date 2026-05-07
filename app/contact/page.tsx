@@ -1,4 +1,20 @@
+import type { Metadata } from "next";
 import CustomSelect from "@/components/CustomSelect";
+
+export const metadata: Metadata = {
+  title: "Contact — Get a Free 3D Mock-up & Quote",
+  description:
+    "Tell us about your project and our sculptors will reply with a free 3D mock-up and quote within 24 hours. Email, WhatsApp, or use the form. Shenzhen, China · UTC+8.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    type: "website",
+    url: "/contact",
+    title: "Contact Resin Factory · Get a Quote",
+    description:
+      "Free 3D mock-up & quote within 24 hours. Email hello@resin-factory.com or WhatsApp +86 136 8269 2148.",
+    images: ["/og-image.jpg"],
+  },
+};
 
 const stroke = {
   fill: "none",

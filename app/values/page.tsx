@@ -1,7 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import Placeholder from "@/components/Placeholder";
+
+export const metadata: Metadata = {
+  title: "Our Values — Workshop Standards & Worker Care",
+  description:
+    "Fair pay, reasonable hours, non-toxic materials, CE/EN71/ASTM testing on every batch. Why a well-run workshop produces better resin figurines for your brand.",
+  alternates: { canonical: "/values" },
+  openGraph: {
+    type: "website",
+    url: "/values",
+    title: "Our Values · Resin Factory",
+    description:
+      "Fair pay, reasonable hours, non-toxic materials. The principles behind our resin figurine production.",
+    images: ["/og-image.jpg"],
+  },
+};
 
 const stroke = {
   fill: "none",

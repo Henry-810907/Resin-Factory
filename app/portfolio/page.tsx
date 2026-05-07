@@ -1,6 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
+
+export const metadata: Metadata = {
+  title: "Portfolio — Custom Resin Figurine Case Studies",
+  description:
+    "Selected work for global brands, IP licensors, designer-toy artists, museums and charities. Every figure sculpted, cast and hand-painted in our Shenzhen factory.",
+  alternates: { canonical: "/portfolio" },
+  openGraph: {
+    type: "website",
+    url: "/portfolio",
+    title: "Portfolio · Resin Factory",
+    description:
+      "Selected resin figurine case studies for brands, IP studios, designer-toy artists, museums and charities.",
+    images: ["/og-image.jpg"],
+  },
+};
 
 const FILTERS = [
   "All",

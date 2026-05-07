@@ -1,5 +1,21 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
+
+export const metadata: Metadata = {
+  title: "The Resin Journal — Stories from Our Sculpting Studio",
+  description:
+    "Behind-the-scenes stories from our sculpting studio and casting floor, plus how-to guides for first-time resin-figure buyers — MOQ, materials, airbrush vs hand brush and more.",
+  alternates: { canonical: "/blog" },
+  openGraph: {
+    type: "website",
+    url: "/blog",
+    title: "The Resin Journal · Resin Factory",
+    description:
+      "Stories from our sculpting studio and casting floor. How-tos for first-time resin-figure buyers.",
+    images: ["/og-image.jpg"],
+  },
+};
 
 const CATEGORIES = ["All", "How-To", "Behind the Scenes", "Brand Stories", "Materials", "Sustainability"];
 

@@ -1,6 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
+
+export const metadata: Metadata = {
+  title: "Custom Resin Figurine Products — Statues, Designer Toys, Blind Box",
+  description:
+    "Mascot figurines, designer toys, statues, GK kits, blind box series, bobbleheads, resin keychains, dioramas and bulk runs. Custom resin manufacturing for brands and IP — sculpted, cast and hand-painted in our Shenzhen factory.",
+  alternates: { canonical: "/products" },
+  openGraph: {
+    type: "website",
+    url: "/products",
+    title: "Custom Resin Figurine Products · Resin Factory",
+    description:
+      "Mascot figurines, designer toys, statues, GK kits, blind box series and more. Custom resin manufacturing in our own Shenzhen factory.",
+    images: ["/og-image.jpg"],
+  },
+};
 
 const PRODUCTS = [
   {
