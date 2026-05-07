@@ -41,7 +41,7 @@ const CONTACTS = [
   },
   {
     title: "Phone / WhatsApp",
-    value: "+86 18924330727",
+    value: "+86 136 8269 2148",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" {...stroke}>
         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z" />
@@ -49,8 +49,19 @@ const CONTACTS = [
     ),
   },
   {
+    title: "Company",
+    value: "Shenzhen Heli Toys Co., Ltd.",
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 24 24" {...stroke}>
+        <path d="M3 21V8l9-5 9 5v13" />
+        <path d="M9 21v-6h6v6" />
+      </svg>
+    ),
+  },
+  {
     title: "Address",
-    value: "Yiwu, Zhejiang, China",
+    value:
+      "Room 318, Building 618, Bagua Ling Industrial Zone, Bagua 1st Road, Pengsheng Community, Yuanling Street, Futian District, Shenzhen, China",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" {...stroke}>
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -188,8 +199,8 @@ export default function ContactPage() {
               {/* 谷歌地图嵌入 */}
               <div className="flex-1 min-h-[280px] mt-6 rounded-md overflow-hidden bg-white border border-slate-200">
                 <iframe
-                  title="Resin Factory 工厂位置 — Yiwu, Zhejiang, China"
-                  src="https://www.google.com/maps?q=Yiwu+Zhejiang+China&z=10&output=embed&hl=en&gl=us"
+                  title="Shenzhen Heli Toys Co., Ltd. — 八卦岭工业区, 福田区, 深圳"
+                  src="https://www.google.com/maps?q=Bagua+Ling+Industrial+Zone+Futian+Shenzhen+China&z=15&output=embed&hl=en&gl=us"
                   className="w-full h-full border-0"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

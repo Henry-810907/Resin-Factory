@@ -2,13 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 const POSTS = [
-  { user: "@resin_collector_88", time: "1 WEEK AGO", image: "/pictures/jpg/img_2717.jpg" },
-  { user: "@studio_kain", time: "1 WEEK AGO", image: "/pictures/jpg/img_2722.jpg" },
-  { user: "@designer_toys_co", time: "1 WEEK AGO", image: "/pictures/jpg/img_2729.jpg" },
-  { user: "@gk_painter22", time: "2 WEEKS AGO", image: "/pictures/jpg/img_2716.jpg" },
-  { user: "@art_to_figure", time: "2 WEEKS AGO", image: "/pictures/jpg/img_2725.jpg" },
-  { user: "@indie_sculptor", time: "3 WEEKS AGO", image: "/pictures/jpg/img_2727.jpg" },
-  { user: "@brand_studio_x", time: "3 WEEKS AGO", image: "/pictures/jpg/img_2730.jpg" },
+  { user: "@resin_collector_88", time: "1 WEEK AGO", image: "/new/64f82e9b41f558668b59d745b1087779.jpg" },
+  { user: "@studio_kain", time: "1 WEEK AGO", image: "/new/820b8c436ce4391b00207dcac1f99384.jpg" },
+  { user: "@designer_toys_co", time: "1 WEEK AGO", image: "/new/82d3a1952cba9eac0ef6583bdb5c5664.jpg" },
+  { user: "@gk_painter22", time: "2 WEEKS AGO", image: "/new/a077b10cce8f68f537117504ff6920c2.jpg" },
+  { user: "@art_to_figure", time: "2 WEEKS AGO", image: "/new/a656d250d3f04109d182b538a38a583a.jpg" },
+  { user: "@indie_sculptor", time: "3 WEEKS AGO", image: "/new/c106f304449404509cd6972232c70442.jpg" },
+  { user: "@brand_studio_x", time: "3 WEEKS AGO", image: "/new/d1d78a1f5855b91587857b70ca936c01.jpg" },
   { user: "@blindbox_fan", time: "1 MONTH AGO", image: "/pictures/jpg/img_2747.jpg" },
 ];
 

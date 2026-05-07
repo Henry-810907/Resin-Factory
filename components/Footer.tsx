@@ -50,11 +50,15 @@ export default function Footer() {
               hand-paint — all in our own factory.
             </p>
             <p className="text-sm text-slate-300 leading-relaxed">
-              Yiwu, Zhejiang, China
+              <span className="font-semibold text-white">Shenzhen Heli Toys Co., Ltd.</span>
+              <br />
+              Room 318, Building 618, Bagua Ling Industrial Zone,
+              <br />
+              Futian District, Shenzhen, China
               <br />
               hello@resin-factory.com
               <br />
-              +86 189 2433 0727
+              +86 136 8269 2148
             </p>
           </div>
 
@@ -116,7 +120,7 @@ export default function Footer() {
       </div>
 
       <div className="bg-slate-950 text-center py-3 text-slate-500 text-xs">
-        © {new Date().getFullYear()} Resin Factory. All rights reserved.
+        © {new Date().getFullYear()} Shenzhen Heli Toys Co., Ltd. All rights reserved.
       </div>
     </footer>
   );
