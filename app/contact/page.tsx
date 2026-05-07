@@ -9,19 +9,19 @@ const stroke = {
 };
 
 const PRODUCT_TYPES = [
-  "Mascot Plush",
-  "Brand Giveaway",
-  "Drawing-to-Plush",
-  "Custom Pillows",
-  "Plush Keychains",
-  "Hand Puppets",
-  "Bobbleheads / Figurines",
+  "Mascot Figurine",
+  "Designer Toy / Art Toy",
+  "Statue / GK Kit",
+  "Blind Box Series",
+  "Bobblehead",
+  "Resin Keychain",
+  "Diorama / Display Base",
   "Other",
 ];
 
 const QUANTITIES = [
-  "50 – 200",
-  "200 – 1,000",
+  "100 – 300",
+  "300 – 1,000",
   "1,000 – 5,000",
   "5,000 – 10,000",
   "10,000+ (let's discuss)",
@@ -31,7 +31,7 @@ const QUANTITIES = [
 const CONTACTS = [
   {
     title: "Email",
-    value: "hello@custom-plush.com",
+    value: "hello@resin-factory.com",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" {...stroke}>
         <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -73,20 +73,20 @@ const CONTACTS = [
 export default function ContactPage() {
   return (
     <main>
-      <section className="pt-4 md:pt-6 pb-10 md:pb-14">
+      <section className="bg-white py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-6">
-            <h1 className="text-2xl md:text-3xl font-light text-slate-800 leading-tight mb-1">
+          <div className="text-center mb-10">
+            <h1 className="text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-3 tracking-tight">
               Get a Quote
             </h1>
-            <p className="text-sm md:text-base text-slate-600">
-              Reply with a free mock-up &amp; quote within 24 hours.
+            <p className="text-base md:text-lg text-slate-600">
+              Reply with a free 3D mock-up &amp; quote within 24 hours.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {/* 表单 */}
-            <form className="lg:col-span-2 bg-white rounded-xl border border-slate-100 shadow-sm p-7 md:p-10 space-y-6">
+            <form className="lg:col-span-2 bg-white rounded-xl border border-slate-200 shadow-sm p-7 md:p-10 space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-1.5">
@@ -95,7 +95,7 @@ export default function ContactPage() {
                   <input
                     type="text"
                     required
-                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-200 focus:outline-none focus:border-brand-green"
+                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange"
                   />
                 </div>
                 <div>
@@ -105,7 +105,7 @@ export default function ContactPage() {
                   <input
                     type="text"
                     required
-                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-200 focus:outline-none focus:border-brand-green"
+                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange"
                   />
                 </div>
                 <div>
@@ -115,7 +115,7 @@ export default function ContactPage() {
                   <input
                     type="email"
                     required
-                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-200 focus:outline-none focus:border-brand-green"
+                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange"
                   />
                 </div>
                 <div>
@@ -124,7 +124,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-200 focus:outline-none focus:border-brand-green"
+                    className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange"
                   />
                 </div>
 
@@ -147,48 +147,48 @@ export default function ContactPage() {
                 <textarea
                   required
                   rows={4}
-                  className="w-full px-4 py-3 text-sm rounded-md border border-slate-200 focus:outline-none focus:border-brand-green resize-none"
+                  className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange resize-none"
                 />
               </div>
 
               <div className="flex flex-col sm:flex-row sm:items-stretch gap-3">
-                <label className="flex-1 flex items-center justify-center text-sm text-slate-500 border border-dashed border-slate-300 rounded-md px-4 py-3 text-center cursor-pointer hover:border-brand-green hover:text-brand-greenDark transition">
-                  📎 Attach reference files (PNG · JPG · PDF · AI)
+                <label className="flex-1 flex items-center justify-center text-sm text-slate-500 border border-dashed border-slate-300 rounded-md px-4 py-3 text-center cursor-pointer hover:border-brand-orange hover:text-brand-orange transition">
+                  📎 Attach reference files (PNG · JPG · PDF · AI · STL · ZTL)
                 </label>
                 <button
                   type="submit"
-                  className="bg-brand-green hover:bg-brand-greenDark transition text-white text-sm font-bold tracking-wider px-8 py-3 rounded-md shadow-md whitespace-nowrap"
+                  className="bg-brand-orange hover:bg-brand-orangeDark transition text-white text-sm font-semibold px-8 py-3 rounded-md shadow-sm whitespace-nowrap"
                 >
-                  SEND INQUIRY
+                  Send Inquiry
                 </button>
               </div>
             </form>
 
             {/* 联系方式 */}
-            <aside className="bg-brand-lightBlue rounded-xl p-6 md:p-7 flex flex-col">
-              <h3 className="text-sm font-bold text-slate-800 uppercase tracking-wider mb-5">
+            <aside className="bg-brand-bgAlt rounded-xl p-6 md:p-7 flex flex-col border border-slate-200">
+              <h3 className="text-sm font-bold text-brand-dark uppercase tracking-wider mb-5">
                 Other ways to reach us
               </h3>
               <div className="space-y-4">
                 {CONTACTS.map((c) => (
                   <div key={c.title} className="flex gap-3 items-start">
-                    <span className="w-8 h-8 rounded-full bg-white text-brand-greenDark flex items-center justify-center shrink-0">
+                    <span className="w-9 h-9 rounded-full bg-white text-brand-orange flex items-center justify-center shrink-0 border border-slate-200">
                       {c.icon}
                     </span>
                     <div className="leading-tight">
                       <p className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold">
                         {c.title}
                       </p>
-                      <p className="text-sm text-slate-800">{c.value}</p>
+                      <p className="text-sm text-brand-dark mt-0.5">{c.value}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              {/* 谷歌地图嵌入:flex-1 + h-full 让其填满侧栏剩余高度 */}
-              <div className="flex-1 min-h-[260px] mt-5 rounded-md overflow-hidden bg-white">
+              {/* 谷歌地图嵌入 */}
+              <div className="flex-1 min-h-[280px] mt-6 rounded-md overflow-hidden bg-white border border-slate-200">
                 <iframe
-                  title="Custom Plush 工厂位置 — Yiwu, Zhejiang, China"
+                  title="Resin Factory 工厂位置 — Yiwu, Zhejiang, China"
                   src="https://www.google.com/maps?q=Yiwu+Zhejiang+China&z=10&output=embed&hl=en&gl=us"
                   className="w-full h-full border-0"
                   loading="lazy"
@@ -200,8 +200,7 @@ export default function ContactPage() {
           </div>
 
           <p className="text-[11px] text-center text-slate-400 mt-5">
-            By submitting you agree to our Privacy Policy. We never share your
-            contact details with third parties.
+            By submitting you agree to our Privacy Policy. We never share your contact details with third parties.
           </p>
         </div>
       </section>

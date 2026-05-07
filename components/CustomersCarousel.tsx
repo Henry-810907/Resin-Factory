@@ -1,17 +1,17 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Placeholder from "./Placeholder";
+import Image from "next/image";
 
 const ITEMS = [
-  { name: "Sarah", caption: "Turned my child's drawing into a real plush.", label: "客户作品 1" },
-  { name: "Michael", caption: "A custom doll for my grandma's birthday.", label: "客户作品 2" },
-  { name: "Lily", caption: "My pet's lookalike — perfect match!", label: "客户作品 3" },
-  { name: "James", caption: "Brand mascot for our retail giveaway.", label: "客户作品 4" },
-  { name: "Anna", caption: "Throw pillow with our family portrait.", label: "客户作品 5" },
-  { name: "David", caption: "OC plush for an anime convention booth.", label: "客户作品 6" },
-  { name: "Emily", caption: "Hospital donation plush for our charity.", label: "客户作品 7" },
-  { name: "Tom", caption: "Bulk production for a school fundraiser.", label: "客户作品 8" },
+  { name: "Sarah", caption: "Turned our concept art into a 1/7 scale resin statue.", image: "/pictures/jpg/img_2738.jpg" },
+  { name: "Michael", caption: "Designer toy series for our convention drop.", image: "/pictures/jpg/img_2740.jpg" },
+  { name: "Lily", caption: "Brand mascot resin figure — color-matched perfectly.", image: "/pictures/jpg/img_2735.jpg" },
+  { name: "James", caption: "Limited-run blind box for our retail launch.", image: "/pictures/jpg/img_2736.jpg" },
+  { name: "Anna", caption: "Hand-painted GK kit for our IP collaboration.", image: "/pictures/jpg/img_2747.jpg" },
+  { name: "David", caption: "OC chibi figure for an anime studio booth.", image: "/pictures/jpg/img_2723.jpg" },
+  { name: "Emily", caption: "Bobblehead run for a corporate gifting campaign.", image: "/pictures/jpg/img_2724.jpg" },
+  { name: "Tom", caption: "Bulk production for a museum gift-shop SKU.", image: "/pictures/jpg/img_2731.jpg" },
 ];
 
 const AUTOPLAY_MS = 3500;
@@ -103,18 +103,21 @@ export default function CustomersCarousel() {
       >
         {ITEMS.map((it) => (
           <div
-            key={it.label}
+            key={it.image}
             data-card
-            className={`snap-start shrink-0 ${cardWidth} bg-white rounded-xl shadow-sm overflow-hidden flex flex-col border border-slate-100`}
+            className={`snap-start shrink-0 ${cardWidth} bg-white rounded-lg shadow-sm hover:shadow-md transition overflow-hidden flex flex-col border border-slate-200`}
           >
-            <Placeholder
-              width={600}
-              height={600}
-              label={it.label}
-              className="w-full aspect-square rounded-none"
-            />
+            <div className="relative w-full aspect-square">
+              <Image
+                src={it.image}
+                alt={`Customer work — ${it.name}`}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 25vw"
+                className="object-cover object-center"
+              />
+            </div>
             <div className="p-4 flex-1 flex flex-col">
-              <p className="font-bold text-slate-700">{it.name}</p>
+              <p className="font-bold text-brand-dark">{it.name}</p>
               <p className="text-sm text-slate-500 mt-1">{it.caption}</p>
             </div>
           </div>
@@ -126,7 +129,7 @@ export default function CustomersCarousel() {
         aria-label="上一组"
         disabled={!canPrev}
         onClick={() => scrollByPage(-1)}
-        className={`absolute left-4 md:left-8 top-[40%] -translate-y-1/2 text-slate-700 hover:text-brand-green transition z-10 ${
+        className={`absolute left-4 md:left-8 top-[40%] -translate-y-1/2 text-slate-700 hover:text-brand-orange transition z-10 ${
           canPrev ? "opacity-100" : "opacity-30 cursor-not-allowed"
         }`}
       >
@@ -148,7 +151,7 @@ export default function CustomersCarousel() {
         aria-label="下一组"
         disabled={!canNext}
         onClick={() => scrollByPage(1)}
-        className={`absolute right-4 md:right-8 top-[40%] -translate-y-1/2 text-slate-700 hover:text-brand-green transition z-10 ${
+        className={`absolute right-4 md:right-8 top-[40%] -translate-y-1/2 text-slate-700 hover:text-brand-orange transition z-10 ${
           canNext ? "opacity-100" : "opacity-30 cursor-not-allowed"
         }`}
       >

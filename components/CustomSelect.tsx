@@ -57,7 +57,7 @@ export default function CustomSelect({
         aria-haspopup="listbox"
         aria-expanded={open}
         onClick={() => setOpen((o) => !o)}
-        className="w-full px-4 py-3 text-sm text-left rounded-md border border-slate-200 bg-white hover:border-slate-400 focus:outline-none focus:border-brand-green flex items-center justify-between text-slate-700"
+        className="w-full px-4 py-3 text-sm text-left rounded-md border border-slate-300 bg-white hover:border-slate-400 focus:outline-none focus:border-brand-orange flex items-center justify-between text-slate-700"
       >
         <span className="truncate">{value}</span>
         <svg
@@ -97,7 +97,7 @@ export default function CustomSelect({
                   }}
                   className={`w-full text-left px-4 py-2.5 text-sm transition ${
                     selected
-                      ? "bg-brand-green/10 text-brand-greenDark font-semibold"
+                      ? "bg-brand-orange/10 text-brand-orangeDark font-semibold"
                       : "text-slate-700 hover:bg-slate-50"
                   }`}
                 >

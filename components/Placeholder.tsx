@@ -30,8 +30,9 @@ export default function Placeholder({
   const sizeText =
     width && height ? `推荐尺寸:${width}×${height}px` : "推荐尺寸:待定";
 
+  // 常规浅灰底 + 虚线 + 圆角
   const bg = tone === "dark" ? "bg-slate-200" : "bg-slate-100";
-  const border = "border-2 border-dashed border-slate-400";
+  const border = "border-2 border-dashed border-slate-300";
   const radius = circle ? "rounded-full" : "rounded-lg";
 
   return (

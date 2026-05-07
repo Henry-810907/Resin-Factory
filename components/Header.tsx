@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Placeholder from "./Placeholder";
 
 const NAV: { label: string; href: string }[] = [
   { label: "Products", href: "/products" },
@@ -10,40 +9,47 @@ const NAV: { label: string; href: string }[] = [
   { label: "Contact", href: "/contact" },
 ];
 
+/**
+ * 常规 B2B Header:
+ *  - 白底 + 底部细线分隔
+ *  - 左:文字品牌(深色加粗)
+ *  - 中:常规导航
+ *  - 右:橙色实色 CTA 按钮
+ */
 export default function Header() {
   return (
-    <header className="w-full bg-white border-b border-slate-100 sticky top-0 z-50">
+    <header className="w-full bg-white border-b border-slate-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        {/* Logo 占位:点击回首页 */}
-        <Link href="/" aria-label="回到首页">
-          <Placeholder
-            width={200}
-            height={60}
-            label="Logo"
-            className="w-[150px] h-[50px] text-[10px]"
-          />
+        {/* 文字品牌(深色) */}
+        <Link href="/" aria-label="Resin Factory · 回到首页" className="flex items-center gap-2">
+          <span className="w-8 h-8 bg-brand-orange rounded-md flex items-center justify-center text-white font-bold text-sm">
+            R
+          </span>
+          <span className="font-bold text-xl text-brand-dark tracking-tight">
+            Resin Factory
+          </span>
         </Link>
 
-        {/* 导航:圆润字体(Nunito) */}
-        <nav className="hidden md:flex items-center gap-8 lg:gap-12 font-chunky font-bold text-base tracking-wide text-slate-700">
+        {/* 中:常规导航 */}
+        <nav className="hidden md:flex items-center gap-7 lg:gap-9 text-[15px] font-medium text-slate-700">
           {NAV.map((n) => (
             <Link
               key={n.href}
               href={n.href}
-              className="hover:text-brand-green transition"
+              className="hover:text-brand-orange transition-colors"
             >
               {n.label}
             </Link>
           ))}
         </nav>
 
-        {/* 右侧:Get a Quote(B端 CTA) */}
+        {/* 右:橙色实色 CTA */}
         <div className="flex items-center">
           <Link
             href="/contact"
-            className="bg-brand-green hover:bg-brand-greenDark transition text-white font-chunky font-bold tracking-wider text-sm px-6 py-3 rounded-md shadow-sm"
+            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-6 py-2.5 rounded-md shadow-sm"
           >
-            GET A QUOTE
+            Get a Quote
           </Link>
         </div>
       </div>

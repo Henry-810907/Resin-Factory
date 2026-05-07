@@ -28,3 +28,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 大文件不上传:
+# - HEIC 原图(已转 jpg,网页只用 jpg)
+# - MOV 视频(总共 3.1GB,GitHub 单文件限制 100MB)
+public/pictures/*.HEIC
+public/pictures/*.heic
+public/pictures/*.MOV
+public/pictures/*.mov

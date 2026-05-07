@@ -1,131 +1,122 @@
-import Placeholder from "./Placeholder";
+import Link from "next/link";
 
-const LINKS_1 = [
-  "Products",
-  "Portfolio",
-  "About Us",
-  "Our Values",
-  "Blog",
-  "Contact",
+const LINKS_1: { label: string; href: string }[] = [
+  { label: "Products", href: "/products" },
+  { label: "Portfolio", href: "/portfolio" },
+  { label: "About Us", href: "/about" },
+  { label: "Our Values", href: "/values" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
 ];
 
-const LINKS_2 = [
-  "Free Design",
-  "Process",
-  "Materials",
-  "Certifications",
-  "FAQ's",
-  "Bulk Production",
+const LINKS_2: { label: string; href: string }[] = [
+  { label: "Free 3D Sculpting", href: "/products" },
+  { label: "Process", href: "/products" },
+  { label: "Materials", href: "/products" },
+  { label: "Certifications", href: "/values" },
+  { label: "FAQ", href: "/contact" },
+  { label: "Bulk Production", href: "/products" },
 ];
 
-const LINKS_3 = [
-  "Terms of Service",
-  "Privacy Policy",
-  "Shipping",
-  "Newsletter",
+const LINKS_3: { label: string; href: string }[] = [
+  { label: "Terms of Service", href: "/contact" },
+  { label: "Privacy Policy", href: "/contact" },
+  { label: "Shipping", href: "/contact" },
+  { label: "Newsletter", href: "/contact" },
 ];
 
-// 社交平台占位:每个用一个首字母,后续可换成真实纯色 SVG
-const SOCIAL = [
-  { name: "Facebook", letter: "f" },
-  { name: "Instagram", letter: "Ig" },
-  { name: "Twitter", letter: "X" },
-  { name: "LinkedIn", letter: "in" },
-  { name: "TikTok", letter: "Tk" },
-];
-
+/**
+ * 常规 B2B 深色 Footer:
+ *  - 深蓝灰底 + 白文字
+ *  - 4 列布局:品牌+联系 / 导航 / 服务 / 法务
+ */
 export default function Footer() {
   return (
-    <footer className="bg-green-600 text-white">
-      <div className="max-w-7xl mx-auto px-6 pt-12 pb-8">
+    <footer className="bg-brand-dark text-slate-300">
+      <div className="max-w-7xl mx-auto px-6 pt-14 md:pt-16 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          {/* 行业奖项 */}
+          {/* 第 1 列:品牌 + 联系方式 */}
           <div>
-            <h4 className="font-bold tracking-wider mb-4">INDUSTRY AWARDS</h4>
-            <div className="grid grid-cols-2 gap-3">
-              {[1, 2, 3, 4].map((i) => (
-                <Placeholder
-                  key={i}
-                  width={200}
-                  height={200}
-                  label={`奖项 ${i}`}
-                  className="w-full aspect-square bg-white/80 text-slate-600"
-                />
-              ))}
-            </div>
+            <Link href="/" className="flex items-center gap-2 mb-5">
+              <span className="w-8 h-8 bg-brand-orange rounded-md flex items-center justify-center text-white font-bold text-sm">
+                R
+              </span>
+              <span className="font-bold text-xl text-white tracking-tight">
+                Resin Factory
+              </span>
+            </Link>
+            <p className="text-sm leading-relaxed text-slate-400 mb-5">
+              B2B custom resin figurine manufacturer. Sculpt, mould, cast and
+              hand-paint — all in our own factory.
+            </p>
+            <p className="text-sm text-slate-300 leading-relaxed">
+              Yiwu, Zhejiang, China
+              <br />
+              hello@resin-factory.com
+              <br />
+              +86 189 2433 0727
+            </p>
           </div>
 
-          {/* 链接列 1 */}
+          {/* 第 2 列:Quick Links */}
           <div>
-            <h4 className="font-bold tracking-wider mb-4">QUICK LINKS</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-semibold text-white tracking-wide mb-4">QUICK LINKS</h4>
+            <ul className="space-y-2.5 text-sm">
               {LINKS_1.map((l) => (
-                <li key={l}>
-                  <a href="#" className="hover:underline">
-                    {l}
-                  </a>
+                <li key={l.label}>
+                  <Link href={l.href} className="hover:text-brand-orange transition">
+                    {l.label}
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* 链接列 2 */}
+          {/* 第 3 列:Services */}
           <div>
-            <h4 className="font-bold tracking-wider mb-4">SERVICES</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-semibold text-white tracking-wide mb-4">SERVICES</h4>
+            <ul className="space-y-2.5 text-sm">
               {LINKS_2.map((l) => (
-                <li key={l}>
-                  <a href="#" className="hover:underline">
-                    {l}
-                  </a>
+                <li key={l.label}>
+                  <Link href={l.href} className="hover:text-brand-orange transition">
+                    {l.label}
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* 第 4 列:其它链接 + Newsletter,下方放社媒图标 */}
+          {/* 第 4 列:More + Social */}
           <div>
-            <h4 className="font-bold tracking-wider mb-4">MORE</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-semibold text-white tracking-wide mb-4">MORE</h4>
+            <ul className="space-y-2.5 text-sm">
               {LINKS_3.map((l) => (
-                <li key={l}>
-                  <a href="#" className="hover:underline">
-                    {l}
-                  </a>
+                <li key={l.label}>
+                  <Link href={l.href} className="hover:text-brand-orange transition">
+                    {l.label}
+                  </Link>
                 </li>
               ))}
             </ul>
-
-            {/* 社媒纯色图标(占位):放在 Newsletter 下面 */}
-            <div className="mt-5 flex gap-3">
-              {SOCIAL.map((s) => (
-                <a
-                  key={s.name}
-                  href="#"
-                  title={s.name}
-                  aria-label={s.name}
-                  className="w-9 h-9 rounded-full bg-white text-green-700 flex items-center justify-center font-bold text-sm hover:bg-slate-100 transition"
-                >
-                  {s.letter}
-                </a>
-              ))}
-            </div>
           </div>
         </div>
 
-        {/* 底部 CTA */}
-        <div className="mt-10 pt-6 border-t border-white/30 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-bold tracking-wider">
-            HAVE QUESTIONS? GIVE US A SHOUT!
+        {/* 底部 CTA 条 */}
+        <div className="mt-12 pt-8 border-t border-slate-700 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm md:text-base text-slate-300">
+            Have a project in mind? Get a free quote within 24 hours.
           </p>
-          <button className="bg-slate-800 hover:bg-slate-900 text-white font-bold tracking-wider px-7 py-2.5 rounded-md">
-            CONTACT US
-          </button>
+          <Link
+            href="/contact"
+            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-6 py-2.5 rounded-md shadow-sm"
+          >
+            Contact Us
+          </Link>
         </div>
       </div>
 
-      <div className="bg-green-700 text-center py-3 text-white text-xs">
-        © {new Date().getFullYear()} Custom Plush. All rights reserved.
+      <div className="bg-slate-950 text-center py-3 text-slate-500 text-xs">
+        © {new Date().getFullYear()} Resin Factory. All rights reserved.
       </div>
     </footer>
   );

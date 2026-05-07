@@ -1,61 +1,71 @@
-import Placeholder from "./Placeholder";
+import Link from "next/link";
+import Image from "next/image";
 
 const POSTS = [
-  { user: "pikminfan25", time: "1 WEEK AGO" },
-  { user: "kain_with_me", time: "1 WEEK AGO" },
-  { user: "happy_customer", time: "1 WEEK AGO" },
-  { user: "plush_lover22", time: "2 WEEKS AGO" },
-  { user: "art_to_toy", time: "2 WEEKS AGO" },
-  { user: "kid_artist", time: "3 WEEKS AGO" },
-  { user: "brand_studio", time: "3 WEEKS AGO" },
-  { user: "petsies_fan", time: "1 MONTH AGO" },
+  { user: "@resin_collector_88", time: "1 WEEK AGO", image: "/pictures/jpg/img_2717.jpg" },
+  { user: "@studio_kain", time: "1 WEEK AGO", image: "/pictures/jpg/img_2722.jpg" },
+  { user: "@designer_toys_co", time: "1 WEEK AGO", image: "/pictures/jpg/img_2729.jpg" },
+  { user: "@gk_painter22", time: "2 WEEKS AGO", image: "/pictures/jpg/img_2716.jpg" },
+  { user: "@art_to_figure", time: "2 WEEKS AGO", image: "/pictures/jpg/img_2725.jpg" },
+  { user: "@indie_sculptor", time: "3 WEEKS AGO", image: "/pictures/jpg/img_2727.jpg" },
+  { user: "@brand_studio_x", time: "3 WEEKS AGO", image: "/pictures/jpg/img_2730.jpg" },
+  { user: "@blindbox_fan", time: "1 MONTH AGO", image: "/pictures/jpg/img_2747.jpg" },
 ];
 
+/**
+ * 用户作品墙:常规浅灰底 + 居中标题 + 4×2 卡片网格
+ */
 export default function MagicalCreations() {
   return (
-    <section className="bg-brand-yellow py-10">
-      {/* 标题保持居中 */}
-      <div className="max-w-7xl mx-auto px-6 text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-700 mb-3">
-          80,000+ Magical Creations
-        </h2>
-        <p className="text-2xl text-amber-500 mb-2">4.8/5 ★★★★★</p>
-        <p className="text-brand-pink font-bold">
-          We are so thankful for all the love from our customers around the world.
-        </p>
-      </div>
+    <section className="bg-brand-bgAlt py-16 md:py-20 border-y border-slate-200">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-10">
+          <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-3">
+            From the Collectors
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-dark mb-3 tracking-tight">
+            50,000+ resin figures shipped
+          </h2>
+          <p className="text-2xl text-amber-500 mb-2">★★★★★ 4.9 / 5</p>
+          <p className="text-base text-slate-600">
+            We are so thankful for all the love from collectors and brands around the world.
+          </p>
+        </div>
 
-      {/* 卡片网格:撑满整个屏宽,左右仅留小留白 */}
-      <div className="w-full px-4 md:px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
           {POSTS.map((p) => (
             <div
               key={p.user}
-              className="bg-white rounded-md shadow-sm flex flex-col p-4"
+              className="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-200 flex flex-col p-4"
             >
-              <Placeholder
-                width={600}
-                height={600}
-                label="用户作品图"
-                className="w-full aspect-square rounded-md"
-              />
+              <div className="relative w-full aspect-square rounded-md overflow-hidden">
+                <Image
+                  src={p.image}
+                  alt={`Customer post — ${p.user}`}
+                  fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  className="object-cover object-center"
+                />
+              </div>
               <div className="pt-3 flex items-center justify-between text-sm text-slate-600">
                 <div className="flex flex-col items-start">
-                  <span className="font-semibold text-slate-700">{p.user}</span>
-                  <span className="text-[11px]">{p.time}</span>
+                  <span className="font-semibold text-brand-dark">{p.user}</span>
+                  <span className="text-[11px] text-slate-400 mt-0.5">{p.time}</span>
                 </div>
                 <span>📷</span>
               </div>
             </div>
           ))}
         </div>
-      </div>
 
-      {/* 底部 CTA 居中 */}
-      <div className="max-w-7xl mx-auto px-6 text-center mt-10">
-        <button className="bg-brand-green hover:bg-brand-greenDark transition text-white font-bold tracking-wide px-8 py-4 rounded-md shadow-md">
-          MORE CUSTOMER EXAMPLES
-        </button>
+        <div className="text-center mt-10">
+          <Link
+            href="/portfolio"
+            className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-7 py-3 rounded-md shadow-sm"
+          >
+            More Customer Examples
+          </Link>
+        </div>
       </div>
     </section>
   );
