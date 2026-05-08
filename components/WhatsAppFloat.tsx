@@ -13,13 +13,13 @@ export default function WhatsAppFloat({ dict }: Props) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={`${dict.ariaPrefix} ${DISPLAY}`}
-      className="group fixed bottom-6 right-6 z-50 flex items-center gap-3"
+      className="group fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex items-center gap-3"
     >
       <span className="hidden md:inline-block opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200 bg-white text-slate-800 text-sm font-medium px-4 py-2 rounded-full shadow-lg border border-slate-200 whitespace-nowrap">
         {dict.bubble} · {DISPLAY}
       </span>
-      <span className="w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#1EBE5D] shadow-lg flex items-center justify-center text-white transition transform group-hover:scale-105">
-        <svg width="28" height="28" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <span className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] hover:bg-[#1EBE5D] shadow-lg flex items-center justify-center text-white transition transform group-hover:scale-105">
+        <svg width="24" height="24" viewBox="0 0 32 32" fill="currentColor" className="sm:w-7 sm:h-7" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M16.003 2.667c-7.36 0-13.336 5.973-13.336 13.333 0 2.347.61 4.64 1.776 6.667l-1.886 6.886 7.06-1.853a13.27 13.27 0 0 0 6.382 1.626h.005c7.357 0 13.333-5.972 13.333-13.333 0-3.561-1.386-6.91-3.901-9.426a13.244 13.244 0 0 0-9.433-3.9zm0 24.36h-.004a11.06 11.06 0 0 1-5.642-1.546l-.405-.241-4.19 1.099 1.118-4.084-.263-.42a11.072 11.072 0 0 1-1.696-5.835c0-6.122 4.984-11.105 11.085-11.105 2.962 0 5.745 1.155 7.835 3.249a10.998 10.998 0 0 1 3.244 7.84c0 6.123-4.984 11.043-11.082 11.043zm6.078-8.273c-.333-.166-1.969-.972-2.273-1.082-.305-.111-.527-.166-.749.166-.222.333-.86 1.082-1.054 1.305-.194.222-.388.249-.721.083-.333-.166-1.405-.518-2.677-1.65-.989-.881-1.659-1.97-1.853-2.303-.194-.333-.021-.513.146-.679.15-.149.333-.388.5-.582.166-.194.222-.333.333-.555.111-.222.056-.416-.027-.582-.083-.166-.749-1.806-1.026-2.475-.27-.65-.546-.562-.75-.572l-.638-.011c-.222 0-.582.083-.886.416-.305.333-1.165 1.139-1.165 2.776 0 1.638 1.193 3.221 1.359 3.443.166.222 2.347 3.583 5.685 5.024.794.343 1.413.547 1.896.7.797.253 1.522.218 2.094.132.639-.095 1.969-.805 2.247-1.583.277-.777.277-1.444.194-1.583-.083-.139-.305-.222-.638-.388z" />
         </svg>
       </span>

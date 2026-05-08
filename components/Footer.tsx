@@ -27,10 +27,10 @@ export default function Footer({ dict, navDict, lang }: Props) {
 
   return (
     <footer className="bg-brand-dark text-slate-300">
-      <div className="max-w-7xl mx-auto px-6 pt-14 md:pt-16 pb-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          {/* 第 1 列:品牌 + 联系方式 */}
-          <div>
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 pt-10 md:pt-16 pb-8 md:pb-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
+          {/* 第 1 列:品牌 + 联系方式(移动端跨 2 列) */}
+          <div className="col-span-2 md:col-span-1">
             <Link href={`/${lang}`} className="flex items-center gap-2 mb-5">
               <span className="w-8 h-8 bg-brand-orange rounded-md flex items-center justify-center text-white font-bold text-sm">
                 R
@@ -93,7 +93,7 @@ export default function Footer({ dict, navDict, lang }: Props) {
         </div>
 
         {/* 底部 CTA 条 */}
-        <div className="mt-12 pt-8 border-t border-slate-700 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mt-8 md:mt-12 pt-6 md:pt-8 border-t border-slate-700 flex flex-col md:flex-row items-center md:justify-between gap-4 text-center md:text-left">
           <p className="text-sm md:text-base text-slate-300">
             {dict.ctaText}
           </p>

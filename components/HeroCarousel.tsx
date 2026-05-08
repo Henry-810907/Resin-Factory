@@ -34,14 +34,14 @@ export default function HeroCarousel({ dict, lang }: Props) {
         </div>
       </div>
 
-      <div className="relative z-10 w-full h-full pl-6 md:pl-16 lg:pl-24 pr-6 flex items-center">
-        <div className="bg-brand-dark/85 backdrop-blur-sm rounded-lg px-8 md:px-12 py-12 md:py-16 shadow-2xl text-white max-w-xl">
+      <div className="relative z-10 w-full h-full pl-4 sm:pl-6 md:pl-16 lg:pl-24 pr-4 sm:pr-6 flex items-center">
+        <div className="bg-brand-dark/85 backdrop-blur-sm rounded-lg px-5 sm:px-8 md:px-12 py-7 sm:py-10 md:py-16 shadow-2xl text-white max-w-xl">
           <div key={index} className="hero-fade">
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-5 tracking-tight">{slide.title}</h1>
-            <p className="text-base md:text-lg text-slate-200 mb-3">{slide.subtitle}</p>
-            <p className="text-sm text-slate-300 mb-8">{slide.tag}</p>
+            <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight mb-3 sm:mb-5 tracking-tight">{slide.title}</h1>
+            <p className="text-sm sm:text-base md:text-lg text-slate-200 mb-2 sm:mb-3">{slide.subtitle}</p>
+            <p className="text-xs sm:text-sm text-slate-300 mb-5 sm:mb-8">{slide.tag}</p>
           </div>
-          <a href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-8 py-3.5 rounded-md shadow-md">
+          <a href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-3.5 rounded-md shadow-md">
             {dict.cta}
           </a>
         </div>

@@ -71,8 +71,8 @@ export default function CustomersCarousel({ customers }: Props) {
     "w-full sm:w-[calc((100%-1.5rem)/2)] md:w-[calc((100%-3rem)/3)] lg:w-[calc((100%-4.5rem)/4)] xl:w-[calc((100%-6rem)/5)]";
 
   return (
-    <div className="relative w-full px-6 overflow-hidden" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
-      <div ref={trackRef} className="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 scrollbar-hide" style={{ scrollbarWidth: "none" }}>
+    <div className="relative w-full px-4 sm:px-6 overflow-hidden" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
+      <div ref={trackRef} className="flex gap-4 sm:gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 scrollbar-hide" style={{ scrollbarWidth: "none" }}>
         {customers.map((it, i) => (
           <div key={i} data-card className={`snap-start shrink-0 ${cardWidth} bg-white rounded-lg shadow-sm hover:shadow-md transition overflow-hidden flex flex-col border border-slate-200`}>
             <div className="relative w-full aspect-square">

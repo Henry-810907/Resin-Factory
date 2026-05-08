@@ -28,37 +28,37 @@ export default async function AboutPage({ params }: Props) {
     <main>
       <PageHero title={a.heroTitle} subtitle={a.heroSubtitle} image="/factory.jpg" />
 
-      <section className="bg-white py-14 md:py-20">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 items-center">
-          <div className="relative w-full aspect-[4/3] min-h-[340px] rounded-lg overflow-hidden shadow-md">
+      <section className="bg-white py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-14 items-center">
+          <div className="relative w-full aspect-[4/3] min-h-[220px] md:min-h-[340px] rounded-lg overflow-hidden shadow-md">
             <Image src="/1200-900-1.jpg" alt={a.storyTitle} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
           </div>
-          <div className="space-y-5 text-slate-700">
+          <div className="space-y-3 sm:space-y-5 text-slate-700">
             <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold">{a.storyKicker}</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-dark leading-tight tracking-tight">{a.storyTitle}</h2>
-            <p className="text-lg leading-relaxed">{a.storyP1}</p>
-            <p className="text-base leading-relaxed text-slate-600">{a.storyP2}</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark leading-tight tracking-tight">{a.storyTitle}</h2>
+            <p className="text-base sm:text-lg leading-relaxed">{a.storyP1}</p>
+            <p className="text-sm sm:text-base leading-relaxed text-slate-600">{a.storyP2}</p>
           </div>
         </div>
       </section>
 
-      <section className="bg-brand-bgAlt py-12 md:py-16 border-y border-slate-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <section className="bg-brand-bgAlt py-8 md:py-16 border-y border-slate-200">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-8 text-center">
           {a.stats.map((s) => (
             <div key={s.label}>
-              <p className="text-4xl md:text-5xl font-extrabold text-brand-orange mb-2">{s.num}</p>
-              <p className="text-slate-600 uppercase tracking-wider text-sm font-medium">{s.label}</p>
+              <p className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-brand-orange mb-1 sm:mb-2">{s.num}</p>
+              <p className="text-slate-600 uppercase tracking-wider text-xs sm:text-sm font-medium leading-tight">{s.label}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="bg-white py-14 md:py-20">
-        <div className="max-w-7xl mx-auto px-6 text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">{a.workshopTitle}</h2>
-          <p className="text-slate-500 mt-3 max-w-2xl mx-auto text-base md:text-lg">{a.workshopSubtitle}</p>
+      <section className="bg-white py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 text-center mb-6 md:mb-10">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">{a.workshopTitle}</h2>
+          <p className="text-slate-500 mt-2 sm:mt-3 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">{a.workshopSubtitle}</p>
         </div>
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
           <div className="relative w-full aspect-[4/5] rounded-lg overflow-hidden">
             <Image src="/pictures/jpg/IMG_2629.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
@@ -74,22 +74,22 @@ export default async function AboutPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="bg-brand-bgAlt py-14 md:py-20 border-y border-slate-200">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-dark text-center mb-10 tracking-tight">{a.teamTitle}</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <section className="bg-brand-bgAlt py-10 md:py-20 border-y border-slate-200">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark text-center mb-6 sm:mb-10 tracking-tight">{a.teamTitle}</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             {a.team.map((m) => (
               <div key={m.name} className="text-center">
-                <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-4 rounded-full bg-slate-200 border-2 border-dashed border-slate-300" aria-label={m.name} role="img" />
-                <p className="font-bold text-brand-dark">{m.name}</p>
-                <p className="text-sm text-slate-500 mt-0.5">{m.role}</p>
+                <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 mx-auto mb-3 sm:mb-4 rounded-full bg-slate-200 border-2 border-dashed border-slate-300" aria-label={m.name} role="img" />
+                <p className="font-bold text-brand-dark text-sm sm:text-base">{m.name}</p>
+                <p className="text-xs sm:text-sm text-slate-500 mt-0.5">{m.role}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-14 text-center bg-white">
+      <section className="py-10 md:py-14 text-center bg-white">
         <Link href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-8 py-3.5 rounded-md shadow-md">{a.ctaButton}</Link>
       </section>
     </main>

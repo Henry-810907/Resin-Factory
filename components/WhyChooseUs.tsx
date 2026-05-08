@@ -27,22 +27,22 @@ type Props = { dict: Dictionary["whyChooseUs"] };
 
 export default function WhyChooseUs({ dict }: Props) {
   return (
-    <section className="bg-white py-16 md:py-20">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-3">{dict.kicker}</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-dark mb-4 tracking-tight">{dict.title}</h2>
-          <p className="text-slate-500 text-base md:text-lg max-w-2xl mx-auto">{dict.subtitle}</p>
+    <section className="bg-white py-10 md:py-20">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6">
+        <div className="text-center mb-8 md:mb-12">
+          <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-2 sm:mb-3">{dict.kicker}</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark mb-3 sm:mb-4 tracking-tight">{dict.title}</h2>
+          <p className="text-slate-500 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">{dict.subtitle}</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {dict.features.map((f, i) => (
-            <div key={f.title} className="bg-white rounded-xl p-7 shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
-              <div className="w-12 h-12 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-5">
+            <div key={f.title} className="bg-white rounded-xl p-5 sm:p-7 shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
+              <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-3 sm:mb-5">
                 {ICONS[i] ?? ICONS[0]}
               </div>
-              <h3 className="text-lg font-bold text-brand-dark mb-2">{f.title}</h3>
-              <p className="text-slate-600 leading-relaxed text-[15px]">{f.desc}</p>
+              <h3 className="text-base sm:text-lg font-bold text-brand-dark mb-2">{f.title}</h3>
+              <p className="text-slate-600 leading-relaxed text-sm sm:text-[15px]">{f.desc}</p>
             </div>
           ))}
         </div>

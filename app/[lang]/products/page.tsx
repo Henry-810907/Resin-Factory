@@ -37,28 +37,28 @@ export default async function ProductsPage({ params }: Props) {
   return (
     <main>
       <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/img_2736.jpg" />
-      <section className="bg-white py-14 md:py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <section className="bg-white py-10 md:py-20">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
             {p.items.map((it, i) => (
               <div key={it.title} className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden hover:shadow-md hover:-translate-y-1 transition flex flex-col">
                 <div className="relative w-full aspect-square">
                   <Image src={PRODUCT_IMAGES[i] ?? PRODUCT_IMAGES[0]} alt={it.title} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
                 </div>
-                <div className="p-5">
-                  <h3 className="font-bold text-brand-dark mb-2">{it.title}</h3>
-                  <p className="text-sm text-slate-600 leading-relaxed">{it.desc}</p>
+                <div className="p-3 sm:p-5">
+                  <h3 className="font-bold text-brand-dark mb-1 sm:mb-2 text-sm sm:text-base">{it.title}</h3>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{it.desc}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <section className="bg-brand-dark text-white py-14 md:py-16">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">{p.ctaTitle}</h2>
-          <p className="text-slate-300 mb-8 max-w-2xl mx-auto text-base md:text-lg">{p.ctaText}</p>
-          <Link href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-8 py-3.5 rounded-md shadow-md">{p.ctaButton}</Link>
+      <section className="bg-brand-dark text-white py-10 md:py-16">
+        <div className="max-w-5xl mx-auto px-5 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 tracking-tight">{p.ctaTitle}</h2>
+          <p className="text-slate-300 mb-6 sm:mb-8 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">{p.ctaText}</p>
+          <Link href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm sm:text-base px-7 sm:px-8 py-3 sm:py-3.5 rounded-md shadow-md">{p.ctaButton}</Link>
         </div>
       </section>
     </main>

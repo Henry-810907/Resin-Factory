@@ -48,15 +48,15 @@ export default async function ContactPage({ params }: Props) {
 
   return (
     <main>
-      <section className="bg-white py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-10">
-            <h1 className="text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-3 tracking-tight">{c.title}</h1>
-            <p className="text-base md:text-lg text-slate-600">{c.subtitle}</p>
+      <section className="bg-white py-8 md:py-16">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6">
+          <div className="text-center mb-6 sm:mb-10">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-2 sm:mb-3 tracking-tight">{c.title}</h1>
+            <p className="text-sm sm:text-base md:text-lg text-slate-600">{c.subtitle}</p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <form className="lg:col-span-2 bg-white rounded-xl border border-slate-200 shadow-sm p-7 md:p-10 space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
+            <form className="lg:col-span-2 bg-white rounded-xl border border-slate-200 shadow-sm p-5 sm:p-7 md:p-10 space-y-5 sm:space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.fullName} {f.required}</label>
@@ -91,7 +91,7 @@ export default async function ContactPage({ params }: Props) {
               </div>
             </form>
 
-            <aside className="bg-brand-bgAlt rounded-xl p-6 md:p-7 flex flex-col border border-slate-200">
+            <aside className="bg-brand-bgAlt rounded-xl p-5 sm:p-6 md:p-7 flex flex-col border border-slate-200">
               <h3 className="text-sm font-bold text-brand-dark uppercase tracking-wider mb-5">{c.asideTitle}</h3>
               <div className="space-y-4">
                 {CONTACTS.map((cc) => (

@@ -29,18 +29,18 @@ type Props = { dict: Dictionary["magicalCreations"]; lang: Locale };
 
 export default function MagicalCreations({ dict, lang }: Props) {
   return (
-    <section className="bg-brand-bgAlt py-16 md:py-20 border-y border-slate-200">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-10">
-          <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-3">{dict.kicker}</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-dark mb-3 tracking-tight">{dict.title}</h2>
-          <p className="text-2xl text-amber-500 mb-2">{dict.rating}</p>
-          <p className="text-base text-slate-600">{dict.subtitle}</p>
+    <section className="bg-brand-bgAlt py-10 md:py-20 border-y border-slate-200">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6">
+        <div className="text-center mb-6 md:mb-10">
+          <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-2 sm:mb-3">{dict.kicker}</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark mb-2 sm:mb-3 tracking-tight">{dict.title}</h2>
+          <p className="text-xl sm:text-2xl text-amber-500 mb-1 sm:mb-2">{dict.rating}</p>
+          <p className="text-sm sm:text-base text-slate-600">{dict.subtitle}</p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5">
           {POSTS.map((p, i) => (
-            <div key={p.user} className="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-200 flex flex-col p-4">
+            <div key={p.user} className="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-200 flex flex-col p-3 sm:p-4">
               <div className="relative w-full aspect-square rounded-md overflow-hidden">
                 <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer post — ${p.user}`} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
               </div>
@@ -55,8 +55,8 @@ export default function MagicalCreations({ dict, lang }: Props) {
           ))}
         </div>
 
-        <div className="text-center mt-10">
-          <Link href={`/${lang}/portfolio`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-7 py-3 rounded-md shadow-sm">
+        <div className="text-center mt-6 sm:mt-10">
+          <Link href={`/${lang}/portfolio`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm sm:text-base px-6 sm:px-7 py-3 rounded-md shadow-sm">
             {dict.cta}
           </Link>
         </div>
