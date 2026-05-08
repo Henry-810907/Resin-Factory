@@ -1,55 +1,57 @@
 import Link from "next/link";
+import type { Dictionary } from "@/i18n/get-dictionary";
+import type { Locale } from "@/i18n/settings";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-const NAV: { label: string; href: string }[] = [
-  { label: "Products", href: "/products" },
-  { label: "Portfolio", href: "/portfolio" },
-  { label: "About Us", href: "/about" },
-  { label: "Our Values", href: "/values" },
-  { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/contact" },
-];
+type Props = {
+  dict: Dictionary["header"];
+  lang: Locale;
+};
 
 /**
- * 常规 B2B Header:
+ * 常规 B2B Header(多语言版):
  *  - 白底 + 底部细线分隔
- *  - 左:文字品牌(深色加粗)
- *  - 中:常规导航
- *  - 右:橙色实色 CTA 按钮
+ *  - 左:文字品牌
+ *  - 中:导航(从字典读)
+ *  - 右:语言切换器 + 橙色 CTA
  */
-export default function Header() {
+export default function Header({ dict, lang }: Props) {
+  const NAV: { label: string; href: string }[] = [
+    { label: dict.nav.products, href: `/${lang}/products` },
+    { label: dict.nav.portfolio, href: `/${lang}/portfolio` },
+    { label: dict.nav.about, href: `/${lang}/about` },
+    { label: dict.nav.values, href: `/${lang}/values` },
+    { label: dict.nav.blog, href: `/${lang}/blog` },
+    { label: dict.nav.contact, href: `/${lang}/contact` },
+  ];
+
   return (
     <header className="w-full bg-white border-b border-slate-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        {/* 文字品牌(深色) */}
-        <Link href="/" aria-label="Resin Factory · 回到首页" className="flex items-center gap-2">
+      <div className="max-w-7xl mx-auto flex items-center justify-between gap-4 px-6 py-4">
+        <Link href={`/${lang}`} aria-label={dict.homeAria} className="flex items-center gap-2 shrink-0">
           <span className="w-8 h-8 bg-brand-orange rounded-md flex items-center justify-center text-white font-bold text-sm">
             R
           </span>
-          <span className="font-bold text-xl text-brand-dark tracking-tight">
-            Resin Factory
+          <span className="font-bold text-xl text-brand-dark tracking-tight whitespace-nowrap">
+            {dict.brand}
           </span>
         </Link>
 
-        {/* 中:常规导航 */}
-        <nav className="hidden md:flex items-center gap-7 lg:gap-9 text-[15px] font-medium text-slate-700">
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8 text-[15px] font-medium text-slate-700">
           {NAV.map((n) => (
-            <Link
-              key={n.href}
-              href={n.href}
-              className="hover:text-brand-orange transition-colors"
-            >
+            <Link key={n.href} href={n.href} className="hover:text-brand-orange transition-colors whitespace-nowrap">
               {n.label}
             </Link>
           ))}
         </nav>
 
-        {/* 右:橙色实色 CTA */}
-        <div className="flex items-center">
+        <div className="flex items-center gap-3 shrink-0">
+          <LanguageSwitcher current={lang} label={dict.language} />
           <Link
-            href="/contact"
-            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-6 py-2.5 rounded-md shadow-sm"
+            href={`/${lang}/contact`}
+            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-5 py-2.5 rounded-md shadow-sm whitespace-nowrap"
           >
-            Get a Quote
+            {dict.cta}
           </Link>
         </div>
       </div>

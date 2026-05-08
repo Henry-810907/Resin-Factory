@@ -1,56 +1,53 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Dictionary } from "@/i18n/get-dictionary";
+import type { Locale } from "@/i18n/settings";
 
-const POSTS = [
-  { user: "@resin_collector_88", time: "1 WEEK AGO", image: "/new/64f82e9b41f558668b59d745b1087779.jpg" },
-  { user: "@studio_kain", time: "1 WEEK AGO", image: "/new/820b8c436ce4391b00207dcac1f99384.jpg" },
-  { user: "@designer_toys_co", time: "1 WEEK AGO", image: "/new/82d3a1952cba9eac0ef6583bdb5c5664.jpg" },
-  { user: "@gk_painter22", time: "2 WEEKS AGO", image: "/new/a077b10cce8f68f537117504ff6920c2.jpg" },
-  { user: "@art_to_figure", time: "2 WEEKS AGO", image: "/new/a656d250d3f04109d182b538a38a583a.jpg" },
-  { user: "@indie_sculptor", time: "3 WEEKS AGO", image: "/new/c106f304449404509cd6972232c70442.jpg" },
-  { user: "@brand_studio_x", time: "3 WEEKS AGO", image: "/new/d1d78a1f5855b91587857b70ca936c01.jpg" },
-  { user: "@blindbox_fan", time: "1 MONTH AGO", image: "/pictures/jpg/img_2747.jpg" },
+const IMAGES = [
+  "/new/64f82e9b41f558668b59d745b1087779.jpg",
+  "/new/820b8c436ce4391b00207dcac1f99384.jpg",
+  "/new/82d3a1952cba9eac0ef6583bdb5c5664.jpg",
+  "/new/a077b10cce8f68f537117504ff6920c2.jpg",
+  "/new/a656d250d3f04109d182b538a38a583a.jpg",
+  "/new/c106f304449404509cd6972232c70442.jpg",
+  "/new/d1d78a1f5855b91587857b70ca936c01.jpg",
+  "/pictures/jpg/img_2747.jpg",
 ];
 
-/**
- * 用户作品墙:常规浅灰底 + 居中标题 + 4×2 卡片网格
- */
-export default function MagicalCreations() {
+const POSTS = [
+  { user: "@resin_collector_88", time: "1w" },
+  { user: "@studio_kain", time: "1w" },
+  { user: "@designer_toys_co", time: "1w" },
+  { user: "@gk_painter22", time: "2w" },
+  { user: "@art_to_figure", time: "2w" },
+  { user: "@indie_sculptor", time: "3w" },
+  { user: "@brand_studio_x", time: "3w" },
+  { user: "@blindbox_fan", time: "1m" },
+] as const;
+
+type Props = { dict: Dictionary["magicalCreations"]; lang: Locale };
+
+export default function MagicalCreations({ dict, lang }: Props) {
   return (
     <section className="bg-brand-bgAlt py-16 md:py-20 border-y border-slate-200">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
-          <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-3">
-            From the Collectors
-          </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-dark mb-3 tracking-tight">
-            50,000+ resin figures shipped
-          </h2>
-          <p className="text-2xl text-amber-500 mb-2">★★★★★ 4.9 / 5</p>
-          <p className="text-base text-slate-600">
-            We are so thankful for all the love from collectors and brands around the world.
-          </p>
+          <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-3">{dict.kicker}</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-dark mb-3 tracking-tight">{dict.title}</h2>
+          <p className="text-2xl text-amber-500 mb-2">{dict.rating}</p>
+          <p className="text-base text-slate-600">{dict.subtitle}</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
-          {POSTS.map((p) => (
-            <div
-              key={p.user}
-              className="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-200 flex flex-col p-4"
-            >
+          {POSTS.map((p, i) => (
+            <div key={p.user} className="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-200 flex flex-col p-4">
               <div className="relative w-full aspect-square rounded-md overflow-hidden">
-                <Image
-                  src={p.image}
-                  alt={`Customer post — ${p.user}`}
-                  fill
-                  sizes="(max-width: 768px) 50vw, 25vw"
-                  className="object-cover object-center"
-                />
+                <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer post — ${p.user}`} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
               </div>
               <div className="pt-3 flex items-center justify-between text-sm text-slate-600">
                 <div className="flex flex-col items-start">
                   <span className="font-semibold text-brand-dark">{p.user}</span>
-                  <span className="text-[11px] text-slate-400 mt-0.5">{p.time}</span>
+                  <span className="text-[11px] text-slate-400 mt-0.5">{dict.timeLabels[p.time as keyof typeof dict.timeLabels]}</span>
                 </div>
                 <span>📷</span>
               </div>
@@ -59,11 +56,8 @@ export default function MagicalCreations() {
         </div>
 
         <div className="text-center mt-10">
-          <Link
-            href="/portfolio"
-            className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-7 py-3 rounded-md shadow-sm"
-          >
-            More Customer Examples
+          <Link href={`/${lang}/portfolio`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-7 py-3 rounded-md shadow-sm">
+            {dict.cta}
           </Link>
         </div>
       </div>

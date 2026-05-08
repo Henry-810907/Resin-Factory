@@ -1,43 +1,37 @@
 import Link from "next/link";
+import type { Dictionary } from "@/i18n/get-dictionary";
+import type { Locale } from "@/i18n/settings";
 
-const LINKS_1: { label: string; href: string }[] = [
-  { label: "Products", href: "/products" },
-  { label: "Portfolio", href: "/portfolio" },
-  { label: "About Us", href: "/about" },
-  { label: "Our Values", href: "/values" },
-  { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/contact" },
-];
-
-const LINKS_2: { label: string; href: string }[] = [
-  { label: "Free 3D Sculpting", href: "/products" },
-  { label: "Process", href: "/products" },
-  { label: "Materials", href: "/products" },
-  { label: "Certifications", href: "/values" },
-  { label: "FAQ", href: "/contact" },
-  { label: "Bulk Production", href: "/products" },
-];
-
-const LINKS_3: { label: string; href: string }[] = [
-  { label: "Terms of Service", href: "/contact" },
-  { label: "Privacy Policy", href: "/contact" },
-  { label: "Shipping", href: "/contact" },
-  { label: "Newsletter", href: "/contact" },
-];
+type Props = {
+  dict: Dictionary["footer"];
+  navDict: Dictionary["header"]["nav"];
+  lang: Locale;
+};
 
 /**
- * 常规 B2B 深色 Footer:
- *  - 深蓝灰底 + 白文字
- *  - 4 列布局:品牌+联系 / 导航 / 服务 / 法务
+ * 常规 B2B 深色 Footer(多语言版):
+ *  - 链接前缀都加 /[lang]
+ *  - 文本全部从字典读
  */
-export default function Footer() {
+export default function Footer({ dict, navDict, lang }: Props) {
+  const linksNav: { label: string; href: string }[] = [
+    { label: navDict.products, href: `/${lang}/products` },
+    { label: navDict.portfolio, href: `/${lang}/portfolio` },
+    { label: navDict.about, href: `/${lang}/about` },
+    { label: navDict.values, href: `/${lang}/values` },
+    { label: navDict.blog, href: `/${lang}/blog` },
+    { label: navDict.contact, href: `/${lang}/contact` },
+  ];
+
+  const prefixed = (href: string) => `/${lang}${href}`;
+
   return (
     <footer className="bg-brand-dark text-slate-300">
       <div className="max-w-7xl mx-auto px-6 pt-14 md:pt-16 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* 第 1 列:品牌 + 联系方式 */}
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-5">
+            <Link href={`/${lang}`} className="flex items-center gap-2 mb-5">
               <span className="w-8 h-8 bg-brand-orange rounded-md flex items-center justify-center text-white font-bold text-sm">
                 R
               </span>
@@ -46,8 +40,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400 mb-5">
-              B2B custom resin figurine manufacturer. Sculpt, mould, cast and
-              hand-paint — all in our own factory.
+              {dict.tagline}
             </p>
             <p className="text-sm text-slate-300 leading-relaxed">
               <span className="font-semibold text-white">Shenzhen Heli Toys Co., Ltd.</span>
@@ -64,13 +57,11 @@ export default function Footer() {
 
           {/* 第 2 列:Quick Links */}
           <div>
-            <h4 className="font-semibold text-white tracking-wide mb-4">QUICK LINKS</h4>
+            <h4 className="font-semibold text-white tracking-wide mb-4">{dict.quickLinks}</h4>
             <ul className="space-y-2.5 text-sm">
-              {LINKS_1.map((l) => (
+              {linksNav.map((l) => (
                 <li key={l.label}>
-                  <Link href={l.href} className="hover:text-brand-orange transition">
-                    {l.label}
-                  </Link>
+                  <Link href={l.href} className="hover:text-brand-orange transition">{l.label}</Link>
                 </li>
               ))}
             </ul>
@@ -78,27 +69,23 @@ export default function Footer() {
 
           {/* 第 3 列:Services */}
           <div>
-            <h4 className="font-semibold text-white tracking-wide mb-4">SERVICES</h4>
+            <h4 className="font-semibold text-white tracking-wide mb-4">{dict.services}</h4>
             <ul className="space-y-2.5 text-sm">
-              {LINKS_2.map((l) => (
+              {dict.linksServices.map((l) => (
                 <li key={l.label}>
-                  <Link href={l.href} className="hover:text-brand-orange transition">
-                    {l.label}
-                  </Link>
+                  <Link href={prefixed(l.href)} className="hover:text-brand-orange transition">{l.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* 第 4 列:More + Social */}
+          {/* 第 4 列:More */}
           <div>
-            <h4 className="font-semibold text-white tracking-wide mb-4">MORE</h4>
+            <h4 className="font-semibold text-white tracking-wide mb-4">{dict.more}</h4>
             <ul className="space-y-2.5 text-sm">
-              {LINKS_3.map((l) => (
+              {dict.linksMore.map((l) => (
                 <li key={l.label}>
-                  <Link href={l.href} className="hover:text-brand-orange transition">
-                    {l.label}
-                  </Link>
+                  <Link href={prefixed(l.href)} className="hover:text-brand-orange transition">{l.label}</Link>
                 </li>
               ))}
             </ul>
@@ -108,19 +95,19 @@ export default function Footer() {
         {/* 底部 CTA 条 */}
         <div className="mt-12 pt-8 border-t border-slate-700 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm md:text-base text-slate-300">
-            Have a project in mind? Get a free quote within 24 hours.
+            {dict.ctaText}
           </p>
           <Link
-            href="/contact"
+            href={`/${lang}/contact`}
             className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-6 py-2.5 rounded-md shadow-sm"
           >
-            Contact Us
+            {dict.ctaButton}
           </Link>
         </div>
       </div>
 
       <div className="bg-slate-950 text-center py-3 text-slate-500 text-xs">
-        © {new Date().getFullYear()} Shenzhen Heli Toys Co., Ltd. All rights reserved.
+        © {new Date().getFullYear()} Shenzhen Heli Toys Co., Ltd. {dict.rights}
       </div>
     </footer>
   );

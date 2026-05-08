@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "siteName": "Resin Factory",
+    "tagline": "Figurines en résine sur mesure pour marques et IP",
+    "defaultDescription": "Fabricant B2B de figurines en résine personnalisées à Shenzhen. Sculpture, moulage, coulée et peinture à la main sous un même toit. MOQ faible à partir de 100 unités, sculpture 3D gratuite, certifié CE/EN71/ASTM, livraison mondiale.",
+    "products": { "title": "Produits en résine sur mesure — Statues, Designer Toys, Blind Box", "description": "Figurines mascottes, designer toys, statues, kits GK, séries blind box, bobbleheads, porte-clés en résine, dioramas et productions en gros. Fabrication de résine sur mesure pour marques et IP — sculptés, coulés et peints à la main dans notre usine de Shenzhen." },
+    "portfolio": { "title": "Portfolio — Études de cas de figurines en résine sur mesure", "description": "Œuvres choisies pour marques mondiales, ayants droit IP, artistes designer toy, musées et œuvres caritatives. Chaque figurine sculptée, coulée et peinte à la main dans notre usine de Shenzhen." },
+    "about": { "title": "À propos — Shenzhen Heli Toys (Resin Factory)", "description": "Un atelier de 50 personnes, sculpteurs, mouleurs, fondeurs, peintres et QA à Shenzhen — transformant des idées en figurines en résine peintes à la main depuis 2013. Livraison pour des marques dans plus de 25 pays." },
+    "values": { "title": "Nos valeurs — Standards d'atelier et soin des employés", "description": "Salaires équitables, horaires raisonnables, matériaux non toxiques, tests CE/EN71/ASTM sur chaque lot. Pourquoi un atelier bien géré produit de meilleures figurines en résine pour votre marque." },
+    "blog": { "title": "Le Resin Journal — Histoires de notre studio de sculpture", "description": "Histoires des coulisses de notre studio de sculpture et de notre fonderie, plus des guides pour les premiers acheteurs de figurines en résine." },
+    "contact": { "title": "Contact — Maquette 3D et devis gratuits", "description": "Parlez-nous de votre projet — nos sculpteurs vous répondent sous 24 heures avec une maquette 3D et un devis gratuits." }
+  },
+  "header": {
+    "brand": "Resin Factory",
+    "estTag": "fondé en 2013",
+    "cta": "Demander un devis",
+    "homeAria": "Resin Factory · retour à l'accueil",
+    "nav": {
+      "products": "Produits",
+      "portfolio": "Portfolio",
+      "about": "À propos",
+      "values": "Nos valeurs",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "language": "Langue"
+  },
+  "hero": {
+    "slides": [
+      {
+        "title": "Figurines en résine sur mesure pour marques et IP",
+        "subtitle": "Du croquis conceptuel à la pièce de collection peinte à la main.",
+        "tag": "Sculpture 3D gratuite · Livraison mondiale · MOQ faible",
+        "alt": "Figurines en résine sur mesure exposées"
+      },
+      {
+        "title": "Sculptés, coulés et peints dans notre propre usine",
+        "subtitle": "Chaque master sculpté approuvé. Chaque lot testé en QC.",
+        "tag": "Certifié CE / EN71 / ASTM · Aucun intermédiaire · Mises à jour en temps réel",
+        "alt": "Atelier de sculpture et de coulée"
+      },
+      {
+        "title": "De 100 pièces à 10 000",
+        "subtitle": "Augmentez sans perdre le détail peint à la main.",
+        "tag": "Délai de 35 jours · Échantillonnage en résine gratuit · Livraison mondiale",
+        "alt": "Production en gros et expédition"
+      }
+    ],
+    "cta": "Demander un devis",
+    "prevAria": "Diapositive précédente",
+    "nextAria": "Diapositive suivante",
+    "dotAria": "Aller à la diapositive"
+  },
+  "factoryIntro": {
+    "kicker": "Dans notre atelier",
+    "title": "Là où chaque figurine est fabriquée",
+    "p1": "Nous ne sous-traitons pas une seule étape. Chaque figurine en résine est sculptée, moulée, coulée, peinte à la main et emballée dans notre propre atelier — par des sculpteurs et peintres avec qui nous travaillons depuis des années.",
+    "p2": "Salles de coulée ventilées, cabines de peinture sans poussière, stations d'aérographe calibrées, résines à faible COV. Nous avons investi dans la pièce avant d'investir dans la chaîne de production.",
+    "peopleTitle": "Fabriqué par des gens qui aiment leur métier",
+    "peopleSubtitle": "Cela se voit dans chaque coup de pinceau."
+  },
+  "magicalMemories": {
+    "kicker": "Promesse du studio",
+    "title": "Donner vie aux personnages",
+    "p1": "Chaque figurine commence par une histoire. Un croquis conceptuel. Une IP adorée. Un personnage que vos fans veulent tenir entre leurs mains.",
+    "p2": "Nous sculptons ces moments en réalité. Chaque silhouette façonnée à la main, chaque coup de pinceau guidé par un art individuel.",
+    "p3": "Nos créations sont plus que des jouets — elles sont des objets de collection, des souvenirs et la forme physique des mondes que votre public aime déjà."
+  },
+  "bestSellers": {
+    "kicker": "Travaux choisis du studio",
+    "title": "Partagés par nos clients heureux",
+    "subtitle": "De vraies histoires de marques, studios IP et designers indépendants avec qui nous avons travaillé."
+  },
+  "customers": [
+    { "name": "Sarah", "caption": "A transformé notre concept en statue résine 1/7." },
+    { "name": "Michael", "caption": "Série designer toy pour notre drop convention." },
+    { "name": "Lily", "caption": "Mascotte de marque en résine — couleurs parfaitement assorties." },
+    { "name": "James", "caption": "Blind box en série limitée pour notre lancement retail." },
+    { "name": "Anna", "caption": "Kit GK peint à la main pour notre collaboration IP." },
+    { "name": "David", "caption": "Figurine OC chibi pour un stand de studio anime." },
+    { "name": "Emily", "caption": "Production de bobbleheads pour une campagne cadeau d'entreprise." },
+    { "name": "Tom", "caption": "Production en gros pour un SKU de boutique de musée." }
+  ],
+  "magicalCreations": {
+    "kicker": "Des collectionneurs",
+    "title": "50 000+ figurines résine livrées",
+    "rating": "★★★★★ 4,9 / 5",
+    "subtitle": "Nous sommes reconnaissants pour tout l'amour des collectionneurs et marques du monde entier.",
+    "cta": "Plus d'exemples clients",
+    "timeLabels": {
+      "1w": "IL Y A 1 SEMAINE",
+      "2w": "IL Y A 2 SEMAINES",
+      "3w": "IL Y A 3 SEMAINES",
+      "1m": "IL Y A 1 MOIS"
+    }
+  },
+  "whyChooseUs": {
+    "kicker": "Pourquoi les marques nous choisissent",
+    "title": "D'une seule mascotte à une production retail mondiale",
+    "subtitle": "Six choses auxquelles nous dirons toujours oui.",
+    "features": [
+      { "title": "MOQ faible", "desc": "Productions résine à partir de 100 unités. Pas de minimums géants, pas de risque gonflé pour les lancements indé." },
+      { "title": "Sculpture 3D gratuite", "desc": "Envoyez un croquis, une photo ou un brief — nos sculpteurs internes livrent un modèle 3D prêt à imprimer et un master physique sans frais." },
+      { "title": "Testé CE / EN71 / ASTM", "desc": "Résine, peinture et emballage testés selon les standards mondiaux de sécurité jouet (CE, EN71, ASTM F963, REACH). Prêt pour le retail." },
+      { "title": "Notre propre usine", "desc": "Nous ne sous-traitons pas. Sculpture, moulage, coulée, peinture à la main et emballage — tout sous un même toit pour un QA plus serré." },
+      { "title": "Livraison à temps", "desc": "Production moyenne de 35 jours à partir du master approuvé. Étapes suivies — sculpter, mouler, couler, peindre, emballer — tout du long." },
+      { "title": "Paiement flexible", "desc": "30 % d'acompte, 70 % avant expédition. Trade Assurance et virement acceptés — facile pour la trésorerie." }
+    ]
+  },
+  "footer": {
+    "tagline": "Fabricant B2B de figurines en résine sur mesure. Sculpter, mouler, couler et peindre à la main — tout dans notre propre usine.",
+    "quickLinks": "LIENS RAPIDES",
+    "services": "SERVICES",
+    "more": "PLUS",
+    "ctaText": "Un projet en tête ? Recevez un devis gratuit sous 24 heures.",
+    "ctaButton": "Contactez-nous",
+    "rights": "Tous droits réservés.",
+    "linksServices": [
+      { "label": "Sculpture 3D gratuite", "href": "/products" },
+      { "label": "Processus", "href": "/products" },
+      { "label": "Matériaux", "href": "/products" },
+      { "label": "Certifications", "href": "/values" },
+      { "label": "FAQ", "href": "/contact" },
+      { "label": "Production en gros", "href": "/products" }
+    ],
+    "linksMore": [
+      { "label": "Conditions d'utilisation", "href": "/contact" },
+      { "label": "Politique de confidentialité", "href": "/contact" },
+      { "label": "Expédition", "href": "/contact" },
+      { "label": "Newsletter", "href": "/contact" }
+    ]
+  },
+  "whatsapp": {
+    "ariaPrefix": "WhatsApp",
+    "bubble": "Discuter sur WhatsApp",
+    "prefill": "Bonjour Resin Factory, je voudrais un devis pour des figurines en résine sur mesure."
+  },
+  "products": {
+    "heroTitle": "Ce que nous fabriquons",
+    "heroSubtitle": "Du prototype unique aux productions retail de plusieurs milliers — nous sculptons, coulons et peignons à la main toutes sortes de figurines en résine sur mesure que vous pouvez imaginer.",
+    "ctaTitle": "Vous avez quelque chose de précis en tête ?",
+    "ctaText": "Envoyez votre concept et nos sculpteurs vous répondent sous 24 heures avec une maquette 3D et un devis gratuits.",
+    "ctaButton": "Demander un devis",
+    "items": [
+      { "title": "Figurines mascottes", "desc": "Donnez vie à votre mascotte de marque en figurine résine peinte à la main — parfait pour retail, équipes sportives, licences IP." },
+      { "title": "Designer Toys / Art Toys", "desc": "Designer toys en série limitée pour galeries, conventions et drops d'artistes indé." },
+      { "title": "Statues & kits GK", "desc": "Statues résine au 1/8 à 1/4, pièces d'exposition polystone et kits GK non peints pour collectionneurs." },
+      { "title": "Séries Blind Box", "desc": "Production complète de séries blind box — sculpture, moule, coulée, peinture, emballage et plateau intérieur." },
+      { "title": "Bobbleheads", "desc": "Bobbleheads sur mesure à partir d'une photo ou d'un croquis — cadeaux d'entreprise, promos sport, merch fan." },
+      { "title": "Porte-clés en résine", "desc": "Mini charms et porte-clés en résine pour blind packs retail, campagnes de marque et giveaways événementiels." },
+      { "title": "Dioramas & socles d'exposition", "desc": "Dioramas thématiques, socles d'exposition et props d'environnement qui élèvent toute figurine au niveau galerie." },
+      { "title": "Production en gros", "desc": "Productions de plusieurs milliers d'unités avec QA complet, emballage et livraison mondiale." }
+    ]
+  },
+  "portfolio": {
+    "heroTitle": "Portfolio",
+    "heroSubtitle": "Travaux choisis pour marques mondiales, ayants droit IP, artistes designer toy, musées et œuvres caritatives — chaque figurine sculptée, coulée et peinte à la main dans notre usine.",
+    "filters": ["Tout", "Marques", "IP / Animation", "Designer Toys", "Caritatif", "E-Sports", "Musées & Galeries"],
+    "ctaTitle": "Vous voulez être notre prochaine étude de cas ?",
+    "ctaButton": "Lancer un projet",
+    "cases": [
+      { "title": "Statue mascotte retail — North Park", "tag": "Marques" },
+      { "title": "Drop designer toy indé", "tag": "Designer Toys" },
+      { "title": "Statue 1/7 IP anime — Studio S", "tag": "IP / Animation" },
+      { "title": "Promo résine chaîne de café", "tag": "Marques" },
+      { "title": "Série don hôpital", "tag": "Caritatif" },
+      { "title": "Bobblehead équipe E-Sports", "tag": "E-Sports" },
+      { "title": "SKU blind box marque jouets", "tag": "Marques" },
+      { "title": "Diorama boutique de musée", "tag": "Musées & Galeries" },
+      { "title": "Drop résine convention", "tag": "IP / Animation" },
+      { "title": "Statue édition limitée galerie", "tag": "Musées & Galeries" },
+      { "title": "Set résine vente caritative", "tag": "Caritatif" },
+      { "title": "Figurine collector studio jeu", "tag": "E-Sports" }
+    ]
+  },
+  "about": {
+    "heroTitle": "À propos",
+    "heroSubtitle": "Un atelier de 50 personnes, sculpteurs, mouleurs, fondeurs, peintres et QA — transformant des idées en figurines en résine peintes à la main depuis 2013.",
+    "storyKicker": "Notre histoire",
+    "storyTitle": "Douze ans. Un atelier.",
+    "storyP1": "Nous avons commencé en 2013 avec un moule en silicone, un seul aérographe et une pile de croquis sur une table basse. Douze ans plus tard, nous restons petits — environ 50 personnes dans un atelier de 1 200㎡ — mais nous livrons maintenant pour des marques dans plus de 25 pays.",
+    "storyP2": "Nous peignons chaque figurine à la main. Nous traitons chaque commande — 100 pièces ou 10 000 — comme la commande la plus importante du jour. Parce que pour quelqu'un, quelque part, elle l'est.",
+    "stats": [
+      { "num": "50+", "label": "Membres de l'équipe" },
+      { "num": "1 200㎡", "label": "Surface d'atelier" },
+      { "num": "50 000+", "label": "Figurines résine livrées" },
+      { "num": "150+", "label": "Marques dans 25+ pays" }
+    ],
+    "workshopTitle": "Dans notre atelier",
+    "workshopSubtitle": "Nous ne sous-traitons pas. Chaque étape se passe dans nos propres locaux — pour que nous puissions soutenir chaque coup de pinceau.",
+    "teamTitle": "Les gens derrière les figurines",
+    "team": [
+      { "name": "Jesse Wong", "role": "Fondateur & PDG" },
+      { "name": "Emily Lin", "role": "Sculptrice en chef" },
+      { "name": "Marco Chen", "role": "Directeur de production" },
+      { "name": "Sara Patel", "role": "Responsable Client Success" }
+    ],
+    "ctaButton": "Travailler avec nous"
+  },
+  "values": {
+    "heroTitle": "Ce qui nous tient à cœur",
+    "heroSubtitle": "Ce qui nous tient vraiment à cœur — et comment cela se manifeste au quotidien, pas juste sur une affiche dans le hall.",
+    "principlesKicker": "Principes du studio",
+    "principlesTitle": "Cinq choses que nous faisons toujours",
+    "principles": [
+      { "title": "Fait par des gens", "desc": "Chaque figurine est coulée, peinte à la main et finalisée par une personne. Les petites particularités de coup de pinceau ne sont pas des bugs — elles montrent qu'un humain l'a faite." },
+      { "title": "Pas d'intermédiaires", "desc": "Nous fabriquons tout dans notre propre usine. Nous vous envoyons des photos de l'atelier dès que vous le demandez. Pas de tracasseries de société commerciale." },
+      { "title": "Sûr pour les enfants", "desc": "Résine CE / EN71 / ASTM, peinture à faible COV, apprêts conformes REACH, bords sécurisés enfants. Nous testons chaque lot — pas une fois par an pour un certificat." },
+      { "title": "Moins de commandes, mais meilleures", "desc": "Nous ne courons pas après chaque job. Nous choisissons les clients avec qui nous serions heureux de continuer à travailler — et ainsi nous avons moins de gaspillage." },
+      { "title": "L'option plus verte, par défaut", "desc": "Moules silicone réutilisables, plateaux intérieurs recyclables, boîtes papier FSC, pas de mailers plastique. L'option plus verte est la seule que nous stockons." }
+    ],
+    "peopleKicker": "Notre équipe · Notre atelier",
+    "peopleTitle": "De bonnes figurines commencent par des gens qui vont bien",
+    "peopleIntro": "Salaires équitables. Horaires raisonnables. Un atelier sûr, calme et non toxique. Ce n'est pas une liste d'avantages — ce sont les bases. Si notre équipe va bien, votre commande tend à bien aller aussi.",
+    "commitments": [
+      { "title": "Salaire juste, à temps", "desc": "Salaires au-dessus de la médiane locale. Heures supplémentaires payées comme telles. Salaires à la banque le 10 de chaque mois, chaque mois." },
+      { "title": "Horaires raisonnables", "desc": "Journées de 8 heures. Heures sup uniquement si vous dites oui. Les jours de congé sont des jours de congé. Nous n'épuiserons pas l'équipe pour un délai." },
+      { "title": "Un atelier où il fait bon être", "desc": "Climatisation, bon éclairage, chaises qui ne ruinent pas le dos, machines silencieuses. Nous avons investi dans la pièce avant d'investir dans la chaîne." },
+      { "title": "Matériaux non toxiques", "desc": "Résines, peintures, apprêts et emballages — tous sans danger pour la peau et à faible COV. Les collectionneurs qui manipulent les figurines sont protégés, comme les gens qui les coulent et les peignent toute la journée." },
+      { "title": "Assurance, faite correctement", "desc": "Sécurité sociale, assurance maladie, fonds logement, contrôles annuels. Nous suivons la loi à la lettre — pour tout le monde, chaque année." },
+      { "title": "La famille d'abord", "desc": "Partez à l'heure. Prenez votre congé annuel. Allez au spectacle scolaire de votre enfant. Les figurines seront tout de même faites — mieux, en fait." }
+    ],
+    "manifestoTitle": "Nous ne sommes pas un sweatshop. Nous ne le serons jamais.",
+    "manifestoP1": "Notre travail est de vous aider à faire un super produit — et de laisser l'équipe rentrer à temps pour s'occuper du sien. Quand les gens qui sculptent et peignent vos figurines se sentent reposés et respectés, les coutures sont plus propres, le QA attrape plus, et les petits détails survivent vraiment à la production de masse.",
+    "manifestoP2": "C'est l'accord que nous offrons à l'équipe. C'est aussi la promesse silencieuse derrière chaque commande.",
+    "teamKicker": "Rencontrez l'équipe",
+    "teamTitle": "Les visages derrière chaque figurine",
+    "teamSubtitle": "Sculpteurs, mouleurs, fondeurs, peintres, QA, emballeurs. Un petit groupe qui prend soin les uns des autres et de votre commande en même temps.",
+    "teamCaption": "Renouvelé chaque trimestre — l'équipe grandit, le mur grandit.",
+    "ctaButton": "Travailler avec nous"
+  },
+  "blog": {
+    "heroTitle": "Le Resin Journal",
+    "heroSubtitle": "Histoires de notre studio de sculpture, notre fonderie et les marques pour qui nous fabriquons. Plus des guides occasionnels pour les premiers acheteurs de figurines en résine.",
+    "categories": ["Tout", "Tutoriel", "Coulisses", "Histoires de marques", "Matériaux", "Durabilité"],
+    "featuredKicker": "À la une",
+    "moreTitle": "Plus d'histoires",
+    "loadMore": "Charger plus",
+    "newsletterTitle": "Recevez le prochain article dans votre boîte mail.",
+    "newsletterSubtitle": "Un court email par mois. Pas de promos, juste des histoires.",
+    "newsletterPlaceholder": "vous@entreprise.com",
+    "newsletterButton": "S'abonner",
+    "readMore": "Lire l'article complet",
+    "featured": {
+      "title": "Du croquis au master : une journée dans notre studio de sculpture",
+      "excerpt": "Suivez les sept étapes qui transforment un dessin sur serviette en master résine prêt à produire — y compris le choix de la résine, la palette d'aérographe et la préparation du moule silicone pour la coulée.",
+      "date": "4 mai 2026",
+      "read": "8 min de lecture",
+      "tag": "Coulisses"
+    },
+    "posts": [
+      { "title": "Pourquoi un MOQ faible compte pour les artistes designer toy indé", "date": "28 avr. 2026", "read": "5 min", "tag": "Tutoriel" },
+      { "title": "Choisir la bonne résine : polyuréthane vs. polystone", "date": "14 avr. 2026", "read": "6 min", "tag": "Matériaux" },
+      { "title": "Derrière un lancement de statue : l'histoire de la mascotte North Park", "date": "2 avr. 2026", "read": "7 min", "tag": "Histoires de marques" },
+      { "title": "Résine recyclée, vrais résultats : nos chiffres 2025", "date": "21 mars 2026", "read": "4 min", "tag": "Durabilité" },
+      { "title": "Aérographe vs. pinceau : quand utiliser quoi", "date": "9 mars 2026", "read": "5 min", "tag": "Matériaux" },
+      { "title": "Comment les équipes E-Sports utilisent les figurines résine sur mesure dans les drops", "date": "24 fév. 2026", "read": "6 min", "tag": "Histoires de marques" }
+    ]
+  },
+  "contact": {
+    "title": "Demander un devis",
+    "subtitle": "Réponse avec maquette 3D et devis gratuits sous 24 heures.",
+    "form": {
+      "fullName": "Nom complet",
+      "company": "Entreprise",
+      "email": "Email professionnel",
+      "phone": "Téléphone / WhatsApp",
+      "productType": "Type de produit",
+      "quantity": "Quantité estimée",
+      "project": "Parlez-nous de votre projet",
+      "attach": "Joindre des fichiers de référence (PNG · JPG · PDF · AI · STL · ZTL)",
+      "submit": "Envoyer la demande",
+      "required": "*"
+    },
+    "productTypes": ["Figurine mascotte", "Designer Toy / Art Toy", "Statue / Kit GK", "Série Blind Box", "Bobblehead", "Porte-clé résine", "Diorama / Socle d'exposition", "Autre"],
+    "quantities": ["100 – 300", "300 – 1 000", "1 000 – 5 000", "5 000 – 10 000", "10 000+ (à discuter)", "Pas encore sûr"],
+    "asideTitle": "Autres moyens de nous contacter",
+    "labels": { "email": "Email", "phone": "Téléphone / WhatsApp", "company": "Entreprise", "address": "Adresse", "hours": "Horaires" },
+    "hours": "Lun–Ven  09:00 – 18:00 (UTC+8)",
+    "privacy": "En envoyant, vous acceptez notre politique de confidentialité. Nous ne partageons jamais vos coordonnées avec des tiers."
+  }
+}

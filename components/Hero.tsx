@@ -1,12 +1,12 @@
 import HeroCarousel from "./HeroCarousel";
+import type { Dictionary } from "@/i18n/get-dictionary";
 
-/**
- * 常规 Hero:700px 全屏背景图轮播 + 左侧文案卡。
- */
-export default function Hero() {
+type Props = { dict: Dictionary["hero"]; lang: string };
+
+export default function Hero({ dict, lang }: Props) {
   return (
     <section className="relative w-full h-[600px] md:h-[700px] overflow-hidden">
-      <HeroCarousel />
+      <HeroCarousel dict={dict} lang={lang} />
     </section>
   );
 }
