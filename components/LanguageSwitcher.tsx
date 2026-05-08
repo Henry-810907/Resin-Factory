@@ -66,7 +66,7 @@ export default function LanguageSwitcher({ current, label }: Props) {
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 mt-1 w-48 bg-white border border-slate-200 rounded-md shadow-lg overflow-hidden z-50"
+          className="absolute right-0 top-full mt-2 min-w-[10rem] bg-white border border-slate-200 rounded-md shadow-lg overflow-hidden z-50"
         >
           {locales.map((loc) => {
             const m = localeMeta[loc];
@@ -77,7 +77,7 @@ export default function LanguageSwitcher({ current, label }: Props) {
                   href={switchPath(loc)}
                   hrefLang={m.htmlLang}
                   onClick={() => setOpen(false)}
-                  className={`flex items-center gap-2.5 px-3 py-2 text-sm transition ${
+                  className={`flex items-center gap-2.5 px-2.5 py-2 text-sm transition whitespace-nowrap ${
                     selected
                       ? "bg-brand-orange/10 text-brand-orangeDark font-semibold"
                       : "text-slate-700 hover:bg-slate-50"
