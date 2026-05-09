@@ -49,7 +49,7 @@ export default function Footer({ dict, navDict, lang }: Props) {
               <br />
               Futian District, Shenzhen, China
               <br />
-              hello@resin-factory.com
+              henry@resin-factory.com
               <br />
               +86 136 8269 2148
             </p>

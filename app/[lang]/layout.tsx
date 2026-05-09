@@ -83,7 +83,7 @@ export default async function LangLayout({ children, params }: LayoutProps) {
         url: SITE_URL,
         logo: `${SITE_URL}/og-image.jpg`,
         image: `${SITE_URL}/og-image.jpg`,
-        email: "hello@resin-factory.com",
+        email: "henry@resin-factory.com",
         telephone: "+86-136-8269-2148",
         foundingDate: "2013",
         numberOfEmployees: { "@type": "QuantitativeValue", value: 50 },
