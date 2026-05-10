@@ -67,16 +67,20 @@ export default function CustomersCarousel({ customers }: Props) {
     };
   }, []);
 
-  const cardWidth =
-    "w-full sm:w-[calc((100%-1.5rem)/2)] md:w-[calc((100%-3rem)/3)] lg:w-[calc((100%-4.5rem)/4)] xl:w-[calc((100%-6rem)/5)]";
+  // 静态固定宽度卡片(避免 Tailwind purge 掉动态 calc 类):
+  //   - 移动 260px / 平板 280px / 桌面 300px
+  //   - flex-shrink-0 保证不被压缩
+  //   - 配合横向 snap scroll,移动端可滑动
+  const cardCls =
+    "snap-start shrink-0 w-[260px] sm:w-[280px] md:w-[300px] bg-white rounded-lg shadow-sm hover:shadow-md transition overflow-hidden flex flex-col border border-slate-200";
 
   return (
     <div className="relative w-full px-4 sm:px-6 overflow-hidden" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
       <div ref={trackRef} className="flex gap-4 sm:gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 scrollbar-hide" style={{ scrollbarWidth: "none" }}>
         {customers.map((it, i) => (
-          <div key={i} data-card className={`snap-start shrink-0 ${cardWidth} bg-white rounded-lg shadow-sm hover:shadow-md transition overflow-hidden flex flex-col border border-slate-200`}>
+          <div key={i} data-card className={cardCls}>
             <div className="relative w-full aspect-square">
-              <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer work — ${it.name}`} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 25vw" className="object-cover object-center" />
+              <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer work — ${it.name}`} fill sizes="300px" className="object-cover object-center" />
             </div>
             <div className="p-4 flex-1 flex flex-col">
               <p className="font-bold text-brand-dark">{it.name}</p>
