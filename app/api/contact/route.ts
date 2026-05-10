@@ -90,25 +90,8 @@ export async function POST(request: NextRequest) {
       attachments,
     });
 
-    // 2. 自动回执给客户
-    try {
-      await transport.sendMail({
-        from: `"Resin Factory" <${SMTP_USER}>`,
-        to: email,
-        subject: "Thanks for your inquiry — Resin Factory",
-        html: `<div style="font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;font-size:15px;line-height:1.6;color:#0f172a;max-width:560px">
-          <p>Hi ${escapeHtml(fullName)},</p>
-          <p>Thanks for reaching out to <strong>Resin Factory</strong> — your inquiry has been received.</p>
-          <p>Our sculptors will reply within <strong>24 hours</strong> with a free 3D mock-up and quote.</p>
-          <p>If urgent, WhatsApp us: <a href="https://wa.me/8613682692148" style="color:#E65A1F">+86 136 8269 2148</a></p>
-          <p style="margin-top:24px">Best,<br/><strong>Henry</strong><br/>Resin Factory · Shenzhen Heli Toys Co., Ltd.<br/><a href="https://resin-factory.com" style="color:#E65A1F">resin-factory.com</a></p>
-        </div>`,
-      });
-    } catch (e) {
-      // 回执失败不影响主流程,只记录
-      console.warn("[contact] auto-reply failed", e);
-    }
-
+    // 自动回执已禁用 — 避免客户填假邮箱时 bounce 反弹回 henry@ 收件箱
+    // 网站前端会显示「Inquiry sent」提示,客户已经知道提交成功
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("[contact] error", err);
