@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import CustomSelect from "@/components/CustomSelect";
+import ContactForm from "@/components/ContactForm";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { notFound } from "next/navigation";
@@ -34,9 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ContactPage({ params }: Props) {
   if (!isLocale(params.lang)) notFound();
-  const dict = await getDictionary(params.lang as Locale);
+  const lang = params.lang as Locale;
+  const dict = await getDictionary(lang);
   const c = dict.contact;
-  const f = c.form;
 
   const CONTACTS: { title: string; value: string; icon: React.ReactNode }[] = [
     { title: c.labels.email, value: "henry@resin-factory.com", icon: ICONS.email },
@@ -57,73 +57,13 @@ export default async function ContactPage({ params }: Props) {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
             {/*
-              表单使用 FormSubmit.co 转发到 henry@resin-factory.com:
-                - 完全免费,无需注册和 API key
-                - 第一次提交后会发激活邮件到 henry@,点击激活链接后才会真正转发
-                - 内置反垃圾(honeypot + captcha),并保护邮箱地址
-                - 文件上传需 enable_files (FormSubmit.co 支持附件)
-                - _subject:邮件主题   _captcha:false 关闭再次提交时的验证码
-                - _template:table 让收到的邮件以表格排版,更易读
-                - _autoresponse:自动给客户回一封确认邮件
+              表单 = ContactForm 客户端组件,提交到 /api/contact:
+                - Hostinger SMTP 直接从 henry@ 发邮件给 henry@(发件人即收件人)
+                - 客户邮箱填到 Reply-To,你点回复就回到客户
+                - 同时给客户发自动回执
+                - 全程无第三方,无 FormSubmit logo
             */}
-            <form
-              action="https://formsubmit.co/henry@resin-factory.com"
-              method="POST"
-              encType="multipart/form-data"
-              className="lg:col-span-2 bg-white rounded-xl border border-slate-200 shadow-sm p-5 sm:p-7 md:p-10 space-y-5 sm:space-y-6"
-            >
-              {/* FormSubmit.co 配置项(隐藏字段) */}
-              <input type="hidden" name="_subject" value="New Inquiry · Resin Factory" />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_template" value="table" />
-              <input
-                type="hidden"
-                name="_autoresponse"
-                value="Hi! Thanks for reaching out to Resin Factory. We've received your inquiry and our team will reply within 24 hours with a free 3D mock-up and quote. — Resin Factory / Shenzhen Heli Toys Co., Ltd."
-              />
-              {/* 蜜罐字段:真人看不见,机器人会填,填了就丢 */}
-              <input type="text" name="_honey" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.fullName} {f.required}</label>
-                  <input name="full_name" type="text" required className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange" />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.company} {f.required}</label>
-                  <input name="company" type="text" required className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange" />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.email} {f.required}</label>
-                  <input name="email" type="email" required className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange" />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.phone}</label>
-                  <input name="phone" type="tel" className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange" />
-                </div>
-                <CustomSelect label={f.productType} name="product_type" options={c.productTypes} />
-                <CustomSelect label={f.quantity} name="quantity" options={c.quantities} />
-              </div>
-
-              <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.project} {f.required}</label>
-                <textarea name="message" required rows={4} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange resize-none" />
-              </div>
-
-              <div className="flex flex-col sm:flex-row sm:items-stretch gap-3">
-                <label className="flex-1 flex items-center justify-center text-sm text-slate-500 border border-dashed border-slate-300 rounded-md px-4 py-3 text-center cursor-pointer hover:border-brand-orange hover:text-brand-orange transition">
-                  📎 {f.attach}
-                  <input
-                    name="attachment"
-                    type="file"
-                    multiple
-                    accept=".png,.jpg,.jpeg,.pdf,.ai,.stl,.ztl,image/*,application/pdf"
-                    className="sr-only"
-                  />
-                </label>
-                <button type="submit" className="bg-brand-orange hover:bg-brand-orangeDark transition text-white text-sm font-semibold px-8 py-3 rounded-md shadow-sm whitespace-nowrap">{f.submit}</button>
-              </div>
-            </form>
+            <ContactForm dict={c} lang={lang} />
 
             <aside className="bg-brand-bgAlt rounded-xl p-5 sm:p-6 md:p-7 flex flex-col border border-slate-200">
               <h3 className="text-sm font-bold text-brand-dark uppercase tracking-wider mb-5">{c.asideTitle}</h3>

@@ -3,12 +3,30 @@
     "siteName": "Resin Factory",
     "tagline": "Figuras de resina a medida para marcas e IP",
     "defaultDescription": "Fabricante B2B de figuras de resina personalizadas en Shenzhen. Escultura, moldeado, vaciado y pintura a mano bajo un mismo techo. MOQ bajo desde 100 unidades, escultura 3D gratuita, certificado CE/EN71/ASTM, envío mundial.",
-    "products": { "title": "Productos de figuras de resina a medida — Estatuas, Designer Toys, Blind Box", "description": "Mascotas, designer toys, estatuas, kits GK, series blind box, bobbleheads, llaveros de resina, dioramas y producciones masivas. Fabricación de resina a medida para marcas e IP — esculpidos, vaciados y pintados a mano en nuestra fábrica de Shenzhen." },
-    "portfolio": { "title": "Portfolio — Casos de estudio de figuras de resina", "description": "Trabajos seleccionados para marcas globales, licenciatarios IP, artistas de designer toys, museos y obras benéficas. Cada figura esculpida, vaciada y pintada a mano en nuestra fábrica de Shenzhen." },
-    "about": { "title": "Sobre nosotros — Shenzhen Heli Toys (Resin Factory)", "description": "Un taller de 50 personas de escultores, moldeadores, fundidores, pintores y QA en Shenzhen — convirtiendo ideas en figuras de resina pintadas a mano desde 2013. Envío para marcas en más de 25 países." },
-    "values": { "title": "Nuestros valores — Estándares del taller y cuidado del trabajador", "description": "Pago justo, horarios razonables, materiales no tóxicos, pruebas CE/EN71/ASTM en cada lote. Por qué un taller bien gestionado produce mejores figuras de resina para tu marca." },
-    "blog": { "title": "El Resin Journal — Historias de nuestro estudio de escultura", "description": "Historias detrás de escena de nuestro estudio de escultura y nuestra fundición, además de guías para compradores primerizos de figuras de resina." },
-    "contact": { "title": "Contacto — Maqueta 3D y presupuesto gratis", "description": "Cuéntanos sobre tu proyecto — nuestros escultores te responderán en 24 horas con una maqueta 3D y un presupuesto gratis." }
+    "products": {
+      "title": "Productos de figuras de resina a medida — Estatuas, Designer Toys, Blind Box",
+      "description": "Mascotas, designer toys, estatuas, kits GK, series blind box, bobbleheads, llaveros de resina, dioramas y producciones masivas. Fabricación de resina a medida para marcas e IP — esculpidos, vaciados y pintados a mano en nuestra fábrica de Shenzhen."
+    },
+    "portfolio": {
+      "title": "Portfolio — Casos de estudio de figuras de resina",
+      "description": "Trabajos seleccionados para marcas globales, licenciatarios IP, artistas de designer toys, museos y obras benéficas. Cada figura esculpida, vaciada y pintada a mano en nuestra fábrica de Shenzhen."
+    },
+    "about": {
+      "title": "Sobre nosotros — Shenzhen Heli Toys (Resin Factory)",
+      "description": "Un taller de 50 personas de escultores, moldeadores, fundidores, pintores y QA en Shenzhen — convirtiendo ideas en figuras de resina pintadas a mano desde 2013. Envío para marcas en más de 25 países."
+    },
+    "values": {
+      "title": "Nuestros valores — Estándares del taller y cuidado del trabajador",
+      "description": "Pago justo, horarios razonables, materiales no tóxicos, pruebas CE/EN71/ASTM en cada lote. Por qué un taller bien gestionado produce mejores figuras de resina para tu marca."
+    },
+    "blog": {
+      "title": "El Resin Journal — Historias de nuestro estudio de escultura",
+      "description": "Historias detrás de escena de nuestro estudio de escultura y nuestra fundición, además de guías para compradores primerizos de figuras de resina."
+    },
+    "contact": {
+      "title": "Contacto — Maqueta 3D y presupuesto gratis",
+      "description": "Cuéntanos sobre tu proyecto — nuestros escultores te responderán en 24 horas con una maqueta 3D y un presupuesto gratis."
+    }
   },
   "header": {
     "brand": "Resin Factory",
@@ -72,14 +90,38 @@
     "subtitle": "Historias reales de marcas, estudios IP y diseñadores indie con los que hemos trabajado."
   },
   "customers": [
-    { "name": "Sarah", "caption": "Convirtió nuestro arte conceptual en una estatua de resina 1/7." },
-    { "name": "Michael", "caption": "Serie de designer toys para nuestro drop de convención." },
-    { "name": "Lily", "caption": "Mascota de marca en resina — colores perfectamente igualados." },
-    { "name": "James", "caption": "Blind box de tirada limitada para nuestro lanzamiento retail." },
-    { "name": "Anna", "caption": "Kit GK pintado a mano para nuestra colaboración IP." },
-    { "name": "David", "caption": "Figura OC chibi para un stand de estudio anime." },
-    { "name": "Emily", "caption": "Tirada de bobbleheads para una campaña de regalo corporativo." },
-    { "name": "Tom", "caption": "Producción masiva para un SKU de tienda de museo." }
+    {
+      "name": "Sarah",
+      "caption": "Convirtió nuestro arte conceptual en una estatua de resina 1/7."
+    },
+    {
+      "name": "Michael",
+      "caption": "Serie de designer toys para nuestro drop de convención."
+    },
+    {
+      "name": "Lily",
+      "caption": "Mascota de marca en resina — colores perfectamente igualados."
+    },
+    {
+      "name": "James",
+      "caption": "Blind box de tirada limitada para nuestro lanzamiento retail."
+    },
+    {
+      "name": "Anna",
+      "caption": "Kit GK pintado a mano para nuestra colaboración IP."
+    },
+    {
+      "name": "David",
+      "caption": "Figura OC chibi para un stand de estudio anime."
+    },
+    {
+      "name": "Emily",
+      "caption": "Tirada de bobbleheads para una campaña de regalo corporativo."
+    },
+    {
+      "name": "Tom",
+      "caption": "Producción masiva para un SKU de tienda de museo."
+    }
   ],
   "magicalCreations": {
     "kicker": "De los coleccionistas",
@@ -99,12 +141,30 @@
     "title": "De una sola mascota a una tirada retail mundial",
     "subtitle": "Seis cosas a las que siempre diremos sí.",
     "features": [
-      { "title": "MOQ bajo", "desc": "Tiradas de resina desde 100 unidades. Sin mínimos gigantes, sin riesgo inflado para lanzamientos indie." },
-      { "title": "Escultura 3D gratis", "desc": "Envíanos un boceto, foto o brief — nuestros escultores internos entregan un modelo 3D listo para imprimir y un master físico sin coste." },
-      { "title": "Probado CE / EN71 / ASTM", "desc": "Resina, pintura y embalaje probados según estándares globales de seguridad de juguetes (CE, EN71, ASTM F963, REACH). Listo para retail." },
-      { "title": "Nuestra propia fábrica", "desc": "No subcontratamos. Escultura, moldeado, vaciado, pintura a mano y embalaje — todo bajo un mismo techo para un QA más estricto." },
-      { "title": "Entrega a tiempo", "desc": "Producción media de 35 días desde el master aprobado. Hitos rastreados — esculpir, moldear, vaciar, pintar, empaquetar — en todo el camino." },
-      { "title": "Pago flexible", "desc": "30 % de depósito, 70 % antes del envío. Trade Assurance y transferencia bancaria aceptados — fácil para el flujo de caja." }
+      {
+        "title": "MOQ bajo",
+        "desc": "Tiradas de resina desde 100 unidades. Sin mínimos gigantes, sin riesgo inflado para lanzamientos indie."
+      },
+      {
+        "title": "Escultura 3D gratis",
+        "desc": "Envíanos un boceto, foto o brief — nuestros escultores internos entregan un modelo 3D listo para imprimir y un master físico sin coste."
+      },
+      {
+        "title": "Probado CE / EN71 / ASTM",
+        "desc": "Resina, pintura y embalaje probados según estándares globales de seguridad de juguetes (CE, EN71, ASTM F963, REACH). Listo para retail."
+      },
+      {
+        "title": "Nuestra propia fábrica",
+        "desc": "No subcontratamos. Escultura, moldeado, vaciado, pintura a mano y embalaje — todo bajo un mismo techo para un QA más estricto."
+      },
+      {
+        "title": "Entrega a tiempo",
+        "desc": "Producción media de 35 días desde el master aprobado. Hitos rastreados — esculpir, moldear, vaciar, pintar, empaquetar — en todo el camino."
+      },
+      {
+        "title": "Pago flexible",
+        "desc": "30 % de depósito, 70 % antes del envío. Trade Assurance y transferencia bancaria aceptados — fácil para el flujo de caja."
+      }
     ]
   },
   "footer": {
@@ -116,18 +176,48 @@
     "ctaButton": "Contáctanos",
     "rights": "Todos los derechos reservados.",
     "linksServices": [
-      { "label": "Escultura 3D gratis", "href": "/products" },
-      { "label": "Proceso", "href": "/products" },
-      { "label": "Materiales", "href": "/products" },
-      { "label": "Certificaciones", "href": "/values" },
-      { "label": "FAQ", "href": "/contact" },
-      { "label": "Producción masiva", "href": "/products" }
+      {
+        "label": "Escultura 3D gratis",
+        "href": "/products"
+      },
+      {
+        "label": "Proceso",
+        "href": "/products"
+      },
+      {
+        "label": "Materiales",
+        "href": "/products"
+      },
+      {
+        "label": "Certificaciones",
+        "href": "/values"
+      },
+      {
+        "label": "FAQ",
+        "href": "/contact"
+      },
+      {
+        "label": "Producción masiva",
+        "href": "/products"
+      }
     ],
     "linksMore": [
-      { "label": "Términos de servicio", "href": "/contact" },
-      { "label": "Política de privacidad", "href": "/contact" },
-      { "label": "Envío", "href": "/contact" },
-      { "label": "Newsletter", "href": "/contact" }
+      {
+        "label": "Términos de servicio",
+        "href": "/contact"
+      },
+      {
+        "label": "Política de privacidad",
+        "href": "/contact"
+      },
+      {
+        "label": "Envío",
+        "href": "/contact"
+      },
+      {
+        "label": "Newsletter",
+        "href": "/contact"
+      }
     ]
   },
   "whatsapp": {
@@ -142,35 +232,103 @@
     "ctaText": "Envíanos tu concepto y nuestros escultores te responderán en 24 horas con una maqueta 3D y un presupuesto gratis.",
     "ctaButton": "Solicitar presupuesto",
     "items": [
-      { "title": "Mascotas", "desc": "Da vida a la mascota de tu marca como figura de resina pintada a mano — perfecta para retail, equipos deportivos, licencias IP." },
-      { "title": "Designer Toys / Art Toys", "desc": "Designer toys de tirada limitada para galerías, convenciones y drops de artistas indie." },
-      { "title": "Estatuas y kits GK", "desc": "Estatuas de resina escala 1/8 a 1/4, piezas de exhibición polystone y kits GK sin pintar para coleccionistas." },
-      { "title": "Series Blind Box", "desc": "Producción completa de series blind box — escultura, molde, vaciado, pintura, embalaje y bandeja interior." },
-      { "title": "Bobbleheads", "desc": "Bobbleheads personalizados desde foto o boceto — regalos corporativos, promos deportivas, merch fan." },
-      { "title": "Llaveros de resina", "desc": "Mini charms y llaveros de resina para blind packs retail, campañas de marca y giveaways de eventos." },
-      { "title": "Dioramas y bases", "desc": "Dioramas temáticos, bases de exhibición y props ambientales que elevan cualquier figura de buena a digna de galería." },
-      { "title": "Producción masiva", "desc": "Tiradas de varios miles de unidades con QA completo, embalaje y envío mundial." }
+      {
+        "title": "Mascotas",
+        "desc": "Da vida a la mascota de tu marca como figura de resina pintada a mano — perfecta para retail, equipos deportivos, licencias IP."
+      },
+      {
+        "title": "Designer Toys / Art Toys",
+        "desc": "Designer toys de tirada limitada para galerías, convenciones y drops de artistas indie."
+      },
+      {
+        "title": "Estatuas y kits GK",
+        "desc": "Estatuas de resina escala 1/8 a 1/4, piezas de exhibición polystone y kits GK sin pintar para coleccionistas."
+      },
+      {
+        "title": "Series Blind Box",
+        "desc": "Producción completa de series blind box — escultura, molde, vaciado, pintura, embalaje y bandeja interior."
+      },
+      {
+        "title": "Bobbleheads",
+        "desc": "Bobbleheads personalizados desde foto o boceto — regalos corporativos, promos deportivas, merch fan."
+      },
+      {
+        "title": "Llaveros de resina",
+        "desc": "Mini charms y llaveros de resina para blind packs retail, campañas de marca y giveaways de eventos."
+      },
+      {
+        "title": "Dioramas y bases",
+        "desc": "Dioramas temáticos, bases de exhibición y props ambientales que elevan cualquier figura de buena a digna de galería."
+      },
+      {
+        "title": "Producción masiva",
+        "desc": "Tiradas de varios miles de unidades con QA completo, embalaje y envío mundial."
+      }
     ]
   },
   "portfolio": {
     "heroTitle": "Portfolio",
     "heroSubtitle": "Trabajos seleccionados para marcas globales, licenciatarios IP, artistas de designer toys, museos y obras benéficas — cada figura esculpida, vaciada y pintada a mano en nuestra fábrica.",
-    "filters": ["Todo", "Marcas", "IP / Animación", "Designer Toys", "Benéfico", "E-Sports", "Museos y galerías"],
+    "filters": [
+      "Todo",
+      "Marcas",
+      "IP / Animación",
+      "Designer Toys",
+      "Benéfico",
+      "E-Sports",
+      "Museos y galerías"
+    ],
     "ctaTitle": "¿Quieres ser nuestro próximo caso de estudio?",
     "ctaButton": "Iniciar un proyecto",
     "cases": [
-      { "title": "Estatua mascota retail — North Park", "tag": "Marcas" },
-      { "title": "Drop de designer toy indie", "tag": "Designer Toys" },
-      { "title": "Estatua 1/7 IP anime — Studio S", "tag": "IP / Animación" },
-      { "title": "Promo resina cadena de café", "tag": "Marcas" },
-      { "title": "Serie donación hospital", "tag": "Benéfico" },
-      { "title": "Bobblehead equipo E-Sports", "tag": "E-Sports" },
-      { "title": "SKU blind box marca de juguetes", "tag": "Marcas" },
-      { "title": "Diorama tienda de museo", "tag": "Museos y galerías" },
-      { "title": "Drop resina convención", "tag": "IP / Animación" },
-      { "title": "Estatua edición limitada galería", "tag": "Museos y galerías" },
-      { "title": "Set resina subasta benéfica", "tag": "Benéfico" },
-      { "title": "Figura coleccionable estudio juego", "tag": "E-Sports" }
+      {
+        "title": "Estatua mascota retail — North Park",
+        "tag": "Marcas"
+      },
+      {
+        "title": "Drop de designer toy indie",
+        "tag": "Designer Toys"
+      },
+      {
+        "title": "Estatua 1/7 IP anime — Studio S",
+        "tag": "IP / Animación"
+      },
+      {
+        "title": "Promo resina cadena de café",
+        "tag": "Marcas"
+      },
+      {
+        "title": "Serie donación hospital",
+        "tag": "Benéfico"
+      },
+      {
+        "title": "Bobblehead equipo E-Sports",
+        "tag": "E-Sports"
+      },
+      {
+        "title": "SKU blind box marca de juguetes",
+        "tag": "Marcas"
+      },
+      {
+        "title": "Diorama tienda de museo",
+        "tag": "Museos y galerías"
+      },
+      {
+        "title": "Drop resina convención",
+        "tag": "IP / Animación"
+      },
+      {
+        "title": "Estatua edición limitada galería",
+        "tag": "Museos y galerías"
+      },
+      {
+        "title": "Set resina subasta benéfica",
+        "tag": "Benéfico"
+      },
+      {
+        "title": "Figura coleccionable estudio juego",
+        "tag": "E-Sports"
+      }
     ]
   },
   "about": {
@@ -181,19 +339,43 @@
     "storyP1": "Empezamos en 2013 con un molde de silicona, un solo aerógrafo y una pila de bocetos en una mesa de café. Doce años después seguimos siendo pequeños — unas 50 personas en un taller de 1.200㎡ — pero ahora enviamos para marcas en más de 25 países.",
     "storyP2": "Pintamos cada figura a mano. Tratamos cada pedido — 100 piezas o 10.000 — como el pedido más importante del día. Porque para alguien, en algún lugar, lo es.",
     "stats": [
-      { "num": "50+", "label": "Miembros del equipo" },
-      { "num": "1.200㎡", "label": "Superficie del taller" },
-      { "num": "50.000+", "label": "Figuras de resina entregadas" },
-      { "num": "150+", "label": "Marcas en más de 25 países" }
+      {
+        "num": "50+",
+        "label": "Miembros del equipo"
+      },
+      {
+        "num": "1.200㎡",
+        "label": "Superficie del taller"
+      },
+      {
+        "num": "50.000+",
+        "label": "Figuras de resina entregadas"
+      },
+      {
+        "num": "150+",
+        "label": "Marcas en más de 25 países"
+      }
     ],
     "workshopTitle": "Dentro de nuestro taller",
     "workshopSubtitle": "No subcontratamos. Cada paso ocurre en nuestras propias instalaciones — para que podamos respaldar cada pincelada.",
     "teamTitle": "Las personas detrás de las figuras",
     "team": [
-      { "name": "Jesse Wong", "role": "Fundador y CEO" },
-      { "name": "Emily Lin", "role": "Escultora jefe" },
-      { "name": "Marco Chen", "role": "Director de producción" },
-      { "name": "Sara Patel", "role": "Líder Client Success" }
+      {
+        "name": "Jesse Wong",
+        "role": "Fundador y CEO"
+      },
+      {
+        "name": "Emily Lin",
+        "role": "Escultora jefe"
+      },
+      {
+        "name": "Marco Chen",
+        "role": "Director de producción"
+      },
+      {
+        "name": "Sara Patel",
+        "role": "Líder Client Success"
+      }
     ],
     "ctaButton": "Trabaja con nosotros"
   },
@@ -203,22 +385,55 @@
     "principlesKicker": "Principios del estudio",
     "principlesTitle": "Cinco cosas que siempre hacemos",
     "principles": [
-      { "title": "Hecho por personas", "desc": "Cada figura es vaciada, pintada a mano y terminada por una persona. Las pequeñas peculiaridades de pincelada que verás no son fallos — son cómo sabes que lo hizo un humano." },
-      { "title": "Sin intermediarios", "desc": "Hacemos todo en nuestra propia fábrica. Te enviaremos fotos del taller cuando lo pidas. Nada de vueltas con empresas comerciales." },
-      { "title": "Seguro para niños", "desc": "Resina CE / EN71 / ASTM, pintura baja en COV, imprimaciones REACH-conformes, bordes seguros para niños. Probamos cada lote — no una vez al año por un certificado." },
-      { "title": "Menos pedidos, mejores", "desc": "No corremos tras cada trabajo. Elegimos clientes con los que estaríamos felices de seguir trabajando — y así tenemos menos desperdicio." },
-      { "title": "La opción más verde, por defecto", "desc": "Moldes de silicona reutilizables, bandejas internas reciclables, cajas de papel FSC, sin sobres plásticos. La opción más verde es la única que tenemos." }
+      {
+        "title": "Hecho por personas",
+        "desc": "Cada figura es vaciada, pintada a mano y terminada por una persona. Las pequeñas peculiaridades de pincelada que verás no son fallos — son cómo sabes que lo hizo un humano."
+      },
+      {
+        "title": "Sin intermediarios",
+        "desc": "Hacemos todo en nuestra propia fábrica. Te enviaremos fotos del taller cuando lo pidas. Nada de vueltas con empresas comerciales."
+      },
+      {
+        "title": "Seguro para niños",
+        "desc": "Resina CE / EN71 / ASTM, pintura baja en COV, imprimaciones REACH-conformes, bordes seguros para niños. Probamos cada lote — no una vez al año por un certificado."
+      },
+      {
+        "title": "Menos pedidos, mejores",
+        "desc": "No corremos tras cada trabajo. Elegimos clientes con los que estaríamos felices de seguir trabajando — y así tenemos menos desperdicio."
+      },
+      {
+        "title": "La opción más verde, por defecto",
+        "desc": "Moldes de silicona reutilizables, bandejas internas reciclables, cajas de papel FSC, sin sobres plásticos. La opción más verde es la única que tenemos."
+      }
     ],
     "peopleKicker": "Nuestra gente · Nuestro taller",
     "peopleTitle": "Buenas figuras empiezan con gente que está bien",
     "peopleIntro": "Pago justo. Horarios razonables. Un taller seguro, tranquilo y no tóxico. No es una lista de beneficios — es lo básico. Si nuestro equipo está bien, tu pedido tiende a salir bien también.",
     "commitments": [
-      { "title": "Pago justo, a tiempo", "desc": "Salarios por encima de la media local. Las horas extra se pagan como tales. Salarios al banco el día 10 de cada mes, cada mes." },
-      { "title": "Horarios razonables", "desc": "Jornadas de 8 horas. Horas extra solo si dices que sí. Días libres son días libres. No quemaremos al equipo por una fecha límite." },
-      { "title": "Un taller agradable", "desc": "Aire acondicionado, buena iluminación, sillas que no destrocen la espalda, máquinas que no son ruidosas. Invertimos en la sala antes que en la línea de producción." },
-      { "title": "Materiales no tóxicos", "desc": "Resinas, pinturas, imprimaciones y embalaje — todos seguros para la piel y bajos en COV. Los coleccionistas que manejan las figuras están protegidos, igual que las personas que las vacían y pintan todo el día." },
-      { "title": "Seguros, hechos correctamente", "desc": "Seguridad social, seguro médico, fondo de vivienda, chequeos anuales. Seguimos la ley al pie de la letra — para todos, cada año." },
-      { "title": "La familia primero", "desc": "Sal a tiempo. Toma tu vacaciones anuales. Llega a la obra escolar de tu hijo. Las figuras se harán igual — probablemente mejor, de hecho." }
+      {
+        "title": "Pago justo, a tiempo",
+        "desc": "Salarios por encima de la media local. Las horas extra se pagan como tales. Salarios al banco el día 10 de cada mes, cada mes."
+      },
+      {
+        "title": "Horarios razonables",
+        "desc": "Jornadas de 8 horas. Horas extra solo si dices que sí. Días libres son días libres. No quemaremos al equipo por una fecha límite."
+      },
+      {
+        "title": "Un taller agradable",
+        "desc": "Aire acondicionado, buena iluminación, sillas que no destrocen la espalda, máquinas que no son ruidosas. Invertimos en la sala antes que en la línea de producción."
+      },
+      {
+        "title": "Materiales no tóxicos",
+        "desc": "Resinas, pinturas, imprimaciones y embalaje — todos seguros para la piel y bajos en COV. Los coleccionistas que manejan las figuras están protegidos, igual que las personas que las vacían y pintan todo el día."
+      },
+      {
+        "title": "Seguros, hechos correctamente",
+        "desc": "Seguridad social, seguro médico, fondo de vivienda, chequeos anuales. Seguimos la ley al pie de la letra — para todos, cada año."
+      },
+      {
+        "title": "La familia primero",
+        "desc": "Sal a tiempo. Toma tu vacaciones anuales. Llega a la obra escolar de tu hijo. Las figuras se harán igual — probablemente mejor, de hecho."
+      }
     ],
     "manifestoTitle": "No somos un sweatshop. Nunca lo seremos.",
     "manifestoP1": "Nuestro trabajo es ayudarte a hacer un gran producto — y dejar que el equipo vuelva a casa a tiempo para cuidar el suyo. Cuando las personas que esculpen y pintan tus figuras se sienten descansadas y respetadas, las costuras quedan más limpias, el QA detecta más, y los pequeños detalles realmente sobreviven a la producción masiva.",
@@ -232,7 +447,14 @@
   "blog": {
     "heroTitle": "El Resin Journal",
     "heroSubtitle": "Historias de nuestro estudio de escultura, nuestra fundición y las marcas para las que hacemos. Más guías ocasionales para compradores primerizos de figuras de resina.",
-    "categories": ["Todo", "Tutorial", "Detrás de escenas", "Historias de marcas", "Materiales", "Sostenibilidad"],
+    "categories": [
+      "Todo",
+      "Tutorial",
+      "Detrás de escenas",
+      "Historias de marcas",
+      "Materiales",
+      "Sostenibilidad"
+    ],
     "featuredKicker": "Destacado",
     "moreTitle": "Más historias",
     "loadMore": "Cargar más",
@@ -249,12 +471,42 @@
       "tag": "Detrás de escenas"
     },
     "posts": [
-      { "title": "Por qué un MOQ bajo importa para artistas de designer toys indie", "date": "28 abr. 2026", "read": "5 min", "tag": "Tutorial" },
-      { "title": "Eligiendo la resina correcta: poliuretano vs. polystone", "date": "14 abr. 2026", "read": "6 min", "tag": "Materiales" },
-      { "title": "Detrás de un lanzamiento de estatua: la historia de la mascota North Park", "date": "2 abr. 2026", "read": "7 min", "tag": "Historias de marcas" },
-      { "title": "Resina reciclada, resultados reales: nuestros números 2025", "date": "21 mar. 2026", "read": "4 min", "tag": "Sostenibilidad" },
-      { "title": "Aerógrafo vs. pincel a mano: cuándo usar qué", "date": "9 mar. 2026", "read": "5 min", "tag": "Materiales" },
-      { "title": "Cómo los equipos de E-Sports usan figuras de resina personalizadas en drops", "date": "24 feb. 2026", "read": "6 min", "tag": "Historias de marcas" }
+      {
+        "title": "Por qué un MOQ bajo importa para artistas de designer toys indie",
+        "date": "28 abr. 2026",
+        "read": "5 min",
+        "tag": "Tutorial"
+      },
+      {
+        "title": "Eligiendo la resina correcta: poliuretano vs. polystone",
+        "date": "14 abr. 2026",
+        "read": "6 min",
+        "tag": "Materiales"
+      },
+      {
+        "title": "Detrás de un lanzamiento de estatua: la historia de la mascota North Park",
+        "date": "2 abr. 2026",
+        "read": "7 min",
+        "tag": "Historias de marcas"
+      },
+      {
+        "title": "Resina reciclada, resultados reales: nuestros números 2025",
+        "date": "21 mar. 2026",
+        "read": "4 min",
+        "tag": "Sostenibilidad"
+      },
+      {
+        "title": "Aerógrafo vs. pincel a mano: cuándo usar qué",
+        "date": "9 mar. 2026",
+        "read": "5 min",
+        "tag": "Materiales"
+      },
+      {
+        "title": "Cómo los equipos de E-Sports usan figuras de resina personalizadas en drops",
+        "date": "24 feb. 2026",
+        "read": "6 min",
+        "tag": "Historias de marcas"
+      }
     ]
   },
   "contact": {
@@ -272,11 +524,38 @@
       "submit": "Enviar consulta",
       "required": "*"
     },
-    "productTypes": ["Mascota", "Designer Toy / Art Toy", "Estatua / Kit GK", "Serie Blind Box", "Bobblehead", "Llavero de resina", "Diorama / Base", "Otro"],
-    "quantities": ["100 – 300", "300 – 1.000", "1.000 – 5.000", "5.000 – 10.000", "10.000+ (a discutir)", "No estoy seguro"],
+    "productTypes": [
+      "Mascota",
+      "Designer Toy / Art Toy",
+      "Estatua / Kit GK",
+      "Serie Blind Box",
+      "Bobblehead",
+      "Llavero de resina",
+      "Diorama / Base",
+      "Otro"
+    ],
+    "quantities": [
+      "100 – 300",
+      "300 – 1.000",
+      "1.000 – 5.000",
+      "5.000 – 10.000",
+      "10.000+ (a discutir)",
+      "No estoy seguro"
+    ],
     "asideTitle": "Otras formas de contactarnos",
-    "labels": { "email": "Email", "phone": "Teléfono / WhatsApp", "company": "Empresa", "address": "Dirección", "hours": "Horario" },
+    "labels": {
+      "email": "Email",
+      "phone": "Teléfono / WhatsApp",
+      "company": "Empresa",
+      "address": "Dirección",
+      "hours": "Horario"
+    },
     "hours": "Lun–Vie  09:00 – 18:00 (UTC+8)",
-    "privacy": "Al enviar aceptas nuestra política de privacidad. Nunca compartiremos tus datos de contacto con terceros."
+    "privacy": "Al enviar aceptas nuestra política de privacidad. Nunca compartiremos tus datos de contacto con terceros.",
+    "states": {
+      "sending": "Enviando...",
+      "success": "¡Gracias! Hemos recibido tu consulta — nuestro equipo responderá en 24 horas.",
+      "error": "Algo salió mal. Inténtalo de nuevo o escribe directamente a henry@resin-factory.com."
+    }
   }
 }

@@ -3,12 +3,30 @@
     "siteName": "Resin Factory",
     "tagline": "Maßgeschneiderte Resin-Figuren für Marken und IP",
     "defaultDescription": "B2B-Hersteller maßgeschneiderter Resin-Figuren in Shenzhen. Modellieren, Formenbau, Gießen und Handbemalung unter einem Dach. Niedrige MOQ ab 100 Stück, kostenloses 3D-Sculpting, CE/EN71/ASTM-geprüft, weltweiter Versand.",
-    "products": { "title": "Maßgeschneiderte Resin-Figuren — Statuen, Designer Toys, Blind Box", "description": "Maskottchenfiguren, Designer Toys, Statuen, GK-Kits, Blind-Box-Serien, Wackelköpfe, Resin-Anhänger, Dioramen und Großserien. Maßgeschneiderte Resin-Fertigung für Marken und IP — modelliert, gegossen und handbemalt in unserer Fabrik in Shenzhen." },
-    "portfolio": { "title": "Portfolio — Fallstudien maßgeschneiderter Resin-Figuren", "description": "Ausgewählte Arbeiten für globale Marken, IP-Lizenzgeber, Designer-Toy-Künstler, Museen und Wohltätigkeitsorganisationen. Jede Figur in unserer Fabrik in Shenzhen modelliert, gegossen und handbemalt." },
-    "about": { "title": "Über uns — Shenzhen Heli Toys (Resin Factory)", "description": "Eine 50-köpfige Werkstatt aus Bildhauern, Formenbauern, Gießern, Malern und QA in Shenzhen — wir verwandeln Ideen seit 2013 in handbemalte Resin-Figuren. Lieferung an Marken in über 25 Ländern." },
-    "values": { "title": "Unsere Werte — Werkstattstandards & Mitarbeiterfürsorge", "description": "Faire Bezahlung, vernünftige Arbeitszeiten, ungiftige Materialien, CE/EN71/ASTM-Prüfung jeder Charge. Warum eine gut geführte Werkstatt bessere Resin-Figuren für Ihre Marke produziert." },
-    "blog": { "title": "Das Resin Journal — Geschichten aus unserem Modellier-Studio", "description": "Hintergrundgeschichten aus unserem Modellier-Studio und der Gießerei sowie Anleitungen für Erstkäufer von Resin-Figuren." },
-    "contact": { "title": "Kontakt — Kostenloses 3D-Mock-up & Angebot", "description": "Erzählen Sie uns von Ihrem Projekt — unsere Bildhauer antworten innerhalb von 24 Stunden mit einem kostenlosen 3D-Mock-up und Angebot." }
+    "products": {
+      "title": "Maßgeschneiderte Resin-Figuren — Statuen, Designer Toys, Blind Box",
+      "description": "Maskottchenfiguren, Designer Toys, Statuen, GK-Kits, Blind-Box-Serien, Wackelköpfe, Resin-Anhänger, Dioramen und Großserien. Maßgeschneiderte Resin-Fertigung für Marken und IP — modelliert, gegossen und handbemalt in unserer Fabrik in Shenzhen."
+    },
+    "portfolio": {
+      "title": "Portfolio — Fallstudien maßgeschneiderter Resin-Figuren",
+      "description": "Ausgewählte Arbeiten für globale Marken, IP-Lizenzgeber, Designer-Toy-Künstler, Museen und Wohltätigkeitsorganisationen. Jede Figur in unserer Fabrik in Shenzhen modelliert, gegossen und handbemalt."
+    },
+    "about": {
+      "title": "Über uns — Shenzhen Heli Toys (Resin Factory)",
+      "description": "Eine 50-köpfige Werkstatt aus Bildhauern, Formenbauern, Gießern, Malern und QA in Shenzhen — wir verwandeln Ideen seit 2013 in handbemalte Resin-Figuren. Lieferung an Marken in über 25 Ländern."
+    },
+    "values": {
+      "title": "Unsere Werte — Werkstattstandards & Mitarbeiterfürsorge",
+      "description": "Faire Bezahlung, vernünftige Arbeitszeiten, ungiftige Materialien, CE/EN71/ASTM-Prüfung jeder Charge. Warum eine gut geführte Werkstatt bessere Resin-Figuren für Ihre Marke produziert."
+    },
+    "blog": {
+      "title": "Das Resin Journal — Geschichten aus unserem Modellier-Studio",
+      "description": "Hintergrundgeschichten aus unserem Modellier-Studio und der Gießerei sowie Anleitungen für Erstkäufer von Resin-Figuren."
+    },
+    "contact": {
+      "title": "Kontakt — Kostenloses 3D-Mock-up & Angebot",
+      "description": "Erzählen Sie uns von Ihrem Projekt — unsere Bildhauer antworten innerhalb von 24 Stunden mit einem kostenlosen 3D-Mock-up und Angebot."
+    }
   },
   "header": {
     "brand": "Resin Factory",
@@ -72,14 +90,38 @@
     "subtitle": "Echte Geschichten von Marken, IP-Studios und Indie-Designern, mit denen wir gearbeitet haben."
   },
   "customers": [
-    { "name": "Sarah", "caption": "Verwandelte unser Konzept in eine 1/7 Resin-Statue." },
-    { "name": "Michael", "caption": "Designer-Toy-Serie für unseren Convention-Drop." },
-    { "name": "Lily", "caption": "Marken-Maskottchen aus Resin — Farben perfekt getroffen." },
-    { "name": "James", "caption": "Limitierte Blind Box für unseren Retail-Launch." },
-    { "name": "Anna", "caption": "Handbemaltes GK-Kit für unsere IP-Kollaboration." },
-    { "name": "David", "caption": "OC-Chibi-Figur für einen Anime-Studio-Stand." },
-    { "name": "Emily", "caption": "Wackelkopf-Auflage für eine Firmen-Geschenkkampagne." },
-    { "name": "Tom", "caption": "Großproduktion für einen Museumsshop-SKU." }
+    {
+      "name": "Sarah",
+      "caption": "Verwandelte unser Konzept in eine 1/7 Resin-Statue."
+    },
+    {
+      "name": "Michael",
+      "caption": "Designer-Toy-Serie für unseren Convention-Drop."
+    },
+    {
+      "name": "Lily",
+      "caption": "Marken-Maskottchen aus Resin — Farben perfekt getroffen."
+    },
+    {
+      "name": "James",
+      "caption": "Limitierte Blind Box für unseren Retail-Launch."
+    },
+    {
+      "name": "Anna",
+      "caption": "Handbemaltes GK-Kit für unsere IP-Kollaboration."
+    },
+    {
+      "name": "David",
+      "caption": "OC-Chibi-Figur für einen Anime-Studio-Stand."
+    },
+    {
+      "name": "Emily",
+      "caption": "Wackelkopf-Auflage für eine Firmen-Geschenkkampagne."
+    },
+    {
+      "name": "Tom",
+      "caption": "Großproduktion für einen Museumsshop-SKU."
+    }
   ],
   "magicalCreations": {
     "kicker": "Von den Sammlern",
@@ -99,12 +141,30 @@
     "title": "Vom einzelnen Maskottchen zur weltweiten Retail-Auflage",
     "subtitle": "Sechs Dinge, zu denen wir immer ja sagen.",
     "features": [
-      { "title": "Niedrige MOQ", "desc": "Resin-Auflagen ab 100 Stück. Keine riesigen Mindestmengen, kein aufgeblähtes Risiko für Indie-Launches." },
-      { "title": "Kostenloses 3D-Sculpting", "desc": "Schicken Sie uns eine Skizze, ein Foto oder ein Briefing — unsere internen Bildhauer liefern ein druckfertiges 3D-Modell und einen physischen Master kostenlos." },
-      { "title": "CE / EN71 / ASTM-geprüft", "desc": "Resin, Farbe und Verpackung nach internationalen Spielzeug-Sicherheitsstandards getestet (CE, EN71, ASTM F963, REACH). Retail-bereit." },
-      { "title": "Eigene Fabrik", "desc": "Wir lagern nicht aus. Modellieren, Formenbau, Gießen, Handbemalung und Verpackung — alles unter einem Dach für engere QA." },
-      { "title": "Pünktliche Lieferung", "desc": "Durchschnittlich 35 Tage Produktion ab freigegebenem Master. Verfolgte Meilensteine — modellieren, formen, gießen, bemalen, verpacken — den ganzen Weg." },
-      { "title": "Flexible Zahlung", "desc": "30 % Anzahlung, 70 % vor Versand. Trade Assurance & Banküberweisung akzeptiert — schonend für den Cashflow." }
+      {
+        "title": "Niedrige MOQ",
+        "desc": "Resin-Auflagen ab 100 Stück. Keine riesigen Mindestmengen, kein aufgeblähtes Risiko für Indie-Launches."
+      },
+      {
+        "title": "Kostenloses 3D-Sculpting",
+        "desc": "Schicken Sie uns eine Skizze, ein Foto oder ein Briefing — unsere internen Bildhauer liefern ein druckfertiges 3D-Modell und einen physischen Master kostenlos."
+      },
+      {
+        "title": "CE / EN71 / ASTM-geprüft",
+        "desc": "Resin, Farbe und Verpackung nach internationalen Spielzeug-Sicherheitsstandards getestet (CE, EN71, ASTM F963, REACH). Retail-bereit."
+      },
+      {
+        "title": "Eigene Fabrik",
+        "desc": "Wir lagern nicht aus. Modellieren, Formenbau, Gießen, Handbemalung und Verpackung — alles unter einem Dach für engere QA."
+      },
+      {
+        "title": "Pünktliche Lieferung",
+        "desc": "Durchschnittlich 35 Tage Produktion ab freigegebenem Master. Verfolgte Meilensteine — modellieren, formen, gießen, bemalen, verpacken — den ganzen Weg."
+      },
+      {
+        "title": "Flexible Zahlung",
+        "desc": "30 % Anzahlung, 70 % vor Versand. Trade Assurance & Banküberweisung akzeptiert — schonend für den Cashflow."
+      }
     ]
   },
   "footer": {
@@ -116,18 +176,48 @@
     "ctaButton": "Kontaktieren Sie uns",
     "rights": "Alle Rechte vorbehalten.",
     "linksServices": [
-      { "label": "Kostenloses 3D-Sculpting", "href": "/products" },
-      { "label": "Prozess", "href": "/products" },
-      { "label": "Materialien", "href": "/products" },
-      { "label": "Zertifikate", "href": "/values" },
-      { "label": "FAQ", "href": "/contact" },
-      { "label": "Großproduktion", "href": "/products" }
+      {
+        "label": "Kostenloses 3D-Sculpting",
+        "href": "/products"
+      },
+      {
+        "label": "Prozess",
+        "href": "/products"
+      },
+      {
+        "label": "Materialien",
+        "href": "/products"
+      },
+      {
+        "label": "Zertifikate",
+        "href": "/values"
+      },
+      {
+        "label": "FAQ",
+        "href": "/contact"
+      },
+      {
+        "label": "Großproduktion",
+        "href": "/products"
+      }
     ],
     "linksMore": [
-      { "label": "Nutzungsbedingungen", "href": "/contact" },
-      { "label": "Datenschutz", "href": "/contact" },
-      { "label": "Versand", "href": "/contact" },
-      { "label": "Newsletter", "href": "/contact" }
+      {
+        "label": "Nutzungsbedingungen",
+        "href": "/contact"
+      },
+      {
+        "label": "Datenschutz",
+        "href": "/contact"
+      },
+      {
+        "label": "Versand",
+        "href": "/contact"
+      },
+      {
+        "label": "Newsletter",
+        "href": "/contact"
+      }
     ]
   },
   "whatsapp": {
@@ -142,35 +232,103 @@
     "ctaText": "Schicken Sie uns Ihr Konzept und unsere Bildhauer antworten innerhalb von 24 Stunden mit einem kostenlosen 3D-Mock-up und Angebot.",
     "ctaButton": "Angebot anfordern",
     "items": [
-      { "title": "Maskottchenfiguren", "desc": "Erwecken Sie Ihr Marken-Maskottchen als handbemalte Resin-Figur zum Leben — perfekt für Retail, Sportteams, IP-Lizenzen." },
-      { "title": "Designer Toys / Art Toys", "desc": "Limitierte Designer Toys für Galerien, Conventions und Indie-Künstler-Drops." },
-      { "title": "Statuen & GK-Kits", "desc": "1/8 bis 1/4-Maßstab Resin-Statuen, Polystone-Display-Stücke und unbemalte GK-Kits für Sammler." },
-      { "title": "Blind-Box-Serien", "desc": "Komplette Blind-Box-Serienproduktion — modellieren, formen, gießen, bemalen, verpacken und Inneneinlage." },
-      { "title": "Wackelköpfe", "desc": "Maßgeschneiderte Wackelköpfe von Foto oder Skizze — Firmen-Geschenke, Sport-Promos, Fan-Merch." },
-      { "title": "Resin-Schlüsselanhänger", "desc": "Mini-Resin-Anhänger und Schlüsselanhänger für Retail-Blind-Packs, Marken-Kampagnen und Event-Giveaways." },
-      { "title": "Dioramen & Display-Sockel", "desc": "Themen-Dioramen, Display-Sockel und Umgebungs-Props, die jede Figur von gut zu galeriewürdig heben." },
-      { "title": "Großproduktion", "desc": "Auflagen von mehreren Tausend Einheiten mit voller QA, Verpackung und weltweitem Versand." }
+      {
+        "title": "Maskottchenfiguren",
+        "desc": "Erwecken Sie Ihr Marken-Maskottchen als handbemalte Resin-Figur zum Leben — perfekt für Retail, Sportteams, IP-Lizenzen."
+      },
+      {
+        "title": "Designer Toys / Art Toys",
+        "desc": "Limitierte Designer Toys für Galerien, Conventions und Indie-Künstler-Drops."
+      },
+      {
+        "title": "Statuen & GK-Kits",
+        "desc": "1/8 bis 1/4-Maßstab Resin-Statuen, Polystone-Display-Stücke und unbemalte GK-Kits für Sammler."
+      },
+      {
+        "title": "Blind-Box-Serien",
+        "desc": "Komplette Blind-Box-Serienproduktion — modellieren, formen, gießen, bemalen, verpacken und Inneneinlage."
+      },
+      {
+        "title": "Wackelköpfe",
+        "desc": "Maßgeschneiderte Wackelköpfe von Foto oder Skizze — Firmen-Geschenke, Sport-Promos, Fan-Merch."
+      },
+      {
+        "title": "Resin-Schlüsselanhänger",
+        "desc": "Mini-Resin-Anhänger und Schlüsselanhänger für Retail-Blind-Packs, Marken-Kampagnen und Event-Giveaways."
+      },
+      {
+        "title": "Dioramen & Display-Sockel",
+        "desc": "Themen-Dioramen, Display-Sockel und Umgebungs-Props, die jede Figur von gut zu galeriewürdig heben."
+      },
+      {
+        "title": "Großproduktion",
+        "desc": "Auflagen von mehreren Tausend Einheiten mit voller QA, Verpackung und weltweitem Versand."
+      }
     ]
   },
   "portfolio": {
     "heroTitle": "Portfolio",
     "heroSubtitle": "Ausgewählte Arbeiten für globale Marken, IP-Lizenzgeber, Designer-Toy-Künstler, Museen und Wohltätigkeitsorganisationen — jede Figur in unserer Fabrik modelliert, gegossen und handbemalt.",
-    "filters": ["Alle", "Marken", "IP / Animation", "Designer Toys", "Wohltätigkeit", "E-Sports", "Museen & Galerien"],
+    "filters": [
+      "Alle",
+      "Marken",
+      "IP / Animation",
+      "Designer Toys",
+      "Wohltätigkeit",
+      "E-Sports",
+      "Museen & Galerien"
+    ],
     "ctaTitle": "Möchten Sie unsere nächste Fallstudie sein?",
     "ctaButton": "Projekt starten",
     "cases": [
-      { "title": "Retail-Maskottchen-Statue — North Park", "tag": "Marken" },
-      { "title": "Indie Designer Toy Drop", "tag": "Designer Toys" },
-      { "title": "Anime-IP 1/7-Statue — Studio S", "tag": "IP / Animation" },
-      { "title": "Coffee-Chain-Resin-Promo", "tag": "Marken" },
-      { "title": "Krankenhaus-Spendenserie", "tag": "Wohltätigkeit" },
-      { "title": "E-Sports-Team-Wackelkopf", "tag": "E-Sports" },
-      { "title": "Toy-Brand-Blind-Box-SKU", "tag": "Marken" },
-      { "title": "Museumsshop-Diorama", "tag": "Museen & Galerien" },
-      { "title": "Convention-Resin-Drop", "tag": "IP / Animation" },
-      { "title": "Galerie-Limited-Edition-Statue", "tag": "Museen & Galerien" },
-      { "title": "Wohltätigkeitsauktion-Resin-Set", "tag": "Wohltätigkeit" },
-      { "title": "Game-Studio-Sammlerfigur", "tag": "E-Sports" }
+      {
+        "title": "Retail-Maskottchen-Statue — North Park",
+        "tag": "Marken"
+      },
+      {
+        "title": "Indie Designer Toy Drop",
+        "tag": "Designer Toys"
+      },
+      {
+        "title": "Anime-IP 1/7-Statue — Studio S",
+        "tag": "IP / Animation"
+      },
+      {
+        "title": "Coffee-Chain-Resin-Promo",
+        "tag": "Marken"
+      },
+      {
+        "title": "Krankenhaus-Spendenserie",
+        "tag": "Wohltätigkeit"
+      },
+      {
+        "title": "E-Sports-Team-Wackelkopf",
+        "tag": "E-Sports"
+      },
+      {
+        "title": "Toy-Brand-Blind-Box-SKU",
+        "tag": "Marken"
+      },
+      {
+        "title": "Museumsshop-Diorama",
+        "tag": "Museen & Galerien"
+      },
+      {
+        "title": "Convention-Resin-Drop",
+        "tag": "IP / Animation"
+      },
+      {
+        "title": "Galerie-Limited-Edition-Statue",
+        "tag": "Museen & Galerien"
+      },
+      {
+        "title": "Wohltätigkeitsauktion-Resin-Set",
+        "tag": "Wohltätigkeit"
+      },
+      {
+        "title": "Game-Studio-Sammlerfigur",
+        "tag": "E-Sports"
+      }
     ]
   },
   "about": {
@@ -181,19 +339,43 @@
     "storyP1": "Wir starteten 2013 mit einer Silikonform, einer einzigen Airbrush und einem Stapel Konzeptskizzen auf einem Couchtisch. Zwölf Jahre später sind wir immer noch klein — etwa 50 Personen in einer 1.200㎡-Werkstatt — aber wir liefern nun für Marken in über 25 Ländern.",
     "storyP2": "Wir bemalen jede Figur von Hand. Wir behandeln jede Bestellung — 100 Stück oder 10.000 — wie die wichtigste Bestellung des Tages. Denn für jemanden, irgendwo, ist sie es.",
     "stats": [
-      { "num": "50+", "label": "Teammitglieder" },
-      { "num": "1.200㎡", "label": "Werkstattfläche" },
-      { "num": "50.000+", "label": "Ausgelieferte Resin-Figuren" },
-      { "num": "150+", "label": "Marken in 25+ Ländern" }
+      {
+        "num": "50+",
+        "label": "Teammitglieder"
+      },
+      {
+        "num": "1.200㎡",
+        "label": "Werkstattfläche"
+      },
+      {
+        "num": "50.000+",
+        "label": "Ausgelieferte Resin-Figuren"
+      },
+      {
+        "num": "150+",
+        "label": "Marken in 25+ Ländern"
+      }
     ],
     "workshopTitle": "In unserer Werkstatt",
     "workshopSubtitle": "Wir lagern nicht aus. Jeder Schritt findet in unserer eigenen Einrichtung statt — damit wir hinter jedem Pinselstrich stehen können.",
     "teamTitle": "Die Menschen hinter den Figuren",
     "team": [
-      { "name": "Jesse Wong", "role": "Gründer & CEO" },
-      { "name": "Emily Lin", "role": "Chef-Bildhauerin" },
-      { "name": "Marco Chen", "role": "Produktionsleiter" },
-      { "name": "Sara Patel", "role": "Client Success Lead" }
+      {
+        "name": "Jesse Wong",
+        "role": "Gründer & CEO"
+      },
+      {
+        "name": "Emily Lin",
+        "role": "Chef-Bildhauerin"
+      },
+      {
+        "name": "Marco Chen",
+        "role": "Produktionsleiter"
+      },
+      {
+        "name": "Sara Patel",
+        "role": "Client Success Lead"
+      }
     ],
     "ctaButton": "Mit uns arbeiten"
   },
@@ -203,22 +385,55 @@
     "principlesKicker": "Studio-Prinzipien",
     "principlesTitle": "Fünf Dinge, die wir immer tun",
     "principles": [
-      { "title": "Von Menschen gemacht", "desc": "Jede Figur wird von einer Person gegossen, handbemalt und finalisiert. Die kleinen Pinselstrich-Eigenheiten sind keine Fehler — sie zeigen, dass ein Mensch sie gemacht hat." },
-      { "title": "Keine Zwischenhändler", "desc": "Wir machen alles in unserer eigenen Fabrik. Wir schicken Ihnen jederzeit Fotos vom Werkstattboden. Kein Handelsfirmen-Hin-und-Her." },
-      { "title": "Sicher genug für Kinder", "desc": "CE / EN71 / ASTM-Resin, VOC-arme Farbe, REACH-konforme Grundierungen, kindersichere Kanten. Wir testen jede Charge — nicht einmal im Jahr für ein Zertifikat." },
-      { "title": "Weniger, bessere Aufträge", "desc": "Wir jagen nicht jedem Auftrag hinterher. Wir wählen Kunden aus, mit denen wir gerne weiterarbeiten — und haben dadurch weniger Verschwendung." },
-      { "title": "Die grünere Option, standardmäßig", "desc": "Wiederverwendbare Silikonformen, recycelbare Inneneinlagen, FSC-Papierboxen, keine Plastikmailer. Die grünere Option ist die einzige, die wir lagern." }
+      {
+        "title": "Von Menschen gemacht",
+        "desc": "Jede Figur wird von einer Person gegossen, handbemalt und finalisiert. Die kleinen Pinselstrich-Eigenheiten sind keine Fehler — sie zeigen, dass ein Mensch sie gemacht hat."
+      },
+      {
+        "title": "Keine Zwischenhändler",
+        "desc": "Wir machen alles in unserer eigenen Fabrik. Wir schicken Ihnen jederzeit Fotos vom Werkstattboden. Kein Handelsfirmen-Hin-und-Her."
+      },
+      {
+        "title": "Sicher genug für Kinder",
+        "desc": "CE / EN71 / ASTM-Resin, VOC-arme Farbe, REACH-konforme Grundierungen, kindersichere Kanten. Wir testen jede Charge — nicht einmal im Jahr für ein Zertifikat."
+      },
+      {
+        "title": "Weniger, bessere Aufträge",
+        "desc": "Wir jagen nicht jedem Auftrag hinterher. Wir wählen Kunden aus, mit denen wir gerne weiterarbeiten — und haben dadurch weniger Verschwendung."
+      },
+      {
+        "title": "Die grünere Option, standardmäßig",
+        "desc": "Wiederverwendbare Silikonformen, recycelbare Inneneinlagen, FSC-Papierboxen, keine Plastikmailer. Die grünere Option ist die einzige, die wir lagern."
+      }
     ],
     "peopleKicker": "Unsere Menschen · Unsere Werkstatt",
     "peopleTitle": "Gute Figuren beginnen mit Menschen, denen es gut geht",
     "peopleIntro": "Faire Bezahlung. Vernünftige Arbeitszeiten. Eine Werkstatt, die sicher, ruhig und ungiftig ist. Das ist keine Vergünstigungsliste — das sind die Grundlagen. Wenn es unserem Team gut geht, wird auch Ihre Bestellung gut.",
     "commitments": [
-      { "title": "Faire Bezahlung, pünktlich", "desc": "Löhne über dem lokalen Median. Überstunden werden als Überstunden bezahlt. Gehälter erreichen die Bank am 10. jedes Monats, jeden Monat." },
-      { "title": "Vernünftige Arbeitszeiten", "desc": "8-Stunden-Tage. Überstunden nur, wenn Sie ja sagen. Freie Tage bedeuten freie Tage. Wir verbrennen das Team nicht für eine Deadline." },
-      { "title": "Eine Werkstatt, in der man gerne ist", "desc": "Klimaanlage, gute Beleuchtung, Stühle, die nicht den Rücken ruinieren, Maschinen, die nicht laut sind. Wir haben in den Raum investiert, bevor wir in die Produktionslinie investiert haben." },
-      { "title": "Ungiftige Materialien", "desc": "Resine, Farben, Grundierungen und Verpackung — alle hautsicher und VOC-arm. Sammler, die die Figuren handhaben, sind geschützt, ebenso die Menschen, die sie den ganzen Tag gießen und bemalen." },
-      { "title": "Versicherung, ordnungsgemäß", "desc": "Sozialversicherung, Krankenversicherung, Wohnungsfonds, jährliche Gesundheitschecks. Wir folgen dem Gesetz Buchstaben für Buchstaben — für jeden, jedes Jahr." },
-      { "title": "Familie zuerst", "desc": "Pünktlich nach Hause. Nehmen Sie Ihren Jahresurlaub. Schaffen Sie es zur Schulaufführung Ihres Kindes. Die Figuren werden trotzdem gemacht — wahrscheinlich sogar besser." }
+      {
+        "title": "Faire Bezahlung, pünktlich",
+        "desc": "Löhne über dem lokalen Median. Überstunden werden als Überstunden bezahlt. Gehälter erreichen die Bank am 10. jedes Monats, jeden Monat."
+      },
+      {
+        "title": "Vernünftige Arbeitszeiten",
+        "desc": "8-Stunden-Tage. Überstunden nur, wenn Sie ja sagen. Freie Tage bedeuten freie Tage. Wir verbrennen das Team nicht für eine Deadline."
+      },
+      {
+        "title": "Eine Werkstatt, in der man gerne ist",
+        "desc": "Klimaanlage, gute Beleuchtung, Stühle, die nicht den Rücken ruinieren, Maschinen, die nicht laut sind. Wir haben in den Raum investiert, bevor wir in die Produktionslinie investiert haben."
+      },
+      {
+        "title": "Ungiftige Materialien",
+        "desc": "Resine, Farben, Grundierungen und Verpackung — alle hautsicher und VOC-arm. Sammler, die die Figuren handhaben, sind geschützt, ebenso die Menschen, die sie den ganzen Tag gießen und bemalen."
+      },
+      {
+        "title": "Versicherung, ordnungsgemäß",
+        "desc": "Sozialversicherung, Krankenversicherung, Wohnungsfonds, jährliche Gesundheitschecks. Wir folgen dem Gesetz Buchstaben für Buchstaben — für jeden, jedes Jahr."
+      },
+      {
+        "title": "Familie zuerst",
+        "desc": "Pünktlich nach Hause. Nehmen Sie Ihren Jahresurlaub. Schaffen Sie es zur Schulaufführung Ihres Kindes. Die Figuren werden trotzdem gemacht — wahrscheinlich sogar besser."
+      }
     ],
     "manifestoTitle": "Wir sind kein Sweatshop. Wir werden es niemals sein.",
     "manifestoP1": "Unsere Aufgabe ist es, Ihnen zu helfen, ein großartiges Produkt zu machen — und dem Team zu erlauben, rechtzeitig nach Hause zu gehen, um sich um seines zu kümmern. Wenn die Menschen, die Ihre Figuren modellieren und bemalen, ausgeruht und respektiert sind, sitzen die Nähte sauberer, fängt die QA mehr und die kleinen Details überleben tatsächlich in der Massenproduktion.",
@@ -232,7 +447,14 @@
   "blog": {
     "heroTitle": "Das Resin Journal",
     "heroSubtitle": "Geschichten aus unserem Modellier-Studio, unserer Gießerei und den Marken, für die wir produzieren. Plus gelegentliche Anleitungen für Erstkäufer von Resin-Figuren.",
-    "categories": ["Alle", "Anleitung", "Hinter den Kulissen", "Markengeschichten", "Materialien", "Nachhaltigkeit"],
+    "categories": [
+      "Alle",
+      "Anleitung",
+      "Hinter den Kulissen",
+      "Markengeschichten",
+      "Materialien",
+      "Nachhaltigkeit"
+    ],
     "featuredKicker": "Hervorgehoben",
     "moreTitle": "Mehr Geschichten",
     "loadMore": "Mehr laden",
@@ -249,12 +471,42 @@
       "tag": "Hinter den Kulissen"
     },
     "posts": [
-      { "title": "Warum niedrige MOQ für Indie-Designer-Toy-Künstler wichtig ist", "date": "28. Apr. 2026", "read": "5 Min.", "tag": "Anleitung" },
-      { "title": "Das richtige Resin wählen: Polyurethan vs. Polystone", "date": "14. Apr. 2026", "read": "6 Min.", "tag": "Materialien" },
-      { "title": "Hinter einem Statuen-Launch: Die North-Park-Maskottchen-Geschichte", "date": "2. Apr. 2026", "read": "7 Min.", "tag": "Markengeschichten" },
-      { "title": "Recycling-Resin, echte Ergebnisse: Unsere Zahlen 2025", "date": "21. März 2026", "read": "4 Min.", "tag": "Nachhaltigkeit" },
-      { "title": "Airbrush vs. Handpinsel: Wann was verwenden", "date": "9. März 2026", "read": "5 Min.", "tag": "Materialien" },
-      { "title": "Wie E-Sports-Teams maßgeschneiderte Resin-Figuren bei Drops einsetzen", "date": "24. Feb. 2026", "read": "6 Min.", "tag": "Markengeschichten" }
+      {
+        "title": "Warum niedrige MOQ für Indie-Designer-Toy-Künstler wichtig ist",
+        "date": "28. Apr. 2026",
+        "read": "5 Min.",
+        "tag": "Anleitung"
+      },
+      {
+        "title": "Das richtige Resin wählen: Polyurethan vs. Polystone",
+        "date": "14. Apr. 2026",
+        "read": "6 Min.",
+        "tag": "Materialien"
+      },
+      {
+        "title": "Hinter einem Statuen-Launch: Die North-Park-Maskottchen-Geschichte",
+        "date": "2. Apr. 2026",
+        "read": "7 Min.",
+        "tag": "Markengeschichten"
+      },
+      {
+        "title": "Recycling-Resin, echte Ergebnisse: Unsere Zahlen 2025",
+        "date": "21. März 2026",
+        "read": "4 Min.",
+        "tag": "Nachhaltigkeit"
+      },
+      {
+        "title": "Airbrush vs. Handpinsel: Wann was verwenden",
+        "date": "9. März 2026",
+        "read": "5 Min.",
+        "tag": "Materialien"
+      },
+      {
+        "title": "Wie E-Sports-Teams maßgeschneiderte Resin-Figuren bei Drops einsetzen",
+        "date": "24. Feb. 2026",
+        "read": "6 Min.",
+        "tag": "Markengeschichten"
+      }
     ]
   },
   "contact": {
@@ -272,11 +524,38 @@
       "submit": "Anfrage senden",
       "required": "*"
     },
-    "productTypes": ["Maskottchenfigur", "Designer Toy / Art Toy", "Statue / GK-Kit", "Blind-Box-Serie", "Wackelkopf", "Resin-Schlüsselanhänger", "Diorama / Display-Sockel", "Sonstiges"],
-    "quantities": ["100 – 300", "300 – 1.000", "1.000 – 5.000", "5.000 – 10.000", "10.000+ (besprechen wir)", "Noch nicht sicher"],
+    "productTypes": [
+      "Maskottchenfigur",
+      "Designer Toy / Art Toy",
+      "Statue / GK-Kit",
+      "Blind-Box-Serie",
+      "Wackelkopf",
+      "Resin-Schlüsselanhänger",
+      "Diorama / Display-Sockel",
+      "Sonstiges"
+    ],
+    "quantities": [
+      "100 – 300",
+      "300 – 1.000",
+      "1.000 – 5.000",
+      "5.000 – 10.000",
+      "10.000+ (besprechen wir)",
+      "Noch nicht sicher"
+    ],
     "asideTitle": "Andere Wege, uns zu erreichen",
-    "labels": { "email": "E-Mail", "phone": "Telefon / WhatsApp", "company": "Unternehmen", "address": "Adresse", "hours": "Öffnungszeiten" },
+    "labels": {
+      "email": "E-Mail",
+      "phone": "Telefon / WhatsApp",
+      "company": "Unternehmen",
+      "address": "Adresse",
+      "hours": "Öffnungszeiten"
+    },
     "hours": "Mo–Fr  09:00 – 18:00 (UTC+8)",
-    "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu. Wir geben Ihre Kontaktdaten niemals an Dritte weiter."
+    "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu. Wir geben Ihre Kontaktdaten niemals an Dritte weiter.",
+    "states": {
+      "sending": "Wird gesendet...",
+      "success": "Danke! Wir haben Ihre Anfrage erhalten — unser Team antwortet innerhalb von 24 Stunden.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie direkt an henry@resin-factory.com."
+    }
   }
 }
