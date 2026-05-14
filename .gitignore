@@ -6,8 +6,9 @@ node_modules
 # testing
 coverage
 
-# next.js
-.next/
+# next.js — 不忽略整个 .next/(让本地编译产物可以推到 Hostinger),只忽略缓存
+.next/cache/
+.next/trace
 out/
 
 # production

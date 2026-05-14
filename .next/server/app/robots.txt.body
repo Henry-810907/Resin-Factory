@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://resin-factory.com
+Sitemap: https://resin-factory.com/sitemap.xml
