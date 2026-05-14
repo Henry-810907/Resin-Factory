@@ -6,9 +6,8 @@ node_modules
 # testing
 coverage
 
-# next.js — 不忽略整个 .next/(让本地编译产物可以推到 Hostinger),只忽略缓存
-.next/cache/
-.next/trace
+# next.js — 编译产物不入库,改为在服务器上 `npm run build`(避免 inode 超限)
+.next/
 out/
 
 # production
@@ -37,3 +36,4 @@ public/pictures/*.HEIC
 public/pictures/*.heic
 public/pictures/*.MOV
 public/pictures/*.mov
+.next/
