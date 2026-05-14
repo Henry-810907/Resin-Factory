@@ -13,8 +13,16 @@ export default function FactoryIntro({ dict }: Props) {
           <p className="text-base sm:text-lg leading-relaxed">{dict.p1}</p>
           <p className="text-sm sm:text-base leading-relaxed text-slate-600">{dict.p2}</p>
         </div>
-        <div className="relative w-full aspect-[4/3] min-h-[220px] md:min-h-[360px] rounded-lg overflow-hidden shadow-md">
-          <Image src="/factory.jpg" alt={dict.title} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
+        <div className="relative w-full aspect-video min-h-[220px] md:min-h-[360px] rounded-lg overflow-hidden shadow-md bg-black">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/XLu1iPuZ_EA?rel=0&modestbranding=1"
+            title={dict.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            loading="lazy"
+            className="absolute inset-0 w-full h-full"
+          />
         </div>
       </div>
 
