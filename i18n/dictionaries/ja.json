@@ -34,6 +34,7 @@
     "cta": "お見積もり",
     "homeAria": "Resin Factory · ホームへ",
     "nav": {
+      "home": "ホーム",
       "products": "製品",
       "portfolio": "ポートフォリオ",
       "about": "会社概要",
@@ -177,15 +178,11 @@
     "rights": "All rights reserved.",
     "linksServices": [
       {
-        "label": "無料3D造形",
+        "label": "無料3Dスカルプト",
         "href": "/products"
       },
       {
-        "label": "工程",
-        "href": "/products"
-      },
-      {
-        "label": "材料",
+        "label": "大量生産",
         "href": "/products"
       },
       {
@@ -193,37 +190,33 @@
         "href": "/values"
       },
       {
-        "label": "FAQ",
-        "href": "/contact"
-      },
-      {
-        "label": "量産",
-        "href": "/products"
+        "label": "実績",
+        "href": "/portfolio"
       }
     ],
     "linksMore": [
       {
-        "label": "利用規約",
-        "href": "/contact"
-      },
-      {
         "label": "プライバシーポリシー",
-        "href": "/contact"
+        "href": "/privacy"
       },
       {
-        "label": "配送",
-        "href": "/contact"
+        "label": "利用規約",
+        "href": "/terms"
       },
       {
-        "label": "ニュースレター",
+        "label": "配送・返品",
+        "href": "/shipping"
+      },
+      {
+        "label": "お問い合わせ",
         "href": "/contact"
       }
     ]
   },
   "whatsapp": {
     "ariaPrefix": "WhatsApp",
-    "bubble": "WhatsAppで相談",
-    "prefill": "Resin Factoryさん、カスタムレジンフィギュアのお見積もりをお願いします。"
+    "bubble": "WhatsAppでチャット",
+    "prefill": "Resin Factoryさん、カスタムレジンフィギュアの見積もりをお願いします。"
   },
   "products": {
     "heroTitle": "製品ラインナップ",
@@ -264,7 +257,45 @@
         "title": "量産",
         "desc": "数千個単位の量産、QA・梱包・世界配送までフルサポート。"
       }
-    ]
+    ],
+    "faq": {
+      "kicker": "よくある質問",
+      "title": "初めてのお客様からよくいただく質問",
+      "items": [
+        {
+          "q": "What's your minimum order quantity (MOQ)?",
+          "a": "We start at 100 units for hand-painted resin figures. Below that we can still help with a one-off prototype, but per-piece cost rises sharply since the mold setup is the same regardless of run size."
+        },
+        {
+          "q": "How long does production take?",
+          "a": "Typical timeline from approved 3D sculpt to first shipment is 28–35 working days. Sculpting itself adds 5–10 days depending on complexity. We send weekly photo updates so you always know where your batch is."
+        },
+        {
+          "q": "Is the 3D sculpting really free?",
+          "a": "Yes — fully free, no obligation, no IP transfer until you place a production order. We deliver a 360° turntable render and (on request) one printed physical proof at our cost. We absorb this because it's the cheapest way for both sides to discover whether your project is a fit."
+        },
+        {
+          "q": "Do you handle CE / EN71 / ASTM testing?",
+          "a": "Yes. We test the resin, paints and packaging in accredited labs (SGS / Intertek) for CE, EN71-1/2/3, ASTM F963 and REACH. Test reports are included in your shipment so retail buyers can audit them."
+        },
+        {
+          "q": "What payment terms do you accept?",
+          "a": "Standard terms: 30% deposit to lock the production slot, 70% balance before shipment. We accept wire transfer (T/T), Alibaba Trade Assurance, and PayPal for sample-stage payments. For repeat clients we extend net-30 terms after the third order."
+        },
+        {
+          "q": "Can you ship worldwide?",
+          "a": "Yes. We ship by sea (FCL/LCL), air (DHL/FedEx/UPS), or rail (China–Europe). For runs under 200 units, air courier is usually most economical. We handle export documentation, HS codes, and country-of-origin certificates."
+        },
+        {
+          "q": "Do you require a contract or NDA?",
+          "a": "We sign client NDAs as a default — your sculpts, art and IP stay protected. We never reuse a custom-sculpted figure for another client, and we destroy molds on request when a production cycle ends."
+        },
+        {
+          "q": "Can I visit the factory in Shenzhen?",
+          "a": "Of course. We host client visits year-round, and have hosted production walk-throughs for buyers from 25+ countries. Send us your dates and we'll arrange airport pickup, hotel recommendations, and a one-day tour of sculpt → mold → cast → paint → pack."
+        }
+      ]
+    }
   },
   "portfolio": {
     "heroTitle": "ポートフォリオ",
@@ -361,23 +392,28 @@
     "teamTitle": "フィギュアを作る人たち",
     "team": [
       {
-        "name": "Jesse Wong",
-        "role": "創業者・CEO"
+        "role": "造形師",
+        "count": "8",
+        "note": "スケッチ→3D造形→印刷マスター。"
       },
       {
-        "name": "Emily Lin",
-        "role": "チーフ原型師"
+        "role": "型・注型",
+        "count": "14",
+        "note": "シリコン型、毎日のレジン注型。"
       },
       {
-        "name": "Marco Chen",
-        "role": "生産部長"
+        "role": "ハンドペインター",
+        "count": "20",
+        "note": "エアブラシベース、筆で細部、仕上げ。"
       },
       {
-        "name": "Sara Patel",
-        "role": "カスタマーサクセス"
+        "role": "QA・梱包",
+        "count": "8",
+        "note": "1点ずつ検品、手作業でトレーパック。"
       }
     ],
-    "ctaButton": "一緒に作る"
+    "ctaButton": "一緒に作る",
+    "teamSubtitle": "造形師、型師、注型、ペインター、QA、梱包担当 — 出荷する1体1体を全員が把握する小さなチーム。"
   },
   "values": {
     "heroTitle": "私たちが大切にすること",
@@ -457,11 +493,6 @@
     ],
     "featuredKicker": "注目記事",
     "moreTitle": "もっと読む",
-    "loadMore": "もっと表示",
-    "newsletterTitle": "次回投稿をメールで受け取る。",
-    "newsletterSubtitle": "月1回の短いメール。プロモなし、ストーリーのみ。",
-    "newsletterPlaceholder": "you@company.com",
-    "newsletterButton": "登録",
     "readMore": "全文を読む",
     "featured": {
       "title": "スケッチからマスターへ：原型工房の1日",
@@ -507,7 +538,12 @@
         "read": "6分",
         "tag": "ブランドストーリー"
       }
-    ]
+    ],
+    "contactCtaTitle": "プロジェクトのご相談はこちら",
+    "contactCtaSubtitle": "24時間以内に無料3Dモックと見積りをお返しします。",
+    "contactCtaButton": "お見積もり",
+    "relatedTitle": "続きを読む",
+    "englishOnlyNotice": "ご注意:記事本文は英語で公開しています。他のページはお選びの言語でご覧いただけます。"
   },
   "contact": {
     "title": "お見積もり",
@@ -556,6 +592,155 @@
       "sending": "送信中...",
       "success": "ありがとうございます!お問い合わせを受け付けました — 24時間以内にご返信いたします。",
       "error": "エラーが発生しました。もう一度お試しいただくか、henry@resin-factory.com まで直接ご連絡ください。"
+    }
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "subtitle": "リンク切れまたはページが移動した可能性があります。ホームに戻るか、お問い合わせください。",
+    "homeButton": "ホームに戻る",
+    "contactButton": "お問い合わせ"
+  },
+  "legal": {
+    "contactCta": "このページに関するご質問は、お気軽にお問い合わせください。",
+    "contactCtaButton": "お問い合わせ",
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "intro": "How Shenzhen Heli Toys Co., Ltd. (operating as Resin Factory) collects, uses and protects the personal information you share with us through resin-factory.com.",
+      "lastUpdated": "最終更新日:2026年5月15日",
+      "sections": [
+        {
+          "title": "1. What we collect",
+          "body": [
+            "When you submit a quote inquiry through our contact form, we collect: your name, company name, work email, phone (optional), the product type and quantity you're interested in, your project message, and any reference files you attach. We also automatically log your IP address and the language version of the site you used, for spam-prevention and analytics purposes.",
+            "We do not collect or store payment information through this site. Any payment-related conversation happens by email or signed contract after we've spoken with you."
+          ]
+        },
+        {
+          "title": "2. How we use your information",
+          "body": [
+            "We use the information you provide solely to reply to your inquiry, prepare a quote, and (if you become a client) manage your project. We may follow up by email if we believe a new product or service is directly relevant to a previous inquiry — you can opt out of these by replying with 'unsubscribe.'",
+            "We do not sell, rent, or trade your data to any third party. We do not use it for advertising. We do not share it with marketing platforms."
+          ]
+        },
+        {
+          "title": "3. Where your data lives",
+          "body": [
+            "Inquiry emails are stored on Hostinger's email servers (henry@resin-factory.com inbox). Our website is hosted with Hostinger. We do not run a separate database of contact records — your inquiry email IS the record.",
+            "We retain inquiry emails for up to 5 years from the date of your last contact with us, after which they are permanently deleted. You can request earlier deletion at any time."
+          ]
+        },
+        {
+          "title": "4. Cookies & analytics",
+          "body": [
+            "This website does not set tracking cookies. We do not use Google Analytics, Facebook Pixel, or any third-party analytics tool. The only cookie our site may set is a session cookie required for the language preference, and it expires when you close your browser."
+          ]
+        },
+        {
+          "title": "5. Your rights",
+          "body": [
+            "You have the right to access, correct, or delete the personal data we hold about you. To exercise any of these rights, email henry@resin-factory.com with your request. We respond within 5 working days.",
+            "If you're located in the EU, UK, or California, you have additional rights under GDPR / UK GDPR / CCPA — including the right to data portability and the right to lodge a complaint with your local data protection authority."
+          ]
+        },
+        {
+          "title": "6. Changes to this policy",
+          "body": [
+            "We may update this policy when we change how we collect or use data, or when the law requires it. Material changes will be flagged on this page with a new 'last updated' date. Continued use of the site after a change constitutes acceptance of the new policy."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "利用規約",
+      "intro": "The terms governing your use of resin-factory.com and any quote, sample, or production order placed with Shenzhen Heli Toys Co., Ltd.",
+      "lastUpdated": "最終更新日:2026年5月15日",
+      "sections": [
+        {
+          "title": "1. Use of this website",
+          "body": [
+            "You may browse, share, and reference content on resin-factory.com freely for non-commercial purposes. You may not scrape, mirror, or republish substantial portions of the site without written permission. You may not use the site or our contact form to send unsolicited commercial messages, harassment, or unlawful content."
+          ]
+        },
+        {
+          "title": "2. Quote inquiries are non-binding",
+          "body": [
+            "Submitting an inquiry through our contact form does not create a contract. Quotes we provide are valid for 30 days from the date of issue. Production begins only after a written purchase order is signed by both parties and the deposit (typically 30% of the order value) is received."
+          ]
+        },
+        {
+          "title": "3. Intellectual property",
+          "body": [
+            "Any artwork, sketches, 3D files, brand assets or character IP you share with us remains your property. We will not reuse, modify, license, or display your IP without written consent. Sample physical figures we ship to you are yours.",
+            "Conversely, the photos, illustrations, written content and brand identity on resin-factory.com are owned by Shenzhen Heli Toys Co., Ltd. — you may not reproduce them in your own marketing without permission.",
+            "When we sculpt or design something custom for your order, you own the rights to the design (subject to your IP being yours to begin with). We retain the right to keep behind-the-scenes process photos for our own portfolio unless you explicitly opt out."
+          ]
+        },
+        {
+          "title": "4. Production, delivery & defects",
+          "body": [
+            "Production timelines we quote are working-day estimates based on standard complexity. Significant scope changes mid-production may extend the timeline; we will always communicate this in writing.",
+            "Hand-painted resin figures are inspected piece-by-piece before packing. Acceptable variation between hand-painted units is part of the product — Pantone-perfect uniformity is achievable but requires a discussion at quote stage. We replace defective units (paint flaws, broken pieces, missing accessories) at our cost when reported within 30 days of delivery."
+          ]
+        },
+        {
+          "title": "5. Limitation of liability",
+          "body": [
+            "Our total liability under any order is capped at the value of that order. We are not liable for indirect, consequential, or lost-profit damages, including but not limited to missed sales windows, delayed product launches, or third-party retailer cancellations beyond our control."
+          ]
+        },
+        {
+          "title": "6. Governing law & disputes",
+          "body": [
+            "These terms are governed by the laws of the People's Republic of China. Any dispute we cannot resolve amicably will be referred to the China International Economic and Trade Arbitration Commission (CIETAC), Shenzhen sub-commission, with proceedings in English."
+          ]
+        }
+      ]
+    },
+    "shipping": {
+      "title": "配送・返品ポリシー",
+      "intro": "How we ship custom resin figures from Shenzhen worldwide, what to expect at customs, and how we handle damage or defects in transit.",
+      "lastUpdated": "最終更新日:2026年5月15日",
+      "sections": [
+        {
+          "title": "1. Shipping methods",
+          "body": [
+            "We ship by sea (FCL or LCL containers), air courier (DHL, FedEx, UPS), or rail (China–Europe). For runs under 200 finished units, air courier is usually fastest and cheapest landed. For 1,000+ units, sea is dramatically more economical despite longer transit.",
+            "We quote freight as an option on every quote — you can choose to use our forwarder or arrange your own pickup ex-works (EXW) from our Shenzhen warehouse."
+          ]
+        },
+        {
+          "title": "2. Lead times after production",
+          "body": [
+            "Door-to-door transit from Shenzhen to most major hubs: DHL/FedEx/UPS air courier — 3 to 7 business days. China-to-Europe rail — 22 to 28 days. Sea freight (FCL) to US West Coast — 18 to 25 days, to US East Coast — 28 to 35 days, to EU main ports — 32 to 40 days. Sea (LCL) typically adds 5 to 10 days for consolidation."
+          ]
+        },
+        {
+          "title": "3. Customs, duties & taxes",
+          "body": [
+            "Quotes are typically priced FOB Shenzhen unless you ask for DDP (delivery duty paid). For FOB shipments you are responsible for import duties, VAT/GST, and customs clearance fees in the destination country.",
+            "We provide all standard documentation: commercial invoice, packing list, bill of lading or air waybill, certificate of origin (if requested), and CE/EN71/ASTM test reports for the products inside."
+          ]
+        },
+        {
+          "title": "4. Damage in transit",
+          "body": [
+            "All shipments are insured up to invoice value through our forwarder. If your shipment arrives with visible carton damage, photograph it before opening, note 'damaged' on the courier's POD, and contact us within 7 calendar days. We file the carrier claim and replace damaged units at our cost.",
+            "For damage discovered after opening (single broken figures, paint scuffs from transit), photograph and email us within 14 days of delivery. Standard remedy is replacement units shipped with your next order, or a credit applied to that next order — your choice."
+          ]
+        },
+        {
+          "title": "5. Returns",
+          "body": [
+            "Custom-made resin figures are non-returnable for buyer's-remorse reasons (we made them specifically for you and cannot resell them). Returns are accepted only for: defects we missed at QA, mis-painting against the approved master sample, missing units, or wrong product entirely. In those cases we replace at our cost on the next available production cycle, typically within 15 working days of confirmation."
+          ]
+        },
+        {
+          "title": "6. Warranty",
+          "body": [
+            "Our hand-painted resin figures are warranted against manufacturing defects for 12 months from date of delivery. Normal wear, mishandling, drops, exposure to direct sunlight, or display in high-humidity environments are not covered. Spare-parts service (replacement bases, accessories) is available on request for repeat clients."
+          ]
+        }
+      ]
     }
   }
 }

@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
-import HtmlLangSetter from "@/components/HtmlLangSetter";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { locales, isLocale, localeMeta, type Locale } from "@/i18n/settings";
 
@@ -60,7 +59,14 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
       googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
     },
     formatDetection: { email: false, address: false, telephone: false },
-    icons: { icon: "/favicon.ico", shortcut: "/favicon.ico", apple: "/apple-touch-icon.png" },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/icon.png", type: "image/png", sizes: "32x32" },
+      ],
+      shortcut: "/favicon.ico",
+      apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
+    },
     other: { google: "notranslate" },
   };
 }
@@ -81,7 +87,7 @@ export default async function LangLayout({ children, params }: LayoutProps) {
         name: LEGAL_NAME,
         alternateName: dict.meta.siteName,
         url: SITE_URL,
-        logo: `${SITE_URL}/og-image.jpg`,
+        logo: `${SITE_URL}/apple-touch-icon.png`,
         image: `${SITE_URL}/og-image.jpg`,
         email: "henry@resin-factory.com",
         telephone: "+86-136-8269-2148",
@@ -96,6 +102,19 @@ export default async function LangLayout({ children, params }: LayoutProps) {
         },
         areaServed: "Worldwide",
         description: dict.meta.defaultDescription,
+        sameAs: [
+          "https://www.linkedin.com/company/resin-factory",
+          "https://www.alibaba.com/",
+        ],
+        knowsAbout: [
+          "Custom resin figurine manufacturing",
+          "3D sculpting",
+          "Silicone mold making",
+          "Polyurethane resin casting",
+          "Hand-painted collectibles",
+          "Designer toys",
+          "Blind box production",
+        ],
       },
       {
         "@type": "WebSite",
@@ -111,10 +130,9 @@ export default async function LangLayout({ children, params }: LayoutProps) {
 
   return (
     <>
-      <HtmlLangSetter lang={lang} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
       <Header dict={dict.header} lang={lang} />
-      {children}
+      <main id="main">{children}</main>
       <Footer dict={dict.footer} navDict={dict.header.nav} lang={lang} />
       <WhatsAppFloat dict={dict.whatsapp} />
     </>

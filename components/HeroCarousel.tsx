@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import type { Dictionary } from "@/i18n/get-dictionary";
 
 const IMAGES = ["/hero1.jpg", "/hero2.jpg", "/hero3.jpg"];
@@ -41,9 +42,9 @@ export default function HeroCarousel({ dict, lang }: Props) {
             <p className="text-sm sm:text-base md:text-lg text-slate-200 mb-2 sm:mb-3">{slide.subtitle}</p>
             <p className="text-xs sm:text-sm text-slate-300 mb-5 sm:mb-8">{slide.tag}</p>
           </div>
-          <a href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-3.5 rounded-md shadow-md">
+          <Link href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-3.5 rounded-md shadow-md">
             {dict.cta}
-          </a>
+          </Link>
         </div>
       </div>
 

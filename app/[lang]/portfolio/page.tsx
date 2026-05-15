@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { notFound } from "next/navigation";
+import { BreadcrumbJsonLd } from "@/lib/jsonld";
 
 const CASE_IMAGES = [
   "/pictures/jpg/img_2727.jpg",
@@ -39,13 +40,20 @@ export default async function PortfolioPage({ params }: Props) {
   const dict = await getDictionary(lang);
   const p = dict.portfolio;
   return (
-    <main>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: dict.header.nav.home ?? "Home", url: `/${lang}` },
+          { name: dict.header.nav.portfolio, url: `/${lang}/portfolio` },
+        ]}
+      />
       <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/img_2727.jpg" />
 
-      <section className="border-b border-slate-200 sticky top-[64px] md:top-[72px] bg-white/95 backdrop-blur z-30">
+      {/* 类目标签(纯展示,非按钮)— 客户一眼看出我们做的是什么类目 */}
+      <section className="border-b border-slate-200 bg-white">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 py-3 md:py-4 flex gap-2 sm:gap-3 overflow-x-auto scrollbar-hide">
           {p.filters.map((f, i) => (
-            <button key={f} className={`shrink-0 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium rounded-full border transition ${i === 0 ? "bg-brand-dark text-white border-brand-dark" : "bg-white text-slate-700 border-slate-200 hover:border-slate-400"}`}>{f}</button>
+            <span key={f} className={`shrink-0 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium rounded-full border ${i === 0 ? "bg-brand-dark text-white border-brand-dark" : "bg-white text-slate-700 border-slate-200"}`}>{f}</span>
           ))}
         </div>
       </section>
@@ -74,6 +82,6 @@ export default async function PortfolioPage({ params }: Props) {
           <Link href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm sm:text-base px-7 sm:px-8 py-3 sm:py-3.5 rounded-md shadow-sm">{p.ctaButton}</Link>
         </div>
       </section>
-    </main>
+    </>
   );
 }

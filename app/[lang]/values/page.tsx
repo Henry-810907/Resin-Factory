@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { notFound } from "next/navigation";
+import { BreadcrumbJsonLd } from "@/lib/jsonld";
 
 const COMMITMENT_IMAGES = [
   "/pictures/jpg/IMG_2602.jpg",
@@ -34,7 +35,13 @@ export default async function ValuesPage({ params }: Props) {
   const v = dict.values;
 
   return (
-    <main>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: dict.header.nav.home ?? "Home", url: `/${lang}` },
+          { name: dict.header.nav.values, url: `/${lang}/values` },
+        ]}
+      />
       <PageHero title={v.heroTitle} subtitle={v.heroSubtitle} image="/pictures/jpg/IMG_2602.jpg" />
 
       <section className="bg-white py-10 md:py-20">
@@ -102,6 +109,6 @@ export default async function ValuesPage({ params }: Props) {
       <section className="py-10 md:py-14 text-center bg-white">
         <Link href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-8 py-3.5 rounded-md shadow-md">{v.ctaButton}</Link>
       </section>
-    </main>
+    </>
   );
 }

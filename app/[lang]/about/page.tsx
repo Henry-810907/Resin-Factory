@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { notFound } from "next/navigation";
+import { BreadcrumbJsonLd } from "@/lib/jsonld";
 
 type Props = { params: { lang: string } };
 
@@ -25,7 +26,13 @@ export default async function AboutPage({ params }: Props) {
   const a = dict.about;
 
   return (
-    <main>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: dict.header.nav.home ?? "Home", url: `/${lang}` },
+          { name: dict.header.nav.about, url: `/${lang}/about` },
+        ]}
+      />
       <PageHero title={a.heroTitle} subtitle={a.heroSubtitle} image="/factory.jpg" />
 
       <section className="bg-white py-10 md:py-20">
@@ -76,13 +83,15 @@ export default async function AboutPage({ params }: Props) {
 
       <section className="bg-brand-bgAlt py-10 md:py-20 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-5 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark text-center mb-6 sm:mb-10 tracking-tight">{a.teamTitle}</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark text-center mb-2 sm:mb-3 tracking-tight">{a.teamTitle}</h2>
+          <p className="text-slate-600 text-center max-w-2xl mx-auto mb-6 sm:mb-10 text-sm sm:text-base">{a.teamSubtitle}</p>
+          {/* 团队岗位卡(无虚拟头像;岗位 + 人数,真实可信) */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             {a.team.map((m) => (
-              <div key={m.name} className="text-center">
-                <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 mx-auto mb-3 sm:mb-4 rounded-full bg-slate-200 border-2 border-dashed border-slate-300" aria-label={m.name} role="img" />
-                <p className="font-bold text-brand-dark text-sm sm:text-base">{m.name}</p>
-                <p className="text-xs sm:text-sm text-slate-500 mt-0.5">{m.role}</p>
+              <div key={m.role} className="bg-white rounded-xl border border-slate-200 p-5 sm:p-6 text-center hover:shadow-md transition">
+                <p className="text-3xl sm:text-4xl font-extrabold text-brand-orange mb-1 sm:mb-2">{m.count}</p>
+                <p className="font-bold text-brand-dark text-sm sm:text-base">{m.role}</p>
+                <p className="text-xs sm:text-sm text-slate-500 mt-1 leading-snug">{m.note}</p>
               </div>
             ))}
           </div>
@@ -92,6 +101,6 @@ export default async function AboutPage({ params }: Props) {
       <section className="py-10 md:py-14 text-center bg-white">
         <Link href={`/${lang}/contact`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-base px-8 py-3.5 rounded-md shadow-md">{a.ctaButton}</Link>
       </section>
-    </main>
+    </>
   );
 }

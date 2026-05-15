@@ -10,8 +10,40 @@ const escapeHtml = (s: string) =>
 const cell = (k: string, v: string) =>
   `<tr><td style="padding:8px 12px;border-bottom:1px solid #e2e8f0;font-weight:600;color:#475569;background:#f8fafc;width:160px">${k}</td><td style="padding:8px 12px;border-bottom:1px solid #e2e8f0;color:#0f172a">${v || "—"}</td></tr>`;
 
+/* ---------------------------------------------------------------
+ *  极简内存限流:每个 IP 在 10 分钟窗口内最多 3 次请求。
+ *  Hostinger 单进程 Node,内存限流就够了。要更稳可换 Redis / Turnstile。
+ * ------------------------------------------------------------- */
+const RATE_WINDOW_MS = 10 * 60 * 1000;
+const RATE_MAX = 3;
+const hits = new Map<string, number[]>();
+function rateLimited(ip: string): boolean {
+  const now = Date.now();
+  const arr = (hits.get(ip) ?? []).filter((t) => now - t < RATE_WINDOW_MS);
+  if (arr.length >= RATE_MAX) {
+    hits.set(ip, arr);
+    return true;
+  }
+  arr.push(now);
+  hits.set(ip, arr);
+  if (hits.size > 500) {
+    for (const [k, v] of hits) {
+      if (v.every((t) => now - t > RATE_WINDOW_MS)) hits.delete(k);
+    }
+  }
+  return false;
+}
+
 export async function POST(request: NextRequest) {
   try {
+    const ip =
+      request.headers.get("x-forwarded-for")?.split(",")[0].trim() ||
+      request.headers.get("x-real-ip") ||
+      "unknown";
+    if (rateLimited(ip)) {
+      return NextResponse.json({ error: "Too many requests. Please try again later." }, { status: 429 });
+    }
+
     const form = await request.formData();
     const get = (k: string) => String(form.get(k) ?? "").trim();
 
@@ -76,6 +108,7 @@ export async function POST(request: NextRequest) {
         ${cell("Estimated quantity", escapeHtml(quantity))}
         ${cell("Message", escapeHtml(message).replace(/\n/g, "<br/>"))}
         ${cell("Language", lang)}
+        ${cell("IP", escapeHtml(ip))}
         ${cell("Attachments", attachments.length ? attachments.map((a) => escapeHtml(a.filename)).join("<br/>") : "—")}
       </table>
     `;

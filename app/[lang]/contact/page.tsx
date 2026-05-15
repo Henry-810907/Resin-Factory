@@ -3,6 +3,7 @@ import ContactForm from "@/components/ContactForm";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { notFound } from "next/navigation";
+import { BreadcrumbJsonLd } from "@/lib/jsonld";
 
 const stroke = {
   fill: "none" as const,
@@ -47,7 +48,13 @@ export default async function ContactPage({ params }: Props) {
   ];
 
   return (
-    <main>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: dict.header.nav.home ?? "Home", url: `/${lang}` },
+          { name: dict.header.nav.contact, url: `/${lang}/contact` },
+        ]}
+      />
       <section className="bg-white py-8 md:py-16">
         <div className="max-w-7xl mx-auto px-5 sm:px-6">
           <div className="text-center mb-6 sm:mb-10">
@@ -58,10 +65,11 @@ export default async function ContactPage({ params }: Props) {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
             {/*
               表单 = ContactForm 客户端组件,提交到 /api/contact:
-                - Hostinger SMTP 直接从 henry@ 发邮件给 henry@(发件人即收件人)
+                - Hostinger SMTP 从 henry@ 发邮件给 henry@(发件人即收件人)
                 - 客户邮箱填到 Reply-To,你点回复就回到客户
-                - 同时给客户发自动回执
-                - 全程无第三方,无 FormSubmit logo
+                - 不发自动回执(避免假邮箱 bounce 反弹)
+                - 蜜罐 + IP 限流(每 IP 10min/3 次)
+                - 全程无第三方
             */}
             <ContactForm dict={c} lang={lang} />
 
@@ -95,6 +103,6 @@ export default async function ContactPage({ params }: Props) {
           <p className="text-[11px] text-center text-slate-400 mt-5">{c.privacy}</p>
         </div>
       </section>
-    </main>
+    </>
   );
 }
