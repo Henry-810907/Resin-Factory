@@ -3,9 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale, type Locale } from "@/i18n/settings";
+import { isLocale, type Locale, localeMeta, locales } from "@/i18n/settings";
 import { notFound } from "next/navigation";
 import { BreadcrumbJsonLd } from "@/lib/jsonld";
+
+const SITE_URL = "https://resin-factory.com";
 
 const COMMITMENT_IMAGES = [
   "/pictures/jpg/IMG_2602.jpg",
@@ -20,11 +22,32 @@ type Props = { params: { lang: string } };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.lang)) return {};
-  const dict = await getDictionary(params.lang as Locale);
+  const lang = params.lang as Locale;
+  const dict = await getDictionary(lang);
+  const title = dict.meta.values.title;
+  const desc = dict.meta.values.description;
+  const url = `${SITE_URL}/${lang}/values`;
+
   return {
-    title: dict.meta.values.title,
-    description: dict.meta.values.description,
-    alternates: { canonical: `/${params.lang}/values` },
+    title,
+    description: desc,
+    alternates: { canonical: `/${lang}/values` },
+    openGraph: {
+      type: "website",
+      locale: localeMeta[lang].ogLocale,
+      alternateLocale: locales.filter((l) => l !== lang).map((l) => localeMeta[l].ogLocale),
+      url,
+      siteName: dict.meta.siteName,
+      title,
+      description: desc,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: desc,
+      images: ["/og-image.jpg"],
+    },
   };
 }
 
