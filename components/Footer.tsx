@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import type { Locale } from "@/i18n/settings";
 
@@ -32,9 +33,7 @@ export default function Footer({ dict, navDict, lang }: Props) {
           {/* 第 1 列:品牌 + 联系方式(移动端跨 2 列) */}
           <div className="col-span-2 md:col-span-1">
             <Link href={`/${lang}`} className="flex items-center gap-2 mb-5">
-              <span className="w-8 h-8 bg-brand-orange rounded-md flex items-center justify-center text-white font-bold text-sm">
-                R
-              </span>
+              <Image src="/logo.jpg" alt="Resin Factory Logo" width={32} height={32} className="rounded-md" />
               <span className="font-bold text-xl text-white tracking-tight">
                 Resin Factory
               </span>
