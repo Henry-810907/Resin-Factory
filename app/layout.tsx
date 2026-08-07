@@ -29,6 +29,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const meta = localeMeta[lang];
   return (
     <html lang={meta.htmlLang} dir={meta.dir} className={body.variable} suppressHydrationWarning>
+      <head>
+        {/* Google tag (gtag.js) - Google Ads */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18376214280"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18376214280');
+            `
+          }}
+        />
+      </head>
       <body className="bg-white text-slate-800 font-sans notranslate antialiased">
         {/* 跳过到主内容(键盘可访问性) */}
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:bg-brand-orange focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:z-[100] focus:font-semibold focus:text-sm">
