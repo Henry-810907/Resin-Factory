@@ -10,7 +10,7 @@ import { BreadcrumbJsonLd } from "@/lib/jsonld";
 const SITE_URL = "https://resin-factory.com";
 
 const CASE_IMAGES = [
-  "/pictures/jpg/custom-resin-figurines-collection.jpg",
+  "/pictures/jpg/our-products1.jpg",
   "/pictures/jpg/hand-painted-resin-toys-showcase.jpg",
   "/pictures/jpg/img_2729.jpg",
   "/pictures/jpg/img_2725.jpg",
