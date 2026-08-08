@@ -31,7 +31,7 @@ export default function Header({ dict, lang }: Props) {
       {/* 顶部联系信息条 */}
       <div className="bg-brand-dark text-slate-300 text-xs py-1.5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-center gap-4 sm:gap-6 flex-wrap">
-          <a href="mailto:henry@resin-factory.com" className="hover:text-brand-orange transition flex items-center gap-1.5">
+          <a href="mailto:henry@resin-factory.com" onClick={() => { if (typeof window !== 'undefined' && typeof (window as any).gtag === 'function') { (window as any).gtag('event', 'conversion', { 'send_to': 'AW-18376214280/_2MFCNvGht4cEliOu7pE' }); } }} className="hover:text-brand-orange transition flex items-center gap-1.5">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m2 6 10 7L22 6" /></svg>
             <span>henry@resin-factory.com</span>
           </a>
