@@ -62,9 +62,9 @@ export default async function ContactPage({ params }: Props) {
   const dict = await getDictionary(lang);
   const c = dict.contact;
 
-  const CONTACTS: { title: string; value: string; icon: React.ReactNode }[] = [
-    { title: c.labels.email, value: "henry@resin-factory.com", icon: ICONS.email },
-    { title: c.labels.phone, value: "+86 136 8269 2148", icon: ICONS.phone },
+  const CONTACTS: { title: string; value: string; icon: React.ReactNode; href?: string }[] = [
+    { title: c.labels.email, value: "henry@resin-factory.com", icon: ICONS.email, href: "mailto:henry@resin-factory.com" },
+    { title: c.labels.phone, value: "+86 136 8269 2148", icon: ICONS.phone, href: "tel:+8613682692148" },
     { title: c.labels.company, value: "Shenzhen Heli Toys Co., Ltd.", icon: ICONS.company },
     { title: c.labels.address, value: "Room 318, Building 618, Bagua Ling Industrial Zone, Bagua 1st Road, Pengsheng Community, Yuanling Street, Futian District, Shenzhen, China", icon: ICONS.address },
     { title: c.labels.hours, value: c.hours, icon: ICONS.hours },
@@ -104,7 +104,11 @@ export default async function ContactPage({ params }: Props) {
                     <span className="w-9 h-9 rounded-full bg-white text-brand-orange flex items-center justify-center shrink-0 border border-slate-200">{cc.icon}</span>
                     <div className="leading-tight">
                       <p className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold">{cc.title}</p>
-                      <p className="text-sm text-brand-dark mt-0.5">{cc.value}</p>
+                      {cc.href ? (
+                        <a href={cc.href} className="text-sm text-brand-dark mt-0.5 hover:text-brand-orange transition">{cc.value}</a>
+                      ) : (
+                        <p className="text-sm text-brand-dark mt-0.5">{cc.value}</p>
+                      )}
                     </div>
                   </div>
                 ))}

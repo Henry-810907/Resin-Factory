@@ -48,9 +48,9 @@ export default function Footer({ dict, navDict, lang }: Props) {
               <br />
               Futian District, Shenzhen, China
               <br />
-              henry@resin-factory.com
+              <a href="mailto:henry@resin-factory.com" className="hover:text-brand-orange transition">henry@resin-factory.com</a>
               <br />
-              +86 136 8269 2148
+              <a href="tel:+8613682692148" className="hover:text-brand-orange transition">+86 136 8269 2148</a>
             </p>
           </div>
 
