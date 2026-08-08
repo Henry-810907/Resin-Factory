@@ -38,7 +38,7 @@ export default function Header({ dict, lang }: Props) {
           <span className="text-xs font-medium text-slate-300">{dict.factoryService}</span>
           <Link
             href={`/${lang}/contact#form`}
-            className="text-xs font-medium text-brand-orange hover:text-white transition underline ml-2"
+            className="text-xs font-medium text-slate-300 hover:text-white transition underline ml-2"
           >
             Click to Get a Quote
           </Link>
