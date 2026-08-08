@@ -31,12 +31,26 @@ export default function Header({ dict, lang }: Props) {
 
   return (
     <header className="w-full sticky top-0 z-50">
-      {/* 顶部联系信息条 */}
-      <div className="bg-brand-dark text-slate-300 text-xs py-1.5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-center gap-4 sm:gap-6 flex-wrap">
-          <EmailLink />
-          <WhatsAppLink />
-          <PhoneLink />
+      {/* 顶部品牌条 + 联系信息条 */}
+      <div className="bg-brand-dark text-slate-300">
+        {/* 第一行：LOGO + 标语 + Get a Quote */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-center gap-3">
+          <Image src="/logo.jpg" alt="Resin Factory" width={28} height={28} className="rounded" />
+          <span className="text-sm font-medium text-white">Custom Resin Figurine Factory</span>
+          <Link
+            href={`/${lang}/contact#form`}
+            className="text-xs font-semibold text-brand-orange hover:text-white transition ml-2"
+          >
+            Get a Quote →
+          </Link>
+        </div>
+        {/* 第二行：联系方式 */}
+        <div className="text-xs py-1.5 border-t border-slate-700">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-center gap-4 sm:gap-6 flex-wrap">
+            <EmailLink />
+            <WhatsAppLink />
+            <PhoneLink />
+          </div>
         </div>
       </div>
       <div className="bg-white border-b border-slate-200">
