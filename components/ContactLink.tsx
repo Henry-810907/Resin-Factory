@@ -18,14 +18,29 @@ interface ContactLinkProps {
 }
 
 export default function ContactLink({ href, icon, title, value }: ContactLinkProps) {
-  const handleClick = () => {
-    // 触发 Google Ads 转化事件
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    
+    // Google Ads 转化追踪（点击方式）
+    const callback = function () {
+      if (href.startsWith("http")) {
+        window.open(href, "_blank", "noopener,noreferrer");
+      } else {
+        window.location.href = href;
+      }
+    };
+    
     if (typeof window !== "undefined") {
       window.gtag = window.gtag || function() { (window.dataLayer = window.dataLayer || []).push(arguments); };
       window.gtag("event", "conversion", {
-        send_to: "AW-18376214280/yk_mC061kt4cEIiOu7pE",
+        send_to: "AW-18376214280/yk_mCO61kt4cEIiOu7pE",
+        event_callback: callback,
       });
+    } else {
+      callback();
     }
+    
+    return false;
   };
 
   return (

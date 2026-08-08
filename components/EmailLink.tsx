@@ -11,19 +11,33 @@ declare global {
 }
 
 export default function EmailLink() {
-  const handleClick = () => {
-    // 触发 Google Ads 转化事件
+  const email = "henry@resin-factory.com";
+  const href = `mailto:${email}`;
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    
+    // Google Ads 转化追踪（点击方式）
+    const callback = function () {
+      window.location.href = href;
+    };
+    
     if (typeof window !== "undefined") {
       window.gtag = window.gtag || function() { (window.dataLayer = window.dataLayer || []).push(arguments); };
       window.gtag("event", "conversion", {
-        send_to: "AW-18376214280/yk_mC061kt4cEIiOu7pE",
+        send_to: "AW-18376214280/yk_mCO61kt4cEIiOu7pE",
+        event_callback: callback,
       });
+    } else {
+      callback();
     }
+    
+    return false;
   };
 
   return (
     <a
-      href="mailto:henry@resin-factory.com"
+      href={href}
       onClick={handleClick}
       className="hover:text-brand-orange transition flex items-center gap-1.5 underline"
     >

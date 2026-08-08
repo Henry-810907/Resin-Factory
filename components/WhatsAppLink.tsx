@@ -11,19 +11,32 @@ declare global {
 }
 
 export default function WhatsAppLink() {
-  const handleClick = () => {
-    // 触发 Google Ads 转化事件
+  const whatsappUrl = "https://wa.me/" + "861" + "368269" + "2148";
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    
+    // Google Ads 转化追踪（点击方式）
+    const callback = function () {
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    };
+    
     if (typeof window !== "undefined") {
       window.gtag = window.gtag || function() { (window.dataLayer = window.dataLayer || []).push(arguments); };
       window.gtag("event", "conversion", {
-        send_to: "AW-18376214280/yk_mC061kt4cEIiOu7pE",
+        send_to: "AW-18376214280/yk_mCO61kt4cEIiOu7pE",
+        event_callback: callback,
       });
+    } else {
+      callback();
     }
+    
+    return false;
   };
 
   return (
     <a
-      href={"https://wa.me/" + "861" + "368269" + "2148"}
+      href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
