@@ -20,8 +20,8 @@
       "description": "Faire Bezahlung, vernünftige Arbeitszeiten, ungiftige Materialien, CE/EN71/ASTM-Prüfung jeder Charge. Warum eine gut geführte Werkstatt bessere Resin-Figuren für Ihre Marke produziert."
     },
     "blog": {
-      "title": "Das Resin Journal — Geschichten aus unserem Modellier-Studio",
-      "description": "Hintergrundgeschichten aus unserem Modellier-Studio und der Gießerei sowie Anleitungen für Erstkäufer von Resin-Figuren."
+      "title": "Das Resin Journal — Geschichten aus unserem Modellier-Fabrik",
+      "description": "Hintergrundgeschichten aus unserem Modellier-Fabrik und der Gießerei sowie Anleitungen für Erstkäufer von Resin-Figuren."
     },
     "contact": {
       "title": "Kontakt — Kostenloses 3D-Mock-up & Angebot",
@@ -73,21 +73,21 @@
   },
   "factoryIntro": {
     "kicker": "In unserer Werkstatt",
-    "title": "Wo jede Figur gefertigt wird",
+    "title": "Wo maßgeschneiderte Figuren gefertigt werden",
     "p1": "Wir lagern keinen einzigen Schritt aus. Jede Resin-Figur wird in unserer eigenen Werkstatt modelliert, geformt, gegossen, handbemalt und verpackt — von Bildhauern und Malern, mit denen wir seit Jahren zusammenarbeiten.",
     "p2": "Belüftete Gießräume, staubkontrollierte Lackierkabinen, kalibrierte Airbrush-Stationen, VOC-arme Resine. Wir haben in den Raum investiert, bevor wir je in die Produktionslinie investiert haben.",
     "peopleTitle": "Hergestellt von Menschen, die ihr Handwerk lieben",
     "peopleSubtitle": "Man sieht es in jedem Pinselstrich."
   },
   "magicalMemories": {
-    "kicker": "Studio-Versprechen",
+    "kicker": "Fabrik-Versprechen",
     "title": "Charaktere zum Leben erwecken",
     "p1": "Jede Figur beginnt mit einer Geschichte. Einer Konzeptskizze. Einer geliebten IP. Einem Charakter, den Ihre Fans in den Händen halten möchten.",
     "p2": "Wir formen diese Momente zur Realität. Jede Silhouette von Hand geformt, jeder Pinselstrich von individueller Kunst geleitet.",
     "p3": "Unsere Kreationen sind mehr als Spielzeug — sie sind Sammlerstücke, Andenken und die physische Form der Welten, die Ihr Publikum bereits liebt."
   },
   "bestSellers": {
-    "kicker": "Ausgewählte Studio-Arbeiten",
+    "kicker": "Ausgewählte Fabrik-Arbeiten",
     "title": "Geteilt von unseren glücklichen Kunden",
     "subtitle": "Echte Geschichten von Marken, IP-Studios und Indie-Designern, mit denen wir gearbeitet haben."
   },
@@ -388,8 +388,8 @@
         "label": "Marken in 25+ Ländern"
       }
     ],
-    "workshopTitle": "In unserer Werkstatt",
-    "workshopSubtitle": "Wir lagern nicht aus. Jeder Schritt findet in unserer eigenen Einrichtung statt — damit wir hinter jedem Pinselstrich stehen können.",
+    "factoryTitle": "In unserer Fabrik",
+    "factorySubtitle": "Wir lagern nicht aus. Jeder Schritt findet in unserer eigenen Einrichtung statt — damit wir hinter jedem Pinselstrich stehen können.",
     "teamTitle": "Die Menschen hinter den Figuren",
     "team": [
       {
@@ -419,7 +419,7 @@
   "values": {
     "heroTitle": "Was uns wichtig ist",
     "heroSubtitle": "Was uns wirklich wichtig ist — und wie es sich im Alltag zeigt, nicht nur auf einem Plakat in der Lobby.",
-    "principlesKicker": "Studio-Prinzipien",
+    "principlesKicker": "Fabrik-Prinzipien",
     "principlesTitle": "Fünf Dinge, die wir immer tun",
     "principles": [
       {
@@ -483,7 +483,7 @@
   },
   "blog": {
     "heroTitle": "Das Resin Journal",
-    "heroSubtitle": "Geschichten aus unserem Modellier-Studio, unserer Gießerei und den Marken, für die wir produzieren. Plus gelegentliche Anleitungen für Erstkäufer von Resin-Figuren.",
+    "heroSubtitle": "Geschichten aus unserem Modellier-Fabrik, unserer Gießerei und den Marken, für die wir produzieren. Plus gelegentliche Anleitungen für Erstkäufer von Resin-Figuren.",
     "categories": [
       "Alle",
       "Anleitung",
@@ -496,7 +496,7 @@
     "moreTitle": "Mehr Geschichten",
     "readMore": "Vollständigen Beitrag lesen",
     "featured": {
-      "title": "Von der Skizze zum Master: Ein Tag in unserem Modellier-Studio",
+      "title": "Von der Skizze zum Master: Ein Tag in unserem Modellier-Fabrik",
       "excerpt": "Begehen Sie die sieben Schritte, die eine Skizze auf einer Serviette in einen produktionsbereiten Resin-Master verwandeln — einschließlich Resin-Wahl, Airbrush-Palette und Vorbereitung der Silikonform fürs Gießen.",
       "date": "4. Mai 2026",
       "read": "8 Min. Lesezeit",

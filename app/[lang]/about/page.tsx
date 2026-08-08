@@ -85,21 +85,21 @@ export default async function AboutPage({ params }: Props) {
 
       <section className="bg-white py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 text-center mb-6 md:mb-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">{a.workshopTitle}</h2>
-          <p className="text-slate-500 mt-2 sm:mt-3 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">{a.workshopSubtitle}</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">{a.factoryTitle}</h2>
+          <p className="text-slate-500 mt-2 sm:mt-3 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">{a.factorySubtitle}</p>
         </div>
         <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
           <div className="relative w-full aspect-[4/3] md:aspect-[4/5] rounded-lg overflow-hidden">
-            <Image src="/pictures/jpg/IMG_2629.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
+            <Image src="/pictures/jpg/IMG_2629.jpg" alt={a.factoryTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
           <div className="relative w-full aspect-[4/3] md:aspect-[3/2] md:col-span-2 rounded-lg overflow-hidden">
-            <Image src="/pictures/jpg/IMG_2576.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center" />
+            <Image src="/pictures/jpg/IMG_2576.jpg" alt={a.factoryTitle} fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center" />
           </div>
           <div className="relative w-full aspect-[4/3] md:aspect-[3/2] md:col-span-2 rounded-lg overflow-hidden">
-            <Image src="/pictures/jpg/IMG_2645.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center" />
+            <Image src="/pictures/jpg/IMG_2645.jpg" alt={a.factoryTitle} fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center" />
           </div>
           <div className="relative w-full aspect-[4/3] md:aspect-[4/5] rounded-lg overflow-hidden">
-            <Image src="/pictures/jpg/IMG_2655.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
+            <Image src="/pictures/jpg/IMG_2655.jpg" alt={a.factoryTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
         </div>
       </section>

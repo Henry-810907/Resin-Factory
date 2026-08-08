@@ -13,15 +13,15 @@
     },
     "about": {
       "title": "About Us — Shenzhen Heli Toys (Resin Factory)",
-      "description": "A 50-person workshop of sculptors, mould-makers, casters, painters and QA in Shenzhen — turning ideas into hand-painted resin figures since 2013. Shipping for brands across 25+ countries."
+      "description": "A 50-person factory of sculptors, mould-makers, casters, painters and QA in Shenzhen — turning ideas into hand-painted resin figures since 2013. Shipping for brands across 25+ countries."
     },
     "values": {
-      "title": "Our Values — Workshop Standards & Worker Care",
-      "description": "Fair pay, reasonable hours, non-toxic materials, CE/EN71/ASTM testing on every batch. Why a well-run workshop produces better resin figurines for your brand."
+      "title": "Our Values — Factory Standards & Worker Care",
+      "description": "Fair pay, reasonable hours, non-toxic materials, CE/EN71/ASTM testing on every batch. Why a well-run factory produces better resin figurines for your brand."
     },
     "blog": {
-      "title": "The Resin Journal — Stories from Our Sculpting Studio",
-      "description": "Behind-the-scenes stories from our sculpting studio and casting floor, plus how-to guides for first-time resin-figure buyers."
+      "title": "The Resin Journal — Stories from Our Sculpting Factory",
+      "description": "Behind-the-scenes stories from our sculpting factory and casting floor, plus how-to guides for first-time resin-figure buyers."
     },
     "contact": {
       "title": "Contact — Get a Free 3D Mock-up & Quote",
@@ -57,7 +57,7 @@
         "title": "Sculpted, Cast & Painted in Our Own Factory",
         "subtitle": "Every master sculpt approved. Every batch QC tested.",
         "tag": "CE / EN71 / ASTM Certified · No Middlemen · Real-Time Updates",
-        "alt": "Sculpting and casting workshop"
+        "alt": "Sculpting and casting factory"
       },
       {
         "title": "From 100 Pieces to 10,000",
@@ -72,22 +72,22 @@
     "dotAria": "Go to slide"
   },
   "factoryIntro": {
-    "kicker": "Inside Our Workshop",
-    "title": "Where every figure gets made",
-    "p1": "We don't outsource a single step. Every resin figurine is sculpted, moulded, cast, hand-painted and packed in our own workshop — by sculptors and painters we've worked with for years.",
+    "kicker": "Inside Our Factory",
+    "title": "Where custom figurines get made",
+    "p1": "We don't outsource a single step. Every resin figurine is sculpted, moulded, cast, hand-painted and packed in our own factory — by sculptors and painters we've worked with for years.",
     "p2": "Ventilated casting rooms, dust-controlled paint booths, calibrated airbrush stations, low-VOC resins. We invested in the room before we ever invested in the production line.",
     "peopleTitle": "Made by people who love their craft",
     "peopleSubtitle": "It shows in every brushstroke."
   },
   "magicalMemories": {
-    "kicker": "Studio Promise",
+    "kicker": "Factory Promise",
     "title": "Bringing characters to life",
     "p1": "Every figure begins with a story. A concept sketch. A beloved IP. A character your fans want to hold in their hands.",
     "p2": "We sculpt those moments into reality. Every silhouette shaped by hand, every brushstroke guided by individual artistry.",
     "p3": "Our creations are more than toys — they are collectibles, keepsakes, and the physical form of the worlds your audience already loves."
   },
   "bestSellers": {
-    "kicker": "Selected Studio Work",
+    "kicker": "Selected Factory Work",
     "title": "Shared by our happy customers",
     "subtitle": "Real stories from brands, IP studios and indie designers we've worked with."
   },
@@ -365,10 +365,10 @@
   },
   "about": {
     "heroTitle": "About Us",
-    "heroSubtitle": "A 50-person workshop of sculptors, mould-makers, casters, painters and QA — turning ideas into hand-painted resin figures since 2013.",
+    "heroSubtitle": "A 50-person factory of sculptors, mould-makers, casters, painters and QA — turning ideas into hand-painted resin figures since 2013.",
     "storyKicker": "Our Story",
-    "storyTitle": "Twelve years. One workshop.",
-    "storyP1": "We started in 2013 with one silicone mould, a single airbrush, and a stack of concept sketches on a coffee table. Twelve years later, we're still small — about 50 people in a 1,200㎡ workshop — but we now ship for brands across 25+ countries.",
+    "storyTitle": "Twelve years. One factory.",
+    "storyP1": "We started in 2013 with one silicone mould, a single airbrush, and a stack of concept sketches on a coffee table. Twelve years later, we're still small — about 50 people in a 1,200㎡ factory — but we now ship for brands across 25+ countries.",
     "storyP2": "We hand-paint every figure. We treat every order — 100 pieces or 10,000 — like the most important order of the day. Because for someone, somewhere, it is.",
     "stats": [
       {
@@ -377,7 +377,7 @@
       },
       {
         "num": "1,200㎡",
-        "label": "Workshop Floor"
+        "label": "Factory Floor"
       },
       {
         "num": "1,000,000+",
@@ -388,8 +388,8 @@
         "label": "Brands Across 25+ Countries"
       }
     ],
-    "workshopTitle": "Inside Our Workshop",
-    "workshopSubtitle": "We don't outsource. Every step happens in our own facility — so we can stand behind every brushstroke.",
+    "factoryTitle": "Inside Our Factory",
+    "factorySubtitle": "We don't outsource. Every step happens in our own facility — so we can stand behind every brushstroke.",
     "teamTitle": "The People Behind the Figures",
     "teamSubtitle": "Sculptors, mould-makers, casters, painters, QA and packers — a small team where everyone knows the figures going out the door.",
     "team": [
@@ -419,7 +419,7 @@
   "values": {
     "heroTitle": "What We Care About",
     "heroSubtitle": "What we actually care about — and how it shows up in the day-to-day, not just on a poster in the lobby.",
-    "principlesKicker": "Studio Principles",
+    "principlesKicker": "Factory Principles",
     "principlesTitle": "Five things we always do",
     "principles": [
       {
@@ -443,9 +443,9 @@
         "desc": "Reusable silicone molds, recyclable inner trays, FSC paper boxes, no plastic mailers. The greener option is just the only one we stock."
       }
     ],
-    "peopleKicker": "Our People · Our Workshop",
+    "peopleKicker": "Our People · Our Factory",
     "peopleTitle": "Good figures start with people who are doing OK",
-    "peopleIntro": "Fair pay. Reasonable hours. A workshop that's safe, quiet and non-toxic. That's not a perk list — that's the basics. If our team is doing well, your order tends to turn out well too.",
+    "peopleIntro": "Fair pay. Reasonable hours. A factory that's safe, quiet and non-toxic. That's not a perk list — that's the basics. If our team is doing well, your order tends to turn out well too.",
     "commitments": [
       {
         "title": "Fair Pay, On Time",
@@ -456,7 +456,7 @@
         "desc": "8-hour days. Overtime only if you say yes. Days off mean days off. We won't burn the team out to hit a deadline."
       },
       {
-        "title": "A Workshop That's Nice to Be In",
+        "title": "A Factory That's Nice to Be In",
         "desc": "Air-con, decent lighting, chairs that don't wreck your back, machines that aren't loud. We spent money on the room before we spent it on the production line."
       },
       {
@@ -483,7 +483,7 @@
   },
   "blog": {
     "heroTitle": "The Resin Journal",
-    "heroSubtitle": "Stories from our sculpting studio, our casting floor, and the brands we make for. Plus the occasional how-to for first-time resin-figure buyers.",
+    "heroSubtitle": "Stories from our sculpting factory, our casting floor, and the brands we make for. Plus the occasional how-to for first-time resin-figure buyers.",
     "categories": [
       "All",
       "How-To",
@@ -501,7 +501,7 @@
     "contactCtaSubtitle": "We reply within 24 hours with a free 3D mockup and quote.",
     "contactCtaButton": "Get a Quote",
     "featured": {
-      "title": "From Sketch to Master: A Day Inside Our Sculpting Studio",
+      "title": "From Sketch to Master: A Day Inside Our Sculpting Factory",
       "excerpt": "Take a walk through the seven steps that turn a back-of-napkin drawing into a production-ready resin master — including how we pick the resin, dial in the airbrush palette, and prep the silicone mold for casting.",
       "date": "May 4, 2026",
       "read": "8 min read",

@@ -113,7 +113,7 @@ export default async function BlogPostPage({ params }: Props) {
         image={meta.post.image}
         url={`${SITE_URL}/${lang}/blog/${params.slug}`}
         datePublished={isoDate}
-        authorName="Resin Factory Studio"
+        authorName="Resin Factory"
         lang={localeMeta[lang].htmlLang}
       />
 
@@ -128,7 +128,7 @@ export default async function BlogPostPage({ params }: Props) {
             </nav>
             <p className="text-xs uppercase tracking-wider text-brand-orange font-bold mb-3">{meta.tag}</p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-brand-dark leading-tight tracking-tight">{meta.title}</h1>
-            <p className="text-sm text-slate-500 mt-4 sm:mt-5">{meta.date} · {meta.read} · Resin Factory Studio</p>
+            <p className="text-sm text-slate-500 mt-4 sm:mt-5">{meta.date} · {meta.read} · Resin Factory</p>
           </div>
           <div className="max-w-5xl mx-auto px-5 sm:px-6 mt-6 md:mt-10">
             <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden shadow-md">

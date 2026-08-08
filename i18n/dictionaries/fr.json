@@ -20,8 +20,8 @@
       "description": "Salaires équitables, horaires raisonnables, matériaux non toxiques, tests CE/EN71/ASTM sur chaque lot. Pourquoi un atelier bien géré produit de meilleures figurines en résine pour votre marque."
     },
     "blog": {
-      "title": "Le Resin Journal — Histoires de notre studio de sculpture",
-      "description": "Histoires des coulisses de notre studio de sculpture et de notre fonderie, plus des guides pour les premiers acheteurs de figurines en résine."
+      "title": "Le Resin Journal — Histoires de notre usine de sculpture",
+      "description": "Histoires des coulisses de notre usine de sculpture et de notre fonderie, plus des guides pour les premiers acheteurs de figurines en résine."
     },
     "contact": {
       "title": "Contact — Maquette 3D et devis gratuits",
@@ -73,21 +73,21 @@
   },
   "factoryIntro": {
     "kicker": "Dans notre atelier",
-    "title": "Là où chaque figurine est fabriquée",
+    "title": "Là où des figurines personnalisées sont fabriquées",
     "p1": "Nous ne sous-traitons pas une seule étape. Chaque figurine en résine est sculptée, moulée, coulée, peinte à la main et emballée dans notre propre atelier — par des sculpteurs et peintres avec qui nous travaillons depuis des années.",
     "p2": "Salles de coulée ventilées, cabines de peinture sans poussière, stations d'aérographe calibrées, résines à faible COV. Nous avons investi dans la pièce avant d'investir dans la chaîne de production.",
     "peopleTitle": "Fabriqué par des gens qui aiment leur métier",
     "peopleSubtitle": "Cela se voit dans chaque coup de pinceau."
   },
   "magicalMemories": {
-    "kicker": "Promesse du studio",
+    "kicker": "Promesse de l'usine",
     "title": "Donner vie aux personnages",
     "p1": "Chaque figurine commence par une histoire. Un croquis conceptuel. Une IP adorée. Un personnage que vos fans veulent tenir entre leurs mains.",
     "p2": "Nous sculptons ces moments en réalité. Chaque silhouette façonnée à la main, chaque coup de pinceau guidé par un art individuel.",
     "p3": "Nos créations sont plus que des jouets — elles sont des objets de collection, des souvenirs et la forme physique des mondes que votre public aime déjà."
   },
   "bestSellers": {
-    "kicker": "Travaux choisis du studio",
+    "kicker": "Travaux choisis de l'usine",
     "title": "Partagés par nos clients heureux",
     "subtitle": "De vraies histoires de marques, studios IP et designers indépendants avec qui nous avons travaillé."
   },
@@ -388,8 +388,8 @@
         "label": "Marques dans 25+ pays"
       }
     ],
-    "workshopTitle": "Dans notre atelier",
-    "workshopSubtitle": "Nous ne sous-traitons pas. Chaque étape se passe dans nos propres locaux — pour que nous puissions soutenir chaque coup de pinceau.",
+    "factoryTitle": "Dans notre usine",
+    "factorySubtitle": "Nous ne sous-traitons pas. Chaque étape se passe dans nos propres locaux — pour que nous puissions soutenir chaque coup de pinceau.",
     "teamTitle": "Les gens derrière les figurines",
     "team": [
       {
@@ -419,7 +419,7 @@
   "values": {
     "heroTitle": "Ce qui nous tient à cœur",
     "heroSubtitle": "Ce qui nous tient vraiment à cœur — et comment cela se manifeste au quotidien, pas juste sur une affiche dans le hall.",
-    "principlesKicker": "Principes du studio",
+    "principlesKicker": "Principes de l'usine",
     "principlesTitle": "Cinq choses que nous faisons toujours",
     "principles": [
       {
@@ -483,7 +483,7 @@
   },
   "blog": {
     "heroTitle": "Le Resin Journal",
-    "heroSubtitle": "Histoires de notre studio de sculpture, notre fonderie et les marques pour qui nous fabriquons. Plus des guides occasionnels pour les premiers acheteurs de figurines en résine.",
+    "heroSubtitle": "Histoires de notre usine de sculpture, notre fonderie et les marques pour qui nous fabriquons. Plus des guides occasionnels pour les premiers acheteurs de figurines en résine.",
     "categories": [
       "Tout",
       "Tutoriel",
@@ -496,7 +496,7 @@
     "moreTitle": "Plus d'histoires",
     "readMore": "Lire l'article complet",
     "featured": {
-      "title": "Du croquis au master : une journée dans notre studio de sculpture",
+      "title": "Du croquis au master : une journée dans notre usine de sculpture",
       "excerpt": "Suivez les sept étapes qui transforment un dessin sur serviette en master résine prêt à produire — y compris le choix de la résine, la palette d'aérographe et la préparation du moule silicone pour la coulée.",
       "date": "4 mai 2026",
       "read": "8 min de lecture",

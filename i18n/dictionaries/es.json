@@ -20,8 +20,8 @@
       "description": "Pago justo, horarios razonables, materiales no tóxicos, pruebas CE/EN71/ASTM en cada lote. Por qué un taller bien gestionado produce mejores figuras de resina para tu marca."
     },
     "blog": {
-      "title": "El Resin Journal — Historias de nuestro estudio de escultura",
-      "description": "Historias detrás de escena de nuestro estudio de escultura y nuestra fundición, además de guías para compradores primerizos de figuras de resina."
+      "title": "El Resin Journal — Historias de nuestra fábrica de escultura",
+      "description": "Historias detrás de escena de nuestra fábrica de escultura y nuestra fundición, además de guías para compradores primerizos de figuras de resina."
     },
     "contact": {
       "title": "Contacto — Maqueta 3D y presupuesto gratis",
@@ -73,21 +73,21 @@
   },
   "factoryIntro": {
     "kicker": "Dentro de nuestro taller",
-    "title": "Donde cada figura se fabrica",
+    "title": "Donde se fabrican figurillas personalizadas",
     "p1": "No subcontratamos ni un solo paso. Cada figura de resina se esculpe, moldea, vacía, pinta a mano y empaqueta en nuestro propio taller — por escultores y pintores con quienes hemos trabajado durante años.",
     "p2": "Salas de vaciado ventiladas, cabinas de pintura sin polvo, estaciones de aerógrafo calibradas, resinas bajas en COV. Invertimos en la sala antes de invertir en la línea de producción.",
     "peopleTitle": "Hecho por gente que ama su oficio",
     "peopleSubtitle": "Se nota en cada pincelada."
   },
   "magicalMemories": {
-    "kicker": "Promesa del estudio",
+    "kicker": "Promesa de la fábrica",
     "title": "Dando vida a los personajes",
     "p1": "Cada figura empieza con una historia. Un boceto conceptual. Una IP querida. Un personaje que tus fans quieren tener en sus manos.",
     "p2": "Esculpimos esos momentos en realidad. Cada silueta moldeada a mano, cada pincelada guiada por arte individual.",
     "p3": "Nuestras creaciones son más que juguetes — son coleccionables, recuerdos y la forma física de los mundos que tu audiencia ya ama."
   },
   "bestSellers": {
-    "kicker": "Trabajo seleccionado del estudio",
+    "kicker": "Trabajo seleccionado de la fábrica",
     "title": "Compartido por nuestros clientes felices",
     "subtitle": "Historias reales de marcas, estudios IP y diseñadores indie con los que hemos trabajado."
   },
@@ -388,8 +388,8 @@
         "label": "Marcas en más de 25 países"
       }
     ],
-    "workshopTitle": "Dentro de nuestro taller",
-    "workshopSubtitle": "No subcontratamos. Cada paso ocurre en nuestras propias instalaciones — para que podamos respaldar cada pincelada.",
+    "factoryTitle": "Dentro de nuestra fábrica",
+    "factorySubtitle": "No subcontratamos. Cada paso ocurre en nuestras propias instalaciones — para que podamos respaldar cada pincelada.",
     "teamTitle": "Las personas detrás de las figuras",
     "team": [
       {
@@ -419,7 +419,7 @@
   "values": {
     "heroTitle": "Lo que nos importa",
     "heroSubtitle": "Lo que realmente nos importa — y cómo se manifiesta en el día a día, no solo en un cartel del vestíbulo.",
-    "principlesKicker": "Principios del estudio",
+    "principlesKicker": "Principios de la fábrica",
     "principlesTitle": "Cinco cosas que siempre hacemos",
     "principles": [
       {
@@ -483,7 +483,7 @@
   },
   "blog": {
     "heroTitle": "El Resin Journal",
-    "heroSubtitle": "Historias de nuestro estudio de escultura, nuestra fundición y las marcas para las que hacemos. Más guías ocasionales para compradores primerizos de figuras de resina.",
+    "heroSubtitle": "Historias de nuestra fábrica de escultura, nuestra fundición y las marcas para las que hacemos. Más guías ocasionales para compradores primerizos de figuras de resina.",
     "categories": [
       "Todo",
       "Tutorial",
@@ -496,7 +496,7 @@
     "moreTitle": "Más historias",
     "readMore": "Leer post completo",
     "featured": {
-      "title": "Del boceto al master: un día dentro de nuestro estudio de escultura",
+      "title": "Del boceto al master: un día dentro de nuestra fábrica de escultura",
       "excerpt": "Recorre los siete pasos que convierten un dibujo en servilleta en un master de resina listo para producción — incluyendo cómo elegimos la resina, ajustamos la paleta del aerógrafo y preparamos el molde de silicona para el vaciado.",
       "date": "4 mayo 2026",
       "read": "8 min de lectura",
