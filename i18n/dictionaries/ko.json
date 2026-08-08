@@ -549,10 +549,10 @@
     "title": "견적 요청",
     "subtitle": "12시간 이내에 회신하고 고객님의 디자인을 철저히 비밀로 유지합니다!",
     "form": {
-      "fullName": "성명",
+      "fullName": "이름",
       "company": "회사",
-      "email": "업무 이메일",
-      "phone": "전화",
+      "email": "이메일",
+      "phone": "전화번호",
       "productType": "제품 유형",
       "quantity": "예상 수량",
       "project": "프로젝트에 대해 알려주세요",

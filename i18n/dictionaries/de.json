@@ -549,10 +549,10 @@
     "title": "Angebot anfordern",
     "subtitle": "Wir antworten innerhalb von 12 Stunden und halten Ihr Design streng vertraulich!",
     "form": {
-      "fullName": "Vollständiger Name",
+      "fullName": "Ihr Name",
       "company": "Unternehmen",
-      "email": "Geschäftliche E-Mail",
-      "phone": "Telefon",
+      "email": "Ihre E-Mail",
+      "phone": "Ihre Telefonnummer",
       "productType": "Produkttyp",
       "quantity": "Geschätzte Menge",
       "project": "Erzählen Sie uns von Ihrem Projekt",

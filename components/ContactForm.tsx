@@ -97,10 +97,6 @@ export default function ContactForm({ dict, lang }: Props) {
           <input name="full_name" type="text" required disabled={status === "sending"} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange disabled:bg-slate-50" />
         </div>
         <div>
-          <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.company} {f.required}</label>
-          <input name="company" type="text" required disabled={status === "sending"} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange disabled:bg-slate-50" />
-        </div>
-        <div>
           <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.email} {f.required}</label>
           <input name="email" type="email" required disabled={status === "sending"} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange disabled:bg-slate-50" />
         </div>
@@ -108,8 +104,10 @@ export default function ContactForm({ dict, lang }: Props) {
           <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.phone}</label>
           <input name="phone" type="tel" disabled={status === "sending"} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange disabled:bg-slate-50" />
         </div>
-        <CustomSelect label={f.productType} name="product_type" options={dict.productTypes} />
-        <CustomSelect label={f.quantity} name="quantity" options={dict.quantities} />
+        <div>
+          <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.quantity}</label>
+          <input name="quantity" type="number" min="1" placeholder="100" disabled={status === "sending"} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange disabled:bg-slate-50" />
+        </div>
       </div>
 
       <div>

@@ -20,6 +20,7 @@ type Props = {
  */
 export default function Header({ dict, lang }: Props) {
   const NAV: { label: string; href: string }[] = [
+    { label: dict.nav.home, href: `/${lang}` },
     { label: dict.nav.products, href: `/${lang}/products` },
     { label: dict.nav.portfolio, href: `/${lang}/portfolio` },
     { label: dict.nav.about, href: `/${lang}/about` },
