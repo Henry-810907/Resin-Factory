@@ -10,7 +10,7 @@ import { BreadcrumbJsonLd } from "@/lib/jsonld";
 const SITE_URL = "https://resin-factory.com";
 
 const CASE_IMAGES = [
-  "/pictures/jpg/our-products1.jpg",
+  "/pictures/jpg/custom-resin-figurines-collection.jpg",
   "/pictures/jpg/hand-painted-resin-toys-showcase.jpg",
   "/pictures/jpg/img_2729.jpg",
   "/pictures/jpg/img_2725.jpg",
@@ -70,7 +70,7 @@ export default async function PortfolioPage({ params }: Props) {
           { name: dict.header.nav.portfolio, url: `/${lang}/portfolio` },
         ]}
       />
-      <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/custom-resin-figurines-collection.jpg" />
+      <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/our-products1.jpg" />
 
       {/* 类目标签(纯展示,非按钮)— 客户一眼看出我们做的是什么类目 */}
       <section className="border-b border-slate-200 bg-white">
