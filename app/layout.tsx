@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import { headers } from "next/headers";
-import Script from "next/script";
 import "./globals.css";
 import { locales, localeMeta, defaultLocale, type Locale } from "@/i18n/settings";
 
@@ -49,28 +48,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:bg-brand-orange focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:z-[100] focus:font-semibold focus:text-sm">
           Skip to main content
         </a>
-        {/* Google Ads Global Site Tag */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-18376214280" strategy="afterInteractive" />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-18376214280');
-            function gtag_report_conversion(url) {
-              var callback = function () {
-                if (typeof(url) != 'undefined') {
-                  window.location = url;
-                }
-              };
-              gtag('event', 'conversion', {
-                  'send_to': 'AW-18376214280/tt8FCN3f8t0cEIiOu7pE',
-                  'event_callback': callback
-              });
-              return false;
-            }
-          `}
-        </Script>
         {children}
       </body>
     </html>
