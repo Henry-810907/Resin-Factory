@@ -160,7 +160,7 @@
       },
       {
         "title": "Entrega a tiempo",
-        "desc": "Producción media de 35 días desde el master aprobado. Hitos rastreados — esculpir, moldear, vaciar, pintar, empaquetar — en todo el camino."
+        "desc": "Producción media de 20 días desde el sample aprobado. Hitos rastreados — esculpir, moldear, vaciar, pintar, empaquetar — en todo el camino."
       },
       {
         "title": "Pago flexible",
@@ -173,7 +173,7 @@
     "quickLinks": "ENLACES RÁPIDOS",
     "services": "SERVICIOS",
     "more": "MÁS",
-    "ctaText": "¿Tienes un proyecto en mente? Recibe un presupuesto gratis en 24 horas.",
+    "ctaText": "¿Tienes un proyecto en mente? Recibe un presupuesto gratis en 12 horas.",
     "ctaButton": "Contáctanos",
     "rights": "Todos los derechos reservados.",
     "linksServices": [
@@ -547,7 +547,7 @@
   },
   "contact": {
     "title": "Solicitar presupuesto",
-    "subtitle": "Respuesta con maqueta 3D y presupuesto gratis en 24 horas.",
+    "subtitle": "¡Responderemos dentro de 12 horas y mantendremos su diseño estrictamente confidencial!",
     "form": {
       "fullName": "Nombre completo",
       "company": "Empresa",

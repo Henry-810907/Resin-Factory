@@ -160,7 +160,7 @@
       },
       {
         "title": "Pünktliche Lieferung",
-        "desc": "Durchschnittlich 35 Tage Produktion ab freigegebenem Master. Verfolgte Meilensteine — modellieren, formen, gießen, bemalen, verpacken — den ganzen Weg."
+        "desc": "Durchschnittlich 20 Tage Produktion ab freigegebenem Sample. Verfolgte Meilensteine — modellieren, formen, gießen, bemalen, verpacken — den ganzen Weg."
       },
       {
         "title": "Flexible Zahlung",
@@ -173,7 +173,7 @@
     "quickLinks": "QUICK LINKS",
     "services": "LEISTUNGEN",
     "more": "MEHR",
-    "ctaText": "Haben Sie ein Projekt im Sinn? Erhalten Sie ein kostenloses Angebot innerhalb von 24 Stunden.",
+    "ctaText": "Haben Sie ein Projekt im Sinn? Erhalten Sie ein kostenloses Angebot innerhalb von 12 Stunden.",
     "ctaButton": "Kontaktieren Sie uns",
     "rights": "Alle Rechte vorbehalten.",
     "linksServices": [
@@ -547,7 +547,7 @@
   },
   "contact": {
     "title": "Angebot anfordern",
-    "subtitle": "Antwort mit kostenlosem 3D-Mock-up & Angebot innerhalb von 24 Stunden.",
+    "subtitle": "Wir antworten innerhalb von 12 Stunden und halten Ihr Design streng vertraulich!",
     "form": {
       "fullName": "Vollständiger Name",
       "company": "Unternehmen",

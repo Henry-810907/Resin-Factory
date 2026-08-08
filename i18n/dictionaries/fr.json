@@ -160,7 +160,7 @@
       },
       {
         "title": "Livraison à temps",
-        "desc": "Production moyenne de 35 jours à partir du master approuvé. Étapes suivies — sculpter, mouler, couler, peindre, emballer — tout du long."
+        "desc": "Production moyenne de 20 jours à partir du sample approuvé. Étapes suivies — sculpter, mouler, couler, peindre, emballer — tout du long."
       },
       {
         "title": "Paiement flexible",
@@ -173,7 +173,7 @@
     "quickLinks": "LIENS RAPIDES",
     "services": "SERVICES",
     "more": "PLUS",
-    "ctaText": "Un projet en tête ? Recevez un devis gratuit sous 24 heures.",
+    "ctaText": "Un projet en tête ? Recevez un devis gratuit sous 12 heures.",
     "ctaButton": "Contactez-nous",
     "rights": "Tous droits réservés.",
     "linksServices": [
@@ -547,7 +547,7 @@
   },
   "contact": {
     "title": "Demander un devis",
-    "subtitle": "Réponse avec maquette 3D et devis gratuits sous 24 heures.",
+    "subtitle": "Nous répondrons dans les 12 heures et garderons votre design strictement confidentiel !",
     "form": {
       "fullName": "Nom complet",
       "company": "Entreprise",

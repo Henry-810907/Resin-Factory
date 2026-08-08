@@ -39,7 +39,7 @@ export default function EmailLink() {
     <a
       href={href}
       onClick={handleClick}
-      className="hover:text-brand-orange transition flex items-center gap-1.5 underline"
+      className="text-xs text-slate-300 hover:text-brand-orange transition flex items-center gap-1.5 underline"
     >
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="4" width="20" height="16" rx="2" />

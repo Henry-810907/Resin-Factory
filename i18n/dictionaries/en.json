@@ -160,7 +160,7 @@
       },
       {
         "title": "On-Time Delivery",
-        "desc": "Average 35-day production from approved master. Tracked milestones — sculpt, mould, cast, paint, pack — the whole way."
+        "desc": "Average 20-day production from approved sample. Tracked milestones — sculpt, mould, cast, paint, pack — the whole way."
       },
       {
         "title": "Flexible Payment",
@@ -173,7 +173,7 @@
     "quickLinks": "QUICK LINKS",
     "services": "SERVICES",
     "more": "MORE",
-    "ctaText": "Have a project in mind? Get a free quote within 24 hours.",
+    "ctaText": "Have a project in mind? Get a free quote within 12 hours.",
     "ctaButton": "Contact Us",
     "rights": "All rights reserved.",
     "linksServices": [
@@ -547,7 +547,7 @@
   },
   "contact": {
     "title": "Get a Quote",
-    "subtitle": "Reply with a free 3D mock-up & quote within 24 hours.",
+    "subtitle": "We will reply within 12 hours and keep your design strictly confidential!",
     "form": {
       "fullName": "Full name",
       "company": "Company",

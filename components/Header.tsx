@@ -36,16 +36,16 @@ export default function Header({ dict, lang }: Props) {
         {/* 第一行：LOGO + 标语 + Get a Quote */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-center gap-3">
           <Image src="/logo.png" alt="Resin Factory" width={20} height={20} className="rounded" />
-          <span className="text-xs font-medium text-white">Custom Resin Figurine Factory</span>
+          <span className="text-xs font-medium text-slate-300">Custom Resin Figurine Factory</span>
           <Link
             href={`/${lang}/contact#form`}
-            className="text-xs font-semibold text-brand-orange hover:text-white transition underline ml-2"
+            className="text-xs font-medium text-brand-orange hover:text-white transition underline ml-2"
           >
             Click to Get a Quote
           </Link>
         </div>
         {/* 第二行：联系方式 */}
-        <div className="text-xs py-1.5 border-t border-slate-700">
+        <div className="text-xs py-1.5">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-center gap-4 sm:gap-6 flex-wrap">
             <EmailLink />
             <WhatsAppLink />
