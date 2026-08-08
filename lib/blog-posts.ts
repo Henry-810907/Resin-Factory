@@ -70,7 +70,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "north-park-mascot-launch",
-    image: "/pictures/jpg/img_2727.jpg",
+    image: "/pictures/jpg/custom-resin-figurines-collection.jpg",
     dictKey: 2,
     intro:
       "How a regional retail chain turned a 12-year-old mascot drawing into a 1,200-piece resin statue series for their flagship store launch.",

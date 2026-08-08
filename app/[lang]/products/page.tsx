@@ -11,8 +11,8 @@ const SITE_URL = "https://resin-factory.com";
 
 const PRODUCT_IMAGES = [
   "/pictures/jpg/img_2729.jpg",
-  "/pictures/jpg/img_2716.jpg",
-  "/pictures/jpg/img_2727.jpg",
+  "/pictures/jpg/hand-painted-resin-toys-showcase.jpg",
+  "/pictures/jpg/custom-resin-figurines-collection.jpg",
   "/pictures/jpg/img_2722.jpg",
   "/pictures/jpg/img_2725.jpg",
   "/pictures/jpg/img_2738.jpg",

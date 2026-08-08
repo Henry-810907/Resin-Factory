@@ -12,7 +12,7 @@ const SITE_URL = "https://resin-factory.com";
 const POST_IMAGES = [
   "/pictures/jpg/img_2722.jpg",
   "/pictures/jpg/IMG_2592.jpg",
-  "/pictures/jpg/img_2727.jpg",
+  "/pictures/jpg/custom-resin-figurines-collection.jpg",
   "/pictures/jpg/IMG_2580.jpg",
   "/pictures/jpg/IMG_2616.jpg",
   "/pictures/jpg/img_2738.jpg",

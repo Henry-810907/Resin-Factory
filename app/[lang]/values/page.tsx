@@ -10,7 +10,7 @@ import { BreadcrumbJsonLd } from "@/lib/jsonld";
 const SITE_URL = "https://resin-factory.com";
 
 const COMMITMENT_IMAGES = [
-  "/pictures/jpg/IMG_2602.jpg",
+  "/pictures/jpg/resin-factory-founder.jpg",
   "/pictures/jpg/IMG_2566.jpg",
   "/pictures/jpg/IMG_2599.jpg",
   "/pictures/jpg/IMG_2580.jpg",
@@ -65,7 +65,7 @@ export default async function ValuesPage({ params }: Props) {
           { name: dict.header.nav.values, url: `/${lang}/values` },
         ]}
       />
-      <PageHero title={v.heroTitle} subtitle={v.heroSubtitle} image="/pictures/jpg/IMG_2602.jpg" />
+      <PageHero title={v.heroTitle} subtitle={v.heroSubtitle} image="/pictures/jpg/resin-factory-founder.jpg" />
 
       <section className="bg-white py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-5 sm:px-6">
