@@ -35,13 +35,13 @@ export default function Header({ dict, lang }: Props) {
       <div className="bg-brand-dark text-slate-300">
         {/* 第一行：LOGO + 标语 + Get a Quote */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-center gap-3">
-          <Image src="/logo.jpg" alt="Resin Factory" width={28} height={28} className="rounded" />
-          <span className="text-sm font-medium text-white">Custom Resin Figurine Factory</span>
+          <Image src="/logo.png" alt="Resin Factory" width={20} height={20} className="rounded" />
+          <span className="text-xs font-medium text-white">Custom Resin Figurine Factory</span>
           <Link
             href={`/${lang}/contact#form`}
-            className="text-xs font-semibold text-brand-orange hover:text-white transition ml-2"
+            className="text-xs font-semibold text-brand-orange hover:text-white transition underline ml-2"
           >
-            Get a Quote →
+            Click to Get a Quote
           </Link>
         </div>
         {/* 第二行：联系方式 */}
@@ -56,7 +56,7 @@ export default function Header({ dict, lang }: Props) {
       <div className="bg-white border-b border-slate-200">
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 sm:gap-4 px-4 sm:px-6 py-3 sm:py-4">
         <Link href={`/${lang}`} aria-label={dict.homeAria} className="flex items-center gap-2 shrink-0">
-          <Image src="/logo.jpg" alt="Resin Factory Logo" width={32} height={32} className="rounded-md" />
+          <Image src="/logo.png" alt="Resin Factory Logo" width={32} height={32} className="rounded-md" />
           <span className="font-bold text-base sm:text-xl text-brand-dark tracking-tight whitespace-nowrap">
             {dict.brand}
           </span>
