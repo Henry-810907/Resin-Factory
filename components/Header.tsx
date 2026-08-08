@@ -38,7 +38,7 @@ export default function Header({ dict, lang }: Props) {
           <Image src="/logo.png" alt="Resin Factory" width={20} height={20} className="rounded" />
           <span className="text-xs font-medium text-slate-300">Custom Resin Figurine Factory</span>
           <Link
-            href={`/${lang}/contact#form`}
+            href={`/${lang}/contact`}
             className="text-xs font-medium text-brand-orange hover:text-white transition underline ml-2"
           >
             Click to Get a Quote

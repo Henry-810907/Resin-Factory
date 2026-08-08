@@ -89,16 +89,16 @@ export default async function AboutPage({ params }: Props) {
           <p className="text-slate-500 mt-2 sm:mt-3 max-w-2xl mx-auto text-sm sm:text-base md:text-lg">{a.workshopSubtitle}</p>
         </div>
         <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-          <div className="relative w-full aspect-[4/5] rounded-lg overflow-hidden">
+          <div className="relative w-full aspect-[4/3] md:aspect-[4/5] rounded-lg overflow-hidden">
             <Image src="/pictures/jpg/IMG_2629.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-[3/2] md:col-span-2 rounded-lg overflow-hidden">
+          <div className="relative w-full aspect-[4/3] md:aspect-[3/2] md:col-span-2 rounded-lg overflow-hidden">
             <Image src="/pictures/jpg/IMG_2576.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-[3/2] md:col-span-2 rounded-lg overflow-hidden">
+          <div className="relative w-full aspect-[4/3] md:aspect-[3/2] md:col-span-2 rounded-lg overflow-hidden">
             <Image src="/pictures/jpg/IMG_2645.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-[4/5] rounded-lg overflow-hidden">
+          <div className="relative w-full aspect-[4/3] md:aspect-[4/5] rounded-lg overflow-hidden">
             <Image src="/pictures/jpg/IMG_2655.jpg" alt={a.workshopTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function HeroCarousel({ dict, lang }: Props) {
         >
           {dict.slides.map((s, i) => (
             <div key={i} className="relative w-full h-full shrink-0">
-              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="100vw" className="object-cover object-right" />
+              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="100vw" className="object-contain" />
             </div>
           ))}
         </div>
