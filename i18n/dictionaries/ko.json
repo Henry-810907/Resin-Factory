@@ -42,7 +42,8 @@
       "blog": "블로그",
       "contact": "문의"
     },
-    "language": "언어"
+    "language": "언어",
+    "factoryService": "우리 공장 서비스: 맞춤형 레진 피규어"
   },
   "hero": {
     "slides": [

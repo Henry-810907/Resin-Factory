@@ -42,7 +42,8 @@
       "blog": "المدونة",
       "contact": "اتصل بنا"
     },
-    "language": "اللغة"
+    "language": "اللغة",
+    "factoryService": "خدمة المصنع لدينا: تمثال راتنج مخصص"
   },
   "hero": {
     "slides": [

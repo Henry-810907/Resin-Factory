@@ -42,7 +42,8 @@
       "blog": "Blog",
       "contact": "Contact"
     },
-    "language": "Language"
+    "language": "Language",
+    "factoryService": "Our Factory's Service: Custom Resin Figurine"
   },
   "hero": {
     "slides": [
