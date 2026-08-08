@@ -5,7 +5,6 @@ import type { Locale } from "@/i18n/settings";
 import LanguageSwitcher from "./LanguageSwitcher";
 import EmailLink from "./EmailLink";
 import WhatsAppLink from "./WhatsAppLink";
-import PhoneLink from "./PhoneLink";
 
 type Props = {
   dict: Dictionary["header"];
@@ -49,7 +48,6 @@ export default function Header({ dict, lang }: Props) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-center gap-4 sm:gap-6 flex-wrap">
             <EmailLink />
             <WhatsAppLink />
-            <PhoneLink />
           </div>
         </div>
       </div>
