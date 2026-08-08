@@ -552,7 +552,7 @@
       "fullName": "Vollständiger Name",
       "company": "Unternehmen",
       "email": "Geschäftliche E-Mail",
-      "phone": "Telefon / WhatsApp",
+      "phone": "Telefon",
       "productType": "Produkttyp",
       "quantity": "Geschätzte Menge",
       "project": "Erzählen Sie uns von Ihrem Projekt",
@@ -581,7 +581,7 @@
     "asideTitle": "Andere Wege, uns zu erreichen",
     "labels": {
       "email": "E-Mail",
-      "phone": "Telefon / WhatsApp",
+      "phone": "Telefon",
       "company": "Unternehmen",
       "address": "Adresse",
       "hours": "Öffnungszeiten"

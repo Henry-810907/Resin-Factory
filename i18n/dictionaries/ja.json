@@ -552,7 +552,7 @@
       "fullName": "氏名",
       "company": "会社名",
       "email": "ビジネスメール",
-      "phone": "電話 / WhatsApp",
+      "phone": "電話",
       "productType": "製品タイプ",
       "quantity": "予想数量",
       "project": "プロジェクトについてお聞かせください",
@@ -581,7 +581,7 @@
     "asideTitle": "その他のご連絡方法",
     "labels": {
       "email": "メール",
-      "phone": "電話 / WhatsApp",
+      "phone": "電話",
       "company": "会社",
       "address": "住所",
       "hours": "営業時間"

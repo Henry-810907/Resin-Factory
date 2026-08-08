@@ -552,7 +552,7 @@
       "fullName": "성명",
       "company": "회사",
       "email": "업무 이메일",
-      "phone": "전화 / WhatsApp",
+      "phone": "전화",
       "productType": "제품 유형",
       "quantity": "예상 수량",
       "project": "프로젝트에 대해 알려주세요",
@@ -581,7 +581,7 @@
     "asideTitle": "다른 연락 방법",
     "labels": {
       "email": "이메일",
-      "phone": "전화 / WhatsApp",
+      "phone": "전화",
       "company": "회사",
       "address": "주소",
       "hours": "운영시간"
