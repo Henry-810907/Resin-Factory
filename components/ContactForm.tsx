@@ -106,7 +106,7 @@ export default function ContactForm({ dict, lang }: Props) {
         </div>
         <div>
           <label className="block text-sm font-semibold text-slate-700 mb-1.5">{f.quantity}</label>
-          <input name="quantity" type="number" min="1" disabled={status === "sending"} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange disabled:bg-slate-50" placeholder="100" />
+          <input name="quantity" type="number" min="1" disabled={status === "sending"} className="w-full px-4 py-3 text-sm rounded-md border border-slate-300 focus:outline-none focus:border-brand-orange disabled:bg-slate-50" />
         </div>
       </div>
 
