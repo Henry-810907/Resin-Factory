@@ -2,10 +2,20 @@
 
 import React from "react";
 
+// 声明 gtag 类型
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+    dataLayer?: any[];
+  }
+}
+
 export default function EmailLink() {
   const handleClick = () => {
-    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-      (window as any).gtag("event", "conversion", {
+    // 触发 Google Ads 转化事件
+    if (typeof window !== "undefined") {
+      window.gtag = window.gtag || function() { (window.dataLayer = window.dataLayer || []).push(arguments); };
+      window.gtag("event", "conversion", {
         send_to: "AW-18376214280/_2MFCNvGht4cEliOu7pE",
       });
     }
