@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary } from "@/i18n/get-dictionary";
 
-const IMAGES = ["/hero1.jpg", "/hero2.jpg", "/hero3.jpg"];
+const IMAGES = ["/resin-figurines-collection.jpg", "/custom-resin-toys-showcase.jpg", "/resin-samples-factory.jpg"];
 
 type Props = { dict: Dictionary["hero"]; lang: string };
 

@@ -60,7 +60,7 @@ export async function POST(request: NextRequest) {
     const lang = get("_lang") || "en";
 
     // 必填校验
-    if (!fullName || !company || !email) {
+    if (!fullName || !email) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -96,15 +96,13 @@ export async function POST(request: NextRequest) {
     });
 
     const inquiryTo = process.env.INQUIRY_TO_EMAIL || SMTP_USER;
-    const subject = `New Inquiry · ${company} · ${productType || "Resin Figurine"}`;
+    const subject = `New Inquiry · ${fullName} · Resin Figurine`;
 
     const tableHtml = `
       <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;font-size:14px;width:100%;max-width:640px;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden">
         ${cell("Name", escapeHtml(fullName))}
-        ${cell("Company", escapeHtml(company))}
         ${cell("Email", `<a href="mailto:${escapeHtml(email)}" style="color:#E65A1F">${escapeHtml(email)}</a>`)}
         ${cell("Phone / WhatsApp", escapeHtml(phone))}
-        ${cell("Product type", escapeHtml(productType))}
         ${cell("Estimated quantity", escapeHtml(quantity))}
         ${cell("Message", escapeHtml(message).replace(/\n/g, "<br/>"))}
         ${cell("Language", lang)}

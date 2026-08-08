@@ -39,8 +39,15 @@ export default function Header({ dict, lang }: Props) {
           <span className="text-xs font-medium text-slate-300">Custom Resin Figurine Factory</span>
           <Link
             href={`/${lang}/contact`}
-            className="text-xs font-medium text-brand-orange hover:text-white transition underline ml-2"
+            className="text-xs font-medium text-brand-orange hover:text-white transition underline ml-2 flex items-center gap-1.5"
           >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M8 13V4.5a1.5 1.5 0 0 1 3 0V12"></path>
+              <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5"></path>
+              <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5"></path>
+              <path d="M17 11.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2 .208a6 6 0 0 1-5.012-2.7L7 19c-.138-.208-.21-.44-.21-.678v0c0-.552.448-1 1-1a1 1 0 0 0 .896-.557l1.367-2.734a6 6 0 0 1 5.265-3.039H17"></path>
+              <path d="M10 2a1 1 0 0 1 2 0"></path>
+            </svg>
             Click to Get a Quote
           </Link>
         </div>

@@ -31,24 +31,30 @@ export default function FactoryIntro({ dict }: Props) {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-brand-dark">{dict.peopleTitle}</h3>
           <p className="text-sm sm:text-base text-slate-500 mt-2 sm:mt-3">{dict.peopleSubtitle}</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden">
-            <Image src="/600-600.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+          {/* 竖图1 */}
+          <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden order-1 md:order-1">
+            <Image src="/pictures/jpg/IMG_2623.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-[2/1] md:col-span-2 rounded-lg overflow-hidden">
-            <Image src="/1200-600.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
+          {/* 竖图2 */}
+          <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden order-2 md:order-3">
+            <Image src="/pictures/jpg/IMG_2636.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden">
-            <Image src="/600-600-2.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+          {/* 横图1：手机端占满2列，电脑端占1列 */}
+          <div className="relative w-full aspect-[3/4] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-3 md:order-2">
+            <Image src="/pictures/jpg/IMG_2602.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden">
-            <Image src="/600-600-3.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+          {/* 竖图3 */}
+          <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden order-4 md:order-4">
+            <Image src="/pictures/jpg/IMG_2637.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden">
-            <Image src="/pictures/jpg/IMG_2625.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+          {/* 竖图4 */}
+          <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden order-5 md:order-6">
+            <Image src="/pictures/jpg/IMG_2652.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 33vw" className="object-cover object-center" />
           </div>
-          <div className="relative w-full aspect-[2/1] md:col-span-2 rounded-lg overflow-hidden">
-            <Image src="/pictures/jpg/IMG_2602.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
+          {/* 横图2：手机端占满2列，电脑端占1列 */}
+          <div className="relative w-full aspect-[3/4] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-6 md:order-5">
+            <Image src="/pictures/jpg/IMG_2625.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-center" />
           </div>
         </div>
       </div>
