@@ -41,7 +41,7 @@ export default function FactoryIntro({ dict }: Props) {
             <Image src="/2-Art-Of-Hand-Painted3.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
           </div>
           {/* 横图1 */}
-          <div className="relative w-full aspect-square md:aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-3 md:order-2">
+          <div className="relative w-full aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-3 md:order-2">
             <Image src="/7-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" className="object-cover object-center" />
           </div>
           {/* 方图3 */}
@@ -53,7 +53,7 @@ export default function FactoryIntro({ dict }: Props) {
             <Image src="/6-Art-Of-Hand-Painted1.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
           </div>
           {/* 横图2 */}
-          <div className="relative w-full aspect-square md:aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-6 md:order-5">
+          <div className="relative w-full aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-6 md:order-5">
             <Image src="/8-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" className="object-cover object-center" />
           </div>
         </div>
