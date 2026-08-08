@@ -22,10 +22,6 @@ export default function HeroCarousel({ dict, lang }: Props) {
 
   return (
     <>
-      <h1 className="absolute top-4 left-1/2 -translate-x-1/2 z-20 text-xl sm:text-2xl md:text-3xl font-bold text-white bg-brand-dark/80 px-4 py-2 rounded-lg shadow-lg">
-        {dict.h1}
-      </h1>
-      
       <div className="absolute inset-0 overflow-hidden">
         <div
           className="absolute inset-0 flex transition-transform duration-700 ease-in-out"
