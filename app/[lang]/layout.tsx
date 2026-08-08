@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { locales, isLocale, localeMeta, type Locale } from "@/i18n/settings";
 
@@ -134,7 +133,6 @@ export default async function LangLayout({ children, params }: LayoutProps) {
       <Header dict={dict.header} lang={lang} />
       <main id="main">{children}</main>
       <Footer dict={dict.footer} navDict={dict.header.nav} lang={lang} />
-      <WhatsAppFloat dict={dict.whatsapp} />
     </>
   );
 }
