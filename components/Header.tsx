@@ -33,10 +33,15 @@ export default function Header({ dict, lang }: Props) {
     <header className="w-full sticky top-0 z-50">
       {/* 顶部品牌条 + 联系信息条 */}
       <div className="bg-brand-dark text-slate-300">
-        {/* 第一行：LOGO + 标语 */}
+        {/* 第一行：标语 + Get a Quote */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-center gap-3">
-          <Image src="/resin-factory-logo.png" alt="Resin Factory" width={20} height={20} className="rounded" />
           <span className="text-xs font-medium text-slate-300">{dict.factoryService}</span>
+          <Link
+            href={`/${lang}/contact#form`}
+            className="text-xs font-medium text-brand-orange hover:text-white transition underline ml-2"
+          >
+            Click to Get a Quote
+          </Link>
         </div>
         {/* 第二行：联系方式 */}
         <div className="text-xs py-1.5">

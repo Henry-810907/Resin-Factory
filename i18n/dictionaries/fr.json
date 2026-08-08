@@ -46,6 +46,7 @@
     "factoryService": "Notre Service d'Usine: Figurine en Résine Personnalisée"
   },
   "hero": {
+    "h1": "Usine de figurines en résine",
     "slides": [
       {
         "title": "Figurines en résine sur mesure pour marques et IP",
