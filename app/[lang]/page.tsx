@@ -16,6 +16,7 @@ export default async function HomePage({ params }: Props) {
   const dict = await getDictionary(lang);
   return (
     <>
+      <h1 className="sr-only">{dict.hero.h1}</h1>
       <Hero dict={dict.hero} lang={lang} />
       <FactoryIntro dict={dict.factoryIntro} />
       <MagicalMemories dict={dict.magicalMemories} />
