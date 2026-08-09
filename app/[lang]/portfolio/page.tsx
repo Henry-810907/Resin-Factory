@@ -70,7 +70,7 @@ export default async function PortfolioPage({ params }: Props) {
           { name: dict.header.nav.portfolio, url: `/${lang}/portfolio` },
         ]}
       />
-      <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/our-products1.jpg" />
+      <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/our-products1.jpg" priority={true} />
 
       {/* 类目标签(纯展示,非按钮)— 客户一眼看出我们做的是什么类目 */}
       <section className="border-b border-slate-200 bg-white">

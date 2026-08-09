@@ -78,7 +78,7 @@ export default async function ProductsPage({ params }: Props) {
       />
       <FaqJsonLd items={p.faq.items.map((i) => ({ q: i.q, a: i.a }))} />
 
-      <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/img_2736.jpg" />
+      <PageHero title={p.heroTitle} subtitle={p.heroSubtitle} image="/pictures/jpg/img_2736.jpg" priority={true} />
 
       <section className="bg-white py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-5 sm:px-6">

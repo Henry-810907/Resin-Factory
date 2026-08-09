@@ -56,12 +56,12 @@ export default async function AboutPage({ params }: Props) {
           { name: dict.header.nav.about, url: `/${lang}/about` },
         ]}
       />
-      <PageHero title={a.heroTitle} subtitle={a.heroSubtitle} image="/OurFactory.jpg" />
+      <PageHero title={a.heroTitle} subtitle={a.heroSubtitle} image="/OurFactory.jpg" priority={true} />
 
       <section className="bg-white py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-14 items-center">
           <div className="relative w-full aspect-[4/3] min-h-[220px] md:min-h-[340px] rounded-lg overflow-hidden shadow-md">
-            <Image src="/1200-900-1.jpg" alt={a.storyTitle} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
+            <Image src="/1200-900-1.jpg" alt={a.storyTitle} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" priority={true} />
           </div>
           <div className="space-y-3 sm:space-y-5 text-slate-700">
             <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold">{a.storyKicker}</p>

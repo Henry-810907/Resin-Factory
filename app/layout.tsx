@@ -32,6 +32,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang={meta.htmlLang} dir={meta.dir} className={body.variable} suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
       </head>
       <body className="bg-white text-slate-800 font-sans notranslate antialiased">
         {/* 跳过到主内容(键盘可访问性) */}

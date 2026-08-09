@@ -1,12 +1,14 @@
 import Hero from "@/components/Hero";
-import FactoryIntro from "@/components/FactoryIntro";
-import MagicalMemories from "@/components/MagicalMemories";
-import BestSellers from "@/components/BestSellers";
-import MagicalCreations from "@/components/MagicalCreations";
-import WhyChooseUs from "@/components/WhyChooseUs";
+import dynamic from "next/dynamic";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { notFound } from "next/navigation";
+
+const FactoryIntro = dynamic(() => import("@/components/FactoryIntro"));
+const MagicalMemories = dynamic(() => import("@/components/MagicalMemories"));
+const BestSellers = dynamic(() => import("@/components/BestSellers"));
+const MagicalCreations = dynamic(() => import("@/components/MagicalCreations"));
+const WhyChooseUs = dynamic(() => import("@/components/WhyChooseUs"));
 
 type Props = { params: { lang: string } };
 
