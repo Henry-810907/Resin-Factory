@@ -592,7 +592,7 @@
     "privacy": "En envoyant, vous acceptez notre politique de confidentialité. Nous ne partageons jamais vos coordonnées avec des tiers.",
     "states": {
       "sending": "Envoi en cours...",
-      "success": "Merci ! Nous avons reçu votre demande — notre équipe répondra sous 24 heures.",
+      "success": "Merci ! Nous avons reçu votre demande — notre équipe répondra sous 12 heures.",
       "error": "Une erreur est survenue. Veuillez réessayer ou écrire directement à henry@resin-factory.com."
     }
   },
