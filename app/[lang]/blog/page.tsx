@@ -66,7 +66,7 @@ export default async function BlogPage({ params }: Props) {
           <p className="text-xs uppercase tracking-wider text-brand-orange font-bold mb-3 sm:mb-5">{b.featuredKicker}</p>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-8 items-center">
             <Link href={`/${lang}/blog/${FEATURED_SLUG}`} className="md:col-span-3 relative w-full aspect-[16/10] min-h-[200px] md:min-h-[280px] rounded-lg overflow-hidden block group">
-              <Image src="/pictures/jpg/IMG_2629.jpg" alt={b.featured.title} fill sizes="(max-width: 768px) 100vw, 60vw" className="object-cover object-center group-hover:scale-105 transition duration-500" priority={true} />
+              <Image src={BLOG_POSTS.find(p => p.slug === FEATURED_SLUG)?.image ?? "/pictures/jpg/IMG_2629.jpg"} alt={b.featured.title} fill sizes="(max-width: 768px) 100vw, 60vw" className="object-cover object-center group-hover:scale-105 transition duration-500" priority={true} />
             </Link>
             <div className="md:col-span-2 space-y-3 sm:space-y-4">
               <span className="text-xs uppercase tracking-wider text-brand-orange font-bold">{b.featured.tag}</span>
