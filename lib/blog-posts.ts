@@ -124,6 +124,22 @@ export const BLOG_POSTS: BlogPost[] = [
       "Lead time for an e-sports drop is the hard constraint. Players retire, get traded, change teams. From sculpt to ship is typically 12 weeks. If you want figures of your current roster ready for a championship in March, we need the player photo brief by early December. Plan accordingly.",
     ],
   },
+  {
+    slug: "why-figurine-eyes-look-unnatural",
+    image: "/blog/eyes-with-lashes.jpg",
+    dictKey: 6,
+    intro:
+      "For 8-15cm resin figurines, eyes often appear lifeless or even creepy. What's the problem? How one eyelash line changes everything.",
+    paragraphs: [
+      "You receive a batch of resin figurine samples. The overall craftsmanship is good, but something feels off. You look closer—it's the eyes. Those eyes stare at you blankly, lifeless, soulless, even a bit creepy. This isn't an isolated case. In the resin figurine customization industry, this is a common problem, especially for small-sized products (8-15cm).",
+      "After years of research and countless sample comparisons, we discovered a critical detail: missing eyelashes. Many people instinctively think: the product is so small, the eyes are only a few millimeters—how can you paint eyelashes? It's impossible, so skip it. And so, the eyelashes are omitted. But this 'skip it' decision drains all life from the product.",
+      "The eyes are the soul of the product. And eyelashes are the finishing touch. Eyes without eyelashes look flat and lifeless, lack depth and dimension, appear hollow, even creepy, and make the product look cheap. Eyes with eyelashes look natural and harmonious, appear vivid and full of life, have gentle, approachable eyes, and instantly elevate the product's quality.",
+      "This isn't exaggeration—it's visual psychology. Eyelashes add depth and expression to the eyes, transforming the product from 'looks like a person' to 'comes alive.'",
+      "Since large products can easily have detailed eyelashes painted, what about 8-15cm small products? Our solution: paint a thin line at the outermost edge of the eyelid. That simple. This line doesn't need to paint every individual eyelash detail—just use a fine brushstroke along the eyelid edge to simulate the eyelash contour. The effect is immediate: eyes instantly gain spirit, product becomes natural and harmonious, overall quality perception significantly improves.",
+      "This is the magic of one line, and the best proof that details determine quality. In the resin figurine customization industry, details determine success or failure. Don't ignore eyelashes: no matter how small the product, eyelashes are essential. Use simplified approach for small sizes: paint one line, no need for every individual lash. The contrast between with/without eyelashes is dramatic.",
+      "Even if customers can't articulate what's wrong, they'll feel 'this product is better.' Resin figurine customization isn't just about getting the shape right—it's about giving the product life. One eyelash line may seem insignificant, but it determines whether a product is 'ordinary' or 'excellent,' 'lifeless' or 'vivid.' This is the detail we insist on, and the reason we build long-term partnerships with our clients.",
+    ],
+  },
 ];
 
 export const BLOG_SLUGS = BLOG_POSTS.map((p) => p.slug);
