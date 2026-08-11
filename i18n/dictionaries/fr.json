@@ -497,11 +497,10 @@
     "moreTitle": "Plus d'histoires",
     "readMore": "Lire l'article complet",
     "featured": {
-      "title": "Du croquis au master : une journée dans notre usine de sculpture",
-      "excerpt": "Suivez les sept étapes qui transforment un dessin sur serviette en master résine prêt à produire — y compris le choix de la résine, la palette d'aérographe et la préparation du moule silicone pour la coulée.",
-      "date": "4 mai 2026",
-      "read": "8 min de lecture",
-      "tag": "Coulisses"
+      "title": "Pourquoi les yeux des figurines en résine semblent-ils peu naturels? Le secret d'une ligne",
+      "date": "11 août 2026",
+      "read": "4 min",
+      "tag": "Conseils de peinture"
     },
     "posts": [
       {
@@ -541,10 +540,11 @@
         "tag": "Histoires de marques"
       },
       {
-        "title": "Pourquoi les yeux des figurines en résine semblent-ils peu naturels? Le secret d'une ligne",
-        "date": "11 août 2026",
-        "read": "4 min",
-        "tag": "Conseils de peinture"
+        "title": "Du croquis au master : une journée dans notre usine de sculpture",
+        "excerpt": "Suivez les sept étapes qui transforment un dessin sur serviette en master résine prêt à produire — y compris le choix de la résine, la palette d'aérographe et la préparation du moule silicone pour la coulée.",
+        "date": "4 mai 2026",
+        "read": "8 min de lecture",
+        "tag": "Coulisses"
       }
     ],
     "contactCtaTitle": "Vous avez un projet à discuter ?",

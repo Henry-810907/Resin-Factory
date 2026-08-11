@@ -502,11 +502,10 @@
     "contactCtaSubtitle": "We reply within 24 hours with a free 3D mockup and quote.",
     "contactCtaButton": "Get a Quote",
     "featured": {
-      "title": "From Sketch to Master: A Day Inside Our Sculpting Factory",
-      "excerpt": "Take a walk through the seven steps that turn a back-of-napkin drawing into a production-ready resin master — including how we pick the resin, dial in the airbrush palette, and prep the silicone mold for casting.",
-      "date": "May 4, 2026",
-      "read": "8 min read",
-      "tag": "Behind the Scenes"
+      "title": "Why Do Resin Figurine Eyes Look Unnatural? The Secret of One Line",
+      "date": "Aug 11, 2026",
+      "read": "4 min",
+      "tag": "Painting Tips"
     },
     "posts": [
       {
@@ -546,10 +545,11 @@
         "tag": "Brand Stories"
       },
       {
-        "title": "Why Do Resin Figurine Eyes Look Unnatural? The Secret of One Line",
-        "date": "Aug 11, 2026",
-        "read": "4 min",
-        "tag": "Painting Tips"
+        "title": "From Sketch to Master: A Day Inside Our Sculpting Factory",
+        "excerpt": "Take a walk through the seven steps that turn a back-of-napkin drawing into a production-ready resin master — including how we pick the resin, dial in the airbrush palette, and prep the silicone mold for casting.",
+        "date": "May 4, 2026",
+        "read": "8 min read",
+        "tag": "Behind the Scenes"
       }
     ]
   },

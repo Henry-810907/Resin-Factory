@@ -497,11 +497,10 @@
     "moreTitle": "Mehr Geschichten",
     "readMore": "Vollständigen Beitrag lesen",
     "featured": {
-      "title": "Von der Skizze zum Master: Ein Tag in unserem Modellier-Fabrik",
-      "excerpt": "Begehen Sie die sieben Schritte, die eine Skizze auf einer Serviette in einen produktionsbereiten Resin-Master verwandeln — einschließlich Resin-Wahl, Airbrush-Palette und Vorbereitung der Silikonform fürs Gießen.",
-      "date": "4. Mai 2026",
-      "read": "8 Min. Lesezeit",
-      "tag": "Hinter den Kulissen"
+      "title": "Warum sehen Harzfiguren-Augen unnatürlich aus? Das Geheimnis einer Linie",
+      "date": "11. Aug. 2026",
+      "read": "4 Min.",
+      "tag": "Mal-Tipps"
     },
     "posts": [
       {
@@ -541,10 +540,11 @@
         "tag": "Markengeschichten"
       },
       {
-        "title": "Warum sehen Harzfiguren-Augen unnatürlich aus? Das Geheimnis einer Linie",
-        "date": "11. Aug. 2026",
-        "read": "4 Min.",
-        "tag": "Mal-Tipps"
+        "title": "Von der Skizze zum Master: Ein Tag in unserem Modellier-Fabrik",
+        "excerpt": "Begehen Sie die sieben Schritte, die eine Skizze auf einer Serviette in einen produktionsbereiten Resin-Master verwandeln — einschließlich Resin-Wahl, Airbrush-Palette und Vorbereitung der Silikonform fürs Gießen.",
+        "date": "4. Mai 2026",
+        "read": "8 Min. Lesezeit",
+        "tag": "Hinter den Kulissen"
       }
     ],
     "contactCtaTitle": "Haben Sie ein Projekt zu besprechen?",

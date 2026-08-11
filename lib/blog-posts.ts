@@ -21,14 +21,14 @@ export type BlogPost = {
   date: string;
 };
 
-export const FEATURED_SLUG = "sketch-to-master";
+export const FEATURED_SLUG = "why-figurine-eyes-look-unnatural";
 
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: FEATURED_SLUG,
-    image: "/pictures/jpg/IMG_2629.jpg",
+    image: "/blog/eyes-with-lashes.jpg",
     dictKey: "featured",
-    date: "2026-05-04",
+    date: "2026-08-11",
     intro:
       "What actually happens between a back-of-napkin drawing and a production-ready resin master? Seven steps, two weeks, and a lot of small decisions you only notice if something goes wrong.",
     paragraphs: [
@@ -134,10 +134,10 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
-    slug: "why-figurine-eyes-look-unnatural",
-    image: "/blog/eyes-with-lashes.jpg",
+    slug: "sketch-to-master",
+    image: "/pictures/jpg/IMG_2629.jpg",
     dictKey: 6,
-    date: "2026-08-11",
+    date: "2026-05-04",
     intro:
       "For 8-15cm resin figurines, eyes often appear lifeless or even creepy. What's the problem? How one eyelash line changes everything.",
     paragraphs: [
