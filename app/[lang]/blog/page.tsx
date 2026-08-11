@@ -89,7 +89,7 @@ export default async function BlogPage({ params }: Props) {
               .filter((p) => p.dictKey !== "featured")
               .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
               .map((post) => {
-                const dictPost = b.posts.find((p) => p.title === b.posts[post.dictKey as number]?.title) || b.posts[post.dictKey as number];
+                const dictPost = b.posts[post.dictKey as number];
                 if (!dictPost) return null;
                 return (
                   <Link
