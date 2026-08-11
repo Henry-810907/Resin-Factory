@@ -9,6 +9,15 @@ import { BLOG_POSTS, FEATURED_SLUG } from "@/lib/blog-posts";
 
 const SITE_URL = "https://resin-factory.com";
 
+const POST_IMAGES = [
+  "/pictures/jpg/img_2722.jpg",
+  "/pictures/jpg/IMG_2592.jpg",
+  "/pictures/jpg/custom-resin-figurines-collection.jpg",
+  "/pictures/jpg/IMG_2580.jpg",
+  "/pictures/jpg/IMG_2616.jpg",
+  "/pictures/jpg/img_2738.jpg",
+];
+
 type Props = { params: { lang: string } };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -74,7 +83,7 @@ export default async function BlogPage({ params }: Props) {
                 <Link href={`/${lang}/blog/${FEATURED_SLUG}`} className="hover:text-brand-orange transition">{b.featured.title}</Link>
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">{b.featured.excerpt}</p>
-              <p className="text-xs sm:text-sm text-slate-500">{b.featured.date}</p>
+              <p className="text-xs sm:text-sm text-slate-500">{b.featured.date} · {b.featured.read}</p>
               <Link href={`/${lang}/blog/${FEATURED_SLUG}`} className="inline-block bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-5 sm:px-6 py-2.5 sm:py-3 rounded-md shadow-sm">{b.readMore}</Link>
             </div>
           </div>
@@ -85,31 +94,24 @@ export default async function BlogPage({ params }: Props) {
         <div className="max-w-7xl mx-auto px-5 sm:px-6">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-brand-dark mb-5 sm:mb-8 tracking-tight">{b.moreTitle}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            {[...BLOG_POSTS]
-              .filter((p) => p.dictKey !== "featured")
-              .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-              .map((post) => {
-                const dictPost = b.posts.find((p) => p.title === b.posts[post.dictKey as number]?.title) || b.posts[post.dictKey as number];
-                if (!dictPost) return null;
-                return (
-                  <Link
-                    key={post.slug}
-                    href={`/${lang}/blog/${post.slug}`}
-                    className="bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition overflow-hidden flex flex-col group"
-                  >
-                    <article className="flex flex-col h-full">
-                      <div className="relative w-full aspect-[8/5] overflow-hidden">
-                        <Image src={post.image} alt={dictPost.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-center group-hover:scale-105 transition duration-500" />
-                      </div>
-                      <div className="p-4 sm:p-5 flex-1 flex flex-col">
-                        <span className="text-xs uppercase tracking-wider text-brand-orange font-bold mb-1.5 sm:mb-2">{dictPost.tag}</span>
-                        <h3 className="font-bold text-brand-dark text-sm sm:text-base mb-2 sm:mb-3 leading-snug group-hover:text-brand-orange transition">{dictPost.title}</h3>
-                        <p className="text-xs sm:text-sm text-slate-500 mt-auto">{dictPost.date}</p>
-                      </div>
-                    </article>
-                  </Link>
-                );
-              })}
+            {b.posts.map((p, i) => (
+              <Link
+                key={p.title}
+                href={`/${lang}/blog/${BLOG_POSTS[i + 1]?.slug ?? BLOG_POSTS[0].slug}`}
+                className="bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition overflow-hidden flex flex-col group"
+              >
+                <article className="flex flex-col h-full">
+                  <div className="relative w-full aspect-[8/5] overflow-hidden">
+                    <Image src={POST_IMAGES[i] ?? POST_IMAGES[0]} alt={p.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-center group-hover:scale-105 transition duration-500" />
+                  </div>
+                  <div className="p-4 sm:p-5 flex-1 flex flex-col">
+                    <span className="text-xs uppercase tracking-wider text-brand-orange font-bold mb-1.5 sm:mb-2">{p.tag}</span>
+                    <h3 className="font-bold text-brand-dark text-sm sm:text-base mb-2 sm:mb-3 leading-snug group-hover:text-brand-orange transition">{p.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-500 mt-auto">{p.date} · {p.read}</p>
+                  </div>
+                </article>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

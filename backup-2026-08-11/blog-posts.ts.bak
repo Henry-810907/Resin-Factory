@@ -17,8 +17,6 @@ export type BlogPost = {
   paragraphs: string[];
   /** 文章顶部副标题/摘要(英文) */
   intro: string;
-  /** 发布日期 (ISO 格式: YYYY-MM-DD) */
-  date: string;
 };
 
 export const FEATURED_SLUG = "sketch-to-master";
@@ -28,7 +26,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: FEATURED_SLUG,
     image: "/pictures/jpg/IMG_2629.jpg",
     dictKey: "featured",
-    date: "2026-05-04",
     intro:
       "What actually happens between a back-of-napkin drawing and a production-ready resin master? Seven steps, two weeks, and a lot of small decisions you only notice if something goes wrong.",
     paragraphs: [
@@ -47,7 +44,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "low-moq-indie-designer-toys",
     image: "/pictures/jpg/img_2722.jpg",
     dictKey: 0,
-    date: "2026-04-28",
     intro:
       "Why a 100-unit MOQ matters more than you think for indie designer-toy artists, and how to think about your first run.",
     paragraphs: [
@@ -62,7 +58,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "polyurethane-vs-polystone",
     image: "/pictures/jpg/IMG_2592.jpg",
     dictKey: 1,
-    date: "2026-04-14",
     intro:
       "Polyurethane resin and polystone look identical in photos. They feel completely different in your hand. Here's how to choose.",
     paragraphs: [
@@ -77,7 +72,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "north-park-mascot-launch",
     image: "/pictures/jpg/custom-resin-figurines-collection.jpg",
     dictKey: 2,
-    date: "2026-04-02",
     intro:
       "How a regional retail chain turned a 12-year-old mascot drawing into a 1,200-piece resin statue series for their flagship store launch.",
     paragraphs: [
@@ -92,7 +86,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "recycled-resin-2025-numbers",
     image: "/pictures/jpg/IMG_2580.jpg",
     dictKey: 3,
-    date: "2026-03-18",
     intro:
       "We've been blending recycled resin into our production stream since early 2024. Here's what we learned and what the numbers actually look like.",
     paragraphs: [
@@ -107,7 +100,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "airbrush-vs-hand-brush",
     image: "/pictures/jpg/IMG_2616.jpg",
     dictKey: 4,
-    date: "2026-03-05",
     intro:
       "When to airbrush, when to hand-brush, when to combine. The painting choice that decides whether your figure looks $30 or $300.",
     paragraphs: [
@@ -122,7 +114,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "esports-team-resin-drops",
     image: "/pictures/jpg/img_2738.jpg",
     dictKey: 5,
-    date: "2026-02-19",
     intro:
       "Why e-sports teams are increasingly using custom resin figures as merch drops — and what works at retail vs. as a player-only gift.",
     paragraphs: [
@@ -137,7 +128,6 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "why-figurine-eyes-look-unnatural",
     image: "/blog/eyes-with-lashes.jpg",
     dictKey: 6,
-    date: "2026-08-11",
     intro:
       "For 8-15cm resin figurines, eyes often appear lifeless or even creepy. What's the problem? How one eyelash line changes everything.",
     paragraphs: [

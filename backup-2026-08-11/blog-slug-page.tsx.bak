@@ -128,7 +128,7 @@ export default async function BlogPostPage({ params }: Props) {
             </nav>
             <p className="text-xs uppercase tracking-wider text-brand-orange font-bold mb-3">{meta.tag}</p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-brand-dark leading-tight tracking-tight">{meta.title}</h1>
-            <p className="text-sm text-slate-500 mt-4 sm:mt-5">{meta.date} · Resin Factory</p>
+            <p className="text-sm text-slate-500 mt-4 sm:mt-5">{meta.date} · {meta.read} · Resin Factory</p>
           </div>
           <div className="max-w-5xl mx-auto px-5 sm:px-6 mt-6 md:mt-10">
             <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden shadow-md">
@@ -179,7 +179,7 @@ export default async function BlogPostPage({ params }: Props) {
                   <div className="p-4 sm:p-5 flex-1 flex flex-col">
                     <span className="text-xs uppercase tracking-wider text-brand-orange font-bold mb-1.5 sm:mb-2">{dictPost.tag}</span>
                     <h3 className="font-bold text-brand-dark text-sm sm:text-base mb-2 sm:mb-3 leading-snug group-hover:text-brand-orange transition">{dictPost.title}</h3>
-                    <p className="text-xs sm:text-sm text-slate-500 mt-auto">{dictPost.date}</p>
+                    <p className="text-xs sm:text-sm text-slate-500 mt-auto">{dictPost.date} · {dictPost.read}</p>
                   </div>
                 </Link>
               );
