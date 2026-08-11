@@ -4,10 +4,52 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale, locales, localeMeta } from "@/i18n/settings";
-import { BLOG_POSTS, getPostBySlug } from "@/lib/blog-posts";
+import { BLOG_POSTS, getPostBySlug, type BlogImageBlock } from "@/lib/blog-posts";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/lib/jsonld";
 
 const SITE_URL = "https://resin-factory.com";
+
+/** 渲染正文内嵌图片块 */
+function ImageBlockRenderer({ block }: { block: BlogImageBlock }) {
+  const { images } = block;
+  const count = images.length;
+  
+  // 根据图片数量决定布局
+  let gridClass = "";
+  if (count === 1) {
+    gridClass = "grid grid-cols-1";
+  } else if (count === 2) {
+    gridClass = "grid grid-cols-1 sm:grid-cols-2 gap-4";
+  } else if (count === 3) {
+    gridClass = "grid grid-cols-1 sm:grid-cols-3 gap-4";
+  } else {
+    // 4张或更多: 2x2 网格
+    gridClass = "grid grid-cols-2 gap-4";
+  }
+  
+  return (
+    <div className={`my-6 ${gridClass}`}>
+      {images.map((img, idx) => (
+        <figure key={idx} className="m-0">
+          <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden">
+            <Image
+              src={img.src}
+              alt={img.alt}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover"
+            />
+          </div>
+          {img.caption && (
+            <figcaption className="text-xs sm:text-sm text-slate-500 text-center mt-2 italic">
+              {img.caption}
+            </figcaption>
+          )}
+        </figure>
+      ))}
+    </div>
+  );
+}
 
 type Props = { params: { lang: string; slug: string } };
 
@@ -147,9 +189,17 @@ export default async function BlogPostPage({ params }: Props) {
             )}
             <div lang="en" className="prose prose-slate max-w-none space-y-5">
               <p className="text-lg sm:text-xl text-slate-600 leading-relaxed font-medium">{meta.post.intro}</p>
-              {meta.post.paragraphs.map((para, i) => (
-                <p key={i} className="text-base sm:text-[17px] text-slate-700 leading-[1.8]">{para}</p>
-              ))}
+              {meta.post.paragraphs.map((para, i) => {
+                const paraIndex = i + 1; // 1-based
+                const imageBlock = meta.post.imageBlocks?.find(block => block.afterParagraph === paraIndex);
+                
+                return (
+                  <div key={i}>
+                    <p className="text-base sm:text-[17px] text-slate-700 leading-[1.8]">{para}</p>
+                    {imageBlock && <ImageBlockRenderer block={imageBlock} />}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>

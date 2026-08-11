@@ -8,6 +8,17 @@
  *  3. 在 sitemap.ts 的 BLOG_SLUGS 加 slug
  */
 
+export type BlogImage = {
+  src: string;
+  alt: string;
+  caption?: string;
+};
+
+export type BlogImageBlock = {
+  afterParagraph: number; // 在第几段后插入 (1-based)
+  images: BlogImage[];    // 1张=单图, 2张=并排, 3张=三列, 4张=2x2
+};
+
 export type BlogPost = {
   slug: string;
   image: string;
@@ -19,6 +30,8 @@ export type BlogPost = {
   intro: string;
   /** 发布日期 (ISO 格式: YYYY-MM-DD) */
   date: string;
+  /** 正文内嵌图片块 (可选) */
+  imageBlocks?: BlogImageBlock[];
 };
 
 export const FEATURED_SLUG = "why-figurine-eyes-look-unnatural";
@@ -30,17 +43,24 @@ export const BLOG_POSTS: BlogPost[] = [
     dictKey: "featured",
     date: "2026-08-11",
     intro:
-      "What actually happens between a back-of-napkin drawing and a production-ready resin master? Seven steps, two weeks, and a lot of small decisions you only notice if something goes wrong.",
+      "For 8-15cm resin figurines, eyes often appear lifeless or even creepy. What's the problem? How one eyelash line changes everything.",
     paragraphs: [
-      "Most clients send us one of three things: a hand sketch on paper, a flat 2D illustration, or a low-poly 3D file from a game engine. Whichever it is, our first job is the same — translate the silhouette into a sculpt that survives both molding and mass production. That translation is where 80% of the quality of the final figure is decided.",
-      "Step one is the brief call. We talk through scale (1/8, 1/7, 1/6, chibi, palm-size), pose, accessories, and which IP/character rights apply. We also ask about the customer's intended retail price, because that drives the level of paint detail and packaging we recommend. A $29 desk figure and a $299 collector statue have very different production paths.",
-      "Step two is the digital sculpt in ZBrush. Our head sculptor blocks out the rough mass first, then refines silhouette before any surface detail. We send the client a 360° turntable render after about 4 working days. This is the cheapest moment to change anything, so we ask for opinionated feedback.",
-      "Step three is the cut. A figure isn't a single solid piece — it's planned from the start to break into 6–14 separate pieces (head, torso, two arms, two legs, hair pieces, accessories) so each part can be molded with no undercuts. Bad cuts force seam lines down the middle of the face. Good cuts hide them under collars, behind hair, in armpits.",
-      "Step four is the resin print. We 3D-print each piece on industrial DLP printers, sand the layer lines smooth, then do a second silicone-mold pull from the printed master. This 'second master' is what we use to make the production silicone molds — protecting the original from wear.",
-      "Step five is the test cast. We pour one resin copy in raw beige, hand it to the head painter, and let them paint the first 'master sample.' Painting reveals problems the sculpt didn't — undercuts that trap paint, surfaces too smooth for a wash to grip. We loop back to the sculpt if needed.",
-      "Step six is the master sample sign-off. We ship the painted master to the client. They look at it under their own lighting, hold it in their own hand, photograph it for their marketing. They sign off on color, weight, finish. This is the contractual reference for the whole production run.",
-      "Step seven is mass production planning. We calculate how many silicone molds we need (each mold is good for ~80 pulls), order resin, schedule the painters, build the inner tray, finalize the box artwork. From sign-off to first ship date is typically 28–35 days for runs under 1,000 units.",
-      "If you're starting your first resin project — sketch in hand, no idea what comes next — that's the path. Send us the sketch. We'll get back within 24 hours with a free 3D mockup and a transparent quote, and you can decide from there.",
+      "You receive a batch of resin figurine samples. The overall craftsmanship is good, but something feels off. You look closer—it's the eyes. Those eyes stare at you blankly, lifeless, soulless, even a bit creepy. This isn't an isolated case. In the resin figurine customization industry, this is a common problem, especially for small-sized products (8-15cm).",
+      "After years of research and countless sample comparisons, we discovered a critical detail: missing eyelashes. Many people instinctively think: the product is so small, the eyes are only a few millimeters—how can you paint eyelashes? It's impossible, so skip it. And so, the eyelashes are omitted. But this 'skip it' decision drains all life from the product.",
+      "The eyes are the soul of the product. And eyelashes are the finishing touch. Eyes without eyelashes look flat and lifeless, lack depth and dimension, appear hollow, even creepy, and make the product look cheap. Eyes with eyelashes look natural and harmonious, appear vivid and full of life, have gentle, approachable eyes, and instantly elevate the product's quality.",
+      "This isn't exaggeration—it's visual psychology. Eyelashes add depth and expression to the eyes, transforming the product from 'looks like a person' to 'comes alive.'",
+      "Since large products can easily have detailed eyelashes painted, what about 8-15cm small products? Our solution: paint a thin line at the outermost edge of the eyelid. That simple. This line doesn't need to paint every individual eyelash detail—just use a fine brushstroke along the eyelid edge to simulate the eyelash contour. The effect is immediate: eyes instantly gain spirit, product becomes natural and harmonious, overall quality perception significantly improves.",
+      "This is the magic of one line, and the best proof that details determine quality. In the resin figurine customization industry, details determine success or failure. Don't ignore eyelashes: no matter how small the product, eyelashes are essential. Use simplified approach for small sizes: paint one line, no need for every individual lash. The contrast between with/without eyelashes is dramatic.",
+      "Even if customers can't articulate what's wrong, they'll feel 'this product is better.' Resin figurine customization isn't just about getting the shape right—it's about giving the product life. One eyelash line may seem insignificant, but it determines whether a product is 'ordinary' or 'excellent,' 'lifeless' or 'vivid.' This is the detail we insist on, and the reason we build long-term partnerships with our clients.",
+    ],
+    imageBlocks: [
+      {
+        afterParagraph: 3,
+        images: [
+          { src: "/blog/eyes-without-lashes.jpg", alt: "Eyes without eyelash line - flat and lifeless", caption: "Without eyelash line" },
+          { src: "/blog/eyes-with-lashes.jpg", alt: "Eyes with eyelash line - natural and vivid", caption: "With eyelash line" }
+        ]
+      }
     ],
   },
   {
@@ -139,15 +159,45 @@ export const BLOG_POSTS: BlogPost[] = [
     dictKey: 6,
     date: "2026-05-04",
     intro:
-      "For 8-15cm resin figurines, eyes often appear lifeless or even creepy. What's the problem? How one eyelash line changes everything.",
+      "What actually happens between a back-of-napkin drawing and a production-ready resin master? Seven steps, two weeks, and a lot of small decisions you only notice if something goes wrong.",
     paragraphs: [
-      "You receive a batch of resin figurine samples. The overall craftsmanship is good, but something feels off. You look closer—it's the eyes. Those eyes stare at you blankly, lifeless, soulless, even a bit creepy. This isn't an isolated case. In the resin figurine customization industry, this is a common problem, especially for small-sized products (8-15cm).",
-      "After years of research and countless sample comparisons, we discovered a critical detail: missing eyelashes. Many people instinctively think: the product is so small, the eyes are only a few millimeters—how can you paint eyelashes? It's impossible, so skip it. And so, the eyelashes are omitted. But this 'skip it' decision drains all life from the product.",
-      "The eyes are the soul of the product. And eyelashes are the finishing touch. Eyes without eyelashes look flat and lifeless, lack depth and dimension, appear hollow, even creepy, and make the product look cheap. Eyes with eyelashes look natural and harmonious, appear vivid and full of life, have gentle, approachable eyes, and instantly elevate the product's quality.",
-      "This isn't exaggeration—it's visual psychology. Eyelashes add depth and expression to the eyes, transforming the product from 'looks like a person' to 'comes alive.'",
-      "Since large products can easily have detailed eyelashes painted, what about 8-15cm small products? Our solution: paint a thin line at the outermost edge of the eyelid. That simple. This line doesn't need to paint every individual eyelash detail—just use a fine brushstroke along the eyelid edge to simulate the eyelash contour. The effect is immediate: eyes instantly gain spirit, product becomes natural and harmonious, overall quality perception significantly improves.",
-      "This is the magic of one line, and the best proof that details determine quality. In the resin figurine customization industry, details determine success or failure. Don't ignore eyelashes: no matter how small the product, eyelashes are essential. Use simplified approach for small sizes: paint one line, no need for every individual lash. The contrast between with/without eyelashes is dramatic.",
-      "Even if customers can't articulate what's wrong, they'll feel 'this product is better.' Resin figurine customization isn't just about getting the shape right—it's about giving the product life. One eyelash line may seem insignificant, but it determines whether a product is 'ordinary' or 'excellent,' 'lifeless' or 'vivid.' This is the detail we insist on, and the reason we build long-term partnerships with our clients.",
+      "Most clients send us one of three things: a hand sketch on paper, a flat 2D illustration, or a low-poly 3D file from a game engine. Whichever it is, our first job is the same — translate the silhouette into a sculpt that survives both molding and mass production. That translation is where 80% of the quality of the final figure is decided.",
+      "Step one is the brief call. We talk through scale (1/8, 1/7, 1/6, chibi, palm-size), pose, accessories, and which IP/character rights apply. We also ask about the customer's intended retail price, because that drives the level of paint detail and packaging we recommend. A $29 desk figure and a $299 collector statue have very different production paths.",
+      "Step two is the digital sculpt in ZBrush. Our head sculptor blocks out the rough mass first, then refines silhouette before any surface detail. We send the client a 360° turntable render after about 4 working days. This is the cheapest moment to change anything, so we ask for opinionated feedback.",
+      "Step three is the cut. A figure isn't a single solid piece — it's planned from the start to break into 6–14 separate pieces (head, torso, two arms, two legs, hair pieces, accessories) so each part can be molded with no undercuts. Bad cuts force seam lines down the middle of the face. Good cuts hide them under collars, behind hair, in armpits.",
+      "Step four is the resin print. We 3D-print each piece on industrial DLP printers, sand the layer lines smooth, then do a second silicone-mold pull from the printed master. This 'second master' is what we use to make the production silicone molds — protecting the original from wear.",
+      "Step five is the test cast. We pour one resin copy in raw beige, hand it to the head painter, and let them paint the first 'master sample.' Painting reveals problems the sculpt didn't — undercuts that trap paint, surfaces too smooth for a wash to grip. We loop back to the sculpt if needed.",
+      "Step six is the master sample sign-off. We ship the painted master to the client. They look at it under their own lighting, hold it in their own hand, photograph it for their marketing. They sign off on color, weight, finish. This is the contractual reference for the whole production run.",
+      "Step seven is mass production planning. We calculate how many silicone molds we need (each mold is good for ~80 pulls), order resin, schedule the painters, build the inner tray, finalize the box artwork. From sign-off to first ship date is typically 28–35 days for runs under 1,000 units.",
+      "If you're starting your first resin project — sketch in hand, no idea what comes next — that's the path. Send us the sketch. We'll get back within 24 hours with a free 3D mockup and a transparent quote, and you can decide from there.",
+    ],
+  },
+  {
+    slug: "small-stone-statues-weathering-texture",
+    image: "/blog/stone-real-photo.jpg",
+    dictKey: 7,
+    date: "2026-08-11",
+    intro:
+      "For 8-15cm stone-look Buddha statues and sculptures, most manufacturers focus on perfect shape replication. But the real secret to authenticity isn't the carving — it's the weathered, granular texture that mimics centuries of natural erosion. Here's why that matters and how we achieve it.",
+    paragraphs: [
+      "Walk through the Bamiyan Valley in Afghanistan, the Yungang Grottoes in China, or the Borobudur Temple in Indonesia, and you'll see the same thing: stone Buddha statues that have stood for centuries. Their surfaces are not smooth. They're pitted, granular, weathered by wind, rain, and time. That texture isn't damage — it's authenticity. It's what makes these sculptures feel real, sacred, and timeless.",
+      "Now consider the small stone-look products we make for tourist souvenirs, museum replicas, or promotional gifts — typically 8-15cm tall. Most manufacturers approach this the wrong way. They focus entirely on shape: perfect carving, smooth surfaces, sharp details. The result? A product that looks like plastic painted to look like stone. It feels fake in your hand. It looks like a toy, not a sculpture.",
+      "The problem isn't the carving. The problem is the missing texture. Real stone weathers. Real stone has granular surfaces, tiny pits, and uneven color absorption. When you replicate a 1,000-year-old Buddha statue but leave the surface perfectly smooth, you're not capturing its essence — you're capturing a lie.",
+      "Here's the truth: for small stone-look products, the weathering texture matters more than the carving precision. A slightly imperfect carving with realistic weathering will always look more authentic than a perfect carving with a smooth surface. The granular texture is what tells the viewer's brain: 'This is stone. This is old. This is real.'",
+      "Let me show you what I mean. Below are three images: a real product photo, a 3D model without weathering texture, and a 3D model with weathering texture. These are 3D renders, not actual products — but they illustrate the difference clearly.",
+      "The left image shows a real stone statue with natural weathering. Notice the granular surface, the tiny pits, the uneven color. The middle image is a 3D model of the same statue — perfect carving, but no texture. It looks like a toy. The right image is the same 3D model with weathering texture added. Now it looks like stone. The difference isn't in the shape — it's in the surface.",
+      "How do we achieve this texture in small products? We use a combination of techniques: sandblasting to create the granular base, acid etching to deepen the pits, and hand-painting with mineral-based pigments that absorb unevenly into the surface. It's more labor-intensive than smooth painting, but the result is a product that feels like it was carved from real stone — because it looks like it's been through centuries of history.",
+      "If you're producing small stone-look Buddha statues or sculptures for tourist markets, museum shops, or cultural promotions, don't fall into the 'perfect carving' trap. Your customers aren't looking for perfection — they're looking for authenticity. They want to hold a piece of history in their hands, not a plastic toy. The weathering texture is what makes that happen. It's the difference between 'looks like stone' and 'feels like stone.' And in the souvenir business, feeling real is everything.",
+    ],
+    imageBlocks: [
+      {
+        afterParagraph: 5,
+        images: [
+          { src: "/blog/stone-real-photo.jpg", alt: "Real stone statue with weathered texture", caption: "Real product" },
+          { src: "/blog/stone-3d-no-texture.jpg", alt: "3D model without weathering - smooth surface", caption: "3D model without texture" },
+          { src: "/blog/stone-3d-with-texture.jpg", alt: "3D model with weathering texture - granular surface", caption: "3D model with texture" }
+        ]
+      }
     ],
   },
 ];
