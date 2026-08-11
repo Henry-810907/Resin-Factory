@@ -172,11 +172,6 @@ export default async function BlogPostPage({ params }: Props) {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-brand-dark leading-tight tracking-tight">{meta.title}</h1>
             <p className="text-sm text-slate-500 mt-4 sm:mt-5">{meta.date} · Resin Factory</p>
           </div>
-          <div className="max-w-5xl mx-auto px-5 sm:px-6 mt-6 md:mt-10">
-            <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden shadow-md">
-              <Image src={meta.post.image} alt={meta.title} fill priority sizes="(max-width: 1024px) 100vw, 1024px" className="object-cover object-center" />
-            </div>
-          </div>
         </header>
 
         {/* Article body — 英文正文,标 lang="en" 让搜索引擎知道实际语言 */}
