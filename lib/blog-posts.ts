@@ -140,7 +140,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "esports-team-resin-drops",
-    image: "/pictures/jpg/img_2738.jpg",
+    image: "/pictures/jpg/IMG_2738.JPG",
     dictKey: 5,
     date: "2026-02-19",
     intro:

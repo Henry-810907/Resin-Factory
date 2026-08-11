@@ -21,7 +21,7 @@ const CASE_IMAGES = [
   "/pictures/jpg/img_2723.jpg",
   "/pictures/jpg/img_2735.jpg",
   "/pictures/jpg/img_2740.jpg",
-  "/pictures/jpg/img_2738.jpg",
+  "/pictures/jpg/IMG_2738.JPG",
 ];
 
 type Props = { params: { lang: string } };

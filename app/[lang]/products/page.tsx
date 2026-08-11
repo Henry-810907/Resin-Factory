@@ -15,7 +15,7 @@ const PRODUCT_IMAGES = [
   "/pictures/jpg/custom-resin-figurines-collection.jpg",
   "/pictures/jpg/img_2722.jpg",
   "/pictures/jpg/img_2725.jpg",
-  "/pictures/jpg/img_2738.jpg",
+  "/pictures/jpg/IMG_2738.JPG",
   "/pictures/jpg/img_2735.jpg",
   "/pictures/jpg/IMG_2680.jpg",
 ];
