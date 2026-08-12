@@ -11,13 +11,22 @@ type Props = { dict: Dictionary["hero"]; lang: string };
 
 export default function HeroCarousel({ dict, lang }: Props) {
   const [index, setIndex] = useState(0);
+  const [userInteracted, setUserInteracted] = useState(false);
+  
   useEffect(() => {
+    if (userInteracted) return; // 用户操作后停止自动播放
     const t = setInterval(() => setIndex((i) => (i + 1) % dict.slides.length), 5000);
     return () => clearInterval(t);
-  }, [dict.slides.length]);
+  }, [dict.slides.length, userInteracted]);
 
-  const prev = () => setIndex((i) => (i - 1 + dict.slides.length) % dict.slides.length);
-  const next = () => setIndex((i) => (i + 1) % dict.slides.length);
+  const prev = () => {
+    setUserInteracted(true);
+    setIndex((i) => (i - 1 + dict.slides.length) % dict.slides.length);
+  };
+  const next = () => {
+    setUserInteracted(true);
+    setIndex((i) => (i + 1) % dict.slides.length);
+  };
   const slide = dict.slides[index];
 
   return (
@@ -40,7 +49,10 @@ export default function HeroCarousel({ dict, lang }: Props) {
 
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-2 z-20">
         {dict.slides.map((_, i) => (
-          <button key={i} aria-label={`${dict.dotAria} ${i + 1}`} onClick={() => setIndex(i)} className={`w-2.5 h-2.5 rounded-full transition ${i === index ? "bg-white" : "bg-white/50"}`} />
+          <button key={i} aria-label={`${dict.dotAria} ${i + 1}`} onClick={() => {
+            setUserInteracted(true);
+            setIndex(i);
+          }} className={`w-2.5 h-2.5 rounded-full transition ${i === index ? "bg-white" : "bg-white/50"}`} />
         ))}
       </div>
     </>
