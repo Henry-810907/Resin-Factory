@@ -34,27 +34,27 @@ export default function FactoryIntro({ dict }: Props) {
         <div className="grid grid-cols-2 md:grid-cols-[1fr_2fr_1fr] gap-3 md:gap-4">
           {/* 方图1 */}
           <div className="relative w-full aspect-square rounded-lg overflow-hidden order-1 md:order-1">
-            <Image src="/1-Art-Of-Sanding.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+            <Image src="/1-Art-Of-Sanding.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} className="object-cover object-center" />
           </div>
           {/* 方图2 */}
           <div className="relative w-full aspect-square rounded-lg overflow-hidden order-2 md:order-3">
-            <Image src="/2-Art-Of-Hand-Painted3.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+            <Image src="/2-Art-Of-Hand-Painted3.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} className="object-cover object-center" />
           </div>
           {/* 横图1 */}
           <div className="relative w-full aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-3 md:order-2">
-            <Image src="/7-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" className="object-cover object-center" />
+            <Image src="/7-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" quality={65} className="object-cover object-center" />
           </div>
           {/* 方图3 */}
           <div className="relative w-full aspect-square rounded-lg overflow-hidden order-4 md:order-4">
-            <Image src="/4-Unfinished-Resin Casting.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+            <Image src="/4-Unfinished-Resin Casting.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} className="object-cover object-center" />
           </div>
           {/* 方图4 */}
           <div className="relative w-full aspect-square rounded-lg overflow-hidden order-5 md:order-6">
-            <Image src="/6-Art-Of-Hand-Painted1.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+            <Image src="/6-Art-Of-Hand-Painted1.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} className="object-cover object-center" />
           </div>
           {/* 横图2 */}
           <div className="relative w-full aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-6 md:order-5">
-            <Image src="/8-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" className="object-cover object-center" />
+            <Image src="/8-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" quality={65} className="object-cover object-center" />
           </div>
         </div>
       </div>

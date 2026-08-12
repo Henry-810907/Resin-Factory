@@ -80,7 +80,7 @@ export default function CustomersCarousel({ customers }: Props) {
         {customers.map((it, i) => (
           <div key={i} data-card className={cardCls}>
             <div className="relative w-full aspect-square">
-              <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer work — ${it.name}`} fill sizes="300px" className="object-cover object-center" />
+              <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer work — ${it.name}`} fill sizes="(max-width: 768px) 300px, 450px" quality={65} className="object-cover object-center" />
             </div>
             <div className="p-4 flex-1 flex flex-col">
               <p className="font-bold text-brand-dark">{it.name}</p>

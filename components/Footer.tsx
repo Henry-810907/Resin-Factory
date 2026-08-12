@@ -108,7 +108,7 @@ export default function Footer({ dict, navDict, lang }: Props) {
             © {new Date().getFullYear()} Shenzhen Heli Toys Co., Ltd. {dict.rights}
           </p>
           <a href="https://www.linkedin.com/in/resin-factory-founder" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="inline-block">
-            <img src="/pics/LinedInLogo.png" alt="LinkedIn" width="20" height="20" className="inline-block" />
+            <Image src="/pics/LinedInLogo.png" alt="LinkedIn" width={20} height={20} sizes="35px" className="inline-block" />
           </a>
         </div>
       </div>
