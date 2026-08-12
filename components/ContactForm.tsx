@@ -27,26 +27,6 @@ export default function ContactForm({ dict, lang }: Props) {
   const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
   const [fileSizeError, setFileSizeError] = useState<string>("");
   const formRef = useRef<HTMLFormElement>(null);
-  const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
-  const fileInputRef = useRef<HTMLInputElement>(null);
-
-  // 处理文件选择
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = Array.from(e.target.files || []);
-    setSelectedFiles(prev => [...prev, ...files]);
-  };
-
-  // 删除已选文件
-  const removeFile = (index: number) => {
-    setSelectedFiles(prev => prev.filter((_, i) => i !== index));
-  };
-
-  // 格式化文件大小
-  const formatFileSize = (bytes: number): string => {
-    if (bytes < 1024) return bytes + ' B';
-    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
-    return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
-  };
 
   const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
@@ -94,11 +74,6 @@ export default function ContactForm({ dict, lang }: Props) {
       data.append("attachment", file);
     });
 
-    // 添加选中的文件到 FormData
-    selectedFiles.forEach((file) => {
-      data.append("attachment", file);
-    });
-
     setStatus("sending");
     setErrorMsg("");
 
@@ -109,6 +84,10 @@ export default function ContactForm({ dict, lang }: Props) {
         setErrorMsg((json && json.error) || states.error);
         setStatus("error");
         return;
+      }
+      // Google Ads 转化追踪
+      if (typeof window !== "undefined" && typeof (window as any).gtag_report_conversion === "function") {
+        (window as any).gtag_report_conversion();
       }
       setStatus("success");
       formRef.current?.reset();
@@ -182,7 +161,6 @@ export default function ContactForm({ dict, lang }: Props) {
         <label className="flex-1 flex items-center justify-center text-sm text-slate-500 border border-dashed border-slate-300 rounded-md px-4 py-3 text-center cursor-pointer hover:border-brand-orange hover:text-brand-orange transition">
           📎 {f.attach} (max 5MB)
           <input
-            ref={fileInputRef}
             name="attachment"
             type="file"
             multiple
