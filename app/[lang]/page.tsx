@@ -4,6 +4,9 @@ import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { notFound } from "next/navigation";
 
+// ISR: 每 1 小时重新验证
+export const revalidate = 3600;
+
 const FactoryIntro = dynamic(() => import("@/components/FactoryIntro"));
 const MagicalMemories = dynamic(() => import("@/components/MagicalMemories"));
 const BestSellers = dynamic(() => import("@/components/BestSellers"));

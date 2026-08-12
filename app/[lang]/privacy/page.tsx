@@ -5,6 +5,9 @@ import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, type Locale } from "@/i18n/settings";
 import { BreadcrumbJsonLd } from "@/lib/jsonld";
 
+// ISR: 每 7 天重新验证
+export const revalidate = 604800;
+
 type Props = { params: { lang: string } };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

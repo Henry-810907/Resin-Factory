@@ -7,6 +7,9 @@ import { isLocale, type Locale, locales, localeMeta } from "@/i18n/settings";
 import { BLOG_POSTS, getPostBySlug, type BlogImageBlock } from "@/lib/blog-posts";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/lib/jsonld";
 
+// ISR: 每 15 分钟重新验证
+export const revalidate = 900;
+
 const SITE_URL = "https://resin-factory.com";
 
 /** 渲染正文内嵌图片块 */

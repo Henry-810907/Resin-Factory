@@ -7,6 +7,9 @@ import { isLocale, type Locale, localeMeta, locales } from "@/i18n/settings";
 import { notFound } from "next/navigation";
 import { BreadcrumbJsonLd } from "@/lib/jsonld";
 
+// ISR: 每 24 小时重新验证
+export const revalidate = 86400;
+
 const SITE_URL = "https://resin-factory.com";
 
 const COMMITMENT_IMAGES = [

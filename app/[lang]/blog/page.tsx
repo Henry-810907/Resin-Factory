@@ -7,6 +7,9 @@ import { isLocale, type Locale, localeMeta, locales } from "@/i18n/settings";
 import { notFound } from "next/navigation";
 import { BLOG_POSTS, FEATURED_SLUG } from "@/lib/blog-posts";
 
+// ISR: 每 15 分钟重新验证
+export const revalidate = 900;
+
 const SITE_URL = "https://resin-factory.com";
 
 type Props = { params: { lang: string } };
