@@ -107,7 +107,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: meta.title,
     description: meta.excerpt,
     alternates: {
-      canonical: `/${params.lang}/blog/${params.slug}`,
+      canonical: `${SITE_URL}/${params.lang}/blog/${params.slug}`,
       languages,
     },
     openGraph: {
