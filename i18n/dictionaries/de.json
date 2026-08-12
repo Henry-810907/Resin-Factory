@@ -25,7 +25,7 @@
     },
     "contact": {
       "title": "Kontakt — Kostenloses 3D-Mock-up & Angebot",
-      "description": "Erzählen Sie uns von Ihrem Projekt — unsere Bildhauer antworten innerhalb von 24 Stunden mit einem kostenlosen 3D-Mock-up und Angebot."
+      "description": "Erzählen Sie uns von Ihrem Projekt — unsere Bildhauer antworten innerhalb von 12 Stunden mit einem kostenlosen 3D-Mock-up und Angebot."
     }
   },
   "header": {
@@ -224,7 +224,7 @@
     "heroTitle": "Was wir herstellen",
     "heroSubtitle": "Von Einzel-Prototypen bis hin zu mehreren Tausend Retail-Auflagen — wir modellieren, gießen und bemalen jede Art von maßgeschneiderter Resin-Figur, die Sie sich vorstellen können.",
     "ctaTitle": "Haben Sie etwas Konkretes im Sinn?",
-    "ctaText": "Schicken Sie uns Ihr Konzept und unsere Bildhauer antworten innerhalb von 24 Stunden mit einem kostenlosen 3D-Mock-up und Angebot.",
+    "ctaText": "Schicken Sie uns Ihr Konzept und unsere Bildhauer antworten innerhalb von 12 Stunden mit einem kostenlosen 3D-Mock-up und Angebot.",
     "ctaButton": "Angebot anfordern",
     "items": [
       {
@@ -555,7 +555,7 @@
       }
     ],
     "contactCtaTitle": "Haben Sie ein Projekt zu besprechen?",
-    "contactCtaSubtitle": "Wir antworten innerhalb von 24 Stunden mit einem kostenlosen 3D-Mockup und Angebot.",
+    "contactCtaSubtitle": "Wir antworten innerhalb von 12 Stunden mit einem kostenlosen 3D-Mockup und Angebot.",
     "contactCtaButton": "Angebot anfordern",
     "relatedTitle": "Weiterlesen",
     "englishOnlyNotice": "Hinweis: Artikel werden in englischer Sprache veröffentlicht. Andere Seiten sind in Ihrer Sprache verfügbar."

@@ -25,7 +25,7 @@
     },
     "contact": {
       "title": "Contacto — Maqueta 3D y presupuesto gratis",
-      "description": "Cuéntanos sobre tu proyecto — nuestros escultores te responderán en 24 horas con una maqueta 3D y un presupuesto gratis."
+      "description": "Cuéntanos sobre tu proyecto — nuestros escultores te responderán en 12 horas con una maqueta 3D y un presupuesto gratis."
     }
   },
   "header": {
@@ -224,7 +224,7 @@
     "heroTitle": "Lo que fabricamos",
     "heroSubtitle": "Desde prototipos de una unidad hasta tiradas retail de varios miles — esculpimos, vaciamos y pintamos a mano cualquier tipo de figura de resina personalizada que puedas imaginar.",
     "ctaTitle": "¿Tienes algo concreto en mente?",
-    "ctaText": "Envíanos tu concepto y nuestros escultores te responderán en 24 horas con una maqueta 3D y un presupuesto gratis.",
+    "ctaText": "Envíanos tu concepto y nuestros escultores te responderán en 12 horas con una maqueta 3D y un presupuesto gratis.",
     "ctaButton": "Solicitar presupuesto",
     "items": [
       {
@@ -555,7 +555,7 @@
       }
     ],
     "contactCtaTitle": "¿Tienes un proyecto del que hablar?",
-    "contactCtaSubtitle": "Respondemos en 24 horas con una maqueta 3D y presupuesto gratuitos.",
+    "contactCtaSubtitle": "Respondemos en 12 horas con una maqueta 3D y presupuesto gratuitos.",
     "contactCtaButton": "Solicitar presupuesto",
     "relatedTitle": "Seguir leyendo",
     "englishOnlyNotice": "Nota: El contenido de los artículos se publica en inglés. Las demás páginas están disponibles en tu idioma."

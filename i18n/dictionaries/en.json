@@ -25,7 +25,7 @@
     },
     "contact": {
       "title": "Contact — Get a Free 3D Mock-up & Quote",
-      "description": "Tell us about your project and our sculptors will reply with a free 3D mock-up and quote within 24 hours."
+      "description": "Tell us about your project and our sculptors will reply with a free 3D mock-up and quote within 12 hours."
     }
   },
   "header": {
@@ -224,7 +224,7 @@
     "heroTitle": "What We Make",
     "heroSubtitle": "From single-unit prototypes to multi-thousand retail runs — we sculpt, cast and hand-paint every kind of custom resin figurine you can imagine.",
     "ctaTitle": "Have something specific in mind?",
-    "ctaText": "Send us your concept and our sculptors will reply with a free 3D mock-up and quote within 24 hours.",
+    "ctaText": "Send us your concept and our sculptors will reply with a free 3D mock-up and quote within 12 hours.",
     "ctaButton": "Get a Quote",
     "items": [
       {
@@ -499,7 +499,7 @@
     "relatedTitle": "Keep Reading",
     "englishOnlyNotice": "Note: Article content is published in English. Use the language switcher to see other pages in your language.",
     "contactCtaTitle": "Have a project to discuss?",
-    "contactCtaSubtitle": "We reply within 24 hours with a free 3D mockup and quote.",
+    "contactCtaSubtitle": "We reply within 12 hours with a free 3D mockup and quote.",
     "contactCtaButton": "Get a Quote",
     "featured": {
       "title": "Why Do Resin Figurine Eyes Look Unnatural? The Secret of One Line",
