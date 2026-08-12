@@ -25,6 +25,26 @@ export default function ContactForm({ dict, lang }: Props) {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string>("");
   const formRef = useRef<HTMLFormElement>(null);
+  const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // 处理文件选择
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = Array.from(e.target.files || []);
+    setSelectedFiles(prev => [...prev, ...files]);
+  };
+
+  // 删除已选文件
+  const removeFile = (index: number) => {
+    setSelectedFiles(prev => prev.filter((_, i) => i !== index));
+  };
+
+  // 格式化文件大小
+  const formatFileSize = (bytes: number): string => {
+    if (bytes < 1024) return bytes + ' B';
+    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+    return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+  };
 
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -33,6 +53,11 @@ export default function ContactForm({ dict, lang }: Props) {
     const formEl = e.currentTarget;
     const data = new FormData(formEl);
     data.set("_lang", lang);
+
+    // 添加选中的文件到 FormData
+    selectedFiles.forEach((file) => {
+      data.append("attachment", file);
+    });
 
     setStatus("sending");
     setErrorMsg("");
@@ -115,11 +140,13 @@ export default function ContactForm({ dict, lang }: Props) {
         <label className="flex-1 flex items-center justify-center text-sm text-slate-500 border border-dashed border-slate-300 rounded-md px-4 py-3 text-center cursor-pointer hover:border-brand-orange hover:text-brand-orange transition">
           📎 {f.attach}
           <input
+            ref={fileInputRef}
             name="attachment"
             type="file"
             multiple
             accept=".png,.jpg,.jpeg,.pdf,.ai,.stl,.ztl,image/*,application/pdf"
             disabled={status === "sending"}
+            onChange={handleFileChange}
             className="sr-only"
           />
         </label>
@@ -131,6 +158,40 @@ export default function ContactForm({ dict, lang }: Props) {
           {status === "sending" ? states.sending : f.submit}
         </button>
       </div>
+
+      {/* 已选文件列表 */}
+      {selectedFiles.length > 0 && (
+        <div className="space-y-2">
+          <p className="text-sm font-semibold text-slate-700">
+            {selectedFiles.length} file{selectedFiles.length > 1 ? 's' : ''} selected
+          </p>
+          <ul className="space-y-1.5">
+            {selectedFiles.map((file, index) => (
+              <li
+                key={`${file.name}-${index}`}
+                className="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-md px-3 py-2 text-sm"
+              >
+                <div className="flex-1 min-w-0">
+                  <p className="text-slate-700 truncate">{file.name}</p>
+                  <p className="text-xs text-slate-500">{formatFileSize(file.size)}</p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => removeFile(index)}
+                  disabled={status === "sending"}
+                  className="ml-2 text-slate-400 hover:text-red-500 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                  aria-label="Remove file"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {/* 错误提示 */}
       {status === "error" && (
