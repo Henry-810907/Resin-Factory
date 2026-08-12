@@ -15,7 +15,7 @@ export default function FactoryIntro({ dict }: Props) {
         </div>
         <div className="relative w-full aspect-video min-h-[220px] md:min-h-[360px] rounded-lg overflow-hidden shadow-md bg-black">
           <iframe
-            src="https://www.youtube-nocookie.com/embed/XLu1iPuZ_EA?rel=0&modestbranding=1"
+            src="https://www.youtube.com/embed/XLu1iPuZ_EA?rel=0&modestbranding=1"
             title={dict.title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"

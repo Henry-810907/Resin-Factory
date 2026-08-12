@@ -45,10 +45,6 @@ export default function ContactForm({ dict, lang }: Props) {
         setStatus("error");
         return;
       }
-      // Google Ads 转化追踪
-      if (typeof window !== "undefined" && typeof (window as any).gtag_report_conversion === "function") {
-        (window as any).gtag_report_conversion();
-      }
       setStatus("success");
       formRef.current?.reset();
     } catch {
