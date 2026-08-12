@@ -24,6 +24,8 @@ export default function ContactForm({ dict, lang }: Props) {
   const states = dict.states;
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string>("");
+  const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
+  const [fileSizeError, setFileSizeError] = useState<string>("");
   const formRef = useRef<HTMLFormElement>(null);
   const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -46,6 +48,38 @@ export default function ContactForm({ dict, lang }: Props) {
     return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
   };
 
+  const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+
+  const formatFileSize = (bytes: number): string => {
+    if (bytes < 1024) return bytes + " B";
+    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + " KB";
+    return (bytes / (1024 * 1024)).toFixed(1) + " MB";
+  };
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = Array.from(e.target.files || []);
+    const oversizedFiles = files.filter(f => f.size > MAX_FILE_SIZE);
+    
+    if (oversizedFiles.length > 0) {
+      const names = oversizedFiles.map(f => f.name).join(", ");
+      setFileSizeError(`${names} exceed 5MB limit`);
+      // 只保留符合大小限制的文件
+      const validFiles = files.filter(f => f.size <= MAX_FILE_SIZE);
+      setSelectedFiles(validFiles);
+    } else {
+      setFileSizeError("");
+      setSelectedFiles(files);
+    }
+  };
+
+  const removeFile = (index: number) => {
+    const newFiles = selectedFiles.filter((_, i) => i !== index);
+    setSelectedFiles(newFiles);
+    if (newFiles.length === 0) {
+      setFileSizeError("");
+    }
+  };
+
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (status === "sending") return;
@@ -53,6 +87,12 @@ export default function ContactForm({ dict, lang }: Props) {
     const formEl = e.currentTarget;
     const data = new FormData(formEl);
     data.set("_lang", lang);
+    
+    // 清除表单中的文件输入，使用 selectedFiles 中的文件
+    data.delete("attachment");
+    selectedFiles.forEach(file => {
+      data.append("attachment", file);
+    });
 
     // 添加选中的文件到 FormData
     selectedFiles.forEach((file) => {
@@ -72,6 +112,8 @@ export default function ContactForm({ dict, lang }: Props) {
       }
       setStatus("success");
       formRef.current?.reset();
+      setSelectedFiles([]);
+      setFileSizeError("");
     } catch {
       setErrorMsg(states.error);
       setStatus("error");
@@ -138,7 +180,7 @@ export default function ContactForm({ dict, lang }: Props) {
 
       <div className="flex flex-col sm:flex-row sm:items-stretch gap-3">
         <label className="flex-1 flex items-center justify-center text-sm text-slate-500 border border-dashed border-slate-300 rounded-md px-4 py-3 text-center cursor-pointer hover:border-brand-orange hover:text-brand-orange transition">
-          📎 {f.attach}
+          📎 {f.attach} (max 5MB)
           <input
             ref={fileInputRef}
             name="attachment"
@@ -152,7 +194,7 @@ export default function ContactForm({ dict, lang }: Props) {
         </label>
         <button
           type="submit"
-          disabled={status === "sending"}
+          disabled={status === "sending" || !!fileSizeError}
           className="bg-brand-orange hover:bg-brand-orangeDark transition text-white text-sm font-semibold px-8 py-3 rounded-md shadow-sm whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed"
         >
           {status === "sending" ? states.sending : f.submit}
@@ -190,6 +232,13 @@ export default function ContactForm({ dict, lang }: Props) {
               </li>
             ))}
           </ul>
+        </div>
+      )}
+
+      {/* 文件大小错误提示 */}
+      {fileSizeError && (
+        <div className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-md px-4 py-3 leading-relaxed">
+          {fileSizeError}
         </div>
       )}
 
