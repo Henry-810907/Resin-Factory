@@ -42,7 +42,7 @@ export default function MagicalCreations({ dict, lang }: Props) {
           {POSTS.map((p, i) => (
             <div key={p.user} className="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-200 flex flex-col p-3 sm:p-4">
               <div className="relative w-full aspect-square rounded-md overflow-hidden">
-                <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer post — ${p.user}`} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover object-center" />
+                <Image src={IMAGES[i] ?? IMAGES[0]} alt={`Customer post — ${p.user}`} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} loading="lazy" className="object-cover object-center" />
               </div>
               <div className="pt-3 flex items-center justify-between text-sm text-slate-600">
                 <div className="flex flex-col items-start">

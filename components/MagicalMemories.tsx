@@ -15,7 +15,7 @@ export default function MagicalMemories({ dict }: Props) {
           <p className="text-sm sm:text-base leading-relaxed text-slate-600">{dict.p3}</p>
         </div>
         <div className="relative w-full aspect-[4/3] min-h-[220px] md:min-h-[360px] rounded-lg overflow-hidden shadow-md">
-          <Image src="/1200-900.jpg" alt={dict.title} fill sizes="(max-width: 768px) 100vw, 50vw" quality={65} className="object-cover object-center" />
+          <Image src="/1200-900.jpg" alt={dict.title} fill sizes="(max-width: 768px) 100vw, 50vw" quality={65} loading="lazy" className="object-cover object-center" />
         </div>
       </div>
     </section>
