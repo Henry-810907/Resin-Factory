@@ -134,8 +134,13 @@ export default async function BlogPostPage({ params }: Props) {
   const dict = await getDictionary(lang);
   const b = dict.blog;
 
-  // 推荐文章(同一种语言下的另外 3 篇)
-  const others = BLOG_POSTS.filter((p) => p.slug !== params.slug).slice(0, 3);
+  // 推荐文章：优先显示指定的两篇，然后显示其他文章
+  const prioritySlugs = ["sample-development-process", "small-stone-statues-weathering-texture"];
+  const priorityPosts = prioritySlugs
+    .map(slug => BLOG_POSTS.find(p => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => p !== undefined && p.slug !== params.slug);
+  const otherPosts = BLOG_POSTS.filter((p) => p.slug !== params.slug && !prioritySlugs.includes(p.slug));
+  const others = [...priorityPosts, ...otherPosts].slice(0, 3);
 
   // ISO 日期(从英文 "May 4, 2026" 解析,fallback 用 today)
   const isoDate = (() => {
