@@ -5,16 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary } from "@/i18n/get-dictionary";
 
-const DESKTOP_IMAGES = [
+const IMAGES = [
   "/resin-figurines-collection.jpg",
   "/custom-resin-toys-showcase.jpg",
   "/resin-samples-factory.jpg"
-];
-
-const MOBILE_IMAGES = [
-  "/mobile-resin-figurines-collection.jpg",
-  "/mobile-custom-resin-toys-showcase.jpg",
-  "/mobile-resin-samples-factory.jpg"
 ];
 
 type Props = { dict: Dictionary["hero"]; lang: string };
@@ -101,29 +95,17 @@ export default function HeroCarousel({ dict, lang }: Props) {
         >
           {/* 克隆尾（最后一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <picture>
-              <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[slideCount - 1]} />
-              <source media="(min-width: 769px)" srcSet={DESKTOP_IMAGES[slideCount - 1]} />
-              <Image src={DESKTOP_IMAGES[slideCount - 1]} alt={dict.slides[slideCount - 1].alt} fill sizes="100vw" quality={65} className="object-cover object-center" />
-            </picture>
+            <Image src={IMAGES[slideCount - 1]} alt={dict.slides[slideCount - 1].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-contain" />
           </div>
           {/* 真实 slides */}
           {dict.slides.map((s, i) => (
             <div key={i} className="relative w-full h-full shrink-0">
-              <picture>
-                <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[i] ?? MOBILE_IMAGES[0]} />
-                <source media="(min-width: 769px)" srcSet={DESKTOP_IMAGES[i] ?? DESKTOP_IMAGES[0]} />
-                <Image src={DESKTOP_IMAGES[i] ?? DESKTOP_IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="100vw" quality={65} className="object-cover object-center" />
-              </picture>
+              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-contain" />
             </div>
           ))}
           {/* 克隆头（第一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <picture>
-              <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[0]} />
-              <source media="(min-width: 769px)" srcSet={DESKTOP_IMAGES[0]} />
-              <Image src={DESKTOP_IMAGES[0]} alt={dict.slides[0].alt} fill sizes="100vw" quality={65} className="object-cover object-center" />
-            </picture>
+            <Image src={IMAGES[0]} alt={dict.slides[0].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-contain" />
           </div>
         </div>
       </div>
