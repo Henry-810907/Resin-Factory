@@ -95,17 +95,17 @@ export default function HeroCarousel({ dict, lang }: Props) {
         >
           {/* 克隆尾（最后一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <Image src={IMAGES[slideCount - 1]} alt={dict.slides[slideCount - 1].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-center" />
+            <Image src={IMAGES[slideCount - 1]} alt={dict.slides[slideCount - 1].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_40%] md:object-center" />
           </div>
           {/* 真实 slides */}
           {dict.slides.map((s, i) => (
             <div key={i} className="relative w-full h-full shrink-0">
-              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-center" />
+              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_40%] md:object-center" />
             </div>
           ))}
           {/* 克隆头（第一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <Image src={IMAGES[0]} alt={dict.slides[0].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-center" />
+            <Image src={IMAGES[0]} alt={dict.slides[0].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_40%] md:object-center" />
           </div>
         </div>
       </div>
