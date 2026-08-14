@@ -174,7 +174,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "sample-development-process",
-    image: "/blog/new-sample-final-product.jpg",
+    image: "/blog/new2-sample-final-product.jpg",
     dictKey: 8,
     date: "2026-08-13",
     intro:
@@ -247,7 +247,7 @@ export const BLOG_POSTS: BlogPost[] = [
         images: [
           { src: "/blog/new-sample-design.jpg", alt: "Client's design drawing", caption: "Client's design" },
           { src: "/blog/new-sample-3d-render.jpg", alt: "3D modeling render", caption: "3D render" },
-          { src: "/blog/new-sample-final-product.jpg", alt: "Physical sample", caption: "Final product" }
+          { src: "/blog/new2-sample-final-product.jpg", alt: "Physical sample", caption: "Final product" }
         ]
       }
     ],
