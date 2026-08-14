@@ -60,10 +60,9 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
     formatDetection: { email: false, address: false, telephone: false },
     icons: {
       icon: [
-        { url: "/favicon.ico", sizes: "any" },
         { url: "/icon.png", type: "image/png", sizes: "32x32" },
       ],
-      shortcut: "/favicon.ico",
+      shortcut: "/icon.png",
       apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
     },
     other: { google: "notranslate" },
