@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "Resin Factory",
     "tagline": "Custom Resin Figurines for Brands & IP",
-    "defaultDescription": "B2B custom resin figurine manufacturer in Shenzhen. Sculpting, mould-making, casting and hand-painting under one roof. Low MOQ from 100 units, free 3D sculpting, CE/EN71/ASTM tested, worldwide shipping.",
+    "defaultDescription": "B2B custom resin figurine manufacturer in China. Sculpting, mould-making, casting and hand-painting under one roof. Low MOQ from 100 units, free 3D sculpting, CE/EN71/ASTM tested, worldwide shipping.",
     "products": {
       "title": "Custom Resin Figurine Products — Statues, Designer Toys, Blind Box",
       "description": "Mascot figurines, designer toys, statues, GK kits, blind box series, bobbleheads, resin keychains, dioramas and bulk runs. Custom resin manufacturing for brands and IP — sculpted, cast and hand-painted in our Shenzhen factory."
@@ -13,7 +13,7 @@
     },
     "about": {
       "title": "About Us — Shenzhen Heli Toys (Resin Factory)",
-      "description": "A 50-person factory of sculptors, mould-makers, casters, painters and QA in Shenzhen — turning ideas into hand-painted resin figures since 2013. Shipping for brands across 25+ countries."
+      "description": "A 50-person factory of sculptors, mould-makers, casters, painters and QA in China — turning ideas into hand-painted resin figures since 2013. Shipping for brands across 25+ countries."
     },
     "values": {
       "title": "Our Values — Factory Standards & Worker Care",
@@ -67,14 +67,14 @@
         "alt": "Bulk production and shipping"
       }
     ],
-  "cta": "Get Free Quote",
-  "stat1Label": "MOQ",
-  "stat2Label": "Countries",
-  "stat3Label": "Clients",
-  "prevAria": "Previous slide",
-  "nextAria": "Next slide",
-  "dotAria": "Go to slide"
-},
+    "cta": "Get Free Quote",
+    "stat1Label": "MOQ",
+    "stat2Label": "Countries",
+    "stat3Label": "Clients",
+    "prevAria": "Previous slide",
+    "nextAria": "Next slide",
+    "dotAria": "Go to slide"
+  },
   "factoryIntro": {
     "kicker": "Inside Our Factory",
     "title": "About Our Factory",
