@@ -66,7 +66,7 @@ export default function Header({ dict, lang }: Props) {
           <LanguageSwitcher current={lang} label={dict.language} />
           <Link
             href={`/${lang}/contact`}
-            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-xs sm:text-sm px-3 sm:px-5 py-2 sm:py-2.5 rounded-md shadow-sm whitespace-nowrap"
+            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-xs sm:text-sm px-3 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-sm whitespace-nowrap"
           >
             {dict.cta}
           </Link>

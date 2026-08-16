@@ -31,7 +31,7 @@
   "header": {
     "brand": "Resin Factory",
     "estTag": "fundada en 2013",
-    "cta": "Solicitar presupuesto",
+    "cta": "Get Free Quote",
     "homeAria": "Resin Factory · volver al inicio",
     "nav": {
       "home": "Inicio",
@@ -46,39 +46,50 @@
     "factoryService": "Figuras de resina personalizadas para marcas e IPs"
   },
   "hero": {
-    "h1": "Fábrica de Resina-Figuras de Resina Personalizadas para Marcas e IP",
+    "h1": "Resin Factory - Figuras de resina personalizadas para marcas e IP",
     "slides": [
       {
-        "title": "Figuras de resina a medida para marcas e IP",
-        "subtitle": "Del boceto conceptual a la pieza coleccionable pintada a mano.",
-        "tag": "Escultura 3D gratis · Envío mundial · MOQ bajo",
+        "title": "Figuras de resina personalizadas para marcas e IP",
+        "subtitle": "Desde el boceto conceptual hasta la pieza de colección pintada a mano.",
+        "tag": "Modelado 3D gratuito · Envío mundial · MOQ baja",
         "alt": "Figuras de resina personalizadas en exhibición"
       },
       {
-        "title": "Esculpidas, vaciadas y pintadas en nuestra propia fábrica",
-        "subtitle": "Cada master esculpido aprobado. Cada lote probado en QC.",
+        "title": "Esculpido, fundido y pintado en nuestra propia fábrica",
+        "subtitle": "Cada modelo maestro aprobado. Cada lote probado por QC.",
         "tag": "Certificado CE / EN71 / ASTM · Sin intermediarios · Actualizaciones en tiempo real",
-        "alt": "Taller de escultura y vaciado"
+        "alt": "Fábrica de escultura y fundición"
       },
       {
-        "title": "De 100 piezas a 10.000",
-        "subtitle": "Escala sin perder el detalle pintado a mano.",
-        "tag": "Plazo de 35 días · Muestreo de resina gratis · Envío mundial",
-        "alt": "Producción masiva y envío"
+        "title": "De 100 piezas a 10,000",
+        "subtitle": "Escale sin perder los detalles pintados a mano.",
+        "tag": "Tiempo de entrega de 35 días · Muestra de resina gratuita · Envío mundial",
+        "alt": "Producción en masa y envío"
       }
     ],
-    "cta": "Solicitar presupuesto",
+    "cta": "Obtener cotización gratuita",
     "prevAria": "Diapositiva anterior",
-    "nextAria": "Diapositiva siguiente",
-    "dotAria": "Ir a la diapositiva"
+    "nextAria": "Siguiente diapositiva",
+    "dotAria": "Ir a la diapositiva",
+    "stat1Label": "MOQ",
+    "stat2Label": "Países",
+    "stat3Label": "Clientes"
   },
   "factoryIntro": {
-    "kicker": "Dentro de nuestro taller",
-    "title": "Donde se fabrican figurillas personalizadas",
-    "p1": "No subcontratamos ni un solo paso. Cada figura de resina se esculpe, moldea, vacía, pinta a mano y empaqueta en nuestro propio taller — por escultores y pintores con quienes hemos trabajado durante años.",
-    "p2": "Salas de vaciado ventiladas, cabinas de pintura sin polvo, estaciones de aerógrafo calibradas, resinas bajas en COV. Invertimos en la sala antes de invertir en la línea de producción.",
-    "peopleTitle": "Hecho por gente que ama su oficio",
-    "peopleSubtitle": "Se nota en cada pincelada."
+    "kicker": "Dentro de nuestra fábrica",
+    "title": "Sobre nuestra fábrica",
+    "description": "Fundada en 2013, con más de 12 años de experiencia en fabricación OEM y ODM de figuras de resina, nuestra fábrica se especializa en figuras personalizadas basadas en IP, recuerdos de turismo cultural, réplicas de esculturas grandes, piezas y accesorios de productos, artículos promocionales de mascotas corporativas, figuras de decoración para el hogar, figuras para tableros de automóviles, series de cajas ciegas y llaveros. Servimos a marcas, propietarios de IP, minoristas, museos, atracciones turísticas y coleccionistas en todo el mundo.",
+    "points": [
+      "Modelado 3D profesional — muestras en 7 días",
+      "Fabricación a gran escala — MOQ 100 piezas, listo para producción en masa",
+      "Envío y exportación mundial — Línea dedicada, DHL, FedEx, transporte marítimo, transporte aéreo",
+      "Inspección estricta de QC — Certificado CE, EN71, ASTM F963"
+    ],
+    "peopleTitle": "Hecho por personas que aman su oficio",
+    "peopleSubtitle": "Se nota en cada pincelada.",
+    "factoryExterior": "Exterior de la fábrica",
+    "productionLine": "Línea de producción",
+    "productExhibition": "Exhibición de productos"
   },
   "magicalMemories": {
     "kicker": "Promesa de la fábrica",
@@ -141,32 +152,32 @@
   },
   "whyChooseUs": {
     "kicker": "Por qué las marcas nos eligen",
-    "title": "De una sola mascota a una tirada retail mundial",
-    "subtitle": "Seis cosas a las que siempre diremos sí.",
+    "title": "Por qué elegir nuestra fábrica de resina",
+    "subtitle": "6 razones para trabajar con nosotros.",
     "features": [
       {
-        "title": "MOQ bajo",
-        "desc": "Tiradas de resina desde 100 unidades. Sin mínimos gigantes, sin riesgo inflado para lanzamientos indie."
+        "title": "MOQ baja — 100 piezas",
+        "desc": "Comience su pedido de figuras de resina personalizadas desde solo 100 piezas por diseño. Perfecto para startups y marcas pequeñas."
       },
       {
-        "title": "Escultura 3D gratis",
-        "desc": "Envíanos un boceto, foto o brief — nuestros escultores internos entregan un modelo 3D listo para imprimir y un master físico sin coste."
+        "title": "Muestreo rápido — 7 días",
+        "desc": "Prototipo físico de figura de resina listo en 7 días hábiles. Estatuas, mascotas, llaveros — cualquier diseño."
       },
       {
-        "title": "Probado CE / EN71 / ASTM",
-        "desc": "Resina, pintura y embalaje probados según estándares globales de seguridad de juguetes (CE, EN71, ASTM F963, REACH). Listo para retail."
+        "title": "Tecnología avanzada",
+        "desc": "Hemos completado muchos proyectos de alta dificultad para marcas conocidas. Detalles complejos, tamaños grandes, efectos especiales."
       },
       {
-        "title": "Nuestra propia fábrica",
-        "desc": "No subcontratamos. Escultura, moldeado, vaciado, pintura a mano y embalaje — todo bajo un mismo techo para un QA más estricto."
+        "title": "Certificado CE / EN71 / ASTM",
+        "desc": "Todos los productos probados según los estándares globales de seguridad de juguetes. Certificaciones listas para venta minorista."
       },
       {
-        "title": "Entrega a tiempo",
-        "desc": "Producción media de 20 días desde el sample aprobado. Hitos rastreados — esculpir, moldear, vaciar, pintar, empaquetar — en todo el camino."
+        "title": "Fábrica de resina propia",
+        "desc": "Escultura, fabricación de moldes, fundición, pintura y empaque — todo en nuestra propia fábrica de resina."
       },
       {
-        "title": "Pago flexible",
-        "desc": "30 % de depósito, 70 % antes del envío. Trade Assurance y transferencia bancaria aceptados — fácil para el flujo de caja."
+        "title": "Gerente de cuenta multilingüe",
+        "desc": "Gerente de cuenta profesional para cada proyecto. 10 idiomas: inglés, español, francés, árabe, portugués, alemán, japonés, italiano, indonesio, coreano."
       }
     ]
   },
@@ -176,24 +187,24 @@
     "services": "SERVICIOS",
     "more": "MÁS",
     "ctaText": "¿Tienes un proyecto en mente? Recibe un presupuesto gratis en 12 horas.",
-    "ctaButton": "Contáctanos",
+    "ctaButton": "Obtenga un presupuesto gratis",
     "rights": "Todos los derechos reservados.",
     "linksServices": [
       {
         "label": "Modelado 3D gratuito",
-        "href": "/products"
+        "href": "#"
       },
       {
         "label": "Producción en masa",
-        "href": "/products"
+        "href": "#"
       },
       {
         "label": "Certificaciones",
-        "href": "/values"
+        "href": "#"
       },
       {
-        "label": "Portfolio",
-        "href": "/portfolio"
+        "label": "Logística",
+        "href": "#"
       }
     ],
     "linksMore": [
@@ -552,6 +563,13 @@
         "date": "Aug 11, 2026",
         "read": "5 min",
         "tag": "Perspectivas de la industria"
+      },
+      {
+        "title": "Del diseño a la muestra física: El proceso completo de muestreo de figuras de resina",
+        "date": "13 de agosto de 2026",
+        "read": "8 min",
+        "tag": "Proceso de muestreo",
+        "excerpt": "11 pasos, 2 hitos clave de aprobación, 12-15 días - nuestro proceso completo de muestreo de figuras explicado."
       }
     ],
     "contactCtaTitle": "¿Tienes un proyecto del que hablar?",
@@ -757,5 +775,242 @@
         }
       ]
     }
+  },
+  "productCategories": {
+    "kicker": "Lo que hacemos",
+    "title": "9 categorías de productos",
+    "subtitle": "Del concepto a la producción en masa — manejamos todo tipo de figuras de resina personalizadas.",
+    "categories": [
+      {
+        "title": "Figuras de resina basadas en IP",
+        "desc": "Figuras de personajes con licencia para marcas, estudios de anime y licenciantes de IP."
+      },
+      {
+        "title": "Recuerdos de turismo cultural",
+        "desc": "Recuerdos de resina personalizados para museos, atracciones turísticas e instituciones culturales."
+      },
+      {
+        "title": "Réplicas de esculturas grandes",
+        "desc": "Réplicas de resina de gran tamaño y piezas de arte para galerías y exhibiciones públicas."
+      },
+      {
+        "title": "Piezas y accesorios de productos",
+        "desc": "Componentes de resina de precisión para aplicaciones de productos industriales y de consumo."
+      },
+      {
+        "title": "Mascotas corporativas y artículos promocionales",
+        "desc": "Figuras de mascotas de marca y artículos de resina promocionales para regalos corporativos."
+      },
+      {
+        "title": "Figuras de decoración para el hogar",
+        "desc": "Figuras de resina decorativas para minoristas de decoración para el hogar y diseñadores de interiores."
+      },
+      {
+        "title": "Figuras para tableros de automóviles",
+        "desc": "Mini figuras de resina diseñadas para tableros de automóviles y accesorios automotrices."
+      },
+      {
+        "title": "Series de cajas ciegas",
+        "desc": "Producción completa de cajas ciegas — escultura, moldeo, fundición, pintura y empaque."
+      },
+      {
+        "title": "Llaveros de resina",
+        "desc": "Dijes y llaveros de resina en miniatura para venta minorista, eventos y campañas de marca."
+      }
+    ]
+  },
+  "manufacturingProcess": {
+    "kicker": "Nuestro proceso de fabricación",
+    "title": "Proceso de fabricación de figuras de resina",
+    "subtitle": "9 pasos de artesanía profesional en nuestra fábrica de resina",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Modelado 3D",
+        "desc": "Modelado digital y creación de modelos 3D",
+        "image": "/pictures/01-3d-modeling.jpg",
+        "alt": "Modelado 3D"
+      },
+      {
+        "num": "02",
+        "title": "Impresión 3D",
+        "desc": "Impresión de prototipos de alta precisión",
+        "image": "/pictures/02-3d-printing.jpg",
+        "alt": "Impresión 3D"
+      },
+      {
+        "num": "03",
+        "title": "Creación de patrón maestro",
+        "desc": "Creación de patrón maestro físico",
+        "image": "/pictures/03-master-pattern-making.jpg",
+        "alt": "Creación de patrón maestro"
+      },
+      {
+        "num": "04",
+        "title": "Fabricación de moldes de silicona",
+        "desc": "Creación de moldes de precisión",
+        "image": "/pictures/04-silicone-mould-making.jpg",
+        "alt": "Fabricación de moldes de silicona"
+      },
+      {
+        "num": "05",
+        "title": "Fundición de resina",
+        "desc": "Fundición de poliresina de alta calidad",
+        "image": "/pictures/05-resin-casting.jpg",
+        "alt": "Fundición de resina"
+      },
+      {
+        "num": "06",
+        "title": "Desmolde y recorte",
+        "desc": "Extracción cuidadosa y recorte de bordes",
+        "image": "/pictures/06-demoulding-trimming.jpg",
+        "alt": "Desmolde y recorte"
+      },
+      {
+        "num": "07",
+        "title": "Pintura a mano",
+        "desc": "Pintura a mano detallada por artistas expertos",
+        "image": "/pictures/07-hand-painting.jpg",
+        "alt": "Pintura a mano"
+      },
+      {
+        "num": "08",
+        "title": "Inspección de calidad",
+        "desc": "Controles estrictos de QC antes del empaque",
+        "image": "/pictures/08-quality-inspection.jpg",
+        "alt": "Inspección de calidad"
+      },
+      {
+        "num": "09",
+        "title": "Empaque",
+        "desc": "Empaque protector y envío mundial",
+        "image": "/pictures/09-packaging.jpg",
+        "alt": "Empaque"
+      }
+    ]
+  },
+  "orderProcess": {
+    "kicker": "Cómo funciona",
+    "title": "Cómo ordenar de nuestra fábrica de resina",
+    "subtitle": "9 pasos desde la idea hasta sus manos",
+    "steps": [
+      {
+        "title": "Comparta sus requisitos",
+        "desc": "Envíenos su diseño, boceto o imagen de referencia"
+      },
+      {
+        "title": "Obtenga cotización gratuita",
+        "desc": "Respondemos con precios en 1 hora"
+      },
+      {
+        "title": "Pague la tarifa de muestra",
+        "desc": "Inicie el proceso de muestreo"
+      },
+      {
+        "title": "Modelado 3D y muestreo",
+        "desc": "Muestra física lista en 7-10 días hábiles"
+      },
+      {
+        "title": "Pague el depósito",
+        "desc": "Depósito para iniciar la producción"
+      },
+      {
+        "title": "Producción en masa",
+        "desc": "Tiempo de producción: 20-35 días"
+      },
+      {
+        "title": "Confirmación por video",
+        "desc": "Revise la producción por video"
+      },
+      {
+        "title": "Pague el saldo",
+        "desc": "Saldo antes del envío"
+      },
+      {
+        "title": "Entrega",
+        "desc": "Envío mundial por aire, mar o exprés"
+      }
+    ]
+  },
+  "customerCases": {
+    "kicker": "Historias de clientes",
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Comentarios reales de marcas, minoristas e instituciones con las que hemos trabajado.",
+    "cases": [
+      {
+        "quote": "Visitar la fábrica de resina fue una experiencia reveladora. Su nivel de servicio y sistema de gestión de calidad son verdaderamente profesionales. Cada paso — desde el modelado 3D hasta el empaque final — está estandarizado y es transparente. Las figuras de resina que produjeron para nosotros superaron nuestras expectativas tanto en detalles como en acabado.",
+        "author": "Cliente de marca estadounidense",
+        "role": "Gerente de producto"
+      },
+      {
+        "quote": "Visitamos la fábrica de resina para evaluar sus capacidades de producción para nuestra línea de recuerdos de museo. Su control de costos es excepcional sin comprometer la calidad. La fábrica de resina demostró que podían manejar diseños complejos mientras mantenían precios competitivos — exactamente lo que necesitábamos para nuestros productos de turismo cultural.",
+        "author": "Minorista alemán",
+        "role": "Director de compras"
+      },
+      {
+        "quote": "La fábrica de resina demostró una capacidad técnica sobresaliente cuando los visitamos. Se especializan en manejar proyectos complejos y de alta dificultad — perfectos para las réplicas de esculturas grandes de nuestro museo. La atención del equipo a la precisión histórica y el acabado de superficies fue impresionante.",
+        "author": "Museo australiano",
+        "role": "Curador"
+      },
+      {
+        "quote": "La consistencia es crítica para nuestros recuerdos de turismo, y esta fábrica de resina entregó perfectamente. Las muestras y las unidades de producción en masa son idénticas — cada detalle coincide. Hemos reordenado tres veces, y la calidad se mantiene consistente en todos los lotes.",
+        "author": "Atracción turística estadounidense",
+        "role": "Gerente de operaciones"
+      },
+      {
+        "quote": "Teníamos un pedido urgente de artículos de decoración para el hogar de resina, y la fábrica de resina lo manejó brillantemente. A pesar del apretado cronograma, mantuvieron la calidad y entregaron a tiempo. Su flexibilidad de producción y comunicación durante todo el proceso fueron sobresalientes.",
+        "author": "Minorista estadounidense",
+        "role": "Comprador"
+      },
+      {
+        "quote": "Nuestros diseños de decoración para el hogar de resina tienen estructuras complejas que requieren fabricación precisa. El control de calidad de la fábrica de resina es sobresaliente — cada pieza pasa por una inspección rigurosa antes del envío. Entienden el mercado premium y entregan en consecuencia.",
+        "author": "Marca francesa",
+        "role": "Director de diseño"
+      }
+    ]
+  },
+  "homepageFaq": {
+    "kicker": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuál es su cantidad mínima de pedido (MOQ)?",
+        "a": "Comenzamos en 100 unidades para figuras de resina pintadas a mano. Por debajo de eso aún podemos ayudar con un prototipo único, pero el costo por pieza aumenta considerablemente ya que la configuración del molde es la misma independientemente del tamaño del lote."
+      },
+      {
+        "q": "¿Cuánto tiempo toma la producción?",
+        "a": "El cronograma típico desde el modelado 3D aprobado hasta el primer envío es de 28-35 días hábiles. El modelado en sí agrega 5-10 días dependiendo de la complejidad. Enviamos actualizaciones de fotos semanales para que siempre sepa dónde está su lote."
+      },
+      {
+        "q": "¿Manejan pruebas CE / EN71 / ASTM?",
+        "a": "Sí. Probamos la resina, las pinturas y el empaque en laboratorios acreditados (SGS / Intertek) para CE, EN71-1/2/3, ASTM F963 y REACH. Los informes de prueba están incluidos en su envío."
+      },
+      {
+        "q": "¿Qué términos de pago aceptan?",
+        "a": "Aceptamos T/T (transferencia bancaria), Mastercard, Visa y otras tarjetas de crédito principales. Términos estándar: depósito para asegurar el lugar de producción, saldo antes del envío."
+      },
+      {
+        "q": "¿Pueden enviar mundialmente?",
+        "a": "Sí. Enviamos por mar (FCL/LCL), aire (DHL/FedEx/UPS) o ferrocarril (China-Europa). Para lotes de menos de 200 unidades, el courier aéreo suele ser más económico."
+      },
+      {
+        "q": "¿Puedo visitar la fábrica en China?",
+        "a": "Por supuesto. Recibimos visitas de clientes durante todo el año. Envíenos sus fechas y organizaremos recogida en el aeropuerto, recomendaciones de hoteles y un recorrido de un día desde escultura → molde → fundición → pintura → empaque."
+      },
+      {
+        "q": "¿Qué materiales de resina utilizan?",
+        "a": "Trabajamos con resina de poliuretano (para figuras detalladas) y polystone (para estatuas más pesadas). Ambos son no tóxicos, certificados CE/EN71/ASTM, y adecuados para venta minorista."
+      },
+      {
+        "q": "¿Cómo aseguran la consistencia de calidad?",
+        "a": "Cada pieza es inspeccionada a mano. Usamos muestras maestras aprobadas como referencia, realizamos controles en proceso en cada etapa y realizamos QA final antes del empaque. La tasa de defectos es inferior al 1%."
+      }
+    ]
+  },
+  "blogShowcase": {
+    "kicker": "Últimas historias",
+    "title": "Nuestro blog - Perspectivas de la industria",
+    "subtitle": "Historias detrás de escena y guías prácticas para compradores de figuras de resina.",
+    "readMore": "Leer más"
   }
 }

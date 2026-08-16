@@ -10,9 +10,22 @@ export default function FactoryIntro({ dict }: Props) {
         <div className="space-y-3 sm:space-y-5 text-slate-700">
           <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold">{dict.kicker}</p>
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-brand-dark leading-tight tracking-tight">{dict.title}</h2>
-          <p className="text-base sm:text-lg leading-relaxed">{dict.p1}</p>
-          <p className="text-sm sm:text-base leading-relaxed text-slate-600">{dict.p2}</p>
+          <p className="text-base sm:text-lg leading-relaxed">{dict.description}</p>
+          
+          {/* 4 Key Points */}
+          <div className="grid grid-cols-1 gap-3 mt-6">
+            {dict.points.map((point, i) => (
+              <div key={i} className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-brand-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-sm font-medium">{point}</span>
+              </div>
+            ))}
+          </div>
         </div>
+        
+        {/* YouTube Video */}
         <div className="relative w-full aspect-video min-h-[220px] md:min-h-[360px] rounded-lg overflow-hidden shadow-md bg-black">
           <iframe
             src="https://www.youtube.com/embed/XLu1iPuZ_EA?rel=0&modestbranding=1"
@@ -26,35 +39,36 @@ export default function FactoryIntro({ dict }: Props) {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 mt-10 md:mt-20">
-        <div className="text-center mb-6 md:mb-10">
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-brand-dark">{dict.peopleTitle}</h3>
-          <p className="text-sm sm:text-base text-slate-500 mt-2 sm:mt-3">{dict.peopleSubtitle}</p>
+      {/* 3 Images as cards */}
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
+          <div className="p-[2px]">
+            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg">
+              <Image src="/pictures/factory-exterior.jpg" alt="Factory Exterior" fill sizes="(max-width: 768px) 100vw, 33vw" quality={85} className="object-cover" />
+            </div>
+          </div>
+          <div className="px-3 pb-3 text-center">
+            <h3 className="text-base font-bold text-brand-dark">{dict.factoryExterior}</h3>
+          </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-[1fr_2fr_1fr] gap-3 md:gap-4">
-          {/* 方图1 */}
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden order-1 md:order-1">
-            <Image src="/1-Art-Of-Sanding.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} loading="lazy" className="object-cover object-center" />
+        <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
+          <div className="p-[2px]">
+            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg">
+              <Image src="/pictures/production-line.jpg" alt="Production Line" fill sizes="(max-width: 768px) 100vw, 33vw" quality={85} className="object-cover" />
+            </div>
           </div>
-          {/* 方图2 */}
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden order-2 md:order-3">
-            <Image src="/2-Art-Of-Hand-Painted3.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} loading="lazy" className="object-cover object-center" />
+          <div className="px-3 pb-3 text-center">
+            <h3 className="text-base font-bold text-brand-dark">{dict.productionLine}</h3>
           </div>
-          {/* 横图1 */}
-          <div className="relative w-full aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-3 md:order-2">
-            <Image src="/7-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" quality={65} loading="lazy" className="object-cover object-center" />
+        </div>
+        <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
+          <div className="p-[2px]">
+            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg">
+              <Image src="/pictures/product-exhibition.jpg" alt="Product Exhibition" fill sizes="(max-width: 768px) 100vw, 33vw" quality={85} className="object-cover" />
+            </div>
           </div>
-          {/* 方图3 */}
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden order-4 md:order-4">
-            <Image src="/4-Unfinished-Resin Casting.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} loading="lazy" className="object-cover object-center" />
-          </div>
-          {/* 方图4 */}
-          <div className="relative w-full aspect-square rounded-lg overflow-hidden order-5 md:order-6">
-            <Image src="/6-Art-Of-Hand-Painted1.jpg" alt={dict.peopleTitle} fill sizes="(max-width: 768px) 50vw, 25vw" quality={65} loading="lazy" className="object-cover object-center" />
-          </div>
-          {/* 横图2 */}
-          <div className="relative w-full aspect-[2/1] col-span-2 md:col-span-1 rounded-lg overflow-hidden order-6 md:order-5">
-            <Image src="/8-Art-Of-Hand-Painted.jpg" alt={dict.peopleTitle} fill sizes="100vw" quality={65} loading="lazy" className="object-cover object-center" />
+          <div className="px-3 pb-3 text-center">
+            <h3 className="text-base font-bold text-brand-dark">{dict.productExhibition}</h3>
           </div>
         </div>
       </div>

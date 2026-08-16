@@ -31,7 +31,7 @@
   "header": {
     "brand": "Resin Factory",
     "estTag": "est. 2013",
-    "cta": "Get a Quote",
+    "cta": "Get Free Quote",
     "homeAria": "Resin Factory · back to home",
     "nav": {
       "home": "Home",
@@ -43,10 +43,10 @@
       "contact": "Contact"
     },
     "language": "Language",
-    "factoryService": "Custom Resin Figurines for Brands & IPs"
+    "factoryService": "Custom Resin Figurines for Brands & IP"
   },
   "hero": {
-    "h1": "Resin Factory-Custom Resin Figurines for Brands & IP",
+    "h1": "Resin Factory - Custom Resin Figurines for Brands & IP",
     "slides": [
       {
         "title": "Custom Resin Figurines for Brands & IP",
@@ -67,18 +67,29 @@
         "alt": "Bulk production and shipping"
       }
     ],
-    "cta": "Get a Quote",
-    "prevAria": "Previous slide",
-    "nextAria": "Next slide",
-    "dotAria": "Go to slide"
-  },
+  "cta": "Get Free Quote",
+  "stat1Label": "MOQ",
+  "stat2Label": "Countries",
+  "stat3Label": "Clients",
+  "prevAria": "Previous slide",
+  "nextAria": "Next slide",
+  "dotAria": "Go to slide"
+},
   "factoryIntro": {
     "kicker": "Inside Our Factory",
-    "title": "Where custom figurines get made",
-    "p1": "We don't outsource a single step. Every resin figurine is sculpted, moulded, cast, hand-painted and packed in our own factory — by sculptors and painters we've worked with for years.",
-    "p2": "Ventilated casting rooms, dust-controlled paint booths, calibrated airbrush stations, low-VOC resins. We invested in the room before we ever invested in the production line.",
+    "title": "About Our Factory",
+    "description": "Established in 2013, with 12+ years of OEM & ODM resin figurine manufacturing, our resin factory specializes in custom IP-based figurines, cultural tourism souvenirs, large sculpture replicas, product parts & accessories, corporate mascot promotional items, home decor figurines, car dashboard figurines, blind box series and keychains. We serve brands, IP owners, retailers, museums, tourist attractions, and collectors worldwide.",
+    "points": [
+      "Professional 3D sculpting — 7-day samples",
+      "Large-scale manufacturing — MOQ 100 pcs, mass production ready",
+      "Global shipping & export — Dedicated Line, DHL, FedEx, Sea Freight, Air Freight",
+      "Strict QC inspection — CE, EN71, ASTM F963 certified"
+    ],
     "peopleTitle": "Made by people who love their craft",
-    "peopleSubtitle": "It shows in every brushstroke."
+    "peopleSubtitle": "It shows in every brushstroke.",
+    "factoryExterior": "Factory Exterior",
+    "productionLine": "Production Line",
+    "productExhibition": "Product Exhibition"
   },
   "magicalMemories": {
     "kicker": "Factory Promise",
@@ -141,32 +152,32 @@
   },
   "whyChooseUs": {
     "kicker": "Why Brands Choose Us",
-    "title": "From a single mascot to a worldwide retail run",
-    "subtitle": "Six things we'll always say yes to.",
+    "title": "Why Choose Our Resin Factory",
+    "subtitle": "6 reasons to work with us.",
     "features": [
       {
-        "title": "Low MOQ",
-        "desc": "Resin runs from as few as 100 units. No giant minimums, no inflated risk for indie launches."
+        "title": "Low MOQ — 100pcs",
+        "desc": "Start your custom resin figurine order from just 100 pieces per design. Perfect for startups and small brands."
       },
       {
-        "title": "Free 3D Sculpting",
-        "desc": "Send a sketch, photo or brief — our in-house sculptors deliver a print-ready 3D model and physical master at no cost."
+        "title": "Fast Sampling — 7 Days",
+        "desc": "Physical resin figurine prototype ready in 7 business days. Statues, mascots, keychains — any design."
       },
       {
-        "title": "CE / EN71 / ASTM Tested",
-        "desc": "Resin, paint and packaging tested to global toy safety standards (CE, EN71, ASTM F963, REACH). Retail-ready."
+        "title": "Advanced Technology",
+        "desc": "We have completed many high-difficulty projects for well-known brands. Complex details, large sizes, special effects."
       },
       {
-        "title": "Our Own Factory",
-        "desc": "We don't outsource. Sculpting, mould-making, casting, hand-painting and packaging — all under one roof for tighter QA."
+        "title": "CE / EN71 / ASTM Certified",
+        "desc": "All products tested to global toy safety standards. Retail-ready certifications."
       },
       {
-        "title": "On-Time Delivery",
-        "desc": "Average 20-day production from approved sample. Tracked milestones — sculpt, mould, cast, paint, pack — the whole way."
+        "title": "Own Resin Factory",
+        "desc": "Sculpting, mould-making, casting, painting and packaging — all in our own resin factory."
       },
       {
-        "title": "Flexible Payment",
-        "desc": "30% deposit, 70% before shipment. Trade Assurance & wire transfer accepted — easy on cash flow."
+        "title": "Multilingual Account Manager",
+        "desc": "Professional account manager for each project. 10 languages: English, Spanish, French, Arabic, Portuguese, German, Japanese, Italian, Indonesian, Korean."
       }
     ]
   },
@@ -176,24 +187,24 @@
     "services": "SERVICES",
     "more": "MORE",
     "ctaText": "Have a project in mind? Get a free quote within 12 hours.",
-    "ctaButton": "Contact Us",
+    "ctaButton": "Get Free Quote",
     "rights": "All rights reserved.",
     "linksServices": [
       {
-        "label": "Free 3D Sculpting",
-        "href": "/products"
+        "label": "Sampling",
+        "href": "#"
       },
       {
-        "label": "Bulk Production",
-        "href": "/products"
+        "label": "Mass Production",
+        "href": "#"
       },
       {
         "label": "Certifications",
-        "href": "/values"
+        "href": "#"
       },
       {
-        "label": "Portfolio",
-        "href": "/portfolio"
+        "label": "Logistics",
+        "href": "#"
       }
     ],
     "linksMore": [
@@ -259,45 +270,7 @@
         "title": "Bulk Production",
         "desc": "Multi-thousand-unit runs with full QA, packaging and worldwide shipping."
       }
-    ],
-    "faq": {
-      "kicker": "Common Questions",
-      "title": "Things first-time buyers ask",
-      "items": [
-        {
-          "q": "What's your minimum order quantity (MOQ)?",
-          "a": "We start at 100 units for hand-painted resin figures. Below that we can still help with a one-off prototype, but per-piece cost rises sharply since the mold setup is the same regardless of run size."
-        },
-        {
-          "q": "How long does production take?",
-          "a": "Typical timeline from approved 3D sculpt to first shipment is 28–35 working days. Sculpting itself adds 5–10 days depending on complexity. We send weekly photo updates so you always know where your batch is."
-        },
-        {
-          "q": "Is the 3D sculpting really free?",
-          "a": "Yes — fully free, no obligation, no IP transfer until you place a production order. We deliver a 360° turntable render and (on request) one printed physical proof at our cost. We absorb this because it's the cheapest way for both sides to discover whether your project is a fit."
-        },
-        {
-          "q": "Do you handle CE / EN71 / ASTM testing?",
-          "a": "Yes. We test the resin, paints and packaging in accredited labs (SGS / Intertek) for CE, EN71-1/2/3, ASTM F963 and REACH. Test reports are included in your shipment so retail buyers can audit them."
-        },
-        {
-          "q": "What payment terms do you accept?",
-          "a": "Standard terms: 30% deposit to lock the production slot, 70% balance before shipment. We accept wire transfer (T/T), Alibaba Trade Assurance, and PayPal for sample-stage payments. For repeat clients we extend net-30 terms after the third order."
-        },
-        {
-          "q": "Can you ship worldwide?",
-          "a": "Yes. We ship by sea (FCL/LCL), air (DHL/FedEx/UPS), or rail (China–Europe). For runs under 200 units, air courier is usually most economical. We handle export documentation, HS codes, and country-of-origin certificates."
-        },
-        {
-          "q": "Do you require a contract or NDA?",
-          "a": "We sign client NDAs as a default — your sculpts, art and IP stay protected. We never reuse a custom-sculpted figure for another client, and we destroy molds on request when a production cycle ends."
-        },
-        {
-          "q": "Can I visit the factory in Shenzhen?",
-          "a": "Of course. We host client visits year-round, and have hosted production walk-throughs for buyers from 25+ countries. Send us your dates and we'll arrange airport pickup, hotel recommendations, and a one-day tour of sculpt → mold → cast → paint → pack."
-        }
-      ]
-    }
+    ]
   },
   "portfolio": {
     "heroTitle": "Portfolio",
@@ -764,5 +737,242 @@
         }
       ]
     }
+  },
+  "productCategories": {
+    "kicker": "What We Make",
+    "title": "9 Product Categories",
+    "subtitle": "From concept to mass production — we handle every type of custom resin figurine.",
+    "categories": [
+      {
+        "title": "IP-Based Resin Figurines",
+        "desc": "Licensed character figurines for brands, anime studios, and IP licensors."
+      },
+      {
+        "title": "Cultural Tourism Souvenirs",
+        "desc": "Custom resin souvenirs for museums, tourist attractions, and cultural institutions."
+      },
+      {
+        "title": "Large Sculpture Replicas",
+        "desc": "Oversized resin replicas and art pieces for galleries and public displays."
+      },
+      {
+        "title": "Product Parts & Accessories",
+        "desc": "Precision resin components for industrial and consumer product applications."
+      },
+      {
+        "title": "Corporate Mascot & Promotional Items",
+        "desc": "Brand mascot figurines and promotional resin items for corporate gifting."
+      },
+      {
+        "title": "Home Decor Figurines",
+        "desc": "Decorative resin figurines for home decor retailers and interior designers."
+      },
+      {
+        "title": "Car Dashboard Figurines",
+        "desc": "Mini resin figurines designed for car dashboards and automotive accessories."
+      },
+      {
+        "title": "Blind Box Series",
+        "desc": "Complete blind box production — sculpting, molding, casting, painting, and packaging."
+      },
+      {
+        "title": "Resin Keychains",
+        "desc": "Mini resin charms and keychains for retail, events, and brand campaigns."
+      }
+    ]
+  },
+  "manufacturingProcess": {
+    "kicker": "Our Manufacturing Process",
+    "title": "Resin Figurine Manufacturing Process",
+    "subtitle": "9 steps of professional craftsmanship in our resin factory",
+    "steps": [
+      {
+        "num": "01",
+        "title": "3D Sculpting",
+        "desc": "Digital sculpting and 3D model creation",
+        "image": "/pictures/01-3d-modeling.jpg",
+        "alt": "3D Sculpting"
+      },
+      {
+        "num": "02",
+        "title": "3D Printing",
+        "desc": "High-precision prototype printing",
+        "image": "/pictures/02-3d-printing.jpg",
+        "alt": "3D Printing"
+      },
+      {
+        "num": "03",
+        "title": "Master Pattern Making",
+        "desc": "Physical master pattern creation",
+        "image": "/pictures/03-master-pattern-making.jpg",
+        "alt": "Master Pattern Making"
+      },
+      {
+        "num": "04",
+        "title": "Silicone Mould Making",
+        "desc": "Precision mould creation",
+        "image": "/pictures/04-silicone-mould-making.jpg",
+        "alt": "Silicone Mould Making"
+      },
+      {
+        "num": "05",
+        "title": "Resin Casting",
+        "desc": "High-quality polyresin casting",
+        "image": "/pictures/05-resin-casting.jpg",
+        "alt": "Resin Casting"
+      },
+      {
+        "num": "06",
+        "title": "Demoulding & Trimming",
+        "desc": "Careful removal and edge trimming",
+        "image": "/pictures/06-demoulding-trimming.jpg",
+        "alt": "Demoulding & Trimming"
+      },
+      {
+        "num": "07",
+        "title": "Hand Painting",
+        "desc": "Detailed hand-painting by skilled artists",
+        "image": "/pictures/07-hand-painting.jpg",
+        "alt": "Hand Painting"
+      },
+      {
+        "num": "08",
+        "title": "Quality Inspection",
+        "desc": "Strict QC checks before packaging",
+        "image": "/pictures/08-quality-inspection.jpg",
+        "alt": "Quality Inspection"
+      },
+      {
+        "num": "09",
+        "title": "Packaging",
+        "desc": "Protective packaging and worldwide shipping",
+        "image": "/pictures/09-packaging.jpg",
+        "alt": "Packaging"
+      }
+    ]
+  },
+  "orderProcess": {
+    "kicker": "How It Works",
+    "title": "How to Order from Our Resin Factory",
+    "subtitle": "9 steps from idea to your hands",
+    "steps": [
+      {
+        "title": "Share Your Requirements",
+        "desc": "Send us your design, sketch or reference image"
+      },
+      {
+        "title": "Get Free Quote",
+        "desc": "We reply with pricing within 1 hour"
+      },
+      {
+        "title": "Pay Sample Fee",
+        "desc": "Start the sampling process"
+      },
+      {
+        "title": "3D Sculpting & Sampling",
+        "desc": "Physical sample ready in 7-10 business days"
+      },
+      {
+        "title": "Pay Deposit",
+        "desc": "Deposit to start production"
+      },
+      {
+        "title": "Mass Production",
+        "desc": "Production time: 20-35 days"
+      },
+      {
+        "title": "Video Confirmation",
+        "desc": "Review production via video"
+      },
+      {
+        "title": "Pay Balance",
+        "desc": "Balance before shipping"
+      },
+      {
+        "title": "Delivery",
+        "desc": "Ship worldwide by air, sea or express"
+      }
+    ]
+  },
+  "customerCases": {
+    "kicker": "Customer Stories",
+    "title": "What Our Clients Say",
+    "subtitle": "Real feedback from brands, retailers, and institutions we've worked with.",
+    "cases": [
+      {
+        "quote": "Visiting the resin factory was an eye-opening experience. Their service level and quality management system are truly professional. Every step — from 3D modeling to final packaging — is standardized and transparent. The resin figurines they produced for us exceeded our expectations in both detail and finish.",
+        "author": "US Brand Client",
+        "role": "Product Manager"
+      },
+      {
+        "quote": "We visited the resin factory to evaluate their production capabilities for our museum souvenir line. Their cost control is exceptional without compromising quality. The resin factory demonstrated they could handle complex designs while maintaining competitive pricing — exactly what we needed for our cultural tourism products.",
+        "author": "German Retailer",
+        "role": "Procurement Director"
+      },
+      {
+        "quote": "The resin factory demonstrated outstanding technical capability when we visited. They specialize in handling complex, high-difficulty projects — perfect for our museum's large sculpture replicas. The team's attention to historical accuracy and surface finishing was impressive.",
+        "author": "Australian Museum",
+        "role": "Curator"
+      },
+      {
+        "quote": "Consistency is critical for our tourism souvenirs, and this resin factory delivered perfectly. The samples and mass production units are identical — every detail matches. We've reordered three times, and the quality remains consistent across all batches.",
+        "author": "US Tourist Attraction",
+        "role": "Operations Manager"
+      },
+      {
+        "quote": "We had an urgent order for resin home decor items, and the resin factory handled it brilliantly. Despite the tight timeline, they maintained quality and delivered on schedule. Their production flexibility and communication throughout the process were outstanding.",
+        "author": "US Retailer",
+        "role": "Buyer"
+      },
+      {
+        "quote": "Our resin home decor designs have complex structures that require precise manufacturing. The resin factory's quality control is outstanding — every piece passes rigorous inspection before shipping. They understand the premium market and deliver accordingly.",
+        "author": "French Brand",
+        "role": "Design Director"
+      }
+    ]
+  },
+  "homepageFaq": {
+    "kicker": "Common Questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What's your minimum order quantity (MOQ)?",
+        "a": "We start at 100 units for hand-painted resin figures. Below that we can still help with a one-off prototype, but per-piece cost rises sharply since the mold setup is the same regardless of run size."
+      },
+      {
+        "q": "How long does production take?",
+        "a": "Typical timeline from approved 3D sculpt to first shipment is 28–35 working days. Sculpting itself adds 5–10 days depending on complexity. We send weekly photo updates so you always know where your batch is."
+      },
+      {
+        "q": "Do you handle CE / EN71 / ASTM testing?",
+        "a": "Yes. We test the resin, paints and packaging in accredited labs (SGS / Intertek) for CE, EN71-1/2/3, ASTM F963 and REACH. Test reports are included in your shipment."
+      },
+      {
+        "q": "What payment terms do you accept?",
+        "a": "We accept T/T (bank transfer), Mastercard, Visa, and other major credit cards. Standard terms: deposit to lock the production slot, balance before shipment."
+      },
+      {
+        "q": "Can you ship worldwide?",
+        "a": "Yes. We ship by sea (FCL/LCL), air (DHL/FedEx/UPS), or rail (China–Europe). For runs under 200 units, air courier is usually most economical."
+      },
+      {
+        "q": "Can I visit the factory in China?",
+        "a": "Of course. We host client visits year-round. Send us your dates and we'll arrange airport pickup, hotel recommendations, and a one-day tour of sculpt → mold → cast → paint → pack."
+      },
+      {
+        "q": "What resin materials do you use?",
+        "a": "We work with polyurethane resin (for detailed figurines) and polystone (for heavier statues). Both are non-toxic, CE/EN71/ASTM certified, and suitable for retail."
+      },
+      {
+        "q": "How do you ensure quality consistency?",
+        "a": "Every piece is hand-inspected. We use approved master samples as reference, conduct in-process checks at each stage, and perform final QA before packaging. Defect rate is under 1%."
+      }
+    ]
+  },
+  "blogShowcase": {
+    "kicker": "Latest Stories",
+    "title": "Our Blog - Industry Insights",
+    "subtitle": "Behind-the-scenes stories and how-to guides for resin figurine buyers.",
+    "readMore": "Read More"
   }
 }

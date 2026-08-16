@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import DirUpdater from "@/components/DirUpdater";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { locales, isLocale, localeMeta, type Locale } from "@/i18n/settings";
 
@@ -128,6 +129,7 @@ export default async function LangLayout({ children, params }: LayoutProps) {
 
   return (
     <>
+      <DirUpdater lang={lang} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
       <Header dict={dict.header} lang={lang} />
       <main id="main">{children}</main>

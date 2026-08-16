@@ -31,7 +31,7 @@
   "header": {
     "brand": "Resin Factory",
     "estTag": "fondé en 2013",
-    "cta": "Demander un devis",
+    "cta": "Get Free Quote",
     "homeAria": "Resin Factory · retour à l'accueil",
     "nav": {
       "home": "Accueil",
@@ -46,39 +46,50 @@
     "factoryService": "Figurines en résine personnalisées pour marques & IPs"
   },
   "hero": {
-    "h1": "Usine de Résine-Figurines en Résine Personnalisées pour Marques et IP",
+    "h1": "Resin Factory - Figurines en résine personnalisées pour marques et IP",
     "slides": [
       {
-        "title": "Figurines en résine sur mesure pour marques et IP",
+        "title": "Figurines en résine personnalisées pour marques et IP",
         "subtitle": "Du croquis conceptuel à la pièce de collection peinte à la main.",
-        "tag": "Sculpture 3D gratuite · Livraison mondiale · MOQ faible",
-        "alt": "Figurines en résine sur mesure exposées"
+        "tag": "Modélisation 3D gratuite · Livraison mondiale · MOQ faible",
+        "alt": "Figurines en résine personnalisées en exposition"
       },
       {
-        "title": "Sculptés, coulés et peints dans notre propre usine",
-        "subtitle": "Chaque master sculpté approuvé. Chaque lot testé en QC.",
-        "tag": "Certifié CE / EN71 / ASTM · Aucun intermédiaire · Mises à jour en temps réel",
-        "alt": "Atelier de sculpture et de coulée"
+        "title": "Sculpté, moulé et peint dans notre propre usine",
+        "subtitle": "Chaque maître sculpté approuvé. Chaque lot testé par QC.",
+        "tag": "Certifié CE / EN71 / ASTM · Sans intermédiaires · Mises à jour en temps réel",
+        "alt": "Usine de sculpture et de moulage"
       },
       {
         "title": "De 100 pièces à 10 000",
-        "subtitle": "Augmentez sans perdre le détail peint à la main.",
-        "tag": "Délai de 35 jours · Échantillonnage en résine gratuit · Livraison mondiale",
-        "alt": "Production en gros et expédition"
+        "subtitle": "Augmentez l'échelle sans perdre les détails peints à la main.",
+        "tag": "Délai de 35 jours · Échantillon de résine gratuit · Livraison mondiale",
+        "alt": "Production de masse et expédition"
       }
     ],
-    "cta": "Demander un devis",
+    "cta": "Obtenir un devis gratuit",
     "prevAria": "Diapositive précédente",
     "nextAria": "Diapositive suivante",
-    "dotAria": "Aller à la diapositive"
+    "dotAria": "Aller à la diapositive",
+    "stat1Label": "MOQ",
+    "stat2Label": "Pays",
+    "stat3Label": "Clients"
   },
   "factoryIntro": {
-    "kicker": "Dans notre atelier",
-    "title": "Là où des figurines personnalisées sont fabriquées",
-    "p1": "Nous ne sous-traitons pas une seule étape. Chaque figurine en résine est sculptée, moulée, coulée, peinte à la main et emballée dans notre propre atelier — par des sculpteurs et peintres avec qui nous travaillons depuis des années.",
-    "p2": "Salles de coulée ventilées, cabines de peinture sans poussière, stations d'aérographe calibrées, résines à faible COV. Nous avons investi dans la pièce avant d'investir dans la chaîne de production.",
-    "peopleTitle": "Fabriqué par des gens qui aiment leur métier",
-    "peopleSubtitle": "Cela se voit dans chaque coup de pinceau."
+    "kicker": "Dans notre usine",
+    "title": "À propos de notre usine",
+    "description": "Fondée en 2013, avec plus de 12 ans d'expérience en fabrication OEM et ODM de figurines en résine, notre usine est spécialisée dans les figurines personnalisées basées sur l'IP, les souvenirs de tourisme culturel, les répliques de grandes sculptures, les pièces et accessoires de produits, les articles promotionnels de mascottes d'entreprise, les figurines de décoration d'intérieur, les figurines de tableau de bord automobile, les séries de boîtes mystères et les porte-clés. Nous servons des marques, des propriétaires d'IP, des détaillants, des musées, des attractions touristiques et des collectionneurs dans le monde entier.",
+    "points": [
+      "Modélisation 3D professionnelle — échantillons en 7 jours",
+      "Fabrication à grande échelle — MOQ 100 pièces, prêt pour la production de masse",
+      "Expédition et exportation mondiales — Ligne dédiée, DHL, FedEx, fret maritime, fret aérien",
+      "Inspection QC stricte — Certifié CE, EN71, ASTM F963"
+    ],
+    "peopleTitle": "Fabriqué par des personnes qui aiment leur métier",
+    "peopleSubtitle": "Cela se voit dans chaque coup de pinceau.",
+    "factoryExterior": "Extérieur de l'usine",
+    "productionLine": "Ligne de production",
+    "productExhibition": "Exposition de produits"
   },
   "magicalMemories": {
     "kicker": "Promesse de l'usine",
@@ -141,32 +152,32 @@
   },
   "whyChooseUs": {
     "kicker": "Pourquoi les marques nous choisissent",
-    "title": "D'une seule mascotte à une production retail mondiale",
-    "subtitle": "Six choses auxquelles nous dirons toujours oui.",
+    "title": "Pourquoi choisir notre usine de résine",
+    "subtitle": "6 raisons de travailler avec nous.",
     "features": [
       {
-        "title": "MOQ faible",
-        "desc": "Productions résine à partir de 100 unités. Pas de minimums géants, pas de risque gonflé pour les lancements indé."
+        "title": "MOQ faible — 100 pièces",
+        "desc": "Commencez votre commande de figurines en résine personnalisées à partir de seulement 100 pièces par design. Parfait pour les startups et les petites marques."
       },
       {
-        "title": "Sculpture 3D gratuite",
-        "desc": "Envoyez un croquis, une photo ou un brief — nos sculpteurs internes livrent un modèle 3D prêt à imprimer et un master physique sans frais."
+        "title": "Échantillonnage rapide — 7 jours",
+        "desc": "Prototype physique de figurine en résine prêt en 7 jours ouvrables. Statues, mascottes, porte-clés — n'importe quel design."
       },
       {
-        "title": "Testé CE / EN71 / ASTM",
-        "desc": "Résine, peinture et emballage testés selon les standards mondiaux de sécurité jouet (CE, EN71, ASTM F963, REACH). Prêt pour le retail."
+        "title": "Technologie avancée",
+        "desc": "Nous avons réalisé de nombreux projets de haute difficulté pour des marques connues. Détails complexes, grandes tailles, effets spéciaux."
       },
       {
-        "title": "Notre propre usine",
-        "desc": "Nous ne sous-traitons pas. Sculpture, moulage, coulée, peinture à la main et emballage — tout sous un même toit pour un QA plus serré."
+        "title": "Certifié CE / EN71 / ASTM",
+        "desc": "Tous les produits testés selon les normes mondiales de sécurité des jouets. Certifications prêtes pour la vente au détail."
       },
       {
-        "title": "Livraison à temps",
-        "desc": "Production moyenne de 20 jours à partir du sample approuvé. Étapes suivies — sculpter, mouler, couler, peindre, emballer — tout du long."
+        "title": "Usine de résine propre",
+        "desc": "Sculpture, fabrication de moules, coulée, peinture et emballage — tout dans notre propre usine de résine."
       },
       {
-        "title": "Paiement flexible",
-        "desc": "30 % d'acompte, 70 % avant expédition. Trade Assurance et virement acceptés — facile pour la trésorerie."
+        "title": "Gestionnaire de compte multilingue",
+        "desc": "Gestionnaire de compte professionnel pour chaque projet. 10 langues : anglais, espagnol, français, arabe, portugais, allemand, japonais, italien, indonésien, coréen."
       }
     ]
   },
@@ -176,24 +187,24 @@
     "services": "SERVICES",
     "more": "PLUS",
     "ctaText": "Un projet en tête ? Recevez un devis gratuit sous 12 heures.",
-    "ctaButton": "Contactez-nous",
+    "ctaButton": "Obtenez un devis gratuit",
     "rights": "Tous droits réservés.",
     "linksServices": [
       {
         "label": "Sculpture 3D gratuite",
-        "href": "/products"
+        "href": "#"
       },
       {
         "label": "Production en série",
-        "href": "/products"
+        "href": "#"
       },
       {
         "label": "Certifications",
-        "href": "/values"
+        "href": "#"
       },
       {
-        "label": "Portfolio",
-        "href": "/portfolio"
+        "label": "Logistique",
+        "href": "#"
       }
     ],
     "linksMore": [
@@ -552,6 +563,13 @@
         "date": "Aug 11, 2026",
         "read": "5 min",
         "tag": "Perspectives de l industrie"
+      },
+      {
+        "title": "De la conception à l'échantillon physique : Le processus complet d'échantillonnage de figurines en résine",
+        "date": "13 août 2026",
+        "read": "8 min",
+        "tag": "Processus d'échantillonnage",
+        "excerpt": "11 étapes, 2 étapes clés d'approbation, 12-15 jours - notre processus complet d'échantillonnage de figurines expliqué."
       }
     ],
     "contactCtaTitle": "Vous avez un projet à discuter ?",
@@ -757,5 +775,242 @@
         }
       ]
     }
+  },
+  "productCategories": {
+    "kicker": "Ce que nous fabriquons",
+    "title": "9 catégories de produits",
+    "subtitle": "Du concept à la production de masse — nous gérons tous types de figurines en résine personnalisées.",
+    "categories": [
+      {
+        "title": "Figurines en résine basées sur l'IP",
+        "desc": "Figurines de personnages sous licence pour marques, studios d'anime et licenciés d'IP."
+      },
+      {
+        "title": "Souvenirs de tourisme culturel",
+        "desc": "Souvenirs en résine personnalisés pour musées, attractions touristiques et institutions culturelles."
+      },
+      {
+        "title": "Répliques de grandes sculptures",
+        "desc": "Répliques en résine surdimensionnées et pièces d'art pour galeries et expositions publiques."
+      },
+      {
+        "title": "Pièces et accessoires de produits",
+        "desc": "Composants en résine de précision pour applications de produits industriels et de consommation."
+      },
+      {
+        "title": "Mascottes d'entreprise et articles promotionnels",
+        "desc": "Figurines de mascottes de marque et articles en résine promotionnels pour cadeaux d'entreprise."
+      },
+      {
+        "title": "Figurines de décoration d'intérieur",
+        "desc": "Figurines en résine décoratives pour détaillants de décoration d'intérieur et designers d'intérieur."
+      },
+      {
+        "title": "Figurines de tableau de bord automobile",
+        "desc": "Mini figurines en résine conçues pour tableaux de bord automobiles et accessoires automobiles."
+      },
+      {
+        "title": "Séries de boîtes mystères",
+        "desc": "Production complète de boîtes mystères — sculpture, moulage, coulée, peinture et emballage."
+      },
+      {
+        "title": "Porte-clés en résine",
+        "desc": "Breloques et porte-clés en résine miniatures pour vente au détail, événements et campagnes de marque."
+      }
+    ]
+  },
+  "manufacturingProcess": {
+    "kicker": "Notre processus de fabrication",
+    "title": "Processus de fabrication des figurines en résine",
+    "subtitle": "9 étapes d'artisanat professionnel dans notre usine de résine",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Modélisation 3D",
+        "desc": "Modélisation numérique et création de modèles 3D",
+        "image": "/pictures/01-3d-modeling.jpg",
+        "alt": "Modélisation 3D"
+      },
+      {
+        "num": "02",
+        "title": "Impression 3D",
+        "desc": "Impression de prototypes de haute précision",
+        "image": "/pictures/02-3d-printing.jpg",
+        "alt": "Impression 3D"
+      },
+      {
+        "num": "03",
+        "title": "Création de modèle maître",
+        "desc": "Création de modèle maître physique",
+        "image": "/pictures/03-master-pattern-making.jpg",
+        "alt": "Création de modèle maître"
+      },
+      {
+        "num": "04",
+        "title": "Fabrication de moules en silicone",
+        "desc": "Création de moules de précision",
+        "image": "/pictures/04-silicone-mould-making.jpg",
+        "alt": "Fabrication de moules en silicone"
+      },
+      {
+        "num": "05",
+        "title": "Coulée de résine",
+        "desc": "Coulée de polyrésine de haute qualité",
+        "image": "/pictures/05-resin-casting.jpg",
+        "alt": "Coulée de résine"
+      },
+      {
+        "num": "06",
+        "title": "Démoulage et ébarbage",
+        "desc": "Retrait soigneux et ébarbage des bords",
+        "image": "/pictures/06-demoulding-trimming.jpg",
+        "alt": "Démoulage et ébarbage"
+      },
+      {
+        "num": "07",
+        "title": "Peinture à la main",
+        "desc": "Peinture à la main détaillée par des artistes qualifiés",
+        "image": "/pictures/07-hand-painting.jpg",
+        "alt": "Peinture à la main"
+      },
+      {
+        "num": "08",
+        "title": "Inspection qualité",
+        "desc": "Contrôles QC stricts avant l'emballage",
+        "image": "/pictures/08-quality-inspection.jpg",
+        "alt": "Inspection qualité"
+      },
+      {
+        "num": "09",
+        "title": "Emballage",
+        "desc": "Emballage protecteur et expédition mondiale",
+        "image": "/pictures/09-packaging.jpg",
+        "alt": "Emballage"
+      }
+    ]
+  },
+  "orderProcess": {
+    "kicker": "Comment ça marche",
+    "title": "Comment commander de notre usine de résine",
+    "subtitle": "9 étapes de l'idée à vos mains",
+    "steps": [
+      {
+        "title": "Partagez vos exigences",
+        "desc": "Envoyez-nous votre design, croquis ou image de référence"
+      },
+      {
+        "title": "Obtenez un devis gratuit",
+        "desc": "Nous répondons avec les prix en 1 heure"
+      },
+      {
+        "title": "Payez les frais d'échantillon",
+        "desc": "Démarrez le processus d'échantillonnage"
+      },
+      {
+        "title": "Modélisation 3D et échantillonnage",
+        "desc": "Échantillon physique prêt en 7-10 jours ouvrables"
+      },
+      {
+        "title": "Payez l'acompte",
+        "desc": "Acompte pour démarrer la production"
+      },
+      {
+        "title": "Production de masse",
+        "desc": "Temps de production : 20-35 jours"
+      },
+      {
+        "title": "Confirmation vidéo",
+        "desc": "Examinez la production par vidéo"
+      },
+      {
+        "title": "Payez le solde",
+        "desc": "Solde avant l'expédition"
+      },
+      {
+        "title": "Livraison",
+        "desc": "Expédition mondiale par air, mer ou express"
+      }
+    ]
+  },
+  "customerCases": {
+    "kicker": "Histoires de clients",
+    "title": "Ce que disent nos clients",
+    "subtitle": "Retours réels de marques, détaillants et institutions avec lesquels nous avons travaillé.",
+    "cases": [
+      {
+        "quote": "Visiter l'usine de résine a été une expérience révélatrice. Leur niveau de service et leur système de gestion de la qualité sont vraiment professionnels. Chaque étape — de la modélisation 3D à l'emballage final — est standardisée et transparente. Les figurines en résine qu'ils ont produites pour nous ont dépassé nos attentes tant en détails qu'en finition.",
+        "author": "Client de marque américaine",
+        "role": "Chef de produit"
+      },
+      {
+        "quote": "Nous avons visité l'usine de résine pour évaluer leurs capacités de production pour notre ligne de souvenirs de musée. Leur contrôle des coûts est exceptionnel sans compromettre la qualité. L'usine de résine a démontré qu'elle pouvait gérer des designs complexes tout en maintenant des prix compétitifs — exactement ce dont nous avions besoin pour nos produits de tourisme culturel.",
+        "author": "Détaillant allemand",
+        "role": "Directeur des achats"
+      },
+      {
+        "quote": "L'usine de résine a démontré une capacité technique exceptionnelle lors de notre visite. Ils se spécialisent dans la gestion de projets complexes et de haute difficulté — parfaits pour les répliques de grandes sculptures de notre musée. L'attention de l'équipe à la précision historique et à la finition des surfaces était impressionnante.",
+        "author": "Musée australien",
+        "role": "Conservateur"
+      },
+      {
+        "quote": "La cohérence est cruciale pour nos souvenirs de tourisme, et cette usine de résine a livré parfaitement. Les échantillons et les unités de production de masse sont identiques — chaque détail correspond. Nous avons recommandé trois fois, et la qualité reste cohérente dans tous les lots.",
+        "author": "Attraction touristique américaine",
+        "role": "Responsable des opérations"
+      },
+      {
+        "quote": "Nous avions une commande urgente d'articles de décoration d'intérieur en résine, et l'usine de résine l'a gérée brillamment. Malgré le calendrier serré, ils ont maintenu la qualité et livré à temps. Leur flexibilité de production et leur communication tout au long du processus étaient exceptionnelles.",
+        "author": "Détaillant américain",
+        "role": "Acheteur"
+      },
+      {
+        "quote": "Nos designs de décoration d'intérieur en résine ont des structures complexes qui nécessitent une fabrication précise. Le contrôle qualité de l'usine de résine est exceptionnel — chaque pièce passe une inspection rigoureuse avant l'expédition. Ils comprennent le marché premium et livrent en conséquence.",
+        "author": "Marque française",
+        "role": "Directeur de design"
+      }
+    ]
+  },
+  "homepageFaq": {
+    "kicker": "Questions fréquentes",
+    "title": "Questions fréquemment posées",
+    "items": [
+      {
+        "q": "Quelle est votre quantité minimale de commande (MOQ) ?",
+        "a": "Nous commençons à 100 unités pour les figurines en résine peintes à la main. En dessous, nous pouvons encore aider avec un prototype unique, mais le coût par pièce augmente considérablement car la configuration du moule est la même quelle que soit la taille du lot."
+      },
+      {
+        "q": "Combien de temps prend la production ?",
+        "a": "Le calendrier typique de la sculpture 3D approuvée à la première expédition est de 28-35 jours ouvrables. La sculpture elle-même ajoute 5-10 jours selon la complexité. Nous envoyons des mises à jour photo hebdomadaires pour que vous sachiez toujours où en est votre lot."
+      },
+      {
+        "q": "Gérez-vous les tests CE / EN71 / ASTM ?",
+        "a": "Oui. Nous testons la résine, les peintures et l'emballage dans des laboratoires accrédités (SGS / Intertek) pour CE, EN71-1/2/3, ASTM F963 et REACH. Les rapports de test sont inclus dans votre expédition."
+      },
+      {
+        "q": "Quelles conditions de paiement acceptez-vous ?",
+        "a": "Nous acceptons T/T (virement bancaire), Mastercard, Visa et autres cartes de crédit principales. Conditions standard : acompte pour sécuriser le créneau de production, solde avant expédition."
+      },
+      {
+        "q": "Pouvez-vous expédier dans le monde entier ?",
+        "a": "Oui. Nous expédions par mer (FCL/LCL), air (DHL/FedEx/UPS) ou rail (Chine-Europe). Pour les lots de moins de 200 unités, le courrier aérien est généralement le plus économique."
+      },
+      {
+        "q": "Puis-je visiter l'usine en Chine ?",
+        "a": "Bien sûr. Nous accueillons des visites de clients toute l'année. Envoyez-nous vos dates et nous organiserons la prise en charge à l'aéroport, des recommandations d'hôtels et une visite d'une journée de sculpture → moule → coulée → peinture → emballage."
+      },
+      {
+        "q": "Quels matériaux de résine utilisez-vous ?",
+        "a": "Nous travaillons avec de la résine polyuréthane (pour les figurines détaillées) et du polystone (pour les statues plus lourdes). Les deux sont non toxiques, certifiés CE/EN71/ASTM, et adaptés à la vente au détail."
+      },
+      {
+        "q": "Comment assurez-vous la cohérence de la qualité ?",
+        "a": "Chaque pièce est inspectée à la main. Nous utilisons des échantillons maîtres approuvés comme référence, effectuons des contrôles en cours de processus à chaque étape et réalisons un QA final avant l'emballage. Le taux de défauts est inférieur à 1%."
+      }
+    ]
+  },
+  "blogShowcase": {
+    "kicker": "Dernières histoires",
+    "title": "Notre blog - Perspectives de l'industrie",
+    "subtitle": "Histoires des coulisses et guides pratiques pour les acheteurs de figurines en résine.",
+    "readMore": "Lire la suite"
   }
 }

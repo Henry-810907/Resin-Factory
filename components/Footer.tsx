@@ -71,9 +71,7 @@ export default function Footer({ dict, navDict, lang }: Props) {
             <h4 className="font-semibold text-white tracking-wide mb-4">{dict.services}</h4>
             <ul className="space-y-2.5 text-sm">
               {dict.linksServices.map((l) => (
-                <li key={l.label}>
-                  <Link href={prefixed(l.href)} className="hover:text-brand-orange transition">{l.label}</Link>
-                </li>
+                <li key={l.label} className="text-slate-300">{l.label}</li>
               ))}
             </ul>
           </div>
@@ -95,7 +93,7 @@ export default function Footer({ dict, navDict, lang }: Props) {
         <div className="mt-8 md:mt-12 pt-6 md:pt-8 border-t border-slate-700 flex items-center justify-center text-center">
           <Link
             href={`/${lang}/contact`}
-            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-6 py-2.5 rounded-md shadow-sm"
+            className="bg-brand-orange hover:bg-brand-orangeDark transition text-white font-semibold text-sm px-6 py-2.5 rounded-full shadow-sm"
           >
             {dict.ctaButton}
           </Link>

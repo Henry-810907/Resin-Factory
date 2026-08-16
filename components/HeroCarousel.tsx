@@ -19,6 +19,9 @@ export default function HeroCarousel({ dict, lang }: Props) {
   const [isTransitioning, setIsTransitioning] = useState(true);
   const trackRef = useRef<HTMLDivElement>(null);
   
+  // 检测RTL模式
+  const isRTL = lang === "ar";
+  
   // 实际 slides 数量（不包括克隆）
   const slideCount = dict.slides.length;
   
@@ -86,7 +89,8 @@ export default function HeroCarousel({ dict, lang }: Props) {
 
   return (
     <>
-      <div className="absolute inset-0 overflow-hidden">
+      {/* Slides Container */}
+      <div className="absolute inset-0 overflow-hidden" dir="ltr" key={lang}>
         <div
           ref={trackRef}
           className={`absolute inset-0 flex ${isTransitioning ? "transition-transform duration-700 ease-in-out" : ""}`}
@@ -95,23 +99,36 @@ export default function HeroCarousel({ dict, lang }: Props) {
         >
           {/* 克隆尾（最后一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <Image src={IMAGES[slideCount - 1]} alt={dict.slides[slideCount - 1].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_40%] md:object-center" />
+            <Image src={IMAGES[slideCount - 1]} alt={dict.slides[slideCount - 1].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_30%] md:object-center" />
           </div>
           {/* 真实 slides */}
           {dict.slides.map((s, i) => (
             <div key={i} className="relative w-full h-full shrink-0">
-              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_40%] md:object-center" />
+              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_30%] md:object-center" />
             </div>
           ))}
           {/* 克隆头（第一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <Image src={IMAGES[0]} alt={dict.slides[0].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_40%] md:object-center" />
+            <Image src={IMAGES[0]} alt={dict.slides[0].alt} fill sizes="(max-width: 768px) 100vw, 100vw" quality={85} className="object-cover object-[center_30%] md:object-center" />
           </div>
         </div>
       </div>
 
-      <button aria-label={dict.prevAria} onClick={prev} className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 hover:bg-white text-slate-700 flex items-center justify-center shadow-md z-20 text-xl transition">‹</button>
-      <button aria-label={dict.nextAria} onClick={next} className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 hover:bg-white text-slate-700 flex items-center justify-center shadow-md z-20 text-xl transition">›</button>
+      {/* Navigation Buttons */}
+      <button 
+        aria-label={dict.prevAria} 
+        onClick={prev} 
+        className={`absolute ${isRTL ? "right-4" : "left-4"} top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 hover:bg-white text-slate-700 flex items-center justify-center shadow-md z-20 text-xl transition`}
+      >
+        {isRTL ? "›" : "‹"}
+      </button>
+      <button 
+        aria-label={dict.nextAria} 
+        onClick={next} 
+        className={`absolute ${isRTL ? "left-4" : "right-4"} top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/90 hover:bg-white text-slate-700 flex items-center justify-center shadow-md z-20 text-xl transition`}
+      >
+        {isRTL ? "‹" : "›"}
+      </button>
 
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-2 z-20">
         {dict.slides.map((_, i) => (

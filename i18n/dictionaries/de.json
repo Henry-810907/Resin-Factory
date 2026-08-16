@@ -31,7 +31,7 @@
   "header": {
     "brand": "Resin Factory",
     "estTag": "gegr. 2013",
-    "cta": "Angebot anfordern",
+    "cta": "Get Free Quote",
     "homeAria": "Resin Factory · zurück zur Startseite",
     "nav": {
       "home": "Startseite",
@@ -46,39 +46,50 @@
     "factoryService": "Benutzerdefinierte Harzfiguren für Marken & IPs"
   },
   "hero": {
-    "h1": "Resin-Fabrik-Benutzerdefinierte Resin-Figuren für Marken und IP",
+    "h1": "Resin Factory - Maßgeschneiderte Harzfiguren für Marken & IP",
     "slides": [
       {
-        "title": "Maßgeschneiderte Resin-Figuren für Marken und IP",
-        "subtitle": "Vom Konzept-Sketch zum handbemalten Sammlerstück.",
-        "tag": "Kostenloses 3D-Sculpting · Weltweiter Versand · Niedrige MOQ",
-        "alt": "Maßgeschneiderte Resin-Figuren in der Ausstellung"
+        "title": "Maßgeschneiderte Harzfiguren für Marken & IP",
+        "subtitle": "Von der Konzeptskizze zum handbemalten Sammlerstück.",
+        "tag": "Kostenloses 3D-Modellieren · Weltweiter Versand · Niedrige MOQ",
+        "alt": "Maßgeschneiderte Harzfiguren ausgestellt"
       },
       {
-        "title": "Modelliert, gegossen und bemalt in unserer eigenen Fabrik",
-        "subtitle": "Jede Master-Skulptur freigegeben. Jede Charge QC-geprüft.",
-        "tag": "CE / EN71 / ASTM-zertifiziert · Keine Zwischenhändler · Echtzeit-Updates",
-        "alt": "Modellier- und Gießwerkstatt"
+        "title": "Gemeißelt, gegossen & bemalt in unserer eigenen Fabrik",
+        "subtitle": "Jedes Master-Modell genehmigt. Jede Charge QC-getestet.",
+        "tag": "CE / EN71 / ASTM zertifiziert · Keine Zwischenhändler · Echtzeit-Updates",
+        "alt": "Schnitzerei- und Gießfabrik"
       },
       {
         "title": "Von 100 Stück bis 10.000",
-        "subtitle": "Skalieren Sie ohne Verlust handbemalter Details.",
-        "tag": "35 Tage Durchlaufzeit · Kostenloses Resin-Sampling · Weltweiter Versand",
-        "alt": "Großproduktion und Versand"
+        "subtitle": "Skalieren Sie, ohne die handbemalten Details zu verlieren.",
+        "tag": "35-Tage-Durchlauf · Kostenloses Harz-Muster · Weltweiter Versand",
+        "alt": "Massenproduktion und Versand"
       }
     ],
-    "cta": "Angebot anfordern",
+    "cta": "Kostenloses Angebot erhalten",
     "prevAria": "Vorherige Folie",
     "nextAria": "Nächste Folie",
-    "dotAria": "Zur Folie wechseln"
+    "dotAria": "Zur Folie gehen",
+    "stat1Label": "MOQ",
+    "stat2Label": "Länder",
+    "stat3Label": "Kunden"
   },
   "factoryIntro": {
-    "kicker": "In unserer Werkstatt",
-    "title": "Wo maßgeschneiderte Figuren gefertigt werden",
-    "p1": "Wir lagern keinen einzigen Schritt aus. Jede Resin-Figur wird in unserer eigenen Werkstatt modelliert, geformt, gegossen, handbemalt und verpackt — von Bildhauern und Malern, mit denen wir seit Jahren zusammenarbeiten.",
-    "p2": "Belüftete Gießräume, staubkontrollierte Lackierkabinen, kalibrierte Airbrush-Stationen, VOC-arme Resine. Wir haben in den Raum investiert, bevor wir je in die Produktionslinie investiert haben.",
+    "kicker": "In unserer Fabrik",
+    "title": "Über unsere Fabrik",
+    "description": "Gegründet 2013, mit über 12 Jahren Erfahrung in der OEM- und ODM-Herstellung von Harzfiguren, spezialisiert sich unsere Fabrik auf maßgeschneiderte IP-basierte Figuren, kulturelle Tourismus-Souvenirs, große Skulpturen-Repliken, Produktteile & Zubehör, Unternehmensmaskottchen-Werbeartikel, Heimdekorationsfiguren, Auto-Armaturenbrett-Figuren, Blind-Box-Serien und Schlüsselanhänger. Wir bedienen Marken, IP-Inhaber, Einzelhändler, Museen, Touristenattraktionen und Sammler weltweit.",
+    "points": [
+      "Professionelles 3D-Modellieren — Muster in 7 Tagen",
+      "Großmaßstäbliche Fertigung — MOQ 100 Stück, massenproduktionsbereit",
+      "Weltweiter Versand & Export — Dedizierte Linie, DHL, FedEx, Seefracht, Luftfracht",
+      "Strenge QC-Inspektion — CE, EN71, ASTM F963 zertifiziert"
+    ],
     "peopleTitle": "Hergestellt von Menschen, die ihr Handwerk lieben",
-    "peopleSubtitle": "Man sieht es in jedem Pinselstrich."
+    "peopleSubtitle": "Das zeigt sich in jedem Pinselstrich.",
+    "factoryExterior": "Fabrikäußeres",
+    "productionLine": "Produktionslinie",
+    "productExhibition": "Produktausstellung"
   },
   "magicalMemories": {
     "kicker": "Fabrik-Versprechen",
@@ -141,32 +152,32 @@
   },
   "whyChooseUs": {
     "kicker": "Warum Marken uns wählen",
-    "title": "Vom einzelnen Maskottchen zur weltweiten Retail-Auflage",
-    "subtitle": "Sechs Dinge, zu denen wir immer ja sagen.",
+    "title": "Warum unsere Harzfabrik wählen",
+    "subtitle": "6 Gründe, mit uns zu arbeiten.",
     "features": [
       {
-        "title": "Niedrige MOQ",
-        "desc": "Resin-Auflagen ab 100 Stück. Keine riesigen Mindestmengen, kein aufgeblähtes Risiko für Indie-Launches."
+        "title": "Niedrige MOQ — 100 Stück",
+        "desc": "Starten Sie Ihre maßgeschneiderte Harzfiguren-Bestellung ab nur 100 Stück pro Design. Perfekt für Startups und kleine Marken."
       },
       {
-        "title": "Kostenloses 3D-Sculpting",
-        "desc": "Schicken Sie uns eine Skizze, ein Foto oder ein Briefing — unsere internen Bildhauer liefern ein druckfertiges 3D-Modell und einen physischen Master kostenlos."
+        "title": "Schnelle Mustererstellung — 7 Tage",
+        "desc": "Physischer Harzfiguren-Prototyp bereit in 7 Werktagen. Statuen, Maskottchen, Schlüsselanhänger — jedes Design."
       },
       {
-        "title": "CE / EN71 / ASTM-geprüft",
-        "desc": "Resin, Farbe und Verpackung nach internationalen Spielzeug-Sicherheitsstandards getestet (CE, EN71, ASTM F963, REACH). Retail-bereit."
+        "title": "Fortschrittliche Technologie",
+        "desc": "Wir haben viele schwierige Projekte für bekannte Marken abgeschlossen. Komplexe Details, große Größen, Spezialeffekte."
       },
       {
-        "title": "Eigene Fabrik",
-        "desc": "Wir lagern nicht aus. Modellieren, Formenbau, Gießen, Handbemalung und Verpackung — alles unter einem Dach für engere QA."
+        "title": "CE / EN71 / ASTM zertifiziert",
+        "desc": "Alle Produkte nach globalen Spielzeugsicherheitsstandards getestet. Einzelhandelsfertige Zertifizierungen."
       },
       {
-        "title": "Pünktliche Lieferung",
-        "desc": "Durchschnittlich 20 Tage Produktion ab freigegebenem Sample. Verfolgte Meilensteine — modellieren, formen, gießen, bemalen, verpacken — den ganzen Weg."
+        "title": "Eigene Harzfabrik",
+        "desc": "Modellieren, Formen, Gießen, Bemalen und Verpacken — alles in unserer eigenen Harzfabrik."
       },
       {
-        "title": "Flexible Zahlung",
-        "desc": "30 % Anzahlung, 70 % vor Versand. Trade Assurance & Banküberweisung akzeptiert — schonend für den Cashflow."
+        "title": "Mehrsprachiger Account Manager",
+        "desc": "Professioneller Account Manager für jedes Projekt. 10 Sprachen: Englisch, Spanisch, Französisch, Arabisch, Portugiesisch, Deutsch, Japanisch, Italienisch, Indonesisch, Koreanisch."
       }
     ]
   },
@@ -176,24 +187,24 @@
     "services": "LEISTUNGEN",
     "more": "MEHR",
     "ctaText": "Haben Sie ein Projekt im Sinn? Erhalten Sie ein kostenloses Angebot innerhalb von 12 Stunden.",
-    "ctaButton": "Kontaktieren Sie uns",
+    "ctaButton": "Kostenloses Angebot erhalten",
     "rights": "Alle Rechte vorbehalten.",
     "linksServices": [
       {
         "label": "Kostenlose 3D-Modellierung",
-        "href": "/products"
+        "href": "#"
       },
       {
         "label": "Massenproduktion",
-        "href": "/products"
+        "href": "#"
       },
       {
         "label": "Zertifizierungen",
-        "href": "/values"
+        "href": "#"
       },
       {
-        "label": "Portfolio",
-        "href": "/portfolio"
+        "label": "Logistik",
+        "href": "#"
       }
     ],
     "linksMore": [
@@ -552,6 +563,13 @@
         "date": "Aug 11, 2026",
         "read": "5 min",
         "tag": "Brancheneinblicke"
+      },
+      {
+        "title": "Vom Design zum physischen Muster: Der vollständige Harzfiguren-Sampling-Prozess",
+        "date": "13. Aug 2026",
+        "read": "8 Min.",
+        "tag": "Sampling-Prozess",
+        "excerpt": "11 Schritte, 2 wichtige Genehmigungsmilestones, 12-15 Tage - unser vollständiger Figuren-Sampling-Prozess erklärt."
       }
     ],
     "contactCtaTitle": "Haben Sie ein Projekt zu besprechen?",
@@ -757,5 +775,242 @@
         }
       ]
     }
+  },
+  "productCategories": {
+    "kicker": "Was wir herstellen",
+    "title": "9 Produktkategorien",
+    "subtitle": "Vom Konzept bis zur Massenproduktion — wir handhaben jede Art von maßgeschneiderten Harzfiguren.",
+    "categories": [
+      {
+        "title": "IP-basierte Harzfiguren",
+        "desc": "Lizenzierte Charakterfiguren für Marken, Anime-Studios und IP-Lizenzgeber."
+      },
+      {
+        "title": "Kulturelle Tourismus-Souvenirs",
+        "desc": "Maßgeschneiderte Harz-Souvenirs für Museen, Touristenattraktionen und kulturelle Einrichtungen."
+      },
+      {
+        "title": "Große Skulpturen-Repliken",
+        "desc": "Übergroße Harz-Repliken und Kunstwerke für Galerien und öffentliche Ausstellungen."
+      },
+      {
+        "title": "Produktteile & Zubehör",
+        "desc": "Präzisions-Harzkomponenten für industrielle und Verbraucherproduktanwendungen."
+      },
+      {
+        "title": "Unternehmensmaskottchen & Werbeartikel",
+        "desc": "Markenmaskottchen-Figuren und Werbe-Harzartikel für Unternehmensgeschenke."
+      },
+      {
+        "title": "Heimdekorationsfiguren",
+        "desc": "Dekorative Harzfiguren für Heimdekorations-Einzelhändler und Innenarchitekten."
+      },
+      {
+        "title": "Auto-Armaturenbrett-Figuren",
+        "desc": "Mini-Harzfiguren für Auto-Armaturenbretter und Automobilzubehör."
+      },
+      {
+        "title": "Blind-Box-Serien",
+        "desc": "Komplette Blind-Box-Produktion — Modellieren, Formen, Gießen, Bemalen und Verpacken."
+      },
+      {
+        "title": "Harz-Schlüsselanhänger",
+        "desc": "Mini-Harz-Anhänger und Schlüsselanhänger für Einzelhandel, Veranstaltungen und Markenkampagnen."
+      }
+    ]
+  },
+  "manufacturingProcess": {
+    "kicker": "Unser Fertigungsprozess",
+    "title": "Harzfiguren-Fertigungsprozess",
+    "subtitle": "9 Schritte professioneller Handwerkskunst in unserer Harzfabrik",
+    "steps": [
+      {
+        "num": "01",
+        "title": "3D-Modellierung",
+        "desc": "Digitale Modellierung und 3D-Modellerstellung",
+        "image": "/pictures/01-3d-modeling.jpg",
+        "alt": "3D-Modellierung"
+      },
+      {
+        "num": "02",
+        "title": "3D-Druck",
+        "desc": "Hochpräziser Prototypendruck",
+        "image": "/pictures/02-3d-printing.jpg",
+        "alt": "3D-Druck"
+      },
+      {
+        "num": "03",
+        "title": "Master-Mustererstellung",
+        "desc": "Physische Master-Mustererstellung",
+        "image": "/pictures/03-master-pattern-making.jpg",
+        "alt": "Master-Mustererstellung"
+      },
+      {
+        "num": "04",
+        "title": "Silikonformherstellung",
+        "desc": "Präzisionsformherstellung",
+        "image": "/pictures/04-silicone-mould-making.jpg",
+        "alt": "Silikonformherstellung"
+      },
+      {
+        "num": "05",
+        "title": "Harzgießen",
+        "desc": "Hochwertiges Polyresin-Gießen",
+        "image": "/pictures/05-resin-casting.jpg",
+        "alt": "Harzgießen"
+      },
+      {
+        "num": "06",
+        "title": "Entformen & Trimmen",
+        "desc": "Sorgfältige Entfernung und Kantentrimmung",
+        "image": "/pictures/06-demoulding-trimming.jpg",
+        "alt": "Entformen & Trimmen"
+      },
+      {
+        "num": "07",
+        "title": "Handbemalung",
+        "desc": "Detaillierte Handbemalung durch erfahrene Künstler",
+        "image": "/pictures/07-hand-painting.jpg",
+        "alt": "Handbemalung"
+      },
+      {
+        "num": "08",
+        "title": "Qualitätsprüfung",
+        "desc": "Strenge QC-Prüfungen vor der Verpackung",
+        "image": "/pictures/08-quality-inspection.jpg",
+        "alt": "Qualitätsprüfung"
+      },
+      {
+        "num": "09",
+        "title": "Verpackung",
+        "desc": "Schützende Verpackung und weltweiter Versand",
+        "image": "/pictures/09-packaging.jpg",
+        "alt": "Verpackung"
+      }
+    ]
+  },
+  "orderProcess": {
+    "kicker": "Wie es funktioniert",
+    "title": "So bestellen Sie bei unserer Harzfabrik",
+    "subtitle": "9 Schritte von der Idee bis zu Ihren Händen",
+    "steps": [
+      {
+        "title": "Teilen Sie Ihre Anforderungen",
+        "desc": "Senden Sie uns Ihr Design, Skizze oder Referenzbild"
+      },
+      {
+        "title": "Kostenloses Angebot erhalten",
+        "desc": "Wir antworten mit Preisen innerhalb von 1 Stunde"
+      },
+      {
+        "title": "Mustergebühr zahlen",
+        "desc": "Starten Sie den Musterprozess"
+      },
+      {
+        "title": "3D-Modellierung & Mustererstellung",
+        "desc": "Physisches Muster bereit in 7-10 Werktagen"
+      },
+      {
+        "title": "Anzahlung zahlen",
+        "desc": "Anzahlung zur Produktionsstart"
+      },
+      {
+        "title": "Massenproduktion",
+        "desc": "Produktionszeit: 20-35 Tage"
+      },
+      {
+        "title": "Video-Bestätigung",
+        "desc": "Produktion per Video überprüfen"
+      },
+      {
+        "title": "Restbetrag zahlen",
+        "desc": "Restbetrag vor dem Versand"
+      },
+      {
+        "title": "Lieferung",
+        "desc": "Weltweiter Versand per Luft, See oder Express"
+      }
+    ]
+  },
+  "customerCases": {
+    "kicker": "Kundengeschichten",
+    "title": "Was unsere Kunden sagen",
+    "subtitle": "Echtes Feedback von Marken, Einzelhändlern und Institutionen, mit denen wir zusammengearbeitet haben.",
+    "cases": [
+      {
+        "quote": "Der Besuch der Harzfabrik war eine aufschlussreiche Erfahrung. Ihr Serviceniveau und Qualitätsmanagementsystem sind wirklich professionell. Jeder Schritt — von der 3D-Modellierung bis zur endgültigen Verpackung — ist standardisiert und transparent. Die Harzfiguren, die sie für uns produziert haben, haben unsere Erwartungen an Details und Finish übertroffen.",
+        "author": "US-Markenclient",
+        "role": "Produktmanager"
+      },
+      {
+        "quote": "Wir besuchten die Harzfabrik, um ihre Produktionsfähigkeiten für unsere Museums-Souvenir-Linie zu bewerten. Ihre Kostenkontrolle ist außergewöhnlich, ohne die Qualität zu beeinträchtigen. Die Harzfabrik demonstrierte, dass sie komplexe Designs handhaben kann, während sie wettbewerbsfähige Preise beibehält — genau das, was wir für unsere kulturellen Tourismusprodukte brauchten.",
+        "author": "Deutscher Einzelhändler",
+        "role": "Einkaufsdirektor"
+      },
+      {
+        "quote": "Die Harzfabrik demonstrierte herausragende technische Fähigkeiten, als wir sie besuchten. Sie spezialisieren sich auf die Handhabung komplexer, schwieriger Projekte — perfekt für die großen Skulpturen-Repliken unseres Museums. Die Aufmerksamkeit des Teams für historische Genauigkeit und Oberflächenfinish war beeindruckend.",
+        "author": "Australisches Museum",
+        "role": "Kurator"
+      },
+      {
+        "quote": "Konsistenz ist entscheidend für unsere Tourismus-Souvenirs, und diese Harzfabrik lieferte perfekt. Die Muster und Massenproduktionseinheiten sind identisch — jedes Detail stimmt überein. Wir haben drei Mal nachbestellt, und die Qualität bleibt über alle Chargen hinweg konsistent.",
+        "author": "US-Touristenattraktion",
+        "role": "Betriebsleiter"
+      },
+      {
+        "quote": "Wir hatten eine dringende Bestellung für Harz-Heimdekorationsartikel, und die Harzfabrik hat sie brillant gehandhabt. Trotz des engen Zeitplans haben sie die Qualität aufrechterhalten und pünktlich geliefert. Ihre Produktionsflexibilität und Kommunikation während des gesamten Prozesses waren herausragend.",
+        "author": "US-Einzelhändler",
+        "role": "Einkäufer"
+      },
+      {
+        "quote": "Unsere Harz-Heimdekorationsdesigns haben komplexe Strukturen, die präzise Fertigung erfordern. Die Qualitätskontrolle der Harzfabrik ist herausragend — jedes Stück durchläuft eine strenge Inspektion vor dem Versand. Sie verstehen den Premium-Markt und liefern entsprechend.",
+        "author": "Französische Marke",
+        "role": "Design-Direktor"
+      }
+    ]
+  },
+  "homepageFaq": {
+    "kicker": "Häufige Fragen",
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Was ist Ihre Mindestbestellmenge (MOQ)?",
+        "a": "Wir beginnen bei 100 Einheiten für handbemalte Harzfiguren. Darunter können wir noch mit einem einmaligen Prototyp helfen, aber die Kosten pro Stück steigen stark an, da die Formeinrichtung unabhängig von der Chargengröße gleich ist."
+      },
+      {
+        "q": "Wie lange dauert die Produktion?",
+        "a": "Die typische Zeitlinie vom genehmigten 3D-Modell bis zur ersten Sendung beträgt 28-35 Werktage. Das Modellieren selbst fügt 5-10 Tage hinzu, abhängig von der Komplexität. Wir senden wöchentliche Foto-Updates, damit Sie immer wissen, wo Ihre Charge ist."
+      },
+      {
+        "q": "Handhaben Sie CE / EN71 / ASTM-Tests?",
+        "a": "Ja. Wir testen das Harz, die Farben und die Verpackung in akkreditierten Labors (SGS / Intertek) für CE, EN71-1/2/3, ASTM F963 und REACH. Testberichte sind in Ihrer Sendung enthalten."
+      },
+      {
+        "q": "Welche Zahlungsbedingungen akzeptieren Sie?",
+        "a": "Wir akzeptieren T/T (Banküberweisung), Mastercard, Visa und andere wichtige Kreditkarten. Standardbedingungen: Anzahlung zur Sicherung des Produktionsplatzes, Restbetrag vor dem Versand."
+      },
+      {
+        "q": "Können Sie weltweit versenden?",
+        "a": "Ja. Wir versenden per See (FCL/LCL), Luft (DHL/FedEx/UPS) oder Bahn (China-Europa). Für Chargen unter 200 Einheiten ist Luftkurier normalerweise am wirtschaftlichsten."
+      },
+      {
+        "q": "Kann ich die Fabrik in China besuchen?",
+        "a": "Natürlich. Wir empfangen Kundenbesuche das ganze Jahr über. Senden Sie uns Ihre Daten und wir arrangieren Flughafenabholung, Hotel-Empfehlungen und eine eintägige Tour von Modellieren → Formen → Gießen → Bemalen → Verpacken."
+      },
+      {
+        "q": "Welche Harzmaterialien verwenden Sie?",
+        "a": "Wir arbeiten mit Polyurethan-Harz (für detaillierte Figuren) und Polystein (für schwerere Statuen). Beide sind ungiftig, CE/EN71/ASTM-zertifiziert und für den Einzelhandel geeignet."
+      },
+      {
+        "q": "Wie stellen Sie Qualitätskonsistenz sicher?",
+        "a": "Jedes Stück wird handinspiziert. Wir verwenden genehmigte Master-Muster als Referenz, führen Prozessprüfungen in jeder Phase durch und führen endgültige QA vor der Verpackung durch. Die Fehlerrate liegt unter 1%."
+      }
+    ]
+  },
+  "blogShowcase": {
+    "kicker": "Neueste Geschichten",
+    "title": "Unser Blog - Brancheneinblicke",
+    "subtitle": "Behind-the-Scenes-Geschichten und How-To-Anleitungen für Harzfiguren-Käufer.",
+    "readMore": "Weiterlesen"
   }
 }

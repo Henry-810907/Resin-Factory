@@ -8,10 +8,13 @@ import { notFound } from "next/navigation";
 export const revalidate = 3600;
 
 const FactoryIntro = dynamic(() => import("@/components/FactoryIntro"));
-const MagicalMemories = dynamic(() => import("@/components/MagicalMemories"));
-const BestSellers = dynamic(() => import("@/components/BestSellers"));
-const MagicalCreations = dynamic(() => import("@/components/MagicalCreations"));
+const ProductCategories = dynamic(() => import("@/components/ProductCategories"));
+const ManufacturingProcess = dynamic(() => import("@/components/ManufacturingProcess"));
+const OrderProcess = dynamic(() => import("@/components/OrderProcess"));
 const WhyChooseUs = dynamic(() => import("@/components/WhyChooseUs"));
+const CustomerCases = dynamic(() => import("@/components/CustomerCases"));
+const FAQ = dynamic(() => import("@/components/FAQ"));
+const BlogShowcase = dynamic(() => import("@/components/BlogShowcase"));
 
 type Props = { params: { lang: string } };
 
@@ -24,10 +27,13 @@ export default async function HomePage({ params }: Props) {
       <h1 className="sr-only">{dict.hero.h1}</h1>
       <Hero dict={dict.hero} lang={lang} />
       <FactoryIntro dict={dict.factoryIntro} />
-      <MagicalMemories dict={dict.magicalMemories} />
-      <BestSellers dict={dict.bestSellers} customers={dict.customers} />
-      <MagicalCreations dict={dict.magicalCreations} lang={lang} />
+      <ProductCategories dict={dict.productCategories} />
+      <ManufacturingProcess dict={dict.manufacturingProcess} />
+      <OrderProcess dict={dict.orderProcess} />
       <WhyChooseUs dict={dict.whyChooseUs} />
+      <CustomerCases dict={dict.customerCases} />
+      <FAQ dict={dict.homepageFaq} />
+        <BlogShowcase dict={dict.blogShowcase} blogDict={dict.blog} lang={lang} />
     </>
   );
 }
