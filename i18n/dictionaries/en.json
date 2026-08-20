@@ -990,8 +990,8 @@
       "subtitle": "Not every design is suitable for resin. We help you evaluate whether your concept works with resin material before production. Honest technical assessment helps you make the right material choice.",
       "cta": "Free Technical Consultation"
     },
-    "needAdvice": "Need advice on your project?",
-    "noMatchText": "No products match your filters. We can still help! Contact us for personalized recommendations.",
+    "needAdvice": "Need advice?",
+    "noMatchText": "No products match your filters. We can still help! Contact us for personalized recommendations and custom solutions.",
     "suitability": {
       "title": "Is Your Design Suitable for Resin/Polystone?",
       "question": "What's your order quantity?",
@@ -1058,10 +1058,9 @@
       "subtitle": "Not sure if resin/polystone is the right choice for your design/IP? Contact us with your requirements, and we'll provide free technical consultation based on our expertise.",
       "button": "Free Technical Consultation"
     },
-    "needAdvice": "Need advice?",
-    "noMatchText": "No products match your filters. We can still help! Contact us for personalized recommendations and custom solutions.",
     "cardLabels": {
-      "type": "Type",
+      "productName": "Product Name",
+      "expertise": "Type",
       "material": "Material",
       "size": "Economic Size",
       "moq": "MOQ",
@@ -1080,9 +1079,26 @@
         "size": "5-50 cm",
         "moq": "100 pcs",
         "price": "$$ Medium",
-        "features": ["Ultra-realistic details", "Premium weight and feel", "Durable for long-term display", "Smooth finish", "Versatile for painting and finishing"],
-        "applications": ["Collectibles", "Corporate gifts", "Home decor", "Tourism souvenirs", "Sculpture replicas"],
-        "considerations": ["Not suitable for flexible designs or extremely thin parts (<2mm)", "Heavier than plastic alternatives", "Ideal for designs 5-50cm with intricate details. For flexible or ultra-lightweight requirements, consider alternative materials"]
+        "features": [
+          "Ultra-realistic details",
+          "Premium weight and feel",
+          "Durable for long-term display",
+          "Smooth finish",
+          "Versatile for painting and finishing"
+        ],
+        "applications": [
+          "Collectibles",
+          "Corporate gifts",
+          "Home decor",
+          "Tourism souvenirs",
+          "Sculpture replicas"
+        ],
+        "considerations": [
+          "Not suitable for flexible designs or extremely thin parts (<2mm)",
+          "Heavier than plastic alternatives",
+          "Ideal for designs 5-50cm with intricate details. For flexible or ultra-lightweight requirements, consider alternative materials"
+        ],
+        "expertise": "✓ Core Expertise"
       },
       {
         "id": 2,
@@ -1091,9 +1107,26 @@
         "size": "10-50 cm",
         "moq": "100 pcs",
         "price": "$$ Medium",
-        "features": ["Ultra-realistic details", "Premium weight and feel", "Durable for long-term display", "Versatile designs"],
-        "applications": ["Photo frames", "Clocks", "Vases", "Trays", "Tissue boxes"],
-        "considerations": ["Not suitable for flexible designs", "Heavier than plastic alternatives", "Fragile during shipping", "Ideal for designs 10-50cm with intricate details. For flexible or ultra-lightweight requirements, consider alternative materials"]
+        "features": [
+          "Ultra-realistic details",
+          "Premium weight and feel",
+          "Durable for long-term display",
+          "Versatile designs"
+        ],
+        "applications": [
+          "Photo frames",
+          "Clocks",
+          "Vases",
+          "Trays",
+          "Tissue boxes"
+        ],
+        "considerations": [
+          "Not suitable for flexible designs",
+          "Heavier than plastic alternatives",
+          "Fragile during shipping",
+          "Ideal for designs 10-50cm with intricate details. For flexible or ultra-lightweight requirements, consider alternative materials"
+        ],
+        "expertise": "✓ Core Expertise"
       },
       {
         "id": 3,
@@ -1102,9 +1135,25 @@
         "size": "8-30 cm",
         "moq": "100 pcs",
         "price": "$$ Medium",
-        "features": ["Ultra-realistic details", "Premium weight and feel", "Professional appearance", "Custom designs"],
-        "applications": ["Pen holders", "Bookends", "Business card holders", "Paperweights"],
-        "considerations": ["Not suitable for flexible designs", "Heavier than plastic alternatives", "Fragile during shipping", "Ideal for designs 8-30cm with intricate details. For flexible or ultra-lightweight requirements, consider alternative materials"]
+        "features": [
+          "Ultra-realistic details",
+          "Premium weight and feel",
+          "Professional appearance",
+          "Custom designs"
+        ],
+        "applications": [
+          "Pen holders",
+          "Bookends",
+          "Business card holders",
+          "Paperweights"
+        ],
+        "considerations": [
+          "Not suitable for flexible designs",
+          "Heavier than plastic alternatives",
+          "Fragile during shipping",
+          "Ideal for designs 8-30cm with intricate details. For flexible or ultra-lightweight requirements, consider alternative materials"
+        ],
+        "expertise": "✓ Core Expertise"
       },
       {
         "id": 4,
@@ -1113,9 +1162,25 @@
         "size": "5-20 cm",
         "moq": "1-100 pcs",
         "price": "$$$ High",
-        "features": ["Fast turnaround", "High precision", "Suitable for design validation", "Can be hand-painted for realistic finish", "Perfect for design validation before mass production"],
-        "applications": ["Design validation", "Prototyping", "Small batch custom", "Complex design testing", "Pre-production sampling"],
-        "considerations": ["Higher cost per unit for large quantities", "Surface finish may require additional hand-painting"]
+        "features": [
+          "Fast turnaround",
+          "High precision",
+          "Suitable for design validation",
+          "Can be hand-painted for realistic finish",
+          "Perfect for design validation before mass production"
+        ],
+        "applications": [
+          "Design validation",
+          "Prototyping",
+          "Small batch custom",
+          "Complex design testing",
+          "Pre-production sampling"
+        ],
+        "considerations": [
+          "Higher cost per unit for large quantities",
+          "Surface finish may require additional hand-painting"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 5,
@@ -1124,9 +1189,25 @@
         "size": "5-12 cm",
         "moq": "100 pcs",
         "price": "$ Low",
-        "features": ["Eraser-like texture", "Lightweight", "Waterproof", "Vibrant colors", "Durable for daily use"],
-        "applications": ["Keychains", "Badges", "Promotional items", "Desk ornaments", "Phone stands"],
-        "considerations": ["Not suitable for ultra-fine details or sizes over 12cm", "Limited to smaller, simpler designs"]
+        "features": [
+          "Eraser-like texture",
+          "Lightweight",
+          "Waterproof",
+          "Vibrant colors",
+          "Durable for daily use"
+        ],
+        "applications": [
+          "Keychains",
+          "Badges",
+          "Promotional items",
+          "Desk ornaments",
+          "Phone stands"
+        ],
+        "considerations": [
+          "Not suitable for ultra-fine details or sizes over 12cm",
+          "Limited to smaller, simpler designs"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 6,
@@ -1135,9 +1216,25 @@
         "size": "100-1000 cm",
         "moq": "1 pc",
         "price": "$$$$ Very High",
-        "features": ["Impressive scale", "Weather-resistant", "Durable for outdoor use", "Eye-catching presence", "Lightweight yet strong (much lighter than stone, easier to transport and install)"],
-        "applications": ["Commercial displays", "Event decor", "Theme parks", "Brand activations"],
-        "considerations": ["Requires significant space and logistics planning", "High shipping costs due to size", "Recommended when design exceeds 100cm or requires outdoor durability beyond resin capabilities"]
+        "features": [
+          "Impressive scale",
+          "Weather-resistant",
+          "Durable for outdoor use",
+          "Eye-catching presence",
+          "Lightweight yet strong (much lighter than stone, easier to transport and install)"
+        ],
+        "applications": [
+          "Commercial displays",
+          "Event decor",
+          "Theme parks",
+          "Brand activations"
+        ],
+        "considerations": [
+          "Requires significant space and logistics planning",
+          "High shipping costs due to size",
+          "Recommended when design exceeds 100cm or requires outdoor durability beyond resin capabilities"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 7,
@@ -1146,9 +1243,25 @@
         "size": "150-220 cm",
         "moq": "1 set",
         "price": "$$$ High",
-        "features": ["Wearable design", "Breathable materials", "Moderate detail reproduction", "Custom-fit options"],
-        "applications": ["Event performances", "Commercial promotions", "Festivals", "Theme parks"],
-        "considerations": ["Hot in summer months", "Limited mobility for wearer", "Requires careful storage", "Detail reproduction is moderate compared to hard materials"]
+        "features": [
+          "Wearable design",
+          "Breathable materials",
+          "Moderate detail reproduction",
+          "Custom-fit options"
+        ],
+        "applications": [
+          "Event performances",
+          "Commercial promotions",
+          "Festivals",
+          "Theme parks"
+        ],
+        "considerations": [
+          "Hot in summer months",
+          "Limited mobility for wearer",
+          "Requires careful storage",
+          "Detail reproduction is moderate compared to hard materials"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 8,
@@ -1157,9 +1270,25 @@
         "size": "100-3000 cm",
         "moq": "1 pc",
         "price": "$$$ High",
-        "features": ["Lightweight", "Easy to transport and store", "High visual impact", "Quick setup"],
-        "applications": ["Event decor", "Commercial promotions", "Photo props", "Brand activations"],
-        "considerations": ["Limited surface detail due to inflated nature", "Requires air pump", "Not suitable for ultra-realistic designs", "Best for temporary events or when portability is priority"]
+        "features": [
+          "Lightweight",
+          "Easy to transport and store",
+          "High visual impact",
+          "Quick setup"
+        ],
+        "applications": [
+          "Event decor",
+          "Commercial promotions",
+          "Photo props",
+          "Brand activations"
+        ],
+        "considerations": [
+          "Limited surface detail due to inflated nature",
+          "Requires air pump",
+          "Not suitable for ultra-realistic designs",
+          "Best for temporary events or when portability is priority"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 9,
@@ -1168,9 +1297,24 @@
         "size": "2-10 cm",
         "moq": "50 pcs",
         "price": "$ Low",
-        "features": ["Flat and durable", "Premium metallic finish", "Long-lasting", "Professional appearance"],
-        "applications": ["Corporate gifts", "Souvenirs", "Promotional items", "Collectibles"],
-        "considerations": ["Limited to flat or low-relief designs", "Heavier than plastic alternatives", "Minimum size constraints"]
+        "features": [
+          "Flat and durable",
+          "Premium metallic finish",
+          "Long-lasting",
+          "Professional appearance"
+        ],
+        "applications": [
+          "Corporate gifts",
+          "Souvenirs",
+          "Promotional items",
+          "Collectibles"
+        ],
+        "considerations": [
+          "Limited to flat or low-relief designs",
+          "Heavier than plastic alternatives",
+          "Minimum size constraints"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 10,
@@ -1179,9 +1323,24 @@
         "size": "10-30 cm",
         "moq": "100 pcs",
         "price": "$$ Medium",
-        "features": ["Transparent and premium", "Light-reflecting properties", "Elegant appearance", "Durable for display"],
-        "applications": ["High-end gifts", "Souvenirs", "Architectural models", "Large object models"],
-        "considerations": ["Fragile and requires careful handling", "Higher cost", "Limited to specific design types"]
+        "features": [
+          "Transparent and premium",
+          "Light-reflecting properties",
+          "Elegant appearance",
+          "Durable for display"
+        ],
+        "applications": [
+          "High-end gifts",
+          "Souvenirs",
+          "Architectural models",
+          "Large object models"
+        ],
+        "considerations": [
+          "Fragile and requires careful handling",
+          "Higher cost",
+          "Limited to specific design types"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 11,
@@ -1190,9 +1349,26 @@
         "size": "8-50 cm",
         "moq": "100 pcs",
         "price": "$ Low",
-        "features": ["Soft and cuddly", "Lightweight", "Washable", "Child-safe materials", "Comforting texture"],
-        "applications": ["Children's toys", "Gifts", "Promotional items", "Brand mascots"],
-        "considerations": ["Limited detail compared to hard materials", "Requires careful design for manufacturing", "Larger sizes increase cost significantly", "Essential when tactile softness and child-safety are primary requirements"]
+        "features": [
+          "Soft and cuddly",
+          "Lightweight",
+          "Washable",
+          "Child-safe materials",
+          "Comforting texture"
+        ],
+        "applications": [
+          "Children's toys",
+          "Gifts",
+          "Promotional items",
+          "Brand mascots"
+        ],
+        "considerations": [
+          "Limited detail compared to hard materials",
+          "Requires careful design for manufacturing",
+          "Larger sizes increase cost significantly",
+          "Essential when tactile softness and child-safety are primary requirements"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 12,
@@ -1201,9 +1377,25 @@
         "size": "8-20 cm",
         "moq": "10000+ pcs",
         "price": "$$$ High",
-        "features": ["High-quality finish", "Durable for long-term collection", "Detailed painting", "Premium packaging options"],
-        "applications": ["Collectibles", "Limited editions", "IP derivatives", "Premium gifts"],
-        "considerations": ["High mold and sampling costs", "Longer development time", "Requires detailed design specifications", "Minimum 10000 pcs recommended for cost-effectiveness"]
+        "features": [
+          "High-quality finish",
+          "Durable for long-term collection",
+          "Detailed painting",
+          "Premium packaging options"
+        ],
+        "applications": [
+          "Collectibles",
+          "Limited editions",
+          "IP derivatives",
+          "Premium gifts"
+        ],
+        "considerations": [
+          "High mold and sampling costs",
+          "Longer development time",
+          "Requires detailed design specifications",
+          "Minimum 10000 pcs recommended for cost-effectiveness"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 13,
@@ -1212,9 +1404,23 @@
         "size": "15-60 cm",
         "moq": "500 pcs",
         "price": "$ Low",
-        "features": ["Cost-effective production", "Decent detail quality", "Lightweight", "Suitable for mass distribution"],
-        "applications": ["Mass market toys", "Promotional items", "Giveaways", "Bulk orders"],
-        "considerations": ["Lower detail quality compared to premium options", "Limited customization for small batches"]
+        "features": [
+          "Cost-effective production",
+          "Decent detail quality",
+          "Lightweight",
+          "Suitable for mass distribution"
+        ],
+        "applications": [
+          "Mass market toys",
+          "Promotional items",
+          "Giveaways",
+          "Bulk orders"
+        ],
+        "considerations": [
+          "Lower detail quality compared to premium options",
+          "Limited customization for small batches"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 14,
@@ -1223,9 +1429,24 @@
         "size": "8-20 cm",
         "moq": "500 pcs",
         "price": "$ Low",
-        "features": ["Soft and squeezable", "Slow-rebound texture", "Stress-relieving", "Child-safe materials"],
-        "applications": ["Stress relief", "Children's toys", "Promotional items", "Fidget toys"],
-        "considerations": ["Limited detail due to soft material", "Higher MOQ required", "Design must accommodate squishy nature"]
+        "features": [
+          "Soft and squeezable",
+          "Slow-rebound texture",
+          "Stress-relieving",
+          "Child-safe materials"
+        ],
+        "applications": [
+          "Stress relief",
+          "Children's toys",
+          "Promotional items",
+          "Fidget toys"
+        ],
+        "considerations": [
+          "Limited detail due to soft material",
+          "Higher MOQ required",
+          "Design must accommodate squishy nature"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 15,
@@ -1234,9 +1455,24 @@
         "size": "25-35 cm",
         "moq": "100 pcs",
         "price": "$ Low",
-        "features": ["Stretchable material", "Realistic textures", "Lightweight for wearing", "Durable for events"],
-        "applications": ["Festival costumes", "Cosplay", "Film props", "Halloween events"],
-        "considerations": ["Limited breathability for extended wear", "Requires careful sizing", "May have strong initial odor"]
+        "features": [
+          "Stretchable material",
+          "Realistic textures",
+          "Lightweight for wearing",
+          "Durable for events"
+        ],
+        "applications": [
+          "Festival costumes",
+          "Cosplay",
+          "Film props",
+          "Halloween events"
+        ],
+        "considerations": [
+          "Limited breathability for extended wear",
+          "Requires careful sizing",
+          "May have strong initial odor"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 16,
@@ -1245,9 +1481,25 @@
         "size": "15-100 cm",
         "moq": "100 pcs",
         "price": "$$ Medium",
-        "features": ["Classic matte finish", "Lightweight", "Easy to paint", "Vintage aesthetic appeal"],
-        "applications": ["Christmas ornaments", "Easter decorations", "Wedding favors", "Home accents", "Seasonal displays"],
-        "considerations": ["Fragile and requires careful handling", "Not suitable for outdoor use", "Limited to indoor decorations"]
+        "features": [
+          "Classic matte finish",
+          "Lightweight",
+          "Easy to paint",
+          "Vintage aesthetic appeal"
+        ],
+        "applications": [
+          "Christmas ornaments",
+          "Easter decorations",
+          "Wedding favors",
+          "Home accents",
+          "Seasonal displays"
+        ],
+        "considerations": [
+          "Fragile and requires careful handling",
+          "Not suitable for outdoor use",
+          "Limited to indoor decorations"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 17,
@@ -1256,9 +1508,27 @@
         "size": "100-1000 cm",
         "moq": "1 pc",
         "price": "$$$$ Very High",
-        "features": ["Natural stone texture", "Extremely durable and weather-resistant", "Permanent outdoor performance", "Premium authentic appearance", "Resistant to UV and temperature changes"],
-        "applications": ["Garden landscapes", "Public art", "Architectural decor", "Outdoor installations"],
-        "considerations": ["Extremely heavy with very high shipping costs", "Limited design flexibility due to material hardness", "Longer production time", "Difficult to modify once carved", "Requires professional installation"]
+        "features": [
+          "Natural stone texture",
+          "Extremely durable and weather-resistant",
+          "Permanent outdoor performance",
+          "Premium authentic appearance",
+          "Resistant to UV and temperature changes"
+        ],
+        "applications": [
+          "Garden landscapes",
+          "Public art",
+          "Architectural decor",
+          "Outdoor installations"
+        ],
+        "considerations": [
+          "Extremely heavy with very high shipping costs",
+          "Limited design flexibility due to material hardness",
+          "Longer production time",
+          "Difficult to modify once carved",
+          "Requires professional installation"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 18,
@@ -1267,9 +1537,24 @@
         "size": "20-60 cm",
         "moq": "100 pcs",
         "price": "$$ Medium",
-        "features": ["Custom 3D character designs", "Stable and durable", "Functional and decorative", "Brand promotion tool"],
-        "applications": ["Phone/tablet stands", "Desk accessories", "Corporate gifts", "Promotional items"],
-        "considerations": ["Requires mold for custom designs", "Limited to smaller sizes (<60cm)", "Design must ensure stability"]
+        "features": [
+          "Custom 3D character designs",
+          "Stable and durable",
+          "Functional and decorative",
+          "Brand promotion tool"
+        ],
+        "applications": [
+          "Phone/tablet stands",
+          "Desk accessories",
+          "Corporate gifts",
+          "Promotional items"
+        ],
+        "considerations": [
+          "Requires mold for custom designs",
+          "Limited to smaller sizes (<60cm)",
+          "Design must ensure stability"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 19,
@@ -1278,9 +1563,24 @@
         "size": "20-80 cm",
         "moq": "100 pcs",
         "price": "$$$ High",
-        "features": ["Natural material appeal", "Warm texture", "Eco-friendly perception", "Handcrafted quality"],
-        "applications": ["Home decor", "Gifts", "Art pieces", "Natural-themed products"],
-        "considerations": ["Limited detail compared to resin", "Susceptible to moisture and temperature changes", "Higher cost for complex designs"]
+        "features": [
+          "Natural material appeal",
+          "Warm texture",
+          "Eco-friendly perception",
+          "Handcrafted quality"
+        ],
+        "applications": [
+          "Home decor",
+          "Gifts",
+          "Art pieces",
+          "Natural-themed products"
+        ],
+        "considerations": [
+          "Limited detail compared to resin",
+          "Susceptible to moisture and temperature changes",
+          "Higher cost for complex designs"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 20,
@@ -1289,9 +1589,24 @@
         "size": "15-40 cm",
         "moq": "500 pcs",
         "price": "$$$ High",
-        "features": ["Classic aesthetic", "Food-safe options", "Durable for display", "Versatile for painting and glazing"],
-        "applications": ["Home decor", "Tableware", "Art pieces", "Traditional crafts"],
-        "considerations": ["Fragile and requires careful handling", "Limited design flexibility", "Longer production time for custom glazes"]
+        "features": [
+          "Classic aesthetic",
+          "Food-safe options",
+          "Durable for display",
+          "Versatile for painting and glazing"
+        ],
+        "applications": [
+          "Home decor",
+          "Tableware",
+          "Art pieces",
+          "Traditional crafts"
+        ],
+        "considerations": [
+          "Fragile and requires careful handling",
+          "Limited design flexibility",
+          "Longer production time for custom glazes"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       },
       {
         "id": 21,
@@ -1300,9 +1615,24 @@
         "size": "10-20 cm",
         "moq": "500 pcs",
         "price": "$$ Medium",
-        "features": ["Custom character designs", "Functional charging capability", "Durable materials", "Brand promotion tools"],
-        "applications": ["Corporate gifts", "Brand merchandise", "Promotional items", "Character licensing products"],
-        "considerations": ["Requires IP authorization", "Mold costs for custom designs", "Minimum order applies per design"]
+        "features": [
+          "Custom character designs",
+          "Functional charging capability",
+          "Durable materials",
+          "Brand promotion tools"
+        ],
+        "applications": [
+          "Corporate gifts",
+          "Brand merchandise",
+          "Promotional items",
+          "Character licensing products"
+        ],
+        "considerations": [
+          "Requires IP authorization",
+          "Mold costs for custom designs",
+          "Minimum order applies per design"
+        ],
+        "expertise": "→ Resin Alternative Available · Free Assessment"
       }
     ]
   }

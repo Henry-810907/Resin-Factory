@@ -7,7 +7,8 @@ import type { Product } from "@/lib/product-data";
 interface ProductCardProps {
   product: Product;
   labels: {
-    type: string;
+    productName: string;
+    expertise: string;
     material: string;
     size: string;
     moq: string;
@@ -54,7 +55,8 @@ export default function ProductCard({ product, labels }: ProductCardProps) {
       <div className="p-4 sm:p-5 flex flex-col flex-1">
         {/* Summary Info */}
         <div className="space-y-1.5 text-sm">
-          <p className="font-bold text-brand-dark text-base">🏷️ {labels.type}: {product.name}</p>
+          <p className="font-bold text-brand-dark text-base">🏷️ {labels.productName}: {product.name}</p>
+          <p className="text-slate-600">{product.id <= 3 ? '🎯' : '💡'} {labels.expertise}: {product.expertise}</p>
           <p className="text-slate-600">🧱 {labels.material}: {product.material}</p>
           <p className="text-slate-600">📏 {labels.size}: {product.size} ({cmToInches(product.size)})</p>
           <p className="text-slate-600">📦 {labels.moq}: {product.moq}</p>

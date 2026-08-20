@@ -1,6 +1,7 @@
 export interface Product {
   id: number;
   name: string;
+  expertise: string;
   material: string;
   size: string;
   moq: string;
@@ -15,6 +16,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: "Resin Crafts",
+    expertise: "✓ Core Expertise",
     material: "Polystone (resin + stone powder mixture)",
     size: "5-50 cm",
     moq: "100 pcs",
@@ -43,6 +45,7 @@ export const products: Product[] = [
   {
     id: 2,
     name: "Resin Home Decor Items",
+    expertise: "✓ Core Expertise",
     material: "Polystone (resin + stone powder mixture)",
     size: "10-50 cm",
     moq: "100 pcs",
@@ -71,6 +74,7 @@ export const products: Product[] = [
   {
     id: 3,
     name: "Resin Office Supplies",
+    expertise: "✓ Core Expertise",
     material: "Polystone (resin + stone powder mixture)",
     size: "8-30 cm",
     moq: "100 pcs",
@@ -98,6 +102,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: "3D Printing & Hand-Painted Models",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Standard Resin / Castable Resin (SLA 3D printing)",
     size: "5-20 cm",
     moq: "1-100 pcs",
@@ -125,6 +130,7 @@ export const products: Product[] = [
   {
     id: 5,
     name: "Flexible Rubber Keychains & Ornaments",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Soft PVC (polyvinyl chloride)",
     size: "5-12 cm",
     moq: "100 pcs",
@@ -152,6 +158,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: "Large Mascots/Statues",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Fiberglass Reinforced Plastic (FRP)",
     size: "100-1000 cm",
     moq: "1 pc",
@@ -179,6 +186,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: "Mascot Costumes",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Fabric, foam, plastic frame",
     size: "150-220 cm",
     moq: "1 set",
@@ -206,6 +214,7 @@ export const products: Product[] = [
   {
     id: 8,
     name: "Inflatable Props",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "PVC tarpaulin or nylon",
     size: "100-3000 cm",
     moq: "1 pc",
@@ -233,6 +242,7 @@ export const products: Product[] = [
   {
     id: 9,
     name: "Metal Pins/Fridge Magnets",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Zinc alloy, iron, or stainless steel",
     size: "2-10 cm",
     moq: "50 pcs",
@@ -259,6 +269,7 @@ export const products: Product[] = [
   {
     id: 10,
     name: "Glass/Crystal Products",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Glass or optical crystal",
     size: "10-30 cm",
     moq: "100 pcs",
@@ -285,6 +296,7 @@ export const products: Product[] = [
   {
     id: 11,
     name: "Plush Toys",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Plush fabric, PP cotton filling",
     size: "8-50 cm",
     moq: "100 pcs",
@@ -313,6 +325,7 @@ export const products: Product[] = [
   {
     id: 12,
     name: "Premium Collectible Toys",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "ABS plastic",
     size: "8-20 cm",
     moq: "10000+ pcs",
@@ -340,6 +353,7 @@ export const products: Product[] = [
   {
     id: 13,
     name: "Budget-Friendly Collectible Toys",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Vinyl (PVC)",
     size: "15-60 cm",
     moq: "500 pcs",
@@ -365,6 +379,7 @@ export const products: Product[] = [
   {
     id: 14,
     name: "Squishy Stress-Relief Toys",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "PU foam (polyurethane)",
     size: "8-20 cm",
     moq: "500 pcs",
@@ -391,6 +406,7 @@ export const products: Product[] = [
   {
     id: 15,
     name: "Halloween Masks & Special Effects Props",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Latex or silicone",
     size: "25-35 cm",
     moq: "100 pcs",
@@ -417,6 +433,7 @@ export const products: Product[] = [
   {
     id: 16,
     name: "Plaster Ornaments & Decorative Pieces",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Gypsum plaster",
     size: "15-100 cm",
     moq: "100 pcs",
@@ -444,6 +461,7 @@ export const products: Product[] = [
   {
     id: 17,
     name: "Stone Carvings/Outdoor Landscapes",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Natural stone (marble, granite, limestone, etc.)",
     size: "100-1000 cm",
     moq: "1 pc",
@@ -473,6 +491,7 @@ export const products: Product[] = [
   {
     id: 18,
     name: "3D Cartoon Device Stands",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Soft PVC + ABS",
     size: "20-60 cm",
     moq: "100 pcs",
@@ -499,6 +518,7 @@ export const products: Product[] = [
   {
     id: 19,
     name: "Wooden Decor & Art Pieces",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Natural wood (MDF, solid wood, etc.)",
     size: "20-80 cm",
     moq: "100 pcs",
@@ -525,6 +545,7 @@ export const products: Product[] = [
   {
     id: 20,
     name: "Pottery & Ceramic Decor",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Ceramic, porcelain, or earthenware",
     size: "15-40 cm",
     moq: "500 pcs",
@@ -551,6 +572,7 @@ export const products: Product[] = [
   {
     id: 21,
     name: "3D Cartoon Charging Cables",
+    expertise: "→ Resin Alternative Available · Free Assessment",
     material: "Soft PVC + Metal connectors",
     size: "10-20 cm",
     moq: "500 pcs",

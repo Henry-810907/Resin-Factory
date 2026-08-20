@@ -1017,8 +1017,7 @@
     "title": "Nuestro blog - Perspectivas de la industria",
     "subtitle": "Historias detrás de escena y guías prácticas para compradores de figuras de resina.",
     "readMore": "Leer más"
-  }
-  ,
+  },
   "productGuide": {
     "meta": {
       "title": "Guía de productos — 21 tipos de productos personalizados para su diseño/IP",
@@ -1098,7 +1097,6 @@
     "needAdvice": "¿Necesita asesoramiento?",
     "noMatchText": "Ningún producto coincide con sus filtros. ¡Aún podemos ayudar! Contáctenos para recomendaciones personalizadas y soluciones a medida.",
     "cardLabels": {
-      "type": "Tipo",
       "material": "Material",
       "size": "Tamaño económico",
       "moq": "MOQ",
@@ -1107,7 +1105,9 @@
       "applicationScenarios": "Escenarios de aplicación",
       "considerations": "Consideraciones",
       "collapseDetails": "Ocultar detalles",
-      "viewDetails": "Ver detalles"
+      "viewDetails": "Ver detalles",
+      "productName": "Nombre del producto",
+      "expertise": "Tipo"
     },
     "products": [
       {
@@ -1135,7 +1135,8 @@
           "No apto para diseños flexibles o piezas extremadamente delgadas (<2mm)",
           "Más pesado que las alternativas de plástico",
           "Ideal para diseños de 5-50cm con detalles intrincados. Para requisitos flexibles o ultraligeros, considere materiales alternativos"
-        ]
+        ],
+        "expertise": "✓ Especialidad principal"
       },
       {
         "id": 2,
@@ -1162,7 +1163,8 @@
           "Más pesado que las alternativas de plástico",
           "Frágil durante el envío",
           "Ideal para diseños de 10-50cm con detalles intrincados. Para requisitos flexibles o ultraligeros, considere materiales alternativos"
-        ]
+        ],
+        "expertise": "✓ Especialidad principal"
       },
       {
         "id": 3,
@@ -1188,7 +1190,8 @@
           "Más pesado que las alternativas de plástico",
           "Frágil durante el envío",
           "Ideal para diseños de 8-30cm con detalles intrincados. Para requisitos flexibles o ultraligeros, considere materiales alternativos"
-        ]
+        ],
+        "expertise": "✓ Especialidad principal"
       },
       {
         "id": 4,
@@ -1214,7 +1217,8 @@
         "considerations": [
           "Costo unitario más alto para grandes cantidades",
           "El acabado superficial puede requerir pintura manual adicional"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 5,
@@ -1240,7 +1244,8 @@
         "considerations": [
           "No apto para detalles ultrafinos o tamaños superiores a 12cm",
           "Limitado a diseños más pequeños y simples"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 6,
@@ -1266,7 +1271,8 @@
           "Requiere espacio significativo y planificación logística",
           "Altos costos de envío debido al tamaño",
           "Recomendado cuando el diseño supera los 100cm o requiere durabilidad exterior más allá de las capacidades de la resina"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 7,
@@ -1292,7 +1298,8 @@
           "Movilidad limitada para el portador",
           "Requiere almacenamiento cuidadoso",
           "La reproducción de detalles es moderada en comparación con materiales duros"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 8,
@@ -1318,7 +1325,8 @@
           "Requiere bomba de aire",
           "No apto para diseños ultra realistas",
           "Ideal para eventos temporales o cuando la portabilidad es prioritaria"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 9,
@@ -1343,7 +1351,8 @@
           "Limitado a diseños planos o de bajo relieve",
           "Más pesado que las alternativas de plástico",
           "Restricciones de tamaño mínimo"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 10,
@@ -1368,7 +1377,8 @@
           "Frágil y requiere manipulación cuidadosa",
           "Costo más alto",
           "Limitado a tipos de diseño específicos"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 11,
@@ -1395,7 +1405,8 @@
           "Requiere diseño cuidadoso para fabricación",
           "Los tamaños más grandes aumentan significativamente el costo",
           "Esencial cuando la suavidad táctil y la seguridad infantil son requisitos principales"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 12,
@@ -1421,7 +1432,8 @@
           "Tiempo de desarrollo más largo",
           "Requiere especificaciones de diseño detalladas",
           "Mínimo 10000 piezas recomendado para rentabilidad"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 13,
@@ -1445,7 +1457,8 @@
         "considerations": [
           "Calidad de detalle inferior a las opciones premium",
           "Personalización limitada para lotes pequeños"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 14,
@@ -1470,7 +1483,8 @@
           "Detalles limitados debido al material blando",
           "MOQ más alto requerido",
           "El diseño debe adaptarse a la naturaleza blanda"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 15,
@@ -1495,7 +1509,8 @@
           "Transpirabilidad limitada para uso prolongado",
           "Requiere talla cuidadosa",
           "Puede tener olor fuerte inicialmente"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 16,
@@ -1521,7 +1536,8 @@
           "Frágil y requiere manipulación cuidadosa",
           "No apto para uso exterior",
           "Limitado a decoraciones interiores"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 17,
@@ -1549,7 +1565,8 @@
           "Tiempo de producción más largo",
           "Difícil de modificar una vez tallado",
           "Requiere instalación profesional"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 18,
@@ -1574,7 +1591,8 @@
           "Requiere molde para diseños personalizados",
           "Limitado a tamaños más pequeños (<60cm)",
           "El diseño debe garantizar estabilidad"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 19,
@@ -1599,7 +1617,8 @@
           "Detalles limitados en comparación con resina",
           "Sensible a humedad y cambios de temperatura",
           "Costo más alto para diseños complejos"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 20,
@@ -1624,7 +1643,8 @@
           "Frágil y requiere manipulación cuidadosa",
           "Flexibilidad de diseño limitada",
           "Tiempo de producción más largo para esmaltes personalizados"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       },
       {
         "id": 21,
@@ -1649,7 +1669,8 @@
           "Requiere autorización de IP",
           "Costos de molde para diseños personalizados",
           "Pedido mínimo aplicable por diseño"
-        ]
+        ],
+        "expertise": "→ Alternativa de resina disponible · Evaluación gratuita"
       }
     ]
   }

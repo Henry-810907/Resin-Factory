@@ -1017,8 +1017,7 @@
     "title": "Unser Blog - Brancheneinblicke",
     "subtitle": "Behind-the-Scenes-Geschichten und How-To-Anleitungen für Harzfiguren-Käufer.",
     "readMore": "Weiterlesen"
-  }
-  ,
+  },
   "productGuide": {
     "meta": {
       "title": "Produktleitfaden — 21 maßgeschneiderte Produkttypen für Ihr Design/IP",
@@ -1098,7 +1097,8 @@
     "needAdvice": "Brauchen Sie Beratung?",
     "noMatchText": "Keine Produkte entsprechen Ihren Filtern. Wir können trotzdem helfen! Kontaktieren Sie uns für personalisierte Empfehlungen und maßgeschneiderte Lösungen.",
     "cardLabels": {
-      "type": "Typ",
+      "productName": "Produktname",
+      "expertise": "Typ",
       "material": "Material",
       "size": "Wirtschaftliche Größe",
       "moq": "MOQ",
@@ -1135,7 +1135,8 @@
           "Nicht geeignet für flexible Designs oder extrem dünne Teile (<2mm)",
           "Schwerer als Kunststoff-Alternativen",
           "Ideal für Designs 5-50cm mit komplizierten Details. Für flexible oder ultraleichte Anforderungen, erwägen Sie alternative Materialien"
-        ]
+        ],
+        "expertise": "✓ Kernkompetenz"
       },
       {
         "id": 2,
@@ -1162,7 +1163,8 @@
           "Schwerer als Kunststoff-Alternativen",
           "Zerbrechlich beim Versand",
           "Ideal für Designs 10-50cm mit komplizierten Details. Für flexible oder ultraleichte Anforderungen, erwägen Sie alternative Materialien"
-        ]
+        ],
+        "expertise": "✓ Kernkompetenz"
       },
       {
         "id": 3,
@@ -1188,7 +1190,8 @@
           "Schwerer als Kunststoff-Alternativen",
           "Zerbrechlich beim Versand",
           "Ideal für Designs 8-30cm mit komplizierten Details. Für flexible oder ultraleichte Anforderungen, erwägen Sie alternative Materialien"
-        ]
+        ],
+        "expertise": "✓ Kernkompetenz"
       },
       {
         "id": 4,
@@ -1214,7 +1217,8 @@
         "considerations": [
           "Höhere Kosten pro Einheit bei großen Mengen",
           "Oberflächenfinish erfordert möglicherweise zusätzliche Handbemalung"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 5,
@@ -1240,7 +1244,8 @@
         "considerations": [
           "Nicht geeignet für ultrafeine Details oder Größen über 12cm",
           "Beschränkt auf kleinere, einfachere Designs"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 6,
@@ -1266,7 +1271,8 @@
           "Erfordert erheblichen Platz und Logistikplanung",
           "Hohe Versandkosten aufgrund der Größe",
           "Empfohlen, wenn das Design 100cm überschreitet oder Outdoor-Haltbarkeit erfordert, die über die Möglichkeiten von Harz hinausgeht"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 7,
@@ -1292,7 +1298,8 @@
           "Eingeschränkte Bewegungsfreiheit für den Träger",
           "Erfordert sorgfältige Lagerung",
           "Detailwiedergabe ist moderat im Vergleich zu harten Materialien"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 8,
@@ -1318,7 +1325,8 @@
           "Erfordert Luftpumpe",
           "Nicht geeignet für ultra-realistische Designs",
           "Am besten für temporäre Events oder wenn Portabilität Priorität hat"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 9,
@@ -1343,7 +1351,8 @@
           "Beschränkt auf flache oder flachrelief Designs",
           "Schwerer als Kunststoff-Alternativen",
           "Mindestgrößeneinschränkungen"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 10,
@@ -1368,7 +1377,8 @@
           "Zerbrechlich und erfordert vorsichtige Handhabung",
           "Höhere Kosten",
           "Beschränkt auf bestimmte Design-Typen"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 11,
@@ -1395,7 +1405,8 @@
           "Erfordert sorgfältiges Design für die Herstellung",
           "Größere Größen erhöhen die Kosten erheblich",
           "Essenziell, wenn taktile Weichheit und Kindersicherheit die Hauptanforderungen sind"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 12,
@@ -1421,7 +1432,8 @@
           "Längere Entwicklungszeit",
           "Erfordert detaillierte Design-Spezifikationen",
           "Mindestens 10000 Stück empfohlen für Kosteneffizienz"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 13,
@@ -1445,7 +1457,8 @@
         "considerations": [
           "Niedrigere Detailqualität im Vergleich zu Premium-Optionen",
           "Begrenzte Anpassung für Kleinserien"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 14,
@@ -1470,7 +1483,8 @@
           "Begrenzte Details aufgrund des weichen Materials",
           "Höhere MOQ erforderlich",
           "Design muss die drückbare Natur berücksichtigen"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 15,
@@ -1495,7 +1509,8 @@
           "Eingeschränkte Atmungsaktivität bei längerem Tragen",
           "Erfordert sorgfältige Größenanpassung",
           "Kann anfänglich starken Geruch haben"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 16,
@@ -1521,7 +1536,8 @@
           "Zerbrechlich und erfordert vorsichtige Handhabung",
           "Nicht für den Außenbereich geeignet",
           "Beschränkt auf Innendekorationen"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 17,
@@ -1549,7 +1565,8 @@
           "Längere Produktionszeit",
           "Schwierig zu modifizieren, sobald geschnitzt",
           "Erfordert professionelle Installation"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 18,
@@ -1574,7 +1591,8 @@
           "Erfordert Form für individuelle Designs",
           "Beschränkt auf kleinere Größen (<60cm)",
           "Design muss Stabilität gewährleisten"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 19,
@@ -1599,7 +1617,8 @@
           "Begrenzte Details im Vergleich zu Harz",
           "Anfällig für Feuchtigkeit und Temperaturänderungen",
           "Höhere Kosten für komplexe Designs"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 20,
@@ -1624,7 +1643,8 @@
           "Zerbrechlich und erfordert vorsichtige Handhabung",
           "Eingeschränkte Designflexibilität",
           "Längere Produktionszeit für individuelle Glasuren"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       },
       {
         "id": 21,
@@ -1649,7 +1669,8 @@
           "Erfordert IP-Autorisierung",
           "Formkosten für individuelle Designs",
           "Mindestbestellmenge pro Design"
-        ]
+        ],
+        "expertise": "→ Harz-Alternative verfügbar · Kostenlose Beratung"
       }
     ]
   }

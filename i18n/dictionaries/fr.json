@@ -1017,8 +1017,7 @@
     "title": "Notre blog - Perspectives de l'industrie",
     "subtitle": "Histoires des coulisses et guides pratiques pour les acheteurs de figurines en résine.",
     "readMore": "Lire la suite"
-  }
-  ,
+  },
   "productGuide": {
     "meta": {
       "title": "Guide des produits — 21 types de produits personnalisés pour votre design/IP",
@@ -1098,7 +1097,6 @@
     "needAdvice": "Besoin de conseils ?",
     "noMatchText": "Aucun produit ne correspond à vos filtres. Nous pouvons toujours vous aider ! Contactez-nous pour des recommandations personnalisées et des solutions sur mesure.",
     "cardLabels": {
-      "type": "Type",
       "material": "Matériau",
       "size": "Taille économique",
       "moq": "MOQ",
@@ -1107,7 +1105,9 @@
       "applicationScenarios": "Scénarios d'application",
       "considerations": "Considérations",
       "collapseDetails": "Masquer les détails",
-      "viewDetails": "Voir les détails"
+      "viewDetails": "Voir les détails",
+      "productName": "Nom du produit",
+      "expertise": "Type"
     },
     "products": [
       {
@@ -1135,7 +1135,8 @@
           "Ne convient pas aux designs flexibles ou aux pièces extrêmement fines (<2mm)",
           "Plus lourd que les alternatives en plastique",
           "Idéal pour les designs 5-50cm avec des détails complexes. Pour des besoins flexibles ou ultra-légers, envisagez des matériaux alternatifs"
-        ]
+        ],
+        "expertise": "✓ Cœur de métier"
       },
       {
         "id": 2,
@@ -1162,7 +1163,8 @@
           "Plus lourd que les alternatives en plastique",
           "Fragile pendant l'expédition",
           "Idéal pour les designs 10-50cm avec des détails complexes. Pour des besoins flexibles ou ultra-légers, envisagez des matériaux alternatifs"
-        ]
+        ],
+        "expertise": "✓ Cœur de métier"
       },
       {
         "id": 3,
@@ -1188,7 +1190,8 @@
           "Plus lourd que les alternatives en plastique",
           "Fragile pendant l'expédition",
           "Idéal pour les designs 8-30cm avec des détails complexes. Pour des besoins flexibles ou ultra-légers, envisagez des matériaux alternatifs"
-        ]
+        ],
+        "expertise": "✓ Cœur de métier"
       },
       {
         "id": 4,
@@ -1214,7 +1217,8 @@
         "considerations": [
           "Coût unitaire plus élevé pour les grandes quantités",
           "La finition de surface peut nécessiter une peinture manuelle supplémentaire"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 5,
@@ -1240,7 +1244,8 @@
         "considerations": [
           "Ne convient pas aux détails ultra-fins ou aux tailles supérieures à 12cm",
           "Limité aux designs plus petits et simples"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 6,
@@ -1266,7 +1271,8 @@
           "Nécessite un espace important et une planification logistique",
           "Frais d'expédition élevés en raison de la taille",
           "Recommandé lorsque le design dépasse 100cm ou nécessite une durabilité extérieure au-delà des capacités de la résine"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 7,
@@ -1292,7 +1298,8 @@
           "Mobilité limitée pour le porteur",
           "Nécessite un stockage soigneux",
           "La reproduction des détails est modérée comparée aux matériaux durs"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 8,
@@ -1318,7 +1325,8 @@
           "Nécessite une pompe à air",
           "Ne convient pas aux designs ultra-réalistes",
           "Idéal pour les événements temporaires ou lorsque la portabilité est prioritaire"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 9,
@@ -1343,7 +1351,8 @@
           "Limité aux designs plats ou en bas-relief",
           "Plus lourd que les alternatives en plastique",
           "Contraintes de taille minimale"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 10,
@@ -1368,7 +1377,8 @@
           "Fragile et nécessite une manipulation prudente",
           "Coût plus élevé",
           "Limité à certains types de designs"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 11,
@@ -1395,7 +1405,8 @@
           "Nécessite un design soigneux pour la fabrication",
           "Les grandes tailles augmentent significativement le coût",
           "Essentiel lorsque la douceur tactile et la sécurité enfant sont les exigences principales"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 12,
@@ -1421,7 +1432,8 @@
           "Temps de développement plus long",
           "Nécessite des spécifications de design détaillées",
           "Minimum 10000 pièces recommandé pour la rentabilité"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 13,
@@ -1445,7 +1457,8 @@
         "considerations": [
           "Qualité de détail inférieure aux options premium",
           "Personnalisation limitée pour les petites séries"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 14,
@@ -1470,7 +1483,8 @@
           "Détails limités en raison du matériau souple",
           "MOQ plus élevé requis",
           "Le design doit s'adapter à la nature souple"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 15,
@@ -1495,7 +1509,8 @@
           "Respirabilité limitée pour un port prolongé",
           "Nécessite un dimensionnement soigneux",
           "Peut avoir une odeur initiale forte"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 16,
@@ -1521,7 +1536,8 @@
           "Fragile et nécessite une manipulation prudente",
           "Ne convient pas pour une utilisation en extérieur",
           "Limité aux décorations intérieures"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 17,
@@ -1549,7 +1565,8 @@
           "Temps de production plus long",
           "Difficile à modifier une fois sculpté",
           "Nécessite une installation professionnelle"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 18,
@@ -1574,7 +1591,8 @@
           "Nécessite un moule pour les designs personnalisés",
           "Limité aux petites tailles (<60cm)",
           "Le design doit assurer la stabilité"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 19,
@@ -1599,7 +1617,8 @@
           "Détails limités comparés à la résine",
           "Sensible à l'humidité et aux changements de température",
           "Coût plus élevé pour les designs complexes"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 20,
@@ -1624,7 +1643,8 @@
           "Fragile et nécessite une manipulation prudente",
           "Flexibilité de design limitée",
           "Temps de production plus long pour les glaçures personnalisées"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       },
       {
         "id": 21,
@@ -1649,7 +1669,8 @@
           "Nécessite une autorisation IP",
           "Coûts de moule pour les designs personnalisés",
           "Commande minimum applicable par design"
-        ]
+        ],
+        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
       }
     ]
   }

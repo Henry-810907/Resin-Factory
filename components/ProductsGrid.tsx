@@ -9,6 +9,7 @@ import ProductFilter from "./ProductFilter";
 interface TranslatedProduct {
   id: number;
   name: string;
+  expertise: string;
   material: string;
   size: string;
   moq: string;
@@ -43,7 +44,8 @@ interface ProductsGridProps {
   noMatchText: string;
   freeConsultation: string;
   cardLabels: {
-    type: string;
+    productName: string;
+    expertise: string;
     material: string;
     size: string;
     moq: string;
@@ -73,6 +75,7 @@ export default function ProductsGrid({ contactText, contactHref, filterLabels, h
         return {
           ...defaultProduct,
           name: translated.name,
+          expertise: translated.expertise,
           material: translated.material,
           moq: translated.moq,
           price: translated.price,
