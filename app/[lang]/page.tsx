@@ -9,6 +9,7 @@ export const revalidate = 3600;
 
 const FactoryIntro = dynamic(() => import("@/components/FactoryIntro"));
 const ProductCategories = dynamic(() => import("@/components/ProductCategories"));
+const ProductGuideHint = dynamic(() => import("@/components/ProductGuideHint"));
 const ManufacturingProcess = dynamic(() => import("@/components/ManufacturingProcess"));
 const OrderProcess = dynamic(() => import("@/components/OrderProcess"));
 const WhyChooseUs = dynamic(() => import("@/components/WhyChooseUs"));
@@ -28,6 +29,12 @@ export default async function HomePage({ params }: Props) {
       <Hero dict={dict.hero} lang={lang} />
       <FactoryIntro dict={dict.factoryIntro} />
       <ProductCategories dict={dict.productCategories} />
+      <ProductGuideHint
+        title={dict.productGuideHint.title}
+        subtitle={dict.productGuideHint.subtitle}
+        buttonText={dict.productGuideHint.buttonText}
+        href={`/${lang}/products`}
+      />
       <ManufacturingProcess dict={dict.manufacturingProcess} />
       <OrderProcess dict={dict.orderProcess} />
       <WhyChooseUs dict={dict.whyChooseUs} />

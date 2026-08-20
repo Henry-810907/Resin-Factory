@@ -35,7 +35,7 @@
     "homeAria": "Resin Factory · retour à l'accueil",
     "nav": {
       "home": "Accueil",
-      "products": "Produits",
+      "products": "Guide des produits",
       "portfolio": "Portfolio",
       "about": "À propos",
       "values": "Nos valeurs",
@@ -579,7 +579,7 @@
     "englishOnlyNotice": "Remarque : Le contenu des articles est publié en anglais. Les autres pages sont disponibles dans votre langue."
   },
   "contact": {
-    "title": "Demander un devis",
+    "title": "Contactez-nous",
     "subtitle": "Nous répondrons dans les 12 heures et garderons votre design strictement confidentiel !",
     "form": {
       "fullName": "Votre Nom",
@@ -819,6 +819,11 @@
       }
     ]
   },
+  "productGuideHint": {
+    "title": "Need Help Choosing the Right Product?",
+    "subtitle": "Not all designs require resin. We've compiled a comprehensive guide covering 21 product types to help you make the best decision. Feel free to consult us if you're unsure.",
+    "buttonText": "View Product Guide →"
+  },
   "manufacturingProcess": {
     "kicker": "Notre processus de fabrication",
     "title": "Processus de fabrication des figurines en résine",
@@ -1012,5 +1017,81 @@
     "title": "Notre blog - Perspectives de l'industrie",
     "subtitle": "Histoires des coulisses et guides pratiques pour les acheteurs de figurines en résine.",
     "readMore": "Lire la suite"
+  }
+  ,
+  "productGuide": {
+    "meta": {
+      "title": "Guide des produits — 21 types de produits personnalisés pour votre design/IP",
+      "description": "Guide complet de 21 types de produits : artisanat en résine, impression 3D, porte-clés en PVC, grandes mascottes, épingles en métal, peluches et plus encore. Trouvez le bon type de produit, matériau, MOQ et prix pour votre design. Consultation technique gratuite."
+    },
+    "hero": {
+      "title": "Comment choisir le bon type de produit pour votre design/IP",
+      "subtitle": "Nous sommes spécialisés dans l'artisanat en résine et polystone. Ce guide vous aide à évaluer si votre design convient aux matériaux en résine, ou si d'autres types de produits pourraient mieux convenir. Si vous avez besoin de clarifications sur un point, n'hésitez pas à nous contacter à tout moment.",
+      "cta": "Consultation technique gratuite"
+    },
+    "suitability": {
+      "title": "Votre design convient-il à la résine/polystone ?",
+      "question": "Quelle est votre quantité de commande ?",
+      "options": [
+        {
+          "label": "1-100 pcs",
+          "recommendation": "Envisagez l'impression 3D (petite série)",
+          "isResin": false
+        },
+        {
+          "label": "100-10000 pcs",
+          "recommendation": "L'artisanat en résine est parfait",
+          "isResin": true
+        },
+        {
+          "label": "10000+ pcs",
+          "recommendation": "Envisagez les jouets de collection premium (production de masse)",
+          "isResin": false
+        }
+      ],
+      "bottomText": "Vous ne savez pas si la résine convient à votre design ? Contactez-nous pour une consultation technique gratuite."
+    },
+    "filter": {
+      "priceRange": "Gamme de prix",
+      "moqRange": "Exigence MOQ",
+      "material": "Matériau",
+      "all": "Tous",
+      "showing": "Affichage",
+      "of": "de",
+      "products": "produits",
+      "priceLow": "$ Bas",
+      "priceMedium": "$$ Moyen",
+      "priceHigh": "$$$ Élevé",
+      "priceVeryHigh": "$$$$ Très élevé",
+      "moq1to100": "1-100 pcs",
+      "moq100to1000": "100-1000 pcs",
+      "moq1000plus": "1000-10 000+ pcs",
+      "disclaimer": "Ces produits sont présentés à titre d'illustration uniquement. Nous ne possédons pas les droits d'auteur. Tout travail personnalisé est basé sur les propres designs des clients."
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "items": [
+        {
+          "q": "Comment savoir si la résine convient à mon design ?",
+          "a": "La résine est idéale pour les designs de taille moyenne (5-50 cm) avec des détails complexes, des objets de collection premium et des articles d'exposition à long terme. Si votre design nécessite de la flexibilité, une légèreté extrême ou une très grande échelle, d'autres matériaux pourraient être meilleurs. Contactez-nous avec les spécifications de votre design pour une consultation technique gratuite."
+        },
+        {
+          "q": "Pouvez-vous m'aider à choisir si je ne suis pas sûr ?",
+          "a": "Absolument ! Nous fournissons une consultation technique gratuite. Envoyez-nous votre design ou votre idée, et nous vous recommanderons le meilleur type de produit en fonction de vos besoins spécifiques — qu'il s'agisse de résine ou d'un autre matériau."
+        },
+        {
+          "q": "Fabriquez-vous uniquement des produits en résine ?",
+          "a": "Bien que nous soyons spécialisés dans l'artisanat en résine (notre expertise principale depuis 2013), nous avons compilé ce guide couvrant 21 types de produits pour vous aider à prendre la meilleure décision. Nous recommanderons toujours la meilleure solution pour votre design/IP, même si ce n'est pas de la résine. Contactez-nous pour une consultation technique gratuite."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Besoin de conseils professionnels pour votre design ?",
+      "subtitle": "Vous ne savez pas si la résine/polystone est le bon choix pour votre design/IP ? Contactez-nous avec vos exigences, et nous vous fournirons une consultation technique gratuite basée sur notre expertise.",
+      "button": "Consultation technique gratuite"
+    },
+    "quickGuide": "Guide rapide : Commencez par la résine pour les designs détaillés de 5 à 50 cm. Envisagez des alternatives lorsque vous avez besoin de flexibilité, de tailles extrêmes ou de textures spécifiques.",
+    "needAdvice": "Besoin de conseils ?",
+    "noMatchText": "Aucun produit ne correspond à vos filtres. Nous pouvons toujours vous aider ! Contactez-nous pour des recommandations personnalisées et des solutions sur mesure."
   }
 }

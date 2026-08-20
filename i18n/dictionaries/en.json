@@ -4,8 +4,8 @@
     "tagline": "Custom Resin Figurines for Brands & IP",
     "defaultDescription": "B2B custom resin figurine manufacturer in China. Sculpting, mould-making, casting and hand-painting under one roof. Low MOQ from 100 units, free 3D sculpting, CE/EN71/ASTM tested, worldwide shipping.",
     "products": {
-      "title": "Custom Resin Figurine Products — Statues, Designer Toys, Blind Box",
-      "description": "Mascot figurines, designer toys, statues, GK kits, blind box series, bobbleheads, resin keychains, dioramas and bulk runs. Custom resin manufacturing for brands and IP — sculpted, cast and hand-painted in our Shenzhen factory."
+      "title": "Product Guide — 21 Custom Product Types for Your Design/IP",
+      "description": "Complete guide to 21 product types: resin crafts, 3D printing, PVC keychains, large mascots, metal pins, plush toys, and more. Find the right product type, material, MOQ and price for your design. Free technical consultation."
     },
     "portfolio": {
       "title": "Portfolio — Custom Resin Figurine Case Studies",
@@ -35,7 +35,7 @@
     "homeAria": "Resin Factory · back to home",
     "nav": {
       "home": "Home",
-      "products": "Products",
+      "products": "Product Guide",
       "portfolio": "Portfolio",
       "about": "About Us",
       "values": "Our Values",
@@ -541,7 +541,7 @@
     ]
   },
   "contact": {
-    "title": "Get a Quote",
+    "title": "Contact With Us",
     "subtitle": "We will reply within 12 hours and keep your design strictly confidential!",
     "form": {
       "fullName": "Your Name",
@@ -740,7 +740,7 @@
   },
   "productCategories": {
     "kicker": "What We Make",
-    "title": "9 Product Categories",
+    "title": "9 Resin Applications",
     "subtitle": "From concept to mass production — we handle every type of custom resin figurine.",
     "categories": [
       {
@@ -780,6 +780,11 @@
         "desc": "Mini resin charms and keychains for retail, events, and brand campaigns."
       }
     ]
+  },
+  "productGuideHint": {
+    "title": "Need Help Choosing the Right Product?",
+    "subtitle": "Not all designs require resin. We've compiled a comprehensive guide covering 21 product types to help you make the best decision. Feel free to consult us if you're unsure.",
+    "buttonText": "View Product Guide →"
   },
   "manufacturingProcess": {
     "kicker": "Our Manufacturing Process",
@@ -974,5 +979,83 @@
     "title": "Our Blog - Industry Insights",
     "subtitle": "Behind-the-scenes stories and how-to guides for resin figurine buyers.",
     "readMore": "Read More"
+  },
+  "productGuide": {
+    "meta": {
+      "title": "Product Guide — 21 Custom Product Types for Your Design/IP",
+      "description": "Complete guide to 21 product types: resin crafts, 3D printing, PVC keychains, large mascots, metal pins, plush toys, and more. Find the right product type, material, MOQ and price for your design. Free technical consultation."
+    },
+    "hero": {
+      "title": "How to Choose the Right Product Type for Your Design/IP",
+      "subtitle": "We specialize in resin and polystone crafts. This guide helps you evaluate whether your design is suitable for resin materials, or if other product types might be a better fit. If you need clarification on any point, feel free to contact us anytime.",
+      "cta": "Free Technical Consultation"
+    },
+    "quickGuide": "Quick Guide: Start with resin for detailed designs 5-50cm. Consider alternatives when you need flexibility, extreme sizes, or specific textures.",
+    "needAdvice": "Need advice on your project?",
+    "noMatchText": "No products match your filters. We can still help! Contact us for personalized recommendations.",
+    "suitability": {
+      "title": "Is Your Design Suitable for Resin/Polystone?",
+      "question": "What's your order quantity?",
+      "options": [
+        {
+          "label": "1-100 pcs",
+          "recommendation": "Consider 3D Printing (small batch)",
+          "isResin": false
+        },
+        {
+          "label": "100-10000 pcs",
+          "recommendation": "Resin Crafts are perfect",
+          "isResin": true
+        },
+        {
+          "label": "10000+ pcs",
+          "recommendation": "Consider Premium Collectible Toys (mass production)",
+          "isResin": false
+        }
+      ],
+      "bottomText": "Not sure if resin is right for your design? Contact us for free technical consultation."
+    },
+    "filter": {
+      "priceRange": "Price Range",
+      "moqRange": "MOQ Requirement",
+      "material": "Material",
+      "all": "All",
+      "showing": "Showing",
+      "of": "of",
+      "products": "products",
+      "priceLow": "$ Low",
+      "priceMedium": "$$ Medium",
+      "priceHigh": "$$$ High",
+      "priceVeryHigh": "$$$$ Very High",
+      "moq1to100": "1-100 pcs",
+      "moq100to1000": "100-1000 pcs",
+      "moq1000plus": "1000-10,000+ pcs",
+      "disclaimer": "These products are for display only. We do not own the copyrights. All custom work is based on clients' own designs."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "How do I know if resin is right for my design?",
+          "a": "Resin is ideal for medium-sized designs (5-50cm) with intricate details, premium collectibles, and long-term display items. If your design requires flexibility, extreme lightness, or very large scale, other materials might be better. Contact us with your design specs for free technical consultation."
+        },
+        {
+          "q": "Can you help me choose if I'm not sure?",
+          "a": "Absolutely! We provide free technical consultation. Send us your design or idea, and we'll recommend the best product type based on your specific needs — whether it's resin or another material."
+        },
+        {
+          "q": "Do you only make resin products?",
+          "a": "While we specialize in resin crafts (our core expertise since 2013), we've compiled this guide covering 21 product types to help you make the best decision. We'll always recommend the best solution for your design/IP, even if it's not resin. Contact us for free technical consultation."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Need Professional Advice for Your Design?",
+      "subtitle": "Not sure if resin/polystone is the right choice for your design/IP? Contact us with your requirements, and we'll provide free technical consultation based on our expertise.",
+      "button": "Free Technical Consultation"
+    },
+    "quickGuide": "Quick guide: Start with resin for detailed designs 5-50cm. Consider alternatives when you need flexibility, extreme sizes, or specific textures.",
+    "needAdvice": "Need advice?",
+    "noMatchText": "No products match your filters. We can still help! Contact us for personalized recommendations and custom solutions."
   }
 }

@@ -5,7 +5,7 @@ type Props = { dict: Dictionary["factoryIntro"] };
 
 export default function FactoryIntro({ dict }: Props) {
   return (
-    <section className="bg-white w-full py-10 md:py-20">
+    <section className="bg-white w-full py-6 md:py-12">
       <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-14 items-center">
         <div className="space-y-3 sm:space-y-5 text-slate-700">
           <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold">{dict.kicker}</p>

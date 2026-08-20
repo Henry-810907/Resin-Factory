@@ -35,7 +35,7 @@
     "homeAria": "Resin Factory · zurück zur Startseite",
     "nav": {
       "home": "Startseite",
-      "products": "Produkte",
+      "products": "Produktleitfaden",
       "portfolio": "Portfolio",
       "about": "Über uns",
       "values": "Unsere Werte",
@@ -579,7 +579,7 @@
     "englishOnlyNotice": "Hinweis: Artikel werden in englischer Sprache veröffentlicht. Andere Seiten sind in Ihrer Sprache verfügbar."
   },
   "contact": {
-    "title": "Angebot anfordern",
+    "title": "Kontaktieren Sie uns",
     "subtitle": "Wir antworten innerhalb von 12 Stunden und halten Ihr Design streng vertraulich!",
     "form": {
       "fullName": "Ihr Name",
@@ -819,6 +819,11 @@
       }
     ]
   },
+  "productGuideHint": {
+    "title": "Need Help Choosing the Right Product?",
+    "subtitle": "Not all designs require resin. We've compiled a comprehensive guide covering 21 product types to help you make the best decision. Feel free to consult us if you're unsure.",
+    "buttonText": "View Product Guide →"
+  },
   "manufacturingProcess": {
     "kicker": "Unser Fertigungsprozess",
     "title": "Harzfiguren-Fertigungsprozess",
@@ -1012,5 +1017,81 @@
     "title": "Unser Blog - Brancheneinblicke",
     "subtitle": "Behind-the-Scenes-Geschichten und How-To-Anleitungen für Harzfiguren-Käufer.",
     "readMore": "Weiterlesen"
+  }
+  ,
+  "productGuide": {
+    "meta": {
+      "title": "Produktleitfaden — 21 maßgeschneiderte Produkttypen für Ihr Design/IP",
+      "description": "Vollständiger Leitfaden zu 21 Produkttypen: Resin-Kunsthandwerk, 3D-Druck, PVC-Schlüsselanhänger, große Maskottchen, Metallstifte, Plüschtiere und mehr. Finden Sie den richtigen Produkttyp, das Material, die Mindestbestellmenge und den Preis für Ihr Design. Kostenlose technische Beratung."
+    },
+    "hero": {
+      "title": "Wie wählen Sie den richtigen Produkttyp für Ihr Design/IP",
+      "subtitle": "Wir sind auf Resin- und Polystone-Kunsthandwerk spezialisiert. Dieser Leitfaden hilft Ihnen zu bewerten, ob Ihr Design für Resin-Materialien geeignet ist oder ob andere Produkttypen besser passen könnten. Wenn Sie zu irgendeinem Punkt Klarstellung benötigen, können Sie uns jederzeit kontaktieren.",
+      "cta": "Kostenlose technische Beratung"
+    },
+    "suitability": {
+      "title": "Ist Ihr Design für Resin/Polystone geeignet?",
+      "question": "Wie hoch ist Ihre Bestellmenge?",
+      "options": [
+        {
+          "label": "1-100 Stück",
+          "recommendation": "Erwägen Sie 3D-Druck (Kleinserie)",
+          "isResin": false
+        },
+        {
+          "label": "100-10000 Stück",
+          "recommendation": "Resin-Kunsthandwerk ist perfekt",
+          "isResin": true
+        },
+        {
+          "label": "10000+ Stück",
+          "recommendation": "Erwägen Sie Premium-Sammelspielzeug (Massenproduktion)",
+          "isResin": false
+        }
+      ],
+      "bottomText": "Nicht sicher, ob Resin das Richtige für Ihr Design ist? Kontaktieren Sie uns für eine kostenlose technische Beratung."
+    },
+    "filter": {
+      "priceRange": "Preisspanne",
+      "moqRange": "MOQ-Anforderung",
+      "material": "Material",
+      "all": "Alle",
+      "showing": "Zeige",
+      "of": "von",
+      "products": "Produkten",
+      "priceLow": "$ Niedrig",
+      "priceMedium": "$$ Mittel",
+      "priceHigh": "$$$ Hoch",
+      "priceVeryHigh": "$$$ Sehr hoch",
+      "moq1to100": "1-100 Stück",
+      "moq100to1000": "100-1000 Stück",
+      "moq1000plus": "1000-10.000+ Stück",
+      "disclaimer": "Diese Produkte dienen nur zur Anzeige. Wir besitzen keine Urheberrechte. Alle maßgeschneiderten Arbeiten basieren auf den eigenen Designs der Kunden."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Woher weiß ich, ob Resin das Richtige für mein Design ist?",
+          "a": "Resin ist ideal für mittelgroße Designs (5-50 cm) mit komplizierten Details, Premium-Sammlerstücke und langlebige Ausstellungsstücke. Wenn Ihr Design Flexibilität, extreme Leichtigkeit oder sehr große Größen erfordert, könnten andere Materialien besser geeignet sein. Kontaktieren Sie uns mit Ihren Designspezifikationen für eine kostenlose technische Beratung."
+        },
+        {
+          "q": "Können Sie mir bei der Auswahl helfen, wenn ich unsicher bin?",
+          "a": "Selbstverständlich! Wir bieten kostenlose technische Beratung. Senden Sie uns Ihr Design oder Ihre Idee, und wir empfehlen Ihnen den besten Produkttyp basierend auf Ihren spezifischen Anforderungen — ob Resin oder ein anderes Material."
+        },
+        {
+          "q": "Stellen Sie nur Resin-Produkte her?",
+          "a": "Obwohl wir auf Resin-Kunsthandwerk spezialisiert sind (unsere Kernkompetenz seit 2013), haben wir diesen Leitfaden mit 21 Produkttypen zusammengestellt, um Ihnen bei der besten Entscheidung zu helfen. Wir empfehlen immer die beste Lösung für Ihr Design/IP, auch wenn es nicht Resin ist. Kontaktieren Sie uns für eine kostenlose technische Beratung."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Brauchen Sie professionelle Beratung für Ihr Design?",
+      "subtitle": "Nicht sicher, ob Resin/Polystone die richtige Wahl für Ihr Design/IP ist? Kontaktieren Sie uns mit Ihren Anforderungen, und wir bieten Ihnen kostenlose technische Beratung basierend auf unserer Expertise.",
+      "button": "Kostenlose technische Beratung"
+    },
+    "quickGuide": "Kurzanleitung: Beginnen Sie mit Resin für detaillierte Designs 5-50 cm. Erwägen Sie Alternativen, wenn Sie Flexibilität, extreme Größen oder spezielle Texturen benötigen.",
+    "needAdvice": "Brauchen Sie Beratung?",
+    "noMatchText": "Keine Produkte entsprechen Ihren Filtern. Wir können trotzdem helfen! Kontaktieren Sie uns für personalisierte Empfehlungen und maßgeschneiderte Lösungen."
   }
 }

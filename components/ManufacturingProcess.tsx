@@ -5,9 +5,9 @@ type Props = { dict: Dictionary["manufacturingProcess"] };
 
 export default function ManufacturingProcess({ dict }: Props) {
   return (
-    <section className="bg-white py-10 md:py-20">
+    <section className="bg-white py-6 md:py-12">
       <div className="max-w-7xl mx-auto px-5 sm:px-6">
-        <div className="text-center mb-8 md:mb-12">
+        <div className="text-center mb-5 md:mb-8">
           <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-2 sm:mb-3">{dict.kicker}</p>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark mb-3 sm:mb-4 tracking-tight">{dict.title}</h2>
           <p className="text-slate-500 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">{dict.subtitle}</p>
