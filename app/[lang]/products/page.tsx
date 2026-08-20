@@ -66,9 +66,12 @@ export default async function ProductsPage({ params }: Props) {
         contactText={pg.hero.cta}
         contactHref={`/${lang}/contact`}
         filterLabels={pg.filter}
+        heroTitle={pg.hero.title}
+        heroSubtitle={pg.hero.subtitle}
         quickGuide={pg.quickGuide}
         needAdvice={pg.needAdvice}
         noMatchText={pg.noMatchText}
+        freeConsultation={pg.hero.cta}
       />
 
       {/* FAQ Section */}

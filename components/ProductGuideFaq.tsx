@@ -15,9 +15,9 @@ export default function ProductGuideFaq({ title, items }: ProductGuideFaqProps) 
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="bg-slate-50 py-10 md:py-16">
+    <section className="bg-slate-50 py-6 md:py-12">
       <div className="max-w-4xl mx-auto px-5 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center text-brand-dark mb-8 md:mb-10">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-brand-dark mb-5 md:mb-8">
           {title}
         </h2>
 

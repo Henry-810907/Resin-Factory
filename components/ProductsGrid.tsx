@@ -25,12 +25,15 @@ interface ProductsGridProps {
     moq1000plus: string;
     disclaimer: string;
   };
+  heroTitle: string;
+  heroSubtitle: string;
   quickGuide: string;
   needAdvice: string;
   noMatchText: string;
+  freeConsultation: string;
 }
 
-export default function ProductsGrid({ contactText, contactHref, filterLabels, quickGuide, needAdvice, noMatchText }: ProductsGridProps) {
+export default function ProductsGrid({ contactText, contactHref, filterLabels, heroTitle, heroSubtitle, quickGuide, needAdvice, noMatchText, freeConsultation }: ProductsGridProps) {
   const [selectedPrice, setSelectedPrice] = useState("all");
   const [selectedMoq, setSelectedMoq] = useState("all");
 
@@ -75,10 +78,10 @@ export default function ProductsGrid({ contactText, contactHref, filterLabels, q
       <section className="bg-gradient-to-br from-slate-50 to-slate-100 py-6 md:py-8">
         <div className="max-w-4xl mx-auto px-5 sm:px-6 text-center mb-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark mb-3">
-            How to Choose the Right Product Type for Your Design/IP
+            {heroTitle}
           </h1>
           <p className="text-base sm:text-lg text-slate-600 mb-2 leading-relaxed">
-            We specialize in resin and polystone crafts. This guide helps you evaluate whether your design is suitable for resin materials, or if other product types might be a better fit.
+            {heroSubtitle}
           </p>
           <p className="text-sm text-slate-500 mb-4">
             💡 {quickGuide}
@@ -107,10 +110,10 @@ export default function ProductsGrid({ contactText, contactHref, filterLabels, q
         </div>
       </section>
 
-      <section className="bg-white py-8 md:py-12">
+      <section className="bg-white py-6 md:py-12">
         <div className="max-w-7xl mx-auto px-5 sm:px-6">
           {filteredProducts.length === 0 ? (
-            <div className="text-center py-12">
+            <div className="text-center py-8">
               <p className="text-slate-600 text-lg mb-4">
                 {noMatchText}
               </p>
@@ -118,7 +121,7 @@ export default function ProductsGrid({ contactText, contactHref, filterLabels, q
                 href={contactHref}
                 className="inline-block bg-brand-orange hover:bg-brand-orange/90 text-white font-semibold px-6 py-2.5 rounded-full transition text-sm"
               >
-                Free Technical Consultation
+                {freeConsultation}
               </a>
             </div>
           ) : (
