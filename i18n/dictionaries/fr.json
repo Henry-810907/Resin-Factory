@@ -31,7 +31,7 @@
   "header": {
     "brand": "Resin Factory",
     "estTag": "fondé en 2013",
-    "cta": "Get Free Quote",
+    "cta": "Obtenez un devis gratuit",
     "homeAria": "Resin Factory · retour à l'accueil",
     "nav": {
       "home": "Accueil",
@@ -820,9 +820,9 @@
     ]
   },
   "productGuideHint": {
-    "title": "Need Help Choosing the Right Product?",
-    "subtitle": "Not all designs require resin. We've compiled a comprehensive guide covering 21 product types to help you make the best decision. Feel free to consult us if you're unsure.",
-    "buttonText": "View Product Guide →"
+    "title": "Besoin d'aide pour choisir le bon produit ?",
+    "subtitle": "Tous les designs ne nécessitent pas de la résine. Nous avons compilé un guide complet couvrant 21 types de produits pour vous aider à prendre la meilleure décision. N'hésitez pas à nous consulter en cas de doute.",
+    "buttonText": "Voir le guide produit →"
   },
   "manufacturingProcess": {
     "kicker": "Notre processus de fabrication",
@@ -1025,7 +1025,7 @@
       "description": "Guide complet de 21 types de produits : artisanat en résine, impression 3D, porte-clés en PVC, grandes mascottes, épingles en métal, peluches et plus encore. Trouvez le bon type de produit, matériau, MOQ et prix pour votre design. Consultation technique gratuite."
     },
     "hero": {
-      "title": "Comment choisir le bon type de produit pour votre design/IP",
+      "title": "Mon design, IP ou mascotte convient-il à la résine ou au polystone?",
       "subtitle": "Nous sommes spécialisés dans l'artisanat en résine et polystone. Ce guide vous aide à évaluer si votre design convient aux matériaux en résine, ou si d'autres types de produits pourraient mieux convenir. Si vous avez besoin de clarifications sur un point, n'hésitez pas à nous contacter à tout moment.",
       "cta": "Consultation technique gratuite"
     },
@@ -1068,6 +1068,11 @@
       "moq1000plus": "1000-10 000+ pcs",
       "disclaimer": "Ces produits sont présentés à titre d'illustration uniquement. Nous ne possédons pas les droits d'auteur. Tout travail personnalisé est basé sur les propres designs des clients."
     },
+    "technicalNote": {
+      "title": "Note importante: Évaluation de l'adéquation du matériau",
+      "paragraph1": "La résine ne convient pas à tous les designs. Nous fournissons une évaluation technique honnête avant la production. Si votre design convient mieux à d'autres matériaux (comme le moulage par injection pour 10 000+ unités, ou des matériaux flexibles pour des pièces pliables), nous vous le dirons.",
+      "paragraph2": "Notre objectif est de vous aider à faire le bon choix de matériau, pas seulement à prendre votre commande. Nous recommandons la meilleure solution pour votre design/IP en fonction de la faisabilité technique, du rapport coût-efficacité et des exigences de production."
+    },
     "faq": {
       "title": "Questions fréquemment posées",
       "items": [
@@ -1090,8 +1095,562 @@
       "subtitle": "Vous ne savez pas si la résine/polystone est le bon choix pour votre design/IP ? Contactez-nous avec vos exigences, et nous vous fournirons une consultation technique gratuite basée sur notre expertise.",
       "button": "Consultation technique gratuite"
     },
-    "quickGuide": "Guide rapide : Commencez par la résine pour les designs détaillés de 5 à 50 cm. Envisagez des alternatives lorsque vous avez besoin de flexibilité, de tailles extrêmes ou de textures spécifiques.",
     "needAdvice": "Besoin de conseils ?",
-    "noMatchText": "Aucun produit ne correspond à vos filtres. Nous pouvons toujours vous aider ! Contactez-nous pour des recommandations personnalisées et des solutions sur mesure."
+    "noMatchText": "Aucun produit ne correspond à vos filtres. Nous pouvons toujours vous aider ! Contactez-nous pour des recommandations personnalisées et des solutions sur mesure.",
+    "cardLabels": {
+      "type": "Type",
+      "material": "Matériau",
+      "size": "Taille économique",
+      "moq": "MOQ",
+      "price": "Prix",
+      "keyFeatures": "Caractéristiques principales",
+      "applicationScenarios": "Scénarios d'application",
+      "considerations": "Considérations",
+      "collapseDetails": "Masquer les détails",
+      "viewDetails": "Voir les détails"
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Artisanat en Résine",
+        "material": "Polystone (mélange de résine + poudre de pierre)",
+        "size": "5-50 cm",
+        "moq": "100 pièces",
+        "price": "$$ Moyen",
+        "features": [
+          "Détails ultra-réalistes",
+          "Poids et toucher premium",
+          "Durable pour exposition à long terme",
+          "Finition lisse",
+          "Polyvalent pour peinture et finition"
+        ],
+        "applications": [
+          "Objets de collection",
+          "Cadeaux d'entreprise",
+          "Décoration intérieure",
+          "Souvenirs touristiques",
+          "Répliques de sculptures"
+        ],
+        "considerations": [
+          "Ne convient pas aux designs flexibles ou aux pièces extrêmement fines (<2mm)",
+          "Plus lourd que les alternatives en plastique",
+          "Idéal pour les designs 5-50cm avec des détails complexes. Pour des besoins flexibles ou ultra-légers, envisagez des matériaux alternatifs"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Articles de Décoration en Résine",
+        "material": "Polystone (mélange de résine + poudre de pierre)",
+        "size": "10-50 cm",
+        "moq": "100 pièces",
+        "price": "$$ Moyen",
+        "features": [
+          "Détails ultra-réalistes",
+          "Poids et toucher premium",
+          "Durable pour exposition à long terme",
+          "Designs polyvalents"
+        ],
+        "applications": [
+          "Cadres photo",
+          "Horloges",
+          "Vases",
+          "Plateaux",
+          "Boîtes à mouchoirs"
+        ],
+        "considerations": [
+          "Ne convient pas aux designs flexibles",
+          "Plus lourd que les alternatives en plastique",
+          "Fragile pendant l'expédition",
+          "Idéal pour les designs 10-50cm avec des détails complexes. Pour des besoins flexibles ou ultra-légers, envisagez des matériaux alternatifs"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Fournitures de Bureau en Résine",
+        "material": "Polystone (mélange de résine + poudre de pierre)",
+        "size": "8-30 cm",
+        "moq": "100 pièces",
+        "price": "$$ Moyen",
+        "features": [
+          "Détails ultra-réalistes",
+          "Poids et toucher premium",
+          "Aspect professionnel",
+          "Designs personnalisés"
+        ],
+        "applications": [
+          "Porte-stylos",
+          "Serre-livres",
+          "Porte-cartes de visite",
+          "Presse-papiers"
+        ],
+        "considerations": [
+          "Ne convient pas aux designs flexibles",
+          "Plus lourd que les alternatives en plastique",
+          "Fragile pendant l'expédition",
+          "Idéal pour les designs 8-30cm avec des détails complexes. Pour des besoins flexibles ou ultra-légers, envisagez des matériaux alternatifs"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Impression 3D & Modèles Peints à la Main",
+        "material": "Résine standard / Résine castable (impression 3D SLA)",
+        "size": "5-20 cm",
+        "moq": "1-100 pièces",
+        "price": "$$$ Élevé",
+        "features": [
+          "Délai de réalisation rapide",
+          "Haute précision",
+          "Convient à la validation de design",
+          "Peut être peint à la main pour une finition réaliste",
+          "Parfait pour la validation de design avant la production de masse"
+        ],
+        "applications": [
+          "Validation de design",
+          "Prototypage",
+          "Petite série personnalisée",
+          "Tests de design complexes",
+          "Échantillonnage pré-production"
+        ],
+        "considerations": [
+          "Coût unitaire plus élevé pour les grandes quantités",
+          "La finition de surface peut nécessiter une peinture manuelle supplémentaire"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Porte-clés & Ornements en Caoutchouc Flexible",
+        "material": "PVC souple (polychlorure de vinyle)",
+        "size": "5-12 cm",
+        "moq": "100 pièces",
+        "price": "$ Bas",
+        "features": [
+          "Texture type gomme",
+          "Léger",
+          "Imperméable",
+          "Couleurs vives",
+          "Durable pour un usage quotidien"
+        ],
+        "applications": [
+          "Porte-clés",
+          "Badges",
+          "Articles promotionnels",
+          "Ornements de bureau",
+          "Supports de téléphone"
+        ],
+        "considerations": [
+          "Ne convient pas aux détails ultra-fins ou aux tailles supérieures à 12cm",
+          "Limité aux designs plus petits et simples"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Grandes Mascottes/Statues",
+        "material": "Plastique renforcé de fibre de verre (PRV)",
+        "size": "100-1000 cm",
+        "moq": "1 pièce",
+        "price": "$$$$ Très élevé",
+        "features": [
+          "Échelle impressionnante",
+          "Résistant aux intempéries",
+          "Durable pour usage extérieur",
+          "Présence accrocheuse",
+          "Léger mais solide (beaucoup plus léger que la pierre, plus facile à transporter et installer)"
+        ],
+        "applications": [
+          "Vitrines commerciales",
+          "Décoration d'événements",
+          "Parcs à thème",
+          "Activations de marque"
+        ],
+        "considerations": [
+          "Nécessite un espace important et une planification logistique",
+          "Frais d'expédition élevés en raison de la taille",
+          "Recommandé lorsque le design dépasse 100cm ou nécessite une durabilité extérieure au-delà des capacités de la résine"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Costumes de Mascotte",
+        "material": "Tissu, mousse, cadre en plastique",
+        "size": "150-220 cm",
+        "moq": "1 ensemble",
+        "price": "$$$ Élevé",
+        "features": [
+          "Design portable",
+          "Matériaux respirants",
+          "Reproduction de détails modérée",
+          "Options sur mesure"
+        ],
+        "applications": [
+          "Spectacles d'événements",
+          "Promotions commerciales",
+          "Festivals",
+          "Parcs à thème"
+        ],
+        "considerations": [
+          "Chaud pendant les mois d'été",
+          "Mobilité limitée pour le porteur",
+          "Nécessite un stockage soigneux",
+          "La reproduction des détails est modérée comparée aux matériaux durs"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Accessoires Gonflables",
+        "material": "Bâche PVC ou nylon",
+        "size": "100-3000 cm",
+        "moq": "1 pièce",
+        "price": "$$$ Élevé",
+        "features": [
+          "Léger",
+          "Facile à transporter et à stocker",
+          "Impact visuel élevé",
+          "Installation rapide"
+        ],
+        "applications": [
+          "Décoration d'événements",
+          "Promotions commerciales",
+          "Accessoires photo",
+          "Activations de marque"
+        ],
+        "considerations": [
+          "Détails de surface limités en raison de la nature gonflée",
+          "Nécessite une pompe à air",
+          "Ne convient pas aux designs ultra-réalistes",
+          "Idéal pour les événements temporaires ou lorsque la portabilité est prioritaire"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Épingles en Métal/Aimants de Réfrigérateur",
+        "material": "Alliage de zinc, fer ou acier inoxydable",
+        "size": "2-10 cm",
+        "moq": "50 pièces",
+        "price": "$ Bas",
+        "features": [
+          "Plat et durable",
+          "Finition métallique premium",
+          "Longue durée de vie",
+          "Aspect professionnel"
+        ],
+        "applications": [
+          "Cadeaux d'entreprise",
+          "Souvenirs",
+          "Articles promotionnels",
+          "Objets de collection"
+        ],
+        "considerations": [
+          "Limité aux designs plats ou en bas-relief",
+          "Plus lourd que les alternatives en plastique",
+          "Contraintes de taille minimale"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Produits en Verre/Cristal",
+        "material": "Verre ou cristal optique",
+        "size": "10-30 cm",
+        "moq": "100 pièces",
+        "price": "$$ Moyen",
+        "features": [
+          "Transparent et premium",
+          "Propriétés réfléchissantes",
+          "Aspect élégant",
+          "Durable pour exposition"
+        ],
+        "applications": [
+          "Cadeaux haut de gamme",
+          "Souvenirs",
+          "Maquettes architecturales",
+          "Maquettes de grands objets"
+        ],
+        "considerations": [
+          "Fragile et nécessite une manipulation prudente",
+          "Coût plus élevé",
+          "Limité à certains types de designs"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Jouets en Peluche",
+        "material": "Tissu peluche, remplissage en coton PP",
+        "size": "8-50 cm",
+        "moq": "100 pièces",
+        "price": "$ Bas",
+        "features": [
+          "Doux et câlin",
+          "Léger",
+          "Lavable",
+          "Matériaux sûrs pour enfants",
+          "Texture réconfortante"
+        ],
+        "applications": [
+          "Jouets pour enfants",
+          "Cadeaux",
+          "Articles promotionnels",
+          "Mascottes de marque"
+        ],
+        "considerations": [
+          "Détails limités comparés aux matériaux durs",
+          "Nécessite un design soigneux pour la fabrication",
+          "Les grandes tailles augmentent significativement le coût",
+          "Essentiel lorsque la douceur tactile et la sécurité enfant sont les exigences principales"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Jouets de Collection Premium",
+        "material": "Plastique ABS",
+        "size": "8-20 cm",
+        "moq": "10000+ pièces",
+        "price": "$$$ Élevé",
+        "features": [
+          "Finition de haute qualité",
+          "Durable pour collection à long terme",
+          "Peinture détaillée",
+          "Options d'emballage premium"
+        ],
+        "applications": [
+          "Objets de collection",
+          "Éditions limitées",
+          "Dérivés IP",
+          "Cadeaux premium"
+        ],
+        "considerations": [
+          "Coûts élevés de moule et d'échantillonnage",
+          "Temps de développement plus long",
+          "Nécessite des spécifications de design détaillées",
+          "Minimum 10000 pièces recommandé pour la rentabilité"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Jouets de Collection Économiques",
+        "material": "Vinyle (PVC)",
+        "size": "15-60 cm",
+        "moq": "500 pièces",
+        "price": "$ Bas",
+        "features": [
+          "Production rentable",
+          "Qualité de détail décente",
+          "Léger",
+          "Convient à la distribution de masse"
+        ],
+        "applications": [
+          "Jouets grand public",
+          "Articles promotionnels",
+          "Cadeaux publicitaires",
+          "Commandes en gros"
+        ],
+        "considerations": [
+          "Qualité de détail inférieure aux options premium",
+          "Personnalisation limitée pour les petites séries"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Jouets Anti-Stress Souples",
+        "material": "Mousse PU (polyuréthane)",
+        "size": "8-20 cm",
+        "moq": "500 pièces",
+        "price": "$ Bas",
+        "features": [
+          "Doux et pressable",
+          "Texture à rebond lent",
+          "Anti-stress",
+          "Matériaux sûrs pour enfants"
+        ],
+        "applications": [
+          "Soulagement du stress",
+          "Jouets pour enfants",
+          "Articles promotionnels",
+          "Jouets anti-stress"
+        ],
+        "considerations": [
+          "Détails limités en raison du matériau souple",
+          "MOQ plus élevé requis",
+          "Le design doit s'adapter à la nature souple"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Masques d'Halloween & Accessoires d'Effets Spéciaux",
+        "material": "Latex ou silicone",
+        "size": "25-35 cm",
+        "moq": "100 pièces",
+        "price": "$ Bas",
+        "features": [
+          "Matériau extensible",
+          "Textures réalistes",
+          "Léger à porter",
+          "Durable pour les événements"
+        ],
+        "applications": [
+          "Costumes de festival",
+          "Cosplay",
+          "Accessoires de film",
+          "Événements d'Halloween"
+        ],
+        "considerations": [
+          "Respirabilité limitée pour un port prolongé",
+          "Nécessite un dimensionnement soigneux",
+          "Peut avoir une odeur initiale forte"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Ornements en Plâtre & Pièces Décoratives",
+        "material": "Plâtre de gypse",
+        "size": "15-100 cm",
+        "moq": "100 pièces",
+        "price": "$$ Moyen",
+        "features": [
+          "Finition mate classique",
+          "Léger",
+          "Facile à peindre",
+          "Esthétique vintage attrayante"
+        ],
+        "applications": [
+          "Ornements de Noël",
+          "Décorations de Pâques",
+          "Cadeaux de mariage",
+          "Accents de maison",
+          "Affichages saisonniers"
+        ],
+        "considerations": [
+          "Fragile et nécessite une manipulation prudente",
+          "Ne convient pas pour une utilisation en extérieur",
+          "Limité aux décorations intérieures"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Sculptures sur Pierre & Paysages Extérieurs",
+        "material": "Pierre naturelle (marbre, granit, calcaire, etc.)",
+        "size": "100-1000 cm",
+        "moq": "1 pièce",
+        "price": "$$$$ Très élevé",
+        "features": [
+          "Texture de pierre naturelle",
+          "Extrêmement durable et résistant aux intempéries",
+          "Performance extérieure permanente",
+          "Aspect authentique premium",
+          "Résistant aux UV et aux changements de température"
+        ],
+        "applications": [
+          "Paysages de jardin",
+          "Art public",
+          "Décoration architecturale",
+          "Installations extérieures"
+        ],
+        "considerations": [
+          "Extrêmement lourd avec des frais d'expédition très élevés",
+          "Flexibilité de design limitée en raison de la dureté du matériau",
+          "Temps de production plus long",
+          "Difficile à modifier une fois sculpté",
+          "Nécessite une installation professionnelle"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Supports de Dispositifs 3D Cartoon",
+        "material": "PVC souple + ABS",
+        "size": "20-60 cm",
+        "moq": "100 pièces",
+        "price": "$$ Moyen",
+        "features": [
+          "Designs de personnages 3D personnalisés",
+          "Stable et durable",
+          "Fonctionnel et décoratif",
+          "Outil de promotion de marque"
+        ],
+        "applications": [
+          "Supports de téléphone/tablette",
+          "Accessoires de bureau",
+          "Cadeaux d'entreprise",
+          "Articles promotionnels"
+        ],
+        "considerations": [
+          "Nécessite un moule pour les designs personnalisés",
+          "Limité aux petites tailles (<60cm)",
+          "Le design doit assurer la stabilité"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Décor en Bois & Pièces d'Art",
+        "material": "Bois naturel (MDF, bois massif, etc.)",
+        "size": "20-80 cm",
+        "moq": "100 pièces",
+        "price": "$$$ Élevé",
+        "features": [
+          "Attrait du matériau naturel",
+          "Texture chaleureuse",
+          "Perception écologique",
+          "Qualité artisanale"
+        ],
+        "applications": [
+          "Décoration de maison",
+          "Cadeaux",
+          "Pièces d'art",
+          "Produits à thème naturel"
+        ],
+        "considerations": [
+          "Détails limités comparés à la résine",
+          "Sensible à l'humidité et aux changements de température",
+          "Coût plus élevé pour les designs complexes"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Poterie & Décor en Céramique",
+        "material": "Céramique, porcelaine ou faïence",
+        "size": "15-40 cm",
+        "moq": "500 pièces",
+        "price": "$$$ Élevé",
+        "features": [
+          "Esthétique classique",
+          "Options sûres pour les aliments",
+          "Durable pour l'exposition",
+          "Polyvalent pour la peinture et le glaçage"
+        ],
+        "applications": [
+          "Décoration de maison",
+          "Vaisselle",
+          "Pièces d'art",
+          "Artisanat traditionnel"
+        ],
+        "considerations": [
+          "Fragile et nécessite une manipulation prudente",
+          "Flexibilité de design limitée",
+          "Temps de production plus long pour les glaçures personnalisées"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Câbles de Charge 3D Cartoon",
+        "material": "PVC souple + Connecteurs métalliques",
+        "size": "10-20 cm",
+        "moq": "500 pièces",
+        "price": "$$ Moyen",
+        "features": [
+          "Designs de personnages personnalisés",
+          "Capacité de charge fonctionnelle",
+          "Matériaux durables",
+          "Outils de promotion de marque"
+        ],
+        "applications": [
+          "Cadeaux d'entreprise",
+          "Marchandises de marque",
+          "Articles promotionnels",
+          "Produits sous licence de personnages"
+        ],
+        "considerations": [
+          "Nécessite une autorisation IP",
+          "Coûts de moule pour les designs personnalisés",
+          "Commande minimum applicable par design"
+        ]
+      }
+    ]
   }
 }

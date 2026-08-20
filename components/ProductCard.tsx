@@ -6,6 +6,18 @@ import type { Product } from "@/lib/product-data";
 
 interface ProductCardProps {
   product: Product;
+  labels: {
+    type: string;
+    material: string;
+    size: string;
+    moq: string;
+    price: string;
+    keyFeatures: string;
+    applicationScenarios: string;
+    considerations: string;
+    collapseDetails: string;
+    viewDetails: string;
+  };
 }
 
 // 厘米转英寸
@@ -22,7 +34,7 @@ function cmToInches(cm: string): string {
   return cm;
 }
 
-export default function ProductCard({ product }: ProductCardProps) {
+export default function ProductCard({ product, labels }: ProductCardProps) {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -42,11 +54,11 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="p-4 sm:p-5 flex flex-col flex-1">
         {/* Summary Info */}
         <div className="space-y-1.5 text-sm">
-          <p className="font-bold text-brand-dark text-base">🏷️ Type: {product.name}</p>
-          <p className="text-slate-600">🧱 Material: {product.material}</p>
-          <p className="text-slate-600">📏 Economic Size: {product.size} ({cmToInches(product.size)})</p>
-          <p className="text-slate-600">📦 MOQ: {product.moq}</p>
-          <p className="text-slate-600">💰 Price: {product.price}</p>
+          <p className="font-bold text-brand-dark text-base">🏷️ {labels.type}: {product.name}</p>
+          <p className="text-slate-600">🧱 {labels.material}: {product.material}</p>
+          <p className="text-slate-600">📏 {labels.size}: {product.size} ({cmToInches(product.size)})</p>
+          <p className="text-slate-600">📦 {labels.moq}: {product.moq}</p>
+          <p className="text-slate-600">💰 {labels.price}: {product.price}</p>
         </div>
 
         {/* Expanded Details */}
@@ -54,7 +66,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           <div className="mt-4 space-y-4 text-sm border-t border-slate-100 pt-4">
             {/* Key Features */}
             <div>
-              <p className="font-semibold text-brand-dark mb-1">✨ Key Features:</p>
+              <p className="font-semibold text-brand-dark mb-1">✨ {labels.keyFeatures}:</p>
               <ul className="list-disc list-inside text-slate-600 space-y-0.5">
                 {product.features.map((feature, i) => (
                   <li key={i}>{feature}</li>
@@ -64,7 +76,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
             {/* Application Scenarios */}
             <div>
-              <p className="font-semibold text-brand-dark mb-1">🎯 Application Scenarios:</p>
+              <p className="font-semibold text-brand-dark mb-1">🎯 {labels.applicationScenarios}:</p>
               <ul className="list-disc list-inside text-slate-600 space-y-0.5">
                 {product.applications.map((app, i) => (
                   <li key={i}>{app}</li>
@@ -74,7 +86,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
             {/* Considerations */}
             <div>
-              <p className="font-semibold text-brand-dark mb-1">⚠️ Considerations:</p>
+              <p className="font-semibold text-brand-dark mb-1">⚠️ {labels.considerations}:</p>
               <ul className="list-disc list-inside text-slate-600 space-y-0.5">
                 {product.considerations.map((item, i) => (
                   <li key={i}>{item}</li>
@@ -89,7 +101,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           onClick={() => setExpanded(!expanded)}
           className="mt-4 w-full py-2 px-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-md text-sm font-medium text-slate-700 transition"
         >
-          {expanded ? "Collapse Details ▲" : "View Details ▼"}
+          {expanded ? labels.collapseDetails + " ▲" : labels.viewDetails + " ▼"}
         </button>
       </div>
     </div>

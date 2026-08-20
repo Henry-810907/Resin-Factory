@@ -2,9 +2,21 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { products } from "@/lib/product-data";
+import { products as defaultProducts } from "@/lib/product-data";
 import ProductCard from "./ProductCard";
 import ProductFilter from "./ProductFilter";
+
+interface TranslatedProduct {
+  id: number;
+  name: string;
+  material: string;
+  size: string;
+  moq: string;
+  price: string;
+  features: string[];
+  applications: string[];
+  considerations: string[];
+}
 
 interface ProductsGridProps {
   contactText: string;
@@ -27,41 +39,80 @@ interface ProductsGridProps {
   };
   heroTitle: string;
   heroSubtitle: string;
-  quickGuide: string;
   needAdvice: string;
   noMatchText: string;
   freeConsultation: string;
+  cardLabels: {
+    type: string;
+    material: string;
+    size: string;
+    moq: string;
+    price: string;
+    keyFeatures: string;
+    applicationScenarios: string;
+    considerations: string;
+    collapseDetails: string;
+    viewDetails: string;
+  };
+  translatedProducts?: TranslatedProduct[];
 }
 
-export default function ProductsGrid({ contactText, contactHref, filterLabels, heroTitle, heroSubtitle, quickGuide, needAdvice, noMatchText, freeConsultation }: ProductsGridProps) {
+export default function ProductsGrid({ contactText, contactHref, filterLabels, heroTitle, heroSubtitle, needAdvice, noMatchText, freeConsultation, cardLabels, translatedProducts }: ProductsGridProps) {
   const [selectedPrice, setSelectedPrice] = useState("all");
   const [selectedMoq, setSelectedMoq] = useState("all");
 
+  // 使用翻译后的产品数据，如果没有则使用默认的英文数据
+  const products = useMemo(() => {
+    if (!translatedProducts || translatedProducts.length === 0) {
+      return defaultProducts;
+    }
+    // 将翻译后的数据与原始数据合并（保留image等字段）
+    return defaultProducts.map((defaultProduct, index) => {
+      const translated = translatedProducts.find(p => p.id === defaultProduct.id);
+      if (translated) {
+        return {
+          ...defaultProduct,
+          name: translated.name,
+          material: translated.material,
+          moq: translated.moq,
+          price: translated.price,
+          features: translated.features,
+          applications: translated.applications,
+          considerations: translated.considerations,
+        };
+      }
+      return defaultProduct;
+    });
+  }, [translatedProducts]);
+
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
-      // Price filter - exact match
-      if (selectedPrice !== "all") {
-        const priceMatch =
-          (selectedPrice === "low" && product.price === "$ Low") ||
-          (selectedPrice === "medium" && product.price === "$$ Medium") ||
-          (selectedPrice === "high" && product.price === "$$$ High") ||
-          (selectedPrice === "very-high" && product.price === "$$$$ Very High");
-        if (!priceMatch) return false;
-      }
+      // Price filter - exact match (使用英文原始值进行过滤)
+      const defaultProduct = defaultProducts.find(p => p.id === product.id);
+      if (defaultProduct) {
+        if (selectedPrice !== "all") {
+          const priceMatch =
+            (selectedPrice === "low" && defaultProduct.price === "$ Low") ||
+            (selectedPrice === "medium" && defaultProduct.price === "$$ Medium") ||
+            (selectedPrice === "high" && defaultProduct.price === "$$$ High") ||
+            (selectedPrice === "very-high" && defaultProduct.price === "$$$$ Very High");
+          if (!priceMatch) return false;
+        }
 
-      // MOQ filter - extract first number only
-      if (selectedMoq !== "all") {
-        const moqNum = parseInt(product.moq);
-        const moqMatch =
-          (selectedMoq === "1-100" && moqNum <= 100) ||
-          (selectedMoq === "100-1000" && moqNum >= 100) ||
-          (selectedMoq === "1000+" && moqNum >= 1000);
-        if (!moqMatch) return false;
+        // MOQ filter - extract first number only (使用英文原始值进行过滤)
+        if (selectedMoq !== "all") {
+          const moqNum = parseInt(defaultProduct.moq);
+          const moqMatch =
+            (selectedMoq === "1-100" && moqNum <= 100) ||
+            (selectedMoq === "100-1000" && moqNum >= 100) ||
+            (selectedMoq === "1000+" && moqNum >= 1000);
+          if (!moqMatch) return false;
+        }
       }
 
       return true;
     });
-  }, [selectedPrice, selectedMoq]);
+  }, [selectedPrice, selectedMoq, products]);
 
   // 每6个卡片（2行×3列）后插入咨询提示
   const adviceInterval = 6;
@@ -82,9 +133,6 @@ export default function ProductsGrid({ contactText, contactHref, filterLabels, h
           </h1>
           <p className="text-base sm:text-lg text-slate-600 mb-2 leading-relaxed">
             {heroSubtitle}
-          </p>
-          <p className="text-sm text-slate-500 mb-4">
-            💡 {quickGuide}
           </p>
           <Link
             href={contactHref}
@@ -134,6 +182,7 @@ export default function ProductsGrid({ contactText, contactHref, filterLabels, h
                       <ProductCard
                         key={product.id}
                         product={product}
+                        labels={cardLabels}
                       />
                     ))}
                   </div>

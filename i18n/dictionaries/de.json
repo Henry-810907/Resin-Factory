@@ -31,7 +31,7 @@
   "header": {
     "brand": "Resin Factory",
     "estTag": "gegr. 2013",
-    "cta": "Get Free Quote",
+    "cta": "Kostenloses Angebot anfordern",
     "homeAria": "Resin Factory · zurück zur Startseite",
     "nav": {
       "home": "Startseite",
@@ -820,9 +820,9 @@
     ]
   },
   "productGuideHint": {
-    "title": "Need Help Choosing the Right Product?",
-    "subtitle": "Not all designs require resin. We've compiled a comprehensive guide covering 21 product types to help you make the best decision. Feel free to consult us if you're unsure.",
-    "buttonText": "View Product Guide →"
+    "title": "Brauchen Sie Hilfe bei der Produktauswahl?",
+    "subtitle": "Nicht alle Designs erfordern Harz. Wir haben einen umfassenden Leitfaden mit 21 Produkttypen zusammengestellt, um Ihnen bei der besten Entscheidung zu helfen. Zögern Sie nicht, uns zu kontaktieren, wenn Sie unsicher sind.",
+    "buttonText": "Produktguide ansehen →"
   },
   "manufacturingProcess": {
     "kicker": "Unser Fertigungsprozess",
@@ -1025,7 +1025,7 @@
       "description": "Vollständiger Leitfaden zu 21 Produkttypen: Resin-Kunsthandwerk, 3D-Druck, PVC-Schlüsselanhänger, große Maskottchen, Metallstifte, Plüschtiere und mehr. Finden Sie den richtigen Produkttyp, das Material, die Mindestbestellmenge und den Preis für Ihr Design. Kostenlose technische Beratung."
     },
     "hero": {
-      "title": "Wie wählen Sie den richtigen Produkttyp für Ihr Design/IP",
+      "title": "Ist mein Design, IP oder Maskottchen für Resin oder Polystone geeignet?",
       "subtitle": "Wir sind auf Resin- und Polystone-Kunsthandwerk spezialisiert. Dieser Leitfaden hilft Ihnen zu bewerten, ob Ihr Design für Resin-Materialien geeignet ist oder ob andere Produkttypen besser passen könnten. Wenn Sie zu irgendeinem Punkt Klarstellung benötigen, können Sie uns jederzeit kontaktieren.",
       "cta": "Kostenlose technische Beratung"
     },
@@ -1068,6 +1068,11 @@
       "moq1000plus": "1000-10.000+ Stück",
       "disclaimer": "Diese Produkte dienen nur zur Anzeige. Wir besitzen keine Urheberrechte. Alle maßgeschneiderten Arbeiten basieren auf den eigenen Designs der Kunden."
     },
+    "technicalNote": {
+      "title": "Wichtiger Hinweis: Material-Eignungsprüfung",
+      "paragraph1": "Harz eignet sich nicht für alle Designs. Wir bieten eine ehrliche technische Bewertung vor der Produktion. Wenn Ihr Design besser für andere Materialien geeignet ist (wie Spritzguss für 10.000+ Einheiten oder flexible Materialien für biegbare Teile), werden wir Ihnen das sagen.",
+      "paragraph2": "Unser Ziel ist es, Ihnen bei der richtigen Materialwahl zu helfen, nicht nur Ihre Bestellung anzunehmen. Wir empfehlen die beste Lösung für Ihr Design/IP basierend auf technischer Machbarkeit, Kosteneffizienz und Produktionsanforderungen."
+    },
     "faq": {
       "title": "Häufig gestellte Fragen",
       "items": [
@@ -1090,8 +1095,562 @@
       "subtitle": "Nicht sicher, ob Resin/Polystone die richtige Wahl für Ihr Design/IP ist? Kontaktieren Sie uns mit Ihren Anforderungen, und wir bieten Ihnen kostenlose technische Beratung basierend auf unserer Expertise.",
       "button": "Kostenlose technische Beratung"
     },
-    "quickGuide": "Kurzanleitung: Beginnen Sie mit Resin für detaillierte Designs 5-50 cm. Erwägen Sie Alternativen, wenn Sie Flexibilität, extreme Größen oder spezielle Texturen benötigen.",
     "needAdvice": "Brauchen Sie Beratung?",
-    "noMatchText": "Keine Produkte entsprechen Ihren Filtern. Wir können trotzdem helfen! Kontaktieren Sie uns für personalisierte Empfehlungen und maßgeschneiderte Lösungen."
+    "noMatchText": "Keine Produkte entsprechen Ihren Filtern. Wir können trotzdem helfen! Kontaktieren Sie uns für personalisierte Empfehlungen und maßgeschneiderte Lösungen.",
+    "cardLabels": {
+      "type": "Typ",
+      "material": "Material",
+      "size": "Wirtschaftliche Größe",
+      "moq": "MOQ",
+      "price": "Preis",
+      "keyFeatures": "Hauptmerkmale",
+      "applicationScenarios": "Anwendungsszenarien",
+      "considerations": "Überlegungen",
+      "collapseDetails": "Details ausblenden",
+      "viewDetails": "Details anzeigen"
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Harz-Kunsthandwerk",
+        "material": "Polystone (Harz + Steinpulver-Mischung)",
+        "size": "5-50 cm",
+        "moq": "100 Stück",
+        "price": "$$ Mittel",
+        "features": [
+          "Ultra-realistische Details",
+          "Premium-Gewicht und -Haptik",
+          "Langlebig für langfristige Ausstellung",
+          "Glatte Oberfläche",
+          "Vielseitig für Bemalung und Veredelung"
+        ],
+        "applications": [
+          "Sammlerstücke",
+          "Firmengeschenke",
+          "Heimdekor",
+          "Tourismus-Souvenirs",
+          "Skulptur-Repliken"
+        ],
+        "considerations": [
+          "Nicht geeignet für flexible Designs oder extrem dünne Teile (<2mm)",
+          "Schwerer als Kunststoff-Alternativen",
+          "Ideal für Designs 5-50cm mit komplizierten Details. Für flexible oder ultraleichte Anforderungen, erwägen Sie alternative Materialien"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Harz-Heimdekor-Artikel",
+        "material": "Polystone (Harz + Steinpulver-Mischung)",
+        "size": "10-50 cm",
+        "moq": "100 Stück",
+        "price": "$$ Mittel",
+        "features": [
+          "Ultra-realistische Details",
+          "Premium-Gewicht und -Haptik",
+          "Langlebig für langfristige Ausstellung",
+          "Vielseitige Designs"
+        ],
+        "applications": [
+          "Fotorahmen",
+          "Uhren",
+          "Vasen",
+          "Tabletts",
+          "Taschentuchboxen"
+        ],
+        "considerations": [
+          "Nicht geeignet für flexible Designs",
+          "Schwerer als Kunststoff-Alternativen",
+          "Zerbrechlich beim Versand",
+          "Ideal für Designs 10-50cm mit komplizierten Details. Für flexible oder ultraleichte Anforderungen, erwägen Sie alternative Materialien"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Harz-Bürobedarf",
+        "material": "Polystone (Harz + Steinpulver-Mischung)",
+        "size": "8-30 cm",
+        "moq": "100 Stück",
+        "price": "$$ Mittel",
+        "features": [
+          "Ultra-realistische Details",
+          "Premium-Gewicht und -Haptik",
+          "Professionelles Aussehen",
+          "Individuelle Designs"
+        ],
+        "applications": [
+          "Stifthalter",
+          "Buchstützen",
+          "Visitenkartenhalter",
+          "Briefbeschwerer"
+        ],
+        "considerations": [
+          "Nicht geeignet für flexible Designs",
+          "Schwerer als Kunststoff-Alternativen",
+          "Zerbrechlich beim Versand",
+          "Ideal für Designs 8-30cm mit komplizierten Details. Für flexible oder ultraleichte Anforderungen, erwägen Sie alternative Materialien"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "3D-Druck & Handbemalte Modelle",
+        "material": "Standard-Harz / Gießbares Harz (SLA 3D-Druck)",
+        "size": "5-20 cm",
+        "moq": "1-100 Stück",
+        "price": "$$$ Hoch",
+        "features": [
+          "Schnelle Durchlaufzeit",
+          "Hohe Präzision",
+          "Geeignet für Designvalidierung",
+          "Kann handbemalt werden für realistisches Finish",
+          "Perfekt für Designvalidierung vor der Massenproduktion"
+        ],
+        "applications": [
+          "Designvalidierung",
+          "Prototyping",
+          "Kleinserien-Anfertigung",
+          "Komplexes Design-Testing",
+          "Vorproduktions-Bemusterung"
+        ],
+        "considerations": [
+          "Höhere Kosten pro Einheit bei großen Mengen",
+          "Oberflächenfinish erfordert möglicherweise zusätzliche Handbemalung"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Flexible Gummi-Schlüsselanhänger & Ornamente",
+        "material": "Weich-PVC (Polyvinylchlorid)",
+        "size": "5-12 cm",
+        "moq": "100 Stück",
+        "price": "$ Niedrig",
+        "features": [
+          "Radiergummi-ähnliche Textur",
+          "Leichtgewichtig",
+          "Wasserdicht",
+          "Lebhafte Farben",
+          "Langlebig für den täglichen Gebrauch"
+        ],
+        "applications": [
+          "Schlüsselanhänger",
+          "Abzeichen",
+          "Werbeartikel",
+          "Schreibtisch-Ornamente",
+          "Handy-Ständer"
+        ],
+        "considerations": [
+          "Nicht geeignet für ultrafeine Details oder Größen über 12cm",
+          "Beschränkt auf kleinere, einfachere Designs"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Große Maskottchen/Skulpturen",
+        "material": "Fiberglas-verstärkter Kunststoff (FRP)",
+        "size": "100-1000 cm",
+        "moq": "1 Stück",
+        "price": "$$$$ Sehr hoch",
+        "features": [
+          "Beeindruckende Größe",
+          "Witterungsbeständig",
+          "Langlebig für den Außenbereich",
+          "Augenfällige Präsenz",
+          "Leicht und doch stark (viel leichter als Stein, einfacher zu transportieren und zu installieren)"
+        ],
+        "applications": [
+          "Kommerzielle Displays",
+          "Event-Dekoration",
+          "Themenparks",
+          "Marken-Aktivierungen"
+        ],
+        "considerations": [
+          "Erfordert erheblichen Platz und Logistikplanung",
+          "Hohe Versandkosten aufgrund der Größe",
+          "Empfohlen, wenn das Design 100cm überschreitet oder Outdoor-Haltbarkeit erfordert, die über die Möglichkeiten von Harz hinausgeht"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Maskottchen-Kostüme",
+        "material": "Stoff, Schaum, Kunststoffrahmen",
+        "size": "150-220 cm",
+        "moq": "1 Satz",
+        "price": "$$$ Hoch",
+        "features": [
+          "Tragbares Design",
+          "Atmungsaktive Materialien",
+          "Moderate Detailwiedergabe",
+          "Maßgeschneiderte Optionen"
+        ],
+        "applications": [
+          "Event-Aufführungen",
+          "Kommerzielle Werbung",
+          "Festivals",
+          "Themenparks"
+        ],
+        "considerations": [
+          "Heiß in den Sommermonaten",
+          "Eingeschränkte Bewegungsfreiheit für den Träger",
+          "Erfordert sorgfältige Lagerung",
+          "Detailwiedergabe ist moderat im Vergleich zu harten Materialien"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Aufblasbare Requisiten",
+        "material": "PVC-Plane oder Nylon",
+        "size": "100-3000 cm",
+        "moq": "1 Stück",
+        "price": "$$$ Hoch",
+        "features": [
+          "Leichtgewichtig",
+          "Einfach zu transportieren und zu lagern",
+          "Hohe visuelle Wirkung",
+          "Schneller Aufbau"
+        ],
+        "applications": [
+          "Event-Dekoration",
+          "Kommerzielle Werbung",
+          "Foto-Requisiten",
+          "Marken-Aktivierungen"
+        ],
+        "considerations": [
+          "Begrenzte Oberflächendetails aufgrund der aufgeblasenen Natur",
+          "Erfordert Luftpumpe",
+          "Nicht geeignet für ultra-realistische Designs",
+          "Am besten für temporäre Events oder wenn Portabilität Priorität hat"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Metall-Anstecknadel/Kühlschrankmagnete",
+        "material": "Zinklegierung, Eisen oder Edelstahl",
+        "size": "2-10 cm",
+        "moq": "50 Stück",
+        "price": "$ Niedrig",
+        "features": [
+          "Flach und langlebig",
+          "Premium-metallische Oberfläche",
+          "Langlebig",
+          "Professionelles Aussehen"
+        ],
+        "applications": [
+          "Firmengeschenke",
+          "Souvenirs",
+          "Werbeartikel",
+          "Sammlerstücke"
+        ],
+        "considerations": [
+          "Beschränkt auf flache oder flachrelief Designs",
+          "Schwerer als Kunststoff-Alternativen",
+          "Mindestgrößeneinschränkungen"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Glas/Kristall-Produkte",
+        "material": "Glas oder optisches Kristall",
+        "size": "10-30 cm",
+        "moq": "100 Stück",
+        "price": "$$ Mittel",
+        "features": [
+          "Transparent und premium",
+          "Lichtreflektierende Eigenschaften",
+          "Elegantes Aussehen",
+          "Langlebig für die Ausstellung"
+        ],
+        "applications": [
+          "Hochwertige Geschenke",
+          "Souvenirs",
+          "Architekturmodelle",
+          "Großobjekt-Modelle"
+        ],
+        "considerations": [
+          "Zerbrechlich und erfordert vorsichtige Handhabung",
+          "Höhere Kosten",
+          "Beschränkt auf bestimmte Design-Typen"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Plüschtiere",
+        "material": "Plüschgewebe, PP-Baumwollfüllung",
+        "size": "8-50 cm",
+        "moq": "100 Stück",
+        "price": "$ Niedrig",
+        "features": [
+          "Weich und kuschelig",
+          "Leichtgewichtig",
+          "Waschbar",
+          "Kindersichere Materialien",
+          "Beruhigende Textur"
+        ],
+        "applications": [
+          "Kinderspielzeug",
+          "Geschenke",
+          "Werbeartikel",
+          "Marken-Maskottchen"
+        ],
+        "considerations": [
+          "Begrenzte Details im Vergleich zu harten Materialien",
+          "Erfordert sorgfältiges Design für die Herstellung",
+          "Größere Größen erhöhen die Kosten erheblich",
+          "Essenziell, wenn taktile Weichheit und Kindersicherheit die Hauptanforderungen sind"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Premium-Sammelspielzeug",
+        "material": "ABS-Kunststoff",
+        "size": "8-20 cm",
+        "moq": "10000+ Stück",
+        "price": "$$$ Hoch",
+        "features": [
+          "Hochwertige Oberfläche",
+          "Langlebig für langfristige Sammlung",
+          "Detaillierte Bemalung",
+          "Premium-Verpackungsoptionen"
+        ],
+        "applications": [
+          "Sammlerstücke",
+          "Limitierte Auflagen",
+          "IP-Derivate",
+          "Premium-Geschenke"
+        ],
+        "considerations": [
+          "Hohe Form- und Musterkosten",
+          "Längere Entwicklungszeit",
+          "Erfordert detaillierte Design-Spezifikationen",
+          "Mindestens 10000 Stück empfohlen für Kosteneffizienz"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Kostengünstiges Sammelspielzeug",
+        "material": "Vinyl (PVC)",
+        "size": "15-60 cm",
+        "moq": "500 Stück",
+        "price": "$ Niedrig",
+        "features": [
+          "Kosteneffiziente Produktion",
+          "Anständige Detailqualität",
+          "Leichtgewichtig",
+          "Geeignet für Massenverteilung"
+        ],
+        "applications": [
+          "Massenmarkt-Spielzeug",
+          "Werbeartikel",
+          "Werbeartikel",
+          "Großbestellungen"
+        ],
+        "considerations": [
+          "Niedrigere Detailqualität im Vergleich zu Premium-Optionen",
+          "Begrenzte Anpassung für Kleinserien"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Weiche Stressabbau-Spielzeuge",
+        "material": "PU-Schaum (Polyurethan)",
+        "size": "8-20 cm",
+        "moq": "500 Stück",
+        "price": "$ Niedrig",
+        "features": [
+          "Weich und drückbar",
+          "Langsam rückfedernde Textur",
+          "Stressabbauend",
+          "Kindersichere Materialien"
+        ],
+        "applications": [
+          "Stressabbau",
+          "Kinderspielzeug",
+          "Werbeartikel",
+          "Fidget-Spielzeug"
+        ],
+        "considerations": [
+          "Begrenzte Details aufgrund des weichen Materials",
+          "Höhere MOQ erforderlich",
+          "Design muss die drückbare Natur berücksichtigen"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Halloween-Masken & Spezialeffekt-Requisiten",
+        "material": "Latex oder Silikon",
+        "size": "25-35 cm",
+        "moq": "100 Stück",
+        "price": "$ Niedrig",
+        "features": [
+          "Dehnbares Material",
+          "Realistische Texturen",
+          "Leicht zu tragen",
+          "Langlebig für Events"
+        ],
+        "applications": [
+          "Festival-Kostüme",
+          "Cosplay",
+          "Filmrequisiten",
+          "Halloween-Events"
+        ],
+        "considerations": [
+          "Eingeschränkte Atmungsaktivität bei längerem Tragen",
+          "Erfordert sorgfältige Größenanpassung",
+          "Kann anfänglich starken Geruch haben"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Gips-Ornamente & Dekorationsstücke",
+        "material": "Gips",
+        "size": "15-100 cm",
+        "moq": "100 Stück",
+        "price": "$$ Mittel",
+        "features": [
+          "Klassische matte Oberfläche",
+          "Leichtgewichtig",
+          "Einfach zu bemalen",
+          "Vintage-ästhetische Anziehung"
+        ],
+        "applications": [
+          "Weihnachtsschmuck",
+          "Osterdekorationen",
+          "Hochzeitsgeschenke",
+          "Heimakzente",
+          "Saisonale Displays"
+        ],
+        "considerations": [
+          "Zerbrechlich und erfordert vorsichtige Handhabung",
+          "Nicht für den Außenbereich geeignet",
+          "Beschränkt auf Innendekorationen"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Steinschnitzereien/Outdoor-Landschaften",
+        "material": "Naturstein (Marmor, Granit, Kalkstein usw.)",
+        "size": "100-1000 cm",
+        "moq": "1 Stück",
+        "price": "$$$$ Sehr hoch",
+        "features": [
+          "Natürliche Steintextur",
+          "Extrem langlebig und witterungsbeständig",
+          "Permanente Outdoor-Performance",
+          "Premium authentisches Aussehen",
+          "Beständig gegen UV und Temperaturänderungen"
+        ],
+        "applications": [
+          "Gartenlandschaften",
+          "Öffentliche Kunst",
+          "Architekturdekor",
+          "Outdoor-Installationen"
+        ],
+        "considerations": [
+          "Extrem schwer mit sehr hohen Versandkosten",
+          "Eingeschränkte Designflexibilität aufgrund der Materialhärte",
+          "Längere Produktionszeit",
+          "Schwierig zu modifizieren, sobald geschnitzt",
+          "Erfordert professionelle Installation"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "3D-Cartoon-Geräteständer",
+        "material": "Weich-PVC + ABS",
+        "size": "20-60 cm",
+        "moq": "100 Stück",
+        "price": "$$ Mittel",
+        "features": [
+          "Individuelle 3D-Charakter-Designs",
+          "Stabil und langlebig",
+          "Funktional und dekorativ",
+          "Markenwerbungstool"
+        ],
+        "applications": [
+          "Handy-/Tablet-Ständer",
+          "Schreibtischzubehör",
+          "Firmengeschenke",
+          "Werbeartikel"
+        ],
+        "considerations": [
+          "Erfordert Form für individuelle Designs",
+          "Beschränkt auf kleinere Größen (<60cm)",
+          "Design muss Stabilität gewährleisten"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Holzdekore & Kunstwerke",
+        "material": "Naturholz (MDF, Massivholz usw.)",
+        "size": "20-80 cm",
+        "moq": "100 Stück",
+        "price": "$$$ Hoch",
+        "features": [
+          "Natürliche Materialanziehung",
+          "Warme Textur",
+          "Umweltfreundliche Wahrnehmung",
+          "Handwerkliche Qualität"
+        ],
+        "applications": [
+          "Heimdekor",
+          "Geschenke",
+          "Kunstwerke",
+          "Naturthemen-Produkte"
+        ],
+        "considerations": [
+          "Begrenzte Details im Vergleich zu Harz",
+          "Anfällig für Feuchtigkeit und Temperaturänderungen",
+          "Höhere Kosten für komplexe Designs"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Töpferwaren & Keramik-Dekor",
+        "material": "Keramik, Porzellan oder Steingut",
+        "size": "15-40 cm",
+        "moq": "500 Stück",
+        "price": "$$$ Hoch",
+        "features": [
+          "Klassische Ästhetik",
+          "Lebensmittelechte Optionen",
+          "Langlebig für die Ausstellung",
+          "Vielseitig für Bemalung und Glasur"
+        ],
+        "applications": [
+          "Heimdekor",
+          "Geschirr",
+          "Kunstwerke",
+          "Traditionelles Handwerk"
+        ],
+        "considerations": [
+          "Zerbrechlich und erfordert vorsichtige Handhabung",
+          "Eingeschränkte Designflexibilität",
+          "Längere Produktionszeit für individuelle Glasuren"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "3D-Cartoon-Ladekabel",
+        "material": "Weich-PVC + Metallstecker",
+        "size": "10-20 cm",
+        "moq": "500 Stück",
+        "price": "$$ Mittel",
+        "features": [
+          "Individuelle Charakter-Designs",
+          "Funktionale Ladefähigkeit",
+          "Langlebige Materialien",
+          "Markenwerbungstools"
+        ],
+        "applications": [
+          "Firmengeschenke",
+          "Markenartikel",
+          "Werbeartikel",
+          "Charakter-Lizenzprodukte"
+        ],
+        "considerations": [
+          "Erfordert IP-Autorisierung",
+          "Formkosten für individuelle Designs",
+          "Mindestbestellmenge pro Design"
+        ]
+      }
+    ]
   }
 }

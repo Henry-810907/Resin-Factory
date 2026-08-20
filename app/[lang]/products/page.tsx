@@ -68,11 +68,29 @@ export default async function ProductsPage({ params }: Props) {
         filterLabels={pg.filter}
         heroTitle={pg.hero.title}
         heroSubtitle={pg.hero.subtitle}
-        quickGuide={pg.quickGuide}
         needAdvice={pg.needAdvice}
         noMatchText={pg.noMatchText}
         freeConsultation={pg.hero.cta}
+        cardLabels={pg.cardLabels}
+        translatedProducts={pg.products}
       />
+
+      {/* Technical Boundary Statement */}
+      <section className="bg-slate-50 py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-5 sm:px-6">
+          <div className="bg-white border border-slate-200 rounded-lg p-6 md:p-8">
+            <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-4">
+              {pg.technicalNote.title}
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-4">
+              {pg.technicalNote.paragraph1}
+            </p>
+            <p className="text-slate-700 leading-relaxed">
+              {pg.technicalNote.paragraph2}
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* FAQ Section */}
       <ProductGuideFaq

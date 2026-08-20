@@ -31,7 +31,7 @@
   "header": {
     "brand": "Resin Factory",
     "estTag": "fundada en 2013",
-    "cta": "Get Free Quote",
+    "cta": "Obtenga un presupuesto gratis",
     "homeAria": "Resin Factory · volver al inicio",
     "nav": {
       "home": "Inicio",
@@ -820,9 +820,9 @@
     ]
   },
   "productGuideHint": {
-    "title": "Need Help Choosing the Right Product?",
-    "subtitle": "Not all designs require resin. We've compiled a comprehensive guide covering 21 product types to help you make the best decision. Feel free to consult us if you're unsure.",
-    "buttonText": "View Product Guide →"
+    "title": "¿Necesitas ayuda para elegir el producto adecuado?",
+    "subtitle": "No todos los diseños requieren resina. Hemos compilado una guía completa que cubre 21 tipos de productos para ayudarte a tomar la mejor decisión. No dudes en consultarnos si tienes dudas.",
+    "buttonText": "Ver guía de productos →"
   },
   "manufacturingProcess": {
     "kicker": "Nuestro proceso de fabricación",
@@ -1025,7 +1025,7 @@
       "description": "Guía completa de 21 tipos de productos: artesanía de resina, impresión 3D, llaveros de PVC, mascotas grandes, pines de metal, peluches y más. Encuentre el tipo de producto, material, MOQ y precio adecuados para su diseño. Consultoría técnica gratuita."
     },
     "hero": {
-      "title": "Cómo elegir el tipo de producto adecuado para su diseño/IP",
+      "title": "¿Mi diseño, IP o mascota es adecuado para resina o polystone?",
       "subtitle": "Nos especializamos en artesanía de resina y polystone. Esta guía le ayuda a evaluar si su diseño es adecuado para materiales de resina, o si otros tipos de productos podrían ser más apropiados. Si necesita aclaración sobre algún punto, no dude en contactarnos en cualquier momento.",
       "cta": "Consultoría técnica gratuita"
     },
@@ -1068,6 +1068,11 @@
       "moq1000plus": "1000-10,000+ pcs",
       "disclaimer": "Estos productos se muestran solo con fines ilustrativos. No poseemos los derechos de autor. Todo trabajo personalizado se basa en los propios diseños de los clientes."
     },
+    "technicalNote": {
+      "title": "Nota importante: Evaluación de idoneidad del material",
+      "paragraph1": "La resina no es adecuada para todos los diseños. Proporcionamos una evaluación técnica honesta antes de la producción. Si su diseño es más adecuado para otros materiales (como moldeo por inyección para 10,000+ unidades, o materiales flexibles para piezas flexibles), se lo diremos.",
+      "paragraph2": "Nuestro objetivo es ayudarle a tomar la decisión correcta sobre el material, no solo aceptar su pedido. Recomendamos la mejor solución para su diseño/IP basada en viabilidad técnica, rentabilidad y requisitos de producción."
+    },
     "faq": {
       "title": "Preguntas frecuentes",
       "items": [
@@ -1090,8 +1095,562 @@
       "subtitle": "¿No está seguro si la resina/polystone es la opción correcta para su diseño/IP? Contáctenos con sus requisitos, y le proporcionaremos consultoría técnica gratuita basada en nuestra experiencia.",
       "button": "Consultoría técnica gratuita"
     },
-    "quickGuide": "Guía rápida: Comience con resina para diseños detallados de 5-50 cm. Considere alternativas cuando necesite flexibilidad, tamaños extremos o texturas específicas.",
     "needAdvice": "¿Necesita asesoramiento?",
-    "noMatchText": "Ningún producto coincide con sus filtros. ¡Aún podemos ayudar! Contáctenos para recomendaciones personalizadas y soluciones a medida."
+    "noMatchText": "Ningún producto coincide con sus filtros. ¡Aún podemos ayudar! Contáctenos para recomendaciones personalizadas y soluciones a medida.",
+    "cardLabels": {
+      "type": "Tipo",
+      "material": "Material",
+      "size": "Tamaño económico",
+      "moq": "MOQ",
+      "price": "Precio",
+      "keyFeatures": "Características principales",
+      "applicationScenarios": "Escenarios de aplicación",
+      "considerations": "Consideraciones",
+      "collapseDetails": "Ocultar detalles",
+      "viewDetails": "Ver detalles"
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Artesanía de Resina",
+        "material": "Polystone (mezcla de resina + polvo de piedra)",
+        "size": "5-50 cm",
+        "moq": "100 piezas",
+        "price": "$$ Medio",
+        "features": [
+          "Detalles ultra realistas",
+          "Peso y tacto premium",
+          "Durable para exhibición a largo plazo",
+          "Acabado liso",
+          "Versátil para pintura y acabado"
+        ],
+        "applications": [
+          "Coleccionables",
+          "Regalos corporativos",
+          "Decoración del hogar",
+          "Souvenirs turísticos",
+          "Réplicas de esculturas"
+        ],
+        "considerations": [
+          "No apto para diseños flexibles o piezas extremadamente delgadas (<2mm)",
+          "Más pesado que las alternativas de plástico",
+          "Ideal para diseños de 5-50cm con detalles intrincados. Para requisitos flexibles o ultraligeros, considere materiales alternativos"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Artículos de Decoración de Resina",
+        "material": "Polystone (mezcla de resina + polvo de piedra)",
+        "size": "10-50 cm",
+        "moq": "100 piezas",
+        "price": "$$ Medio",
+        "features": [
+          "Detalles ultra realistas",
+          "Peso y tacto premium",
+          "Durable para exhibición a largo plazo",
+          "Diseños versátiles"
+        ],
+        "applications": [
+          "Marcos de fotos",
+          "Relojes",
+          "Jarrones",
+          "Bandejas",
+          "Cajas de pañuelos"
+        ],
+        "considerations": [
+          "No apto para diseños flexibles",
+          "Más pesado que las alternativas de plástico",
+          "Frágil durante el envío",
+          "Ideal para diseños de 10-50cm con detalles intrincados. Para requisitos flexibles o ultraligeros, considere materiales alternativos"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Suministros de Oficina de Resina",
+        "material": "Polystone (mezcla de resina + polvo de piedra)",
+        "size": "8-30 cm",
+        "moq": "100 piezas",
+        "price": "$$ Medio",
+        "features": [
+          "Detalles ultra realistas",
+          "Peso y tacto premium",
+          "Apariencia profesional",
+          "Diseños personalizados"
+        ],
+        "applications": [
+          "Portaplumas",
+          "Sujetadores de libros",
+          "Portatarjetas de visita",
+          "Pisapapeles"
+        ],
+        "considerations": [
+          "No apto para diseños flexibles",
+          "Más pesado que las alternativas de plástico",
+          "Frágil durante el envío",
+          "Ideal para diseños de 8-30cm con detalles intrincados. Para requisitos flexibles o ultraligeros, considere materiales alternativos"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Impresión 3D y Modelos Pintados a Mano",
+        "material": "Resina estándar / Resina fundible (impresión 3D SLA)",
+        "size": "5-20 cm",
+        "moq": "1-100 piezas",
+        "price": "$$$ Alto",
+        "features": [
+          "Tiempo de entrega rápido",
+          "Alta precisión",
+          "Adecuado para validación de diseño",
+          "Puede pintarse a mano para un acabado realista",
+          "Perfecto para validación de diseño antes de la producción en masa"
+        ],
+        "applications": [
+          "Validación de diseño",
+          "Prototipado",
+          "Personalización de lotes pequeños",
+          "Pruebas de diseño complejo",
+          "Muestreo pre-producción"
+        ],
+        "considerations": [
+          "Costo unitario más alto para grandes cantidades",
+          "El acabado superficial puede requerir pintura manual adicional"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Llaveros y Ornamentos de Goma Flexible",
+        "material": "PVC blando (cloruro de polivinilo)",
+        "size": "5-12 cm",
+        "moq": "100 piezas",
+        "price": "$ Bajo",
+        "features": [
+          "Textura tipo borrador",
+          "Ligero",
+          "Impermeable",
+          "Colores vibrantes",
+          "Durable para uso diario"
+        ],
+        "applications": [
+          "Llaveros",
+          "Insignias",
+          "Artículos promocionales",
+          "Ornamentos de escritorio",
+          "Soportes de teléfono"
+        ],
+        "considerations": [
+          "No apto para detalles ultrafinos o tamaños superiores a 12cm",
+          "Limitado a diseños más pequeños y simples"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Mascotas/Estatuas Grandes",
+        "material": "Plástico reforzado con fibra de vidrio (FRP)",
+        "size": "100-1000 cm",
+        "moq": "1 pieza",
+        "price": "$$$$ Muy alto",
+        "features": [
+          "Escala impresionante",
+          "Resistente a la intemperie",
+          "Durable para uso exterior",
+          "Presencia llamativa",
+          "Ligero pero fuerte (mucho más ligero que la piedra, más fácil de transportar e instalar)"
+        ],
+        "applications": [
+          "Exhibiciones comerciales",
+          "Decoración de eventos",
+          "Parques temáticos",
+          "Activaciones de marca"
+        ],
+        "considerations": [
+          "Requiere espacio significativo y planificación logística",
+          "Altos costos de envío debido al tamaño",
+          "Recomendado cuando el diseño supera los 100cm o requiere durabilidad exterior más allá de las capacidades de la resina"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Disfraces de Mascotas",
+        "material": "Tela, espuma, marco de plástico",
+        "size": "150-220 cm",
+        "moq": "1 conjunto",
+        "price": "$$$ Alto",
+        "features": [
+          "Diseño portable",
+          "Materiales transpirables",
+          "Reproducción de detalles moderada",
+          "Opciones de ajuste personalizado"
+        ],
+        "applications": [
+          "Espectáculos de eventos",
+          "Promociones comerciales",
+          "Festivales",
+          "Parques temáticos"
+        ],
+        "considerations": [
+          "Caluroso en los meses de verano",
+          "Movilidad limitada para el portador",
+          "Requiere almacenamiento cuidadoso",
+          "La reproducción de detalles es moderada en comparación con materiales duros"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Accesorios Inflables",
+        "material": "Lona de PVC o nailon",
+        "size": "100-3000 cm",
+        "moq": "1 pieza",
+        "price": "$$$ Alto",
+        "features": [
+          "Ligero",
+          "Fácil de transportar y almacenar",
+          "Alto impacto visual",
+          "Configuración rápida"
+        ],
+        "applications": [
+          "Decoración de eventos",
+          "Promociones comerciales",
+          "Accesorios para fotos",
+          "Activaciones de marca"
+        ],
+        "considerations": [
+          "Detalles de superficie limitados debido a la naturaleza inflada",
+          "Requiere bomba de aire",
+          "No apto para diseños ultra realistas",
+          "Ideal para eventos temporales o cuando la portabilidad es prioritaria"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Pines de Metal/Imanes de Refrigerador",
+        "material": "Aleación de zinc, hierro o acero inoxidable",
+        "size": "2-10 cm",
+        "moq": "50 piezas",
+        "price": "$ Bajo",
+        "features": [
+          "Plano y durable",
+          "Acabado metálico premium",
+          "De larga duración",
+          "Apariencia profesional"
+        ],
+        "applications": [
+          "Regalos corporativos",
+          "Souvenirs",
+          "Artículos promocionales",
+          "Coleccionables"
+        ],
+        "considerations": [
+          "Limitado a diseños planos o de bajo relieve",
+          "Más pesado que las alternativas de plástico",
+          "Restricciones de tamaño mínimo"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Productos de Vidrio/Cristal",
+        "material": "Vidrio o cristal óptico",
+        "size": "10-30 cm",
+        "moq": "100 piezas",
+        "price": "$$ Medio",
+        "features": [
+          "Transparente y premium",
+          "Propiedades reflectantes de luz",
+          "Apariencia elegante",
+          "Durable para exhibición"
+        ],
+        "applications": [
+          "Regalos de alta gama",
+          "Souvenirs",
+          "Maquetas arquitectónicas",
+          "Maquetas de objetos grandes"
+        ],
+        "considerations": [
+          "Frágil y requiere manipulación cuidadosa",
+          "Costo más alto",
+          "Limitado a tipos de diseño específicos"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Juguetes de Peluche",
+        "material": "Tela de felpa, relleno de algodón PP",
+        "size": "8-50 cm",
+        "moq": "100 piezas",
+        "price": "$ Bajo",
+        "features": [
+          "Suave y abrazable",
+          "Ligero",
+          "Lavable",
+          "Materiales seguros para niños",
+          "Textura reconfortante"
+        ],
+        "applications": [
+          "Juguetes para niños",
+          "Regalos",
+          "Artículos promocionales",
+          "Mascotas de marca"
+        ],
+        "considerations": [
+          "Detalles limitados en comparación con materiales duros",
+          "Requiere diseño cuidadoso para fabricación",
+          "Los tamaños más grandes aumentan significativamente el costo",
+          "Esencial cuando la suavidad táctil y la seguridad infantil son requisitos principales"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Juguetes de Colección Premium",
+        "material": "Plástico ABS",
+        "size": "8-20 cm",
+        "moq": "10000+ piezas",
+        "price": "$$$ Alto",
+        "features": [
+          "Acabado de alta calidad",
+          "Durable para colección a largo plazo",
+          "Pintura detallada",
+          "Opciones de empaque premium"
+        ],
+        "applications": [
+          "Coleccionables",
+          "Ediciones limitadas",
+          "Derivados de IP",
+          "Regalos premium"
+        ],
+        "considerations": [
+          "Altos costos de molde y muestreo",
+          "Tiempo de desarrollo más largo",
+          "Requiere especificaciones de diseño detalladas",
+          "Mínimo 10000 piezas recomendado para rentabilidad"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Juguetes de Colección Económicos",
+        "material": "Vinilo (PVC)",
+        "size": "15-60 cm",
+        "moq": "500 piezas",
+        "price": "$ Bajo",
+        "features": [
+          "Producción rentable",
+          "Calidad de detalle decente",
+          "Ligero",
+          "Adecuado para distribución masiva"
+        ],
+        "applications": [
+          "Juguetes de mercado masivo",
+          "Artículos promocionales",
+          "Regalos publicitarios",
+          "Pedidos al por mayor"
+        ],
+        "considerations": [
+          "Calidad de detalle inferior a las opciones premium",
+          "Personalización limitada para lotes pequeños"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Juguetes Antiestrés Blandos",
+        "material": "Espuma PU (poliuretano)",
+        "size": "8-20 cm",
+        "moq": "500 piezas",
+        "price": "$ Bajo",
+        "features": [
+          "Suave y apretable",
+          "Textura de rebote lento",
+          "Alivia el estrés",
+          "Materiales seguros para niños"
+        ],
+        "applications": [
+          "Alivio del estrés",
+          "Juguetes para niños",
+          "Artículos promocionales",
+          "Juguetes antiestrés"
+        ],
+        "considerations": [
+          "Detalles limitados debido al material blando",
+          "MOQ más alto requerido",
+          "El diseño debe adaptarse a la naturaleza blanda"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Máscaras de Halloween y Accesorios de Efectos Especiales",
+        "material": "Látex o silicona",
+        "size": "25-35 cm",
+        "moq": "100 piezas",
+        "price": "$ Bajo",
+        "features": [
+          "Material elástico",
+          "Texturas realistas",
+          "Ligero para usar",
+          "Durable para eventos"
+        ],
+        "applications": [
+          "Disfraces de festival",
+          "Cosplay",
+          "Accesorios de cine",
+          "Eventos de Halloween"
+        ],
+        "considerations": [
+          "Transpirabilidad limitada para uso prolongado",
+          "Requiere talla cuidadosa",
+          "Puede tener olor fuerte inicialmente"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Ornamentos de Yeso y Piezas Decorativas",
+        "material": "Yeso de gypsum",
+        "size": "15-100 cm",
+        "moq": "100 piezas",
+        "price": "$$ Medio",
+        "features": [
+          "Acabado mate clásico",
+          "Ligero",
+          "Fácil de pintar",
+          "Estética vintage atractiva"
+        ],
+        "applications": [
+          "Ornamentos navideños",
+          "Decoraciones de Pascua",
+          "Recuerdos de boda",
+          "Acentos para el hogar",
+          "Exhibiciones estacionales"
+        ],
+        "considerations": [
+          "Frágil y requiere manipulación cuidadosa",
+          "No apto para uso exterior",
+          "Limitado a decoraciones interiores"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Esculturas de Piedra y Paisajes Exteriores",
+        "material": "Piedra natural (mármol, granito, piedra caliza, etc.)",
+        "size": "100-1000 cm",
+        "moq": "1 pieza",
+        "price": "$$$$ Muy alto",
+        "features": [
+          "Textura de piedra natural",
+          "Extremadamente durable y resistente a la intemperie",
+          "Rendimiento exterior permanente",
+          "Apariencia auténtica premium",
+          "Resistente a UV y cambios de temperatura"
+        ],
+        "applications": [
+          "Paisajes de jardín",
+          "Arte público",
+          "Decoración arquitectónica",
+          "Instalaciones exteriores"
+        ],
+        "considerations": [
+          "Extremadamente pesado con costos de envío muy altos",
+          "Flexibilidad de diseño limitada debido a la dureza del material",
+          "Tiempo de producción más largo",
+          "Difícil de modificar una vez tallado",
+          "Requiere instalación profesional"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Soportes de Dispositivos 3D de Dibujos Animados",
+        "material": "PVC blando + ABS",
+        "size": "20-60 cm",
+        "moq": "100 piezas",
+        "price": "$$ Medio",
+        "features": [
+          "Diseños de personajes 3D personalizados",
+          "Estable y durable",
+          "Funcional y decorativo",
+          "Herramienta de promoción de marca"
+        ],
+        "applications": [
+          "Soportes de teléfono/tableta",
+          "Accesorios de escritorio",
+          "Regalos corporativos",
+          "Artículos promocionales"
+        ],
+        "considerations": [
+          "Requiere molde para diseños personalizados",
+          "Limitado a tamaños más pequeños (<60cm)",
+          "El diseño debe garantizar estabilidad"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Decoración de Madera y Piezas de Arte",
+        "material": "Madera natural (MDF, madera maciza, etc.)",
+        "size": "20-80 cm",
+        "moq": "100 piezas",
+        "price": "$$$ Alto",
+        "features": [
+          "Atractivo de material natural",
+          "Textura cálida",
+          "Percepción ecológica",
+          "Calidad artesanal"
+        ],
+        "applications": [
+          "Decoración del hogar",
+          "Regalos",
+          "Piezas de arte",
+          "Productos de tema natural"
+        ],
+        "considerations": [
+          "Detalles limitados en comparación con resina",
+          "Sensible a humedad y cambios de temperatura",
+          "Costo más alto para diseños complejos"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Cerámica y Decoración de Alfarería",
+        "material": "Cerámica, porcelana o loza",
+        "size": "15-40 cm",
+        "moq": "500 piezas",
+        "price": "$$$ Alto",
+        "features": [
+          "Estética clásica",
+          "Opciones seguras para alimentos",
+          "Durable para exhibición",
+          "Versátil para pintura y esmaltado"
+        ],
+        "applications": [
+          "Decoración del hogar",
+          "Vajilla",
+          "Piezas de arte",
+          "Artesanía tradicional"
+        ],
+        "considerations": [
+          "Frágil y requiere manipulación cuidadosa",
+          "Flexibilidad de diseño limitada",
+          "Tiempo de producción más largo para esmaltes personalizados"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Cables de Carga 3D de Dibujos Animados",
+        "material": "PVC blando + Conectores metálicos",
+        "size": "10-20 cm",
+        "moq": "500 piezas",
+        "price": "$$ Medio",
+        "features": [
+          "Diseños de personajes personalizados",
+          "Capacidad de carga funcional",
+          "Materiales durables",
+          "Herramientas de promoción de marca"
+        ],
+        "applications": [
+          "Regalos corporativos",
+          "Mercancía de marca",
+          "Artículos promocionales",
+          "Productos con licencia de personajes"
+        ],
+        "considerations": [
+          "Requiere autorización de IP",
+          "Costos de molde para diseños personalizados",
+          "Pedido mínimo aplicable por diseño"
+        ]
+      }
+    ]
   }
 }
