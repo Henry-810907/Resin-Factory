@@ -1218,7 +1218,7 @@
           "Coût unitaire plus élevé pour les grandes quantités",
           "La finition de surface peut nécessiter une peinture manuelle supplémentaire"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 5,
@@ -1245,7 +1245,7 @@
           "Ne convient pas aux détails ultra-fins ou aux tailles supérieures à 12cm",
           "Limité aux designs plus petits et simples"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 6,
@@ -1272,7 +1272,7 @@
           "Frais d'expédition élevés en raison de la taille",
           "Recommandé lorsque le design dépasse 100cm ou nécessite une durabilité extérieure au-delà des capacités de la résine"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 7,
@@ -1299,7 +1299,7 @@
           "Nécessite un stockage soigneux",
           "La reproduction des détails est modérée comparée aux matériaux durs"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 8,
@@ -1326,7 +1326,7 @@
           "Ne convient pas aux designs ultra-réalistes",
           "Idéal pour les événements temporaires ou lorsque la portabilité est prioritaire"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 9,
@@ -1352,7 +1352,7 @@
           "Plus lourd que les alternatives en plastique",
           "Contraintes de taille minimale"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 10,
@@ -1378,7 +1378,7 @@
           "Coût plus élevé",
           "Limité à certains types de designs"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 11,
@@ -1406,7 +1406,7 @@
           "Les grandes tailles augmentent significativement le coût",
           "Essentiel lorsque la douceur tactile et la sécurité enfant sont les exigences principales"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 12,
@@ -1433,7 +1433,7 @@
           "Nécessite des spécifications de design détaillées",
           "Minimum 10000 pièces recommandé pour la rentabilité"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 13,
@@ -1458,7 +1458,7 @@
           "Qualité de détail inférieure aux options premium",
           "Personnalisation limitée pour les petites séries"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 14,
@@ -1484,7 +1484,7 @@
           "MOQ plus élevé requis",
           "Le design doit s'adapter à la nature souple"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 15,
@@ -1510,7 +1510,7 @@
           "Nécessite un dimensionnement soigneux",
           "Peut avoir une odeur initiale forte"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 16,
@@ -1537,7 +1537,7 @@
           "Ne convient pas pour une utilisation en extérieur",
           "Limité aux décorations intérieures"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 17,
@@ -1566,7 +1566,7 @@
           "Difficile à modifier une fois sculpté",
           "Nécessite une installation professionnelle"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 18,
@@ -1592,7 +1592,7 @@
           "Limité aux petites tailles (<60cm)",
           "Le design doit assurer la stabilité"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 19,
@@ -1618,7 +1618,7 @@
           "Sensible à l'humidité et aux changements de température",
           "Coût plus élevé pour les designs complexes"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 20,
@@ -1644,7 +1644,7 @@
           "Flexibilité de design limitée",
           "Temps de production plus long pour les glaçures personnalisées"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       },
       {
         "id": 21,
@@ -1670,7 +1670,7 @@
           "Coûts de moule pour les designs personnalisés",
           "Commande minimum applicable par design"
         ],
-        "expertise": "→ Alternative résine disponible · Évaluation gratuite"
+        "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       }
     ]
   }

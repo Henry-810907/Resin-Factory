@@ -1180,7 +1180,7 @@
           "Higher cost per unit for large quantities",
           "Surface finish may require additional hand-painting"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 5,
@@ -1207,7 +1207,7 @@
           "Not suitable for ultra-fine details or sizes over 12cm",
           "Limited to smaller, simpler designs"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 6,
@@ -1234,7 +1234,7 @@
           "High shipping costs due to size",
           "Recommended when design exceeds 100cm or requires outdoor durability beyond resin capabilities"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 7,
@@ -1261,7 +1261,7 @@
           "Requires careful storage",
           "Detail reproduction is moderate compared to hard materials"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 8,
@@ -1288,7 +1288,7 @@
           "Not suitable for ultra-realistic designs",
           "Best for temporary events or when portability is priority"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 9,
@@ -1314,7 +1314,7 @@
           "Heavier than plastic alternatives",
           "Minimum size constraints"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 10,
@@ -1340,7 +1340,7 @@
           "Higher cost",
           "Limited to specific design types"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 11,
@@ -1368,7 +1368,7 @@
           "Larger sizes increase cost significantly",
           "Essential when tactile softness and child-safety are primary requirements"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 12,
@@ -1395,7 +1395,7 @@
           "Requires detailed design specifications",
           "Minimum 10000 pcs recommended for cost-effectiveness"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 13,
@@ -1420,7 +1420,7 @@
           "Lower detail quality compared to premium options",
           "Limited customization for small batches"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 14,
@@ -1446,7 +1446,7 @@
           "Higher MOQ required",
           "Design must accommodate squishy nature"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 15,
@@ -1472,7 +1472,7 @@
           "Requires careful sizing",
           "May have strong initial odor"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 16,
@@ -1499,7 +1499,7 @@
           "Not suitable for outdoor use",
           "Limited to indoor decorations"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 17,
@@ -1528,7 +1528,7 @@
           "Difficult to modify once carved",
           "Requires professional installation"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 18,
@@ -1554,7 +1554,7 @@
           "Limited to smaller sizes (<60cm)",
           "Design must ensure stability"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 19,
@@ -1580,7 +1580,7 @@
           "Susceptible to moisture and temperature changes",
           "Higher cost for complex designs"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 20,
@@ -1606,7 +1606,7 @@
           "Limited design flexibility",
           "Longer production time for custom glazes"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       },
       {
         "id": 21,
@@ -1632,7 +1632,7 @@
           "Mold costs for custom designs",
           "Minimum order applies per design"
         ],
-        "expertise": "→ Resin Alternative Available · Free Assessment"
+        "expertise": "→ Material Recommendation · Free Assessment"
       }
     ]
   }
