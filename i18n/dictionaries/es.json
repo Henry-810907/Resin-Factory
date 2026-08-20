@@ -1025,7 +1025,7 @@
     },
     "hero": {
       "title": "¿Mi diseño, IP o mascota es adecuado para resina o polystone?",
-      "subtitle": "Nos especializamos en artesanía de resina y polystone. Esta guía le ayuda a evaluar si su diseño es adecuado para materiales de resina, o si otros tipos de productos podrían ser más apropiados. Si necesita aclaración sobre algún punto, no dude en contactarnos en cualquier momento.",
+      "subtitle": "No todos los diseños son adecuados para resina. Nos especializamos exclusivamente en productos de resina y polystone. Le ayudamos a evaluar si su concepto funciona con resina. Una evaluación técnica honesta le ayuda a tomar la decisión correcta de material.",
       "cta": "Consultoría técnica gratuita"
     },
     "suitability": {
@@ -1100,7 +1100,7 @@
       "material": "Material",
       "size": "Tamaño económico",
       "moq": "MOQ",
-      "price": "Precio",
+      "price": "Nivel de precio",
       "keyFeatures": "Características principales",
       "applicationScenarios": "Escenarios de aplicación",
       "considerations": "Consideraciones",

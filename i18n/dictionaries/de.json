@@ -1025,7 +1025,7 @@
     },
     "hero": {
       "title": "Ist mein Design, IP oder Maskottchen für Resin oder Polystone geeignet?",
-      "subtitle": "Wir sind auf Resin- und Polystone-Kunsthandwerk spezialisiert. Dieser Leitfaden hilft Ihnen zu bewerten, ob Ihr Design für Resin-Materialien geeignet ist oder ob andere Produkttypen besser passen könnten. Wenn Sie zu irgendeinem Punkt Klarstellung benötigen, können Sie uns jederzeit kontaktieren.",
+      "subtitle": "Nicht jedes Design ist für Harz geeignet. Wir sind ausschließlich auf Harz- und Polystone-Produkte spezialisiert. Wir helfen Ihnen zu bewerten, ob Ihr Konzept für Harzmaterial geeignet ist. Ehrliche technische Bewertung hilft Ihnen, die richtige Materialwahl zu treffen.",
       "cta": "Kostenlose technische Beratung"
     },
     "suitability": {
@@ -1102,7 +1102,7 @@
       "material": "Material",
       "size": "Wirtschaftliche Größe",
       "moq": "MOQ",
-      "price": "Preis",
+      "price": "Preisklasse",
       "keyFeatures": "Hauptmerkmale",
       "applicationScenarios": "Anwendungsszenarien",
       "considerations": "Überlegungen",

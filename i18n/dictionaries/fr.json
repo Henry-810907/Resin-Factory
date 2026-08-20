@@ -1025,7 +1025,7 @@
     },
     "hero": {
       "title": "Mon design, IP ou mascotte convient-il à la résine ou au polystone?",
-      "subtitle": "Nous sommes spécialisés dans l'artisanat en résine et polystone. Ce guide vous aide à évaluer si votre design convient aux matériaux en résine, ou si d'autres types de produits pourraient mieux convenir. Si vous avez besoin de clarifications sur un point, n'hésitez pas à nous contacter à tout moment.",
+      "subtitle": "Tous les designs ne conviennent pas à la résine. Nous sommes exclusivement spécialisés dans les produits en résine et polystone. Nous vous aidons à évaluer si votre concept fonctionne avec la résine. Une évaluation technique honnête vous aide à faire le bon choix de matériau.",
       "cta": "Consultation technique gratuite"
     },
     "suitability": {
@@ -1100,7 +1100,7 @@
       "material": "Matériau",
       "size": "Taille économique",
       "moq": "MOQ",
-      "price": "Prix",
+      "price": "Niveau de prix",
       "keyFeatures": "Caractéristiques principales",
       "applicationScenarios": "Scénarios d'application",
       "considerations": "Considérations",
