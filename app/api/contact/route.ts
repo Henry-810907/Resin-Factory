@@ -37,6 +37,7 @@ function rateLimited(ip: string): boolean {
 export async function POST(request: NextRequest) {
   try {
     const ip =
+      request.headers.get("cf-connecting-ip") ||  // 优先读取Cloudflare真实IP
       request.headers.get("x-forwarded-for")?.split(",")[0].trim() ||
       request.headers.get("x-real-ip") ||
       "unknown";
