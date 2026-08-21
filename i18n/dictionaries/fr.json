@@ -80,7 +80,9 @@
     "title": "À propos de notre usine",
     "description": "Fondée en 2013, avec plus de 12 ans d'expérience en fabrication OEM et ODM de figurines en résine, notre usine est spécialisée dans les figurines personnalisées basées sur l'IP, les souvenirs de tourisme culturel, les répliques de grandes sculptures, les pièces et accessoires de produits, les articles promotionnels de mascottes d'entreprise, les figurines de décoration d'intérieur, les figurines de tableau de bord automobile, les séries de boîtes mystères et les porte-clés. Nous servons des marques, des propriétaires d'IP, des détaillants, des musées, des attractions touristiques et des collectionneurs dans le monde entier.",
     "points": [
-      "Modélisation 3D professionnelle — échantillons en 7 jours",
+      "Notre Mission : Vous accompagner des essais en petites séries à la production commerciale à grande échelle",
+      "Notre Engagement : Expertise Technique, Solutions pour Vos Projets",
+      "Modélisation 3D professionnelle — échantillons en 12 jours",
       "Fabrication à grande échelle — MOQ 100 pièces, prêt pour la production de masse",
       "Expédition et exportation mondiales — Ligne dédiée, DHL, FedEx, fret maritime, fret aérien",
       "Inspection QC stricte — Certifié CE, EN71, ASTM F963"
@@ -160,8 +162,8 @@
         "desc": "Commencez votre commande de figurines en résine personnalisées à partir de seulement 100 pièces par design. Parfait pour les startups et les petites marques."
       },
       {
-        "title": "Échantillonnage rapide — 7 jours",
-        "desc": "Prototype physique de figurine en résine prêt en 7 jours ouvrables. Statues, mascottes, porte-clés — n'importe quel design."
+        "title": "Échantillonnage rapide — 12 jours",
+        "desc": "Prototype physique de figurine en résine prêt en 12 jours ouvrables. Statues, mascottes, porte-clés — n'importe quel design."
       },
       {
         "title": "Technologie avancée",
@@ -913,7 +915,7 @@
       },
       {
         "title": "Modélisation 3D et échantillonnage",
-        "desc": "Échantillon physique prêt en 7-10 jours ouvrables"
+        "desc": "Échantillon physique prêt en 12 jours ouvrables"
       },
       {
         "title": "Payez l'acompte",
@@ -921,7 +923,7 @@
       },
       {
         "title": "Production de masse",
-        "desc": "Temps de production : 20-35 jours"
+        "desc": "Temps de production : environ 20 jours après l'approbation de l'échantillon"
       },
       {
         "title": "Confirmation vidéo",
@@ -984,7 +986,11 @@
       },
       {
         "q": "Combien de temps prend la production ?",
-        "a": "Le calendrier typique de la sculpture 3D approuvée à la première expédition est de 28-35 jours ouvrables. La sculpture elle-même ajoute 5-10 jours selon la complexité. Nous envoyons des mises à jour photo hebdomadaires pour que vous sachiez toujours où en est votre lot."
+        "a": "Le temps de production est d'environ 20 jours après l'approbation de l'échantillon. La sculpture elle-même ajoute du temps selon la complexité. Nous envoyons des mises à jour photo hebdomadaires pour que vous sachiez toujours où en est votre lot."
+      },
+      {
+        "q": "Ma commande peut-elle être traitée en urgence ?",
+        "a": "Oui — nous proposons un traitement urgent pour les projets urgents. Les délais urgents dépendent de la complexité de la commande et du planning de production actuel. Contactez-nous avec votre date limite et nous confirmerons la faisabilité et tout frais supplémentaire à l'avance."
       },
       {
         "q": "Gérez-vous les tests CE / EN71 / ASTM ?",

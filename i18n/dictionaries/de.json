@@ -80,7 +80,9 @@
     "title": "Über unsere Fabrik",
     "description": "Gegründet 2013, mit über 12 Jahren Erfahrung in der OEM- und ODM-Herstellung von Harzfiguren, spezialisiert sich unsere Fabrik auf maßgeschneiderte IP-basierte Figuren, kulturelle Tourismus-Souvenirs, große Skulpturen-Repliken, Produktteile & Zubehör, Unternehmensmaskottchen-Werbeartikel, Heimdekorationsfiguren, Auto-Armaturenbrett-Figuren, Blind-Box-Serien und Schlüsselanhänger. Wir bedienen Marken, IP-Inhaber, Einzelhändler, Museen, Touristenattraktionen und Sammler weltweit.",
     "points": [
-      "Professionelles 3D-Modellieren — Muster in 7 Tagen",
+      "Unsere Mission: Unterstützung von Kleinserien-Tests bis zur kommerziellen Großproduktion",
+      "Unser Versprechen: Technische Expertise, Lösungen für Ihre Projekte",
+      "Professionelles 3D-Modellieren — Muster in 12 Tagen",
       "Großmaßstäbliche Fertigung — MOQ 100 Stück, massenproduktionsbereit",
       "Weltweiter Versand & Export — Dedizierte Linie, DHL, FedEx, Seefracht, Luftfracht",
       "Strenge QC-Inspektion — CE, EN71, ASTM F963 zertifiziert"
@@ -160,8 +162,8 @@
         "desc": "Starten Sie Ihre maßgeschneiderte Harzfiguren-Bestellung ab nur 100 Stück pro Design. Perfekt für Startups und kleine Marken."
       },
       {
-        "title": "Schnelle Mustererstellung — 7 Tage",
-        "desc": "Physischer Harzfiguren-Prototyp bereit in 7 Werktagen. Statuen, Maskottchen, Schlüsselanhänger — jedes Design."
+        "title": "Schnelle Mustererstellung — 12 Tage",
+        "desc": "Physischer Harzfiguren-Prototyp bereit in 12 Werktagen. Statuen, Maskottchen, Schlüsselanhänger — jedes Design."
       },
       {
         "title": "Fortschrittliche Technologie",
@@ -913,7 +915,7 @@
       },
       {
         "title": "3D-Modellierung & Mustererstellung",
-        "desc": "Physisches Muster bereit in 7-10 Werktagen"
+        "desc": "Physisches Muster bereit in 12 Werktagen"
       },
       {
         "title": "Anzahlung zahlen",
@@ -921,7 +923,7 @@
       },
       {
         "title": "Massenproduktion",
-        "desc": "Produktionszeit: 20-35 Tage"
+        "desc": "Produktionszeit: ca. 20 Tage nach Musterfreigabe"
       },
       {
         "title": "Video-Bestätigung",
@@ -984,7 +986,11 @@
       },
       {
         "q": "Wie lange dauert die Produktion?",
-        "a": "Die typische Zeitlinie vom genehmigten 3D-Modell bis zur ersten Sendung beträgt 28-35 Werktage. Das Modellieren selbst fügt 5-10 Tage hinzu, abhängig von der Komplexität. Wir senden wöchentliche Foto-Updates, damit Sie immer wissen, wo Ihre Charge ist."
+        "a": "Die Produktionszeit beträgt ca. 20 Tage nach Musterfreigabe. Das Modellieren selbst fügt Zeit hinzu, abhängig von der Komplexität. Wir senden wöchentliche Foto-Updates, damit Sie immer wissen, wo Ihre Charge ist."
+      },
+      {
+        "q": "Kann meine Bestellung beschleunigt werden?",
+        "a": "Ja — wir bieten Eilbearbeitung für dringende Projekte. Die Eilzeiten hängen von der Komplexität der Bestellung und dem aktuellen Produktionsplan ab. Kontaktieren Sie uns mit Ihrer Frist und wir bestätigen Ihnen vorab die Machbarkeit und eventuelle Zusatzkosten."
       },
       {
         "q": "Handhaben Sie CE / EN71 / ASTM-Tests?",

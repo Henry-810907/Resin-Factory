@@ -80,8 +80,8 @@
     "title": "About Our Factory",
     "description": "Established in 2013, with 12+ years of OEM & ODM resin figurine manufacturing, our resin factory specializes in custom IP-based figurines, cultural tourism souvenirs, large sculpture replicas, product parts & accessories, corporate mascot promotional items, home decor figurines, car dashboard figurines, blind box series and keychains. We serve brands, IP owners, retailers, museums, tourist attractions, and collectors worldwide.",
     "points": [
-      "Professional 3D sculpting — 7-day samples",
-      "Large-scale manufacturing — MOQ 100 pcs, mass production ready",
+      "Our Mission: Support you from small-batch trials to large-scale commercial production",
+      "Our Commitment: Technical Expertise, Solutions for Your Projects",
       "Global shipping & export — Dedicated Line, DHL, FedEx, Sea Freight, Air Freight",
       "Strict QC inspection — CE, EN71, ASTM F963 certified"
     ],
@@ -160,8 +160,8 @@
         "desc": "Start your custom resin figurine order from just 100 pieces per design. Perfect for startups and small brands."
       },
       {
-        "title": "Fast Sampling — 7 Days",
-        "desc": "Physical resin figurine prototype ready in 7 business days. Statues, mascots, keychains — any design."
+        "title": "Fast Sampling — 12 Days",
+        "desc": "Physical resin figurine prototype ready in 12 business days. Statues, mascots, keychains — any design."
       },
       {
         "title": "Advanced Technology",
@@ -875,7 +875,7 @@
       },
       {
         "title": "3D Sculpting & Sampling",
-        "desc": "Physical sample ready in 7-10 business days"
+        "desc": "Physical sample ready in 12 business days"
       },
       {
         "title": "Pay Deposit",
@@ -883,7 +883,7 @@
       },
       {
         "title": "Mass Production",
-        "desc": "Production time: 28-35 working days"
+        "desc": "Production time: about 20 days after sample approval"
       },
       {
         "title": "Video Confirmation",
@@ -946,7 +946,11 @@
       },
       {
         "q": "How long does production take?",
-        "a": "Typical timeline from approved 3D sculpt to first shipment is 28–35 working days. Sculpting itself adds 5–10 days depending on complexity. We send weekly photo updates so you always know where your batch is."
+        "a": "Production time is about 20 days after sample approval. Sculpting itself adds time depending on complexity. We send weekly photo updates so you always know where your batch is."
+      },
+      {
+        "q": "Can my order be rush-processed?",
+        "a": "Yes — we offer rush processing for urgent projects. Rush timelines depend on order complexity and current production schedule. Contact us with your deadline and we'll confirm feasibility and any additional charges upfront."
       },
       {
         "q": "Do you handle CE / EN71 / ASTM testing?",
