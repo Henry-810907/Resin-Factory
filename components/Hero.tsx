@@ -29,7 +29,7 @@ export default function Hero({ dict, lang }: Props) {
             <div className="text-xs md:text-sm">{dict.stat2Label}</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1 md:px-3 md:py-1.5">
-            <div className="text-sm md:text-lg font-bold">200+</div>
+            <div className="text-sm md:text-lg font-bold">150+</div>
             <div className="text-xs md:text-sm">{dict.stat3Label}</div>
           </div>
         </div>
