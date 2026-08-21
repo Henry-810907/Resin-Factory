@@ -883,7 +883,7 @@
       },
       {
         "title": "Mass Production",
-        "desc": "Production time: 20-35 days"
+        "desc": "Production time: 28-35 working days"
       },
       {
         "title": "Video Confirmation",
@@ -954,7 +954,7 @@
       },
       {
         "q": "What payment terms do you accept?",
-        "a": "We accept T/T (bank transfer), Mastercard, Visa, and other major credit cards. Standard terms: deposit to lock the production slot, balance before shipment."
+        "a": "We accept T/T (bank transfer), Alibaba Trade Assurance, PayPal (for sample-stage payments), Mastercard, Visa, and other major credit cards. Standard terms: 30% deposit to lock the production slot, 70% balance before shipment."
       },
       {
         "q": "Can you ship worldwide?",
@@ -971,6 +971,26 @@
       {
         "q": "How do you ensure quality consistency?",
         "a": "Every piece is hand-inspected. We use approved master samples as reference, conduct in-process checks at each stage, and perform final QA before packaging. Defect rate is under 1%."
+      },
+      {
+        "q": "Do you offer free 3D sculpting?",
+        "a": "Yes — for simple designs, we provide free 3D sculpting when you place a production order. Complex designs or multiple revisions may incur a sculpting fee, which we'll quote upfront. The free sculpting includes revisions until you're satisfied. If you decide not to proceed with production, the sculpting fee applies."
+      },
+      {
+        "q": "Do you sign NDA and protect my IP?",
+        "a": "Yes. We sign client NDAs by default — your sculpts, art and IP stay protected. We never reuse a custom-sculpted figure for another client. All artwork, sketches, 3D files, brand assets or character IP you share with us remains your property."
+      },
+      {
+        "q": "Who owns the molds and 3D files?",
+        "a": "You do. Once production is complete, the mold and 3D files created for your project belong to you. We can destroy the molds at your request after the production cycle ends. We will not reproduce or sell your design without authorization."
+      },
+      {
+        "q": "Do you provide weekly production updates?",
+        "a": "Yes. We send weekly photo updates during the bulk production run so you always know where your batch is. You can also request a live video call to see the production line in real time."
+      },
+      {
+        "q": "Can I request third-party inspection?",
+        "a": "Yes. We welcome AQL inspection or third-party inspection before final payment. The approved physical sample becomes the 'golden sample' — all bulk production must match it for shape, dimensions, colors, paint boundaries, accessories, base, finish and packaging."
       }
     ]
   },
