@@ -78,7 +78,7 @@
   "factoryIntro": {
     "kicker": "In unserer Fabrik",
     "title": "Wo werden Resin-Figuren hergestellt?",
-    "description": "Gegründet 2013, mit über 12 Jahren Erfahrung in der OEM- und ODM-Herstellung von Harzfiguren, spezialisiert sich unsere Fabrik auf maßgeschneiderte IP-basierte Figuren, kulturelle Tourismus-Souvenirs, große Skulpturen-Repliken, Produktteile & Zubehör, Unternehmensmaskottchen-Werbeartikel, Heimdekorationsfiguren, Auto-Armaturenbrett-Figuren, Blind-Box-Serien und Schlüsselanhänger. Wir bedienen Marken, IP-Inhaber, Einzelhändler, Museen, Touristenattraktionen und Sammler weltweit.",
+    "description": "Alle unsere Resin-Figuren werden in unserer eigenen 1.200㎡ Fabrik in Shenzhen, China hergestellt — über 50 Facharbeiter, über 12 Jahre Erfahrung, keine Auslagerung, keine Unterauftragnehmer.",
     "points": [
       "Unsere Mission: Unterstützung von Kleinserien-Tests bis zur kommerziellen Großproduktion",
       "Unser Versprechen: Technische Expertise, Lösungen für Ihre Projekte",
@@ -155,7 +155,7 @@
   "whyChooseUs": {
     "kicker": "Warum Marken uns wählen",
     "title": "Warum uns als Resin-Hersteller wählen?",
-    "subtitle": "6 Gründe, mit uns zu arbeiten.",
+    "subtitle": "Als Resin-Experten mit über 12 Jahren Erfahrung sind wir auf die Lösung komplexer Produktionsherausforderungen spezialisiert — MOQ ab 100 Stück, kostenloses 3D-Sculpting, Fehlerrate unter 1%, wöchentliche Produktionsupdates.",
     "features": [
       {
         "title": "Niedrige MOQ — 100 Stück",
@@ -781,7 +781,7 @@
   "productCategories": {
     "kicker": "Was wir herstellen",
     "title": "Welche Arten von Produkten können aus Resin hergestellt werden?",
-    "subtitle": "Vom Konzept bis zur Massenproduktion — wir handhaben jede Art von maßgeschneiderten Harzfiguren.",
+    "subtitle": "Resin kann in viele Arten von Produkten umgewandelt werden — IP-Figuren, Werbegeschenke, Souvenirs, Heimdekor, große Skulpturen und Schlüsselanhänger.",
     "categories": [
       {
         "title": "IP-basierte Harzfiguren",
@@ -823,13 +823,13 @@
   },
   "productGuideHint": {
     "title": "Kann Resin aus meinem Design hergestellt werden?",
-    "subtitle": "Nicht alle Designs erfordern Harz. Wir haben einen umfassenden Leitfaden mit 21 Produkttypen zusammengestellt, um Ihnen bei der besten Entscheidung zu helfen. Zögern Sie nicht, uns zu kontaktieren, wenn Sie unsicher sind.",
+    "subtitle": "Ja — senden Sie uns Ihr Design, Zeichnung, Skizze oder sogar nur eine Idee. Wir akzeptieren PNG, JPG, PDF, AI, STL, ZTL Dateien. Kostenloses 3D-Sculpting bei Produktionsbestellungen inklusive.",
     "buttonText": "Produktguide ansehen →"
   },
   "manufacturingProcess": {
     "kicker": "Unser Fertigungsprozess",
     "title": "Wie werden Resin-Figuren hergestellt?",
-    "subtitle": "9 Schritte professioneller Handwerkskunst in unserer Harzfabrik",
+    "subtitle": "Unser 9-Schritte-Prozess: 3D-Sculpting → 3D-Druck → Master-Pattern → Silikonform → Resin-Guss → Handbemalung → Qualitätsprüfung → Verpackung. CE/EN71/ASTM-zertifizierte Materialien.",
     "steps": [
       {
         "num": "01",
@@ -899,7 +899,7 @@
   "orderProcess": {
     "kicker": "Wie es funktioniert",
     "title": "Wie bestelle ich maßgeschneiderte Resin-Figuren?",
-    "subtitle": "9 Schritte von der Idee bis zu Ihren Händen",
+    "subtitle": "Bestellen ist einfach: Teilen Sie Ihr Design mit, erhalten Sie innerhalb von 12 Stunden ein Angebot, genehmigen Sie das Muster in 12 Tagen, dann produzieren wir in 20 Tagen und versenden weltweit in 3-35 Tagen.",
     "steps": [
       {
         "title": "Teilen Sie Ihre Anforderungen",
@@ -942,7 +942,7 @@
   "customerCases": {
     "kicker": "Kundengeschichten",
     "title": "Was sagen Kunden über die Zusammenarbeit mit uns?",
-    "subtitle": "Echtes Feedback von Marken, Einzelhändlern und Institutionen, mit denen wir zusammengearbeitet haben.",
+    "subtitle": "Vertraut von über 150 Marken in über 25 Ländern — hier ist, was Marken, Einzelhändler und Museen nach der Zusammenarbeit mit unserer Fabrik sagen.",
     "cases": [
       {
         "quote": "Der Besuch der Harzfabrik war eine aufschlussreiche Erfahrung. Ihr Serviceniveau und Qualitätsmanagementsystem sind wirklich professionell. Jeder Schritt — von der 3D-Modellierung bis zur endgültigen Verpackung — ist standardisiert und transparent. Die Harzfiguren, die sie für uns produziert haben, haben unsere Erwartungen an Details und Finish übertroffen.",
@@ -1021,7 +1021,7 @@
   "blogShowcase": {
     "kicker": "Neueste Geschichten",
     "title": "Was können Sie von unserer Resin-Expertise lernen?",
-    "subtitle": "Behind-the-Scenes-Geschichten und How-To-Anleitungen für Harzfiguren-Käufer.",
+    "subtitle": "Brancheneinblicke, Anleitungen und Hintergrundgeschichten aus 12 Jahren Resin-Fertigung — Materialien, Techniken und Fallstudien.",
     "readMore": "Weiterlesen"
   },
   "productGuide": {

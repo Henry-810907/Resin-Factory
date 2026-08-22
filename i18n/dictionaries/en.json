@@ -78,7 +78,7 @@
   "factoryIntro": {
     "kicker": "Inside Our Factory",
     "title": "Where Are Resin Figurines Manufactured?",
-    "description": "Established in 2013, with 12+ years of OEM & ODM resin figurine manufacturing, our resin factory specializes in custom IP-based figurines, cultural tourism souvenirs, large sculpture replicas, product parts & accessories, corporate mascot promotional items, home decor figurines, car dashboard figurines, blind box series and keychains. We serve brands, IP owners, retailers, museums, tourist attractions, and collectors worldwide.",
+    "description": "All our resin figurines are manufactured in our own 1,200㎡ factory in Shenzhen, China — 50+ skilled workers, 12+ years of experience, not outsourced, not subcontracted.",
     "points": [
       "Our Mission: Support you from small-batch trials to large-scale commercial production",
       "Our Commitment: Technical Expertise, Solutions for Your Projects",
@@ -153,7 +153,7 @@
   "whyChooseUs": {
     "kicker": "Why Brands Choose Us",
     "title": "Why Choose Us as Your Resin Manufacturer?",
-    "subtitle": "6 reasons to work with us.",
+    "subtitle": "As resin experts with 12+ years of experience, we specialize in solving complex production challenges — MOQ from 100 pieces, free 3D sculpting, defect rate under 1%, weekly production updates.",
     "features": [
       {
         "title": "Low MOQ — 100pcs",
@@ -741,7 +741,7 @@
   "productCategories": {
     "kicker": "What We Make",
     "title": "What Types of Products Can Resin Be Made Into?",
-    "subtitle": "From concept to mass production — we handle every type of custom resin figurine.",
+    "subtitle": "Resin can be made into many types of products — IP figurines, corporate gifts, souvenirs, home decor, large sculptures, and keychains.",
     "categories": [
       {
         "title": "IP-Based Resin Figurines",
@@ -783,13 +783,13 @@
   },
   "productGuideHint": {
     "title": "Can Resin Be Made From My Design?",
-    "subtitle": "Not all designs require resin. We've compiled a comprehensive guide covering 21 product types to help you make the best decision. Feel free to consult us if you're unsure.",
+    "subtitle": "Yes — send us your design, drawing, sketch, or even just an idea. We accept PNG, JPG, PDF, AI, STL, ZTL files. Free 3D sculpting included with production orders.",
     "buttonText": "View Product Guide →"
   },
   "manufacturingProcess": {
     "kicker": "Our Manufacturing Process",
     "title": "How Are Resin Figurines Made?",
-    "subtitle": "9 steps of professional craftsmanship in our resin factory",
+    "subtitle": "Here's our 9-step process: 3D sculpting → 3D printing → master pattern → silicone mould → resin casting → hand painting → quality inspection → packaging. CE/EN71/ASTM certified materials.",
     "steps": [
       {
         "num": "01",
@@ -859,7 +859,7 @@
   "orderProcess": {
     "kicker": "How It Works",
     "title": "How Do I Order Custom Resin Figurines?",
-    "subtitle": "9 steps from idea to your hands",
+    "subtitle": "Ordering is simple: share your design, get a quote within 12 hours, approve the sample in 12 days, then we produce in 20 days and ship worldwide in 3-35 days.",
     "steps": [
       {
         "title": "Share Your Requirements",
@@ -902,7 +902,7 @@
   "customerCases": {
     "kicker": "Customer Stories",
     "title": "What Do Clients Say About Working With Us?",
-    "subtitle": "Real feedback from brands, retailers, and institutions we've worked with.",
+    "subtitle": "Trusted by 150+ brands across 25+ countries — here's what brands, retailers, and museums say after working with our factory.",
     "cases": [
       {
         "quote": "Visiting the resin factory was an eye-opening experience. Their service level and quality management system are truly professional. Every step — from 3D modeling to final packaging — is standardized and transparent. The resin figurines they produced for us exceeded our expectations in both detail and finish.",
@@ -1001,7 +1001,7 @@
   "blogShowcase": {
     "kicker": "Latest Stories",
     "title": "What Can You Learn From Our Resin Expertise?",
-    "subtitle": "Behind-the-scenes stories and how-to guides for resin figurine buyers.",
+    "subtitle": "Industry insights, how-to guides, and behind-the-scenes stories from 12 years of resin manufacturing — materials, techniques, and case studies.",
     "readMore": "Read More"
   },
   "productGuide": {

@@ -78,7 +78,7 @@
   "factoryIntro": {
     "kicker": "Dentro de nuestra fábrica",
     "title": "¿Dónde se fabrican las figuras de resina?",
-    "description": "Fundada en 2013, con más de 12 años de experiencia en fabricación OEM y ODM de figuras de resina, nuestra fábrica se especializa en figuras personalizadas basadas en IP, recuerdos de turismo cultural, réplicas de esculturas grandes, piezas y accesorios de productos, artículos promocionales de mascotas corporativas, figuras de decoración para el hogar, figuras para tableros de automóviles, series de cajas ciegas y llaveros. Servimos a marcas, propietarios de IP, minoristas, museos, atracciones turísticas y coleccionistas en todo el mundo.",
+    "description": "Todas nuestras figuras de resina se fabrican en nuestra propia fábrica de 1,200㎡ en Shenzhen, China — más de 50 trabajadores calificados, más de 12 años de experiencia, sin subcontratación, sin subcontratación.",
     "points": [
       "Nuestra Misión: Apoyarte desde pruebas de lotes pequeños hasta producción comercial a gran escala",
       "Nuestro Compromiso: Experiencia Técnica, Soluciones para Tus Proyectos",
@@ -155,7 +155,7 @@
   "whyChooseUs": {
     "kicker": "Por qué las marcas nos eligen",
     "title": "¿Por qué elegirnos como fabricante de resina?",
-    "subtitle": "6 razones para trabajar con nosotros.",
+    "subtitle": "Como expertos en resina con más de 12 años de experiencia, nos especializamos en resolver desafíos de producción complejos — MOQ desde 100 piezas, escultura 3D gratuita, tasa de defectos inferior al 1%, actualizaciones semanales de producción.",
     "features": [
       {
         "title": "MOQ baja — 100 piezas",
@@ -781,7 +781,7 @@
   "productCategories": {
     "kicker": "Lo que hacemos",
     "title": "¿Qué tipos de productos se pueden hacer con resina?",
-    "subtitle": "Del concepto a la producción en masa — manejamos todo tipo de figuras de resina personalizadas.",
+    "subtitle": "La resina se puede convertir en muchos tipos de productos — figuras IP, regalos corporativos, recuerdos, decoración del hogar, esculturas grandes y llaveros.",
     "categories": [
       {
         "title": "Figuras de resina basadas en IP",
@@ -823,13 +823,13 @@
   },
   "productGuideHint": {
     "title": "¿Se puede hacer resina desde mi diseño?",
-    "subtitle": "No todos los diseños requieren resina. Hemos compilado una guía completa que cubre 21 tipos de productos para ayudarte a tomar la mejor decisión. No dudes en consultarnos si tienes dudas.",
+    "subtitle": "Sí — envíenos su diseño, dibujo, boceto o incluso una simple idea. Aceptamos archivos PNG, JPG, PDF, AI, STL, ZTL. Esculpido 3D gratis incluido con pedidos de producción.",
     "buttonText": "Ver guía de productos →"
   },
   "manufacturingProcess": {
     "kicker": "Nuestro proceso de fabricación",
     "title": "¿Cómo se fabrican las figuras de resina?",
-    "subtitle": "9 pasos de artesanía profesional en nuestra fábrica de resina",
+    "subtitle": "Nuestro proceso de 9 pasos: escultura 3D → impresión 3D → patrón maestro → molde de silicona → fundición de resina → pintura a mano → inspección de calidad → embalaje. Materiales certificados CE/EN71/ASTM.",
     "steps": [
       {
         "num": "01",
@@ -899,7 +899,7 @@
   "orderProcess": {
     "kicker": "Cómo funciona",
     "title": "¿Cómo pido figuras de resina personalizadas?",
-    "subtitle": "9 pasos desde la idea hasta sus manos",
+    "subtitle": "Pedir es simple: comparte tu diseño, recibe un presupuesto en 12 horas, aprueba la muestra en 12 días, luego producimos en 20 días y enviamos a todo el mundo en 3-35 días.",
     "steps": [
       {
         "title": "Comparta sus requisitos",
@@ -942,7 +942,7 @@
   "customerCases": {
     "kicker": "Historias de clientes",
     "title": "¿Qué dicen los clientes de trabajar con nosotros?",
-    "subtitle": "Comentarios reales de marcas, minoristas e instituciones con las que hemos trabajado.",
+    "subtitle": "Aprobado por más de 150 marcas en más de 25 países — esto es lo que las marcas, minoristas y museos dicen después de trabajar con nuestra fábrica.",
     "cases": [
       {
         "quote": "Visitar la fábrica de resina fue una experiencia reveladora. Su nivel de servicio y sistema de gestión de calidad son verdaderamente profesionales. Cada paso — desde el modelado 3D hasta el empaque final — está estandarizado y es transparente. Las figuras de resina que produjeron para nosotros superaron nuestras expectativas tanto en detalles como en acabado.",
@@ -1021,7 +1021,7 @@
   "blogShowcase": {
     "kicker": "Últimas historias",
     "title": "¿Qué puedes aprender de nuestra experiencia en resina?",
-    "subtitle": "Historias detrás de escena y guías prácticas para compradores de figuras de resina.",
+    "subtitle": "Perspectivas de la industria, guías prácticas e historias detrás de escena de 12 años de fabricación de resina — materiales, técnicas y estudios de caso.",
     "readMore": "Leer más"
   },
   "productGuide": {
