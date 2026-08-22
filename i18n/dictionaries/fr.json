@@ -76,8 +76,8 @@
     "stat3Label": "Marques"
   },
   "factoryIntro": {
-    "kicker": "Dans notre usine",
-    "title": "À propos de notre usine",
+    "kicker": "À propos de notre usine",
+    "title": "Où sont fabriquées les figurines en résine ?",
     "description": "Fondée en 2013, avec plus de 12 ans d'expérience en fabrication OEM et ODM de figurines en résine, notre usine est spécialisée dans les figurines personnalisées basées sur l'IP, les souvenirs de tourisme culturel, les répliques de grandes sculptures, les pièces et accessoires de produits, les articles promotionnels de mascottes d'entreprise, les figurines de décoration d'intérieur, les figurines de tableau de bord automobile, les séries de boîtes mystères et les porte-clés. Nous servons des marques, des propriétaires d'IP, des détaillants, des musées, des attractions touristiques et des collectionneurs dans le monde entier.",
     "points": [
       "Notre Mission : Vous accompagner des essais en petites séries à la production commerciale à grande échelle",
@@ -154,7 +154,7 @@
   },
   "whyChooseUs": {
     "kicker": "Pourquoi les marques nous choisissent",
-    "title": "Pourquoi choisir notre usine de résine",
+    "title": "Pourquoi nous choisir comme fabricant de résine ?",
     "subtitle": "6 raisons de travailler avec nous.",
     "features": [
       {
@@ -780,7 +780,7 @@
   },
   "productCategories": {
     "kicker": "Ce que nous fabriquons",
-    "title": "9 catégories de produits",
+    "title": "Quels types de produits peuvent être fabriqués en résine ?",
     "subtitle": "Du concept à la production de masse — nous gérons tous types de figurines en résine personnalisées.",
     "categories": [
       {
@@ -822,13 +822,13 @@
     ]
   },
   "productGuideHint": {
-    "title": "Besoin d'aide pour choisir le bon produit ?",
+    "title": "Ma conception peut-elle être réalisée en résine ?",
     "subtitle": "Tous les designs ne nécessitent pas de la résine. Nous avons compilé un guide complet couvrant 21 types de produits pour vous aider à prendre la meilleure décision. N'hésitez pas à nous consulter en cas de doute.",
     "buttonText": "Voir le guide produit →"
   },
   "manufacturingProcess": {
     "kicker": "Notre processus de fabrication",
-    "title": "Processus de fabrication des figurines en résine",
+    "title": "Comment sont fabriquées les figurines en résine ?",
     "subtitle": "9 étapes d'artisanat professionnel dans notre usine de résine",
     "steps": [
       {
@@ -898,7 +898,7 @@
   },
   "orderProcess": {
     "kicker": "Comment ça marche",
-    "title": "Comment commander de notre usine de résine",
+    "title": "Comment commander des figurines en résine personnalisées ?",
     "subtitle": "9 étapes de l'idée à vos mains",
     "steps": [
       {
@@ -941,7 +941,7 @@
   },
   "customerCases": {
     "kicker": "Histoires de clients",
-    "title": "Ce que disent nos clients",
+    "title": "Que disent les clients de travailler avec nous ?",
     "subtitle": "Retours réels de marques, détaillants et institutions avec lesquels nous avons travaillé.",
     "cases": [
       {
@@ -1020,7 +1020,7 @@
   },
   "blogShowcase": {
     "kicker": "Dernières histoires",
-    "title": "Notre blog - Perspectives de l'industrie",
+    "title": "Que pouvez-vous apprendre de notre expertise en résine ?",
     "subtitle": "Histoires des coulisses et guides pratiques pour les acheteurs de figurines en résine.",
     "readMore": "Lire la suite"
   },

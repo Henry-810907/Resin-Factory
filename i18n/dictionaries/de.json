@@ -77,7 +77,7 @@
   },
   "factoryIntro": {
     "kicker": "In unserer Fabrik",
-    "title": "Über unsere Fabrik",
+    "title": "Wo werden Resin-Figuren hergestellt?",
     "description": "Gegründet 2013, mit über 12 Jahren Erfahrung in der OEM- und ODM-Herstellung von Harzfiguren, spezialisiert sich unsere Fabrik auf maßgeschneiderte IP-basierte Figuren, kulturelle Tourismus-Souvenirs, große Skulpturen-Repliken, Produktteile & Zubehör, Unternehmensmaskottchen-Werbeartikel, Heimdekorationsfiguren, Auto-Armaturenbrett-Figuren, Blind-Box-Serien und Schlüsselanhänger. Wir bedienen Marken, IP-Inhaber, Einzelhändler, Museen, Touristenattraktionen und Sammler weltweit.",
     "points": [
       "Unsere Mission: Unterstützung von Kleinserien-Tests bis zur kommerziellen Großproduktion",
@@ -154,7 +154,7 @@
   },
   "whyChooseUs": {
     "kicker": "Warum Marken uns wählen",
-    "title": "Warum unsere Harzfabrik wählen",
+    "title": "Warum uns als Resin-Hersteller wählen?",
     "subtitle": "6 Gründe, mit uns zu arbeiten.",
     "features": [
       {
@@ -780,7 +780,7 @@
   },
   "productCategories": {
     "kicker": "Was wir herstellen",
-    "title": "9 Produktkategorien",
+    "title": "Welche Arten von Produkten können aus Resin hergestellt werden?",
     "subtitle": "Vom Konzept bis zur Massenproduktion — wir handhaben jede Art von maßgeschneiderten Harzfiguren.",
     "categories": [
       {
@@ -822,13 +822,13 @@
     ]
   },
   "productGuideHint": {
-    "title": "Brauchen Sie Hilfe bei der Produktauswahl?",
+    "title": "Kann Resin aus meinem Design hergestellt werden?",
     "subtitle": "Nicht alle Designs erfordern Harz. Wir haben einen umfassenden Leitfaden mit 21 Produkttypen zusammengestellt, um Ihnen bei der besten Entscheidung zu helfen. Zögern Sie nicht, uns zu kontaktieren, wenn Sie unsicher sind.",
     "buttonText": "Produktguide ansehen →"
   },
   "manufacturingProcess": {
     "kicker": "Unser Fertigungsprozess",
-    "title": "Harzfiguren-Fertigungsprozess",
+    "title": "Wie werden Resin-Figuren hergestellt?",
     "subtitle": "9 Schritte professioneller Handwerkskunst in unserer Harzfabrik",
     "steps": [
       {
@@ -898,7 +898,7 @@
   },
   "orderProcess": {
     "kicker": "Wie es funktioniert",
-    "title": "So bestellen Sie bei unserer Harzfabrik",
+    "title": "Wie bestelle ich maßgeschneiderte Resin-Figuren?",
     "subtitle": "9 Schritte von der Idee bis zu Ihren Händen",
     "steps": [
       {
@@ -941,7 +941,7 @@
   },
   "customerCases": {
     "kicker": "Kundengeschichten",
-    "title": "Was unsere Kunden sagen",
+    "title": "Was sagen Kunden über die Zusammenarbeit mit uns?",
     "subtitle": "Echtes Feedback von Marken, Einzelhändlern und Institutionen, mit denen wir zusammengearbeitet haben.",
     "cases": [
       {
@@ -1020,7 +1020,7 @@
   },
   "blogShowcase": {
     "kicker": "Neueste Geschichten",
-    "title": "Unser Blog - Brancheneinblicke",
+    "title": "Was können Sie von unserer Resin-Expertise lernen?",
     "subtitle": "Behind-the-Scenes-Geschichten und How-To-Anleitungen für Harzfiguren-Käufer.",
     "readMore": "Weiterlesen"
   },

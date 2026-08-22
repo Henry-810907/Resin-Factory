@@ -77,7 +77,7 @@
   },
   "factoryIntro": {
     "kicker": "Dentro de nuestra fábrica",
-    "title": "Sobre nuestra fábrica",
+    "title": "¿Dónde se fabrican las figuras de resina?",
     "description": "Fundada en 2013, con más de 12 años de experiencia en fabricación OEM y ODM de figuras de resina, nuestra fábrica se especializa en figuras personalizadas basadas en IP, recuerdos de turismo cultural, réplicas de esculturas grandes, piezas y accesorios de productos, artículos promocionales de mascotas corporativas, figuras de decoración para el hogar, figuras para tableros de automóviles, series de cajas ciegas y llaveros. Servimos a marcas, propietarios de IP, minoristas, museos, atracciones turísticas y coleccionistas en todo el mundo.",
     "points": [
       "Nuestra Misión: Apoyarte desde pruebas de lotes pequeños hasta producción comercial a gran escala",
@@ -154,7 +154,7 @@
   },
   "whyChooseUs": {
     "kicker": "Por qué las marcas nos eligen",
-    "title": "Por qué elegir nuestra fábrica de resina",
+    "title": "¿Por qué elegirnos como fabricante de resina?",
     "subtitle": "6 razones para trabajar con nosotros.",
     "features": [
       {
@@ -780,7 +780,7 @@
   },
   "productCategories": {
     "kicker": "Lo que hacemos",
-    "title": "9 categorías de productos",
+    "title": "¿Qué tipos de productos se pueden hacer con resina?",
     "subtitle": "Del concepto a la producción en masa — manejamos todo tipo de figuras de resina personalizadas.",
     "categories": [
       {
@@ -822,13 +822,13 @@
     ]
   },
   "productGuideHint": {
-    "title": "¿Necesitas ayuda para elegir el producto adecuado?",
+    "title": "¿Se puede hacer resina desde mi diseño?",
     "subtitle": "No todos los diseños requieren resina. Hemos compilado una guía completa que cubre 21 tipos de productos para ayudarte a tomar la mejor decisión. No dudes en consultarnos si tienes dudas.",
     "buttonText": "Ver guía de productos →"
   },
   "manufacturingProcess": {
     "kicker": "Nuestro proceso de fabricación",
-    "title": "Proceso de fabricación de figuras de resina",
+    "title": "¿Cómo se fabrican las figuras de resina?",
     "subtitle": "9 pasos de artesanía profesional en nuestra fábrica de resina",
     "steps": [
       {
@@ -898,7 +898,7 @@
   },
   "orderProcess": {
     "kicker": "Cómo funciona",
-    "title": "Cómo ordenar de nuestra fábrica de resina",
+    "title": "¿Cómo pido figuras de resina personalizadas?",
     "subtitle": "9 pasos desde la idea hasta sus manos",
     "steps": [
       {
@@ -941,7 +941,7 @@
   },
   "customerCases": {
     "kicker": "Historias de clientes",
-    "title": "Lo que dicen nuestros clientes",
+    "title": "¿Qué dicen los clientes de trabajar con nosotros?",
     "subtitle": "Comentarios reales de marcas, minoristas e instituciones con las que hemos trabajado.",
     "cases": [
       {
@@ -1020,7 +1020,7 @@
   },
   "blogShowcase": {
     "kicker": "Últimas historias",
-    "title": "Nuestro blog - Perspectivas de la industria",
+    "title": "¿Qué puedes aprender de nuestra experiencia en resina?",
     "subtitle": "Historias detrás de escena y guías prácticas para compradores de figuras de resina.",
     "readMore": "Leer más"
   },
