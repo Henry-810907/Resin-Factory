@@ -3,9 +3,6 @@ import { Star } from "lucide-react";
 import type { Dictionary } from "@/i18n/get-dictionary";
 
 const IMAGES = [
-  "/pictures/case-01.jpg",
-  "/pictures/case-02.jpg",
-  "/pictures/case-03.jpg",
   "/pictures/case-04.jpg",
   "/pictures/case-05.jpg",
   "/pictures/case-06.jpg",
@@ -24,7 +21,7 @@ export default function CustomerCases({ dict }: Props) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {dict.cases.map((c, i) => (
+          {dict.cases.slice(3).map((c, i) => (
             <div key={i} className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
               <div className="relative w-full aspect-[4/3]">
                 <Image

@@ -38,40 +38,6 @@ export default function FactoryIntro({ dict }: Props) {
           />
         </div>
       </div>
-
-      {/* 3 Images as cards */}
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
-          <div className="p-[2px]">
-            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg">
-              <Image src="/pictures/factory-exterior.jpg" alt="Factory Exterior" fill sizes="(max-width: 768px) 100vw, 33vw" quality={85} className="object-cover" />
-            </div>
-          </div>
-          <div className="px-3 pb-3 text-center">
-            <h3 className="text-base font-bold text-brand-dark">{dict.factoryExterior}</h3>
-          </div>
-        </div>
-        <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
-          <div className="p-[2px]">
-            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg">
-              <Image src="/pictures/production-line.jpg" alt="Production Line" fill sizes="(max-width: 768px) 100vw, 33vw" quality={85} className="object-cover" />
-            </div>
-          </div>
-          <div className="px-3 pb-3 text-center">
-            <h3 className="text-base font-bold text-brand-dark">{dict.productionLine}</h3>
-          </div>
-        </div>
-        <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md hover:-translate-y-1 transition">
-          <div className="p-[2px]">
-            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg">
-              <Image src="/pictures/product-exhibition.jpg" alt="Product Exhibition" fill sizes="(max-width: 768px) 100vw, 33vw" quality={85} className="object-cover" />
-            </div>
-          </div>
-          <div className="px-3 pb-3 text-center">
-            <h3 className="text-base font-bold text-brand-dark">{dict.productExhibition}</h3>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
