@@ -59,7 +59,7 @@ export default async function AboutPage({ params }: Props) {
           { name: dict.header.nav.about, url: `/${lang}/about` },
         ]}
       />
-      <PageHero title={a.heroTitle} subtitle={a.heroSubtitle} image="/pictures/factory-exterior-real.jpg" imageAlt="Our Factory Exterior" priority={true} />
+      <PageHero title={a.heroTitle} subtitle={a.heroSubtitle} image="/pictures/jpg/resin-factory-founder.jpg" imageAlt="Our Factory Exterior" priority={true} />
 
       <section className="bg-white py-10 md:py-20">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-14 items-center">
