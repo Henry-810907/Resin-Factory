@@ -1705,7 +1705,11 @@
           "بؤبؤ العين غير متماثل، مما يجعل الوجه يبدو غريباً"
         ],
         "image": "/pictures/tech-q1-eyes.jpg",
-        "imageAlt": "مقارنة جودة عيون تماثيل الراتنج"
+        "imageAlt": "مقارنة جودة عيون تماثيل الراتنج",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-figurine-eyes-look-unnatural"
+        }
       },
       {
         "icon": "GitCompare",
@@ -1716,7 +1720,11 @@
           "الرسامون اليدويون عديمي الخبرة يسببون تلطيخ الألوان وخطوط غير واضحة"
         ],
         "image": "/pictures/tech-q2-consistency.jpg",
-        "imageAlt": "مقارنة الاتساق بين العينة والإنتاج الضخم"
+        "imageAlt": "مقارنة الاتساق بين العينة والإنتاج الضخم",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-sample-and-mass-production-look-different"
+        }
       },
       {
         "icon": "Search",
@@ -1727,7 +1735,11 @@
           "قوالب سيليكون رديئة أو مستخدمة بشكل مفرط لا تلتقط التفاصيل الدقيقة"
         ],
         "image": "/pictures/tech-q3-details.jpg",
-        "imageAlt": "مقارنة تفاصيل تماثيل الراتنج"
+        "imageAlt": "مقارنة تفاصيل تماثيل الراتنج",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/small-stone-statues-weathering-texture"
+        }
       },
       {
         "icon": "AlertTriangle",
@@ -1738,7 +1750,11 @@
           "التلميع غير الخبير لا يملأ الثقوب الصغيرة"
         ],
         "image": "/pictures/tech-q4-bubbles.jpg",
-        "imageAlt": "مقارنة عيوب سطح تماثيل الراتنج"
+        "imageAlt": "مقارنة عيوب سطح تماثيل الراتنج",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/how-to-prevent-bubbles-in-resin-figurines"
+        }
       }
     ],
     "intro": "من النحت وصنع القوالب إلى الصب والطلاء، يتضمن إنتاج تماثيل الراتنج المخصصة العديد من التحديات التقنية. إليك بعض مخاطر الإنتاج الشائعة — وكيف يمكن للمصنعين ذوي الخبرة منعها."

@@ -1705,7 +1705,11 @@
           "瞳孔が左右非対称で、顔のバランスが悪く見える"
         ],
         "image": "/pictures/tech-q1-eyes.jpg",
-        "imageAlt": "樹脂フィギュアの目の品質比較"
+        "imageAlt": "樹脂フィギュアの目の品質比較",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-figurine-eyes-look-unnatural"
+        }
       },
       {
         "icon": "GitCompare",
@@ -1716,7 +1720,11 @@
           "経験の浅い塗装担当者が色のにじみやラインのはみ出しを引き起こす"
         ],
         "image": "/pictures/tech-q2-consistency.jpg",
-        "imageAlt": "サンプルと大量生産の比較"
+        "imageAlt": "サンプルと大量生産の比較",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-sample-and-mass-production-look-different"
+        }
       },
       {
         "icon": "Search",
@@ -1727,7 +1735,11 @@
           "シリコン型の品質が低い、または使用回数が多すぎる"
         ],
         "image": "/pictures/tech-q3-details.jpg",
-        "imageAlt": "細部の品質比較"
+        "imageAlt": "細部の品質比較",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/small-stone-statues-weathering-texture"
+        }
       },
       {
         "icon": "AlertTriangle",
@@ -1738,7 +1750,11 @@
           "研磨担当者の経験が不足しており、表面処理が不十分"
         ],
         "image": "/pictures/tech-q4-bubbles.jpg",
-        "imageAlt": "気泡とピンホールの問題"
+        "imageAlt": "気泡とピンホールの問題",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/how-to-prevent-bubbles-in-resin-figurines"
+        }
       }
     ],
     "intro": "原型制作、型取り、鋳造、塗装まで、カスタムレジンフィギュアの制作には多くの技術的な課題が伴います。経験豊富なメーカーがどのようにこれらのリスクを予防するかをご紹介します。"

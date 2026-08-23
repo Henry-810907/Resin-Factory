@@ -1705,7 +1705,11 @@
           "Asymmetrische Pupillen, die das Gesicht seltsam aussehen lassen"
         ],
         "image": "/pictures/tech-q1-eyes.jpg",
-        "imageAlt": "Qualitätsvergleich der Augen von Harzfiguren"
+        "imageAlt": "Qualitätsvergleich der Augen von Harzfiguren",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-figurine-eyes-look-unnatural"
+        }
       },
       {
         "icon": "GitCompare",
@@ -1716,7 +1720,11 @@
           "Unerfahrene Handmaler verursachen Farbausblutungen und verschwommene Linien"
         ],
         "image": "/pictures/tech-q2-consistency.jpg",
-        "imageAlt": "Konsistenzvergleich zwischen Muster und Serienproduktion"
+        "imageAlt": "Konsistenzvergleich zwischen Muster und Serienproduktion",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-sample-and-mass-production-look-different"
+        }
       },
       {
         "icon": "Search",
@@ -1727,7 +1735,11 @@
           "Schlechte oder überbeanspruchte Silikonformen, die feine Details nicht erfassen"
         ],
         "image": "/pictures/tech-q3-details.jpg",
-        "imageAlt": "Detailvergleich von Harzfiguren"
+        "imageAlt": "Detailvergleich von Harzfiguren",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/small-stone-statues-weathering-texture"
+        }
       },
       {
         "icon": "AlertTriangle",
@@ -1738,7 +1750,11 @@
           "Unerfahrenes Polieren, das kleine Löcher nicht füllt"
         ],
         "image": "/pictures/tech-q4-bubbles.jpg",
-        "imageAlt": "Oberflächenfehler-Vergleich von Harzfiguren"
+        "imageAlt": "Oberflächenfehler-Vergleich von Harzfiguren",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/how-to-prevent-bubbles-in-resin-figurines"
+        }
       }
     ],
     "intro": "Von der Modellierung über das Formen bis zum Gießen und Lackieren — die Herstellung von maßgeschneiderten Resin-Figuren birgt viele technische Herausforderungen. Hier sind einige häufige Produktionsrisiken — und wie erfahrene Hersteller sie verhindern."

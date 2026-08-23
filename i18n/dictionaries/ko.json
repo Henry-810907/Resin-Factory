@@ -1705,7 +1705,11 @@
           "동공이 비대칭으로 얼굴이 이상해 보임"
         ],
         "image": "/pictures/tech-q1-eyes.jpg",
-        "imageAlt": "레진 피규어 눈 품질 비교"
+        "imageAlt": "레진 피규어 눈 품질 비교",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-figurine-eyes-look-unnatural"
+        }
       },
       {
         "icon": "GitCompare",
@@ -1716,7 +1720,11 @@
           "경험이 부족한 핸드 페인터가 색상 번짐과 흐릿한 라인을 유발"
         ],
         "image": "/pictures/tech-q2-consistency.jpg",
-        "imageAlt": "샘플과 양산품 일관성 비교"
+        "imageAlt": "샘플과 양산품 일관성 비교",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-sample-and-mass-production-look-different"
+        }
       },
       {
         "icon": "Search",
@@ -1727,7 +1735,11 @@
           "미세 디테일을 포착하지 못하는 나쁜 품질이나 과도하게 사용된 실리콘 금형"
         ],
         "image": "/pictures/tech-q3-details.jpg",
-        "imageAlt": "레진 피규어 디테일 비교"
+        "imageAlt": "레진 피규어 디테일 비교",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/small-stone-statues-weathering-texture"
+        }
       },
       {
         "icon": "AlertTriangle",
@@ -1738,7 +1750,11 @@
           "작은 구멍을 메우지 못하는 경험 부족한 연마"
         ],
         "image": "/pictures/tech-q4-bubbles.jpg",
-        "imageAlt": "레진 피규어 표면 결함 비교"
+        "imageAlt": "레진 피규어 표면 결함 비교",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/how-to-prevent-bubbles-in-resin-figurines"
+        }
       }
     ],
     "intro": "원형 제작, 금형 제작, 캐스팅, 도색까지, 커스텀 레진 피규어 제작에는 많은 기술적 과제가 따릅니다. 숙련된 제조업체가 이러한 생산 위험을 어떻게 예방하는지 소개합니다."

@@ -1705,7 +1705,11 @@
           "Pupilles asymétriques, donnant au visage une apparence étrange"
         ],
         "image": "/pictures/tech-q1-eyes.jpg",
-        "imageAlt": "Comparaison de qualité des yeux de figurines en résine"
+        "imageAlt": "Comparaison de qualité des yeux de figurines en résine",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-figurine-eyes-look-unnatural"
+        }
       },
       {
         "icon": "GitCompare",
@@ -1716,7 +1720,11 @@
           "Des peintres à la main inexpérimentés causent des bavures de couleur et des lignes floues"
         ],
         "image": "/pictures/tech-q2-consistency.jpg",
-        "imageAlt": "Comparaison de cohérence entre échantillon et production de masse"
+        "imageAlt": "Comparaison de cohérence entre échantillon et production de masse",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-sample-and-mass-production-look-different"
+        }
       },
       {
         "icon": "Search",
@@ -1727,7 +1735,11 @@
           "Moules en silicone de mauvaise qualité ou surutilisés qui ne capturent pas les détails fins"
         ],
         "image": "/pictures/tech-q3-details.jpg",
-        "imageAlt": "Comparaison de détails de figurines en résine"
+        "imageAlt": "Comparaison de détails de figurines en résine",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/small-stone-statues-weathering-texture"
+        }
       },
       {
         "icon": "AlertTriangle",
@@ -1738,7 +1750,11 @@
           "Polissage inexpérimenté qui ne comble pas les petits trous"
         ],
         "image": "/pictures/tech-q4-bubbles.jpg",
-        "imageAlt": "Comparaison de défauts de surface de figurines en résine"
+        "imageAlt": "Comparaison de défauts de surface de figurines en résine",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/how-to-prevent-bubbles-in-resin-figurines"
+        }
       }
     ],
     "intro": "De la sculpture à la peinture, en passant par la création de moules et le moulage, la production de figurines en résine personnalisées implique de nombreux défis techniques. Voici quelques risques de production courants — et comment les fabricants expérimentés les préviennent."

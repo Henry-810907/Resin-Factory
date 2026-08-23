@@ -1705,7 +1705,11 @@
           "Pupilas asimétricas, haciendo que el rostro se vea extraño"
         ],
         "image": "/pictures/tech-q1-eyes.jpg",
-        "imageAlt": "Comparación de calidad de ojos de figuras de resina"
+        "imageAlt": "Comparación de calidad de ojos de figuras de resina",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-figurine-eyes-look-unnatural"
+        }
       },
       {
         "icon": "GitCompare",
@@ -1716,7 +1720,11 @@
           "Pintores a mano inexpertos causan sangrado de color y líneas borrosas"
         ],
         "image": "/pictures/tech-q2-consistency.jpg",
-        "imageAlt": "Comparación de consistencia entre muestra y producción en masa"
+        "imageAlt": "Comparación de consistencia entre muestra y producción en masa",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-sample-and-mass-production-look-different"
+        }
       },
       {
         "icon": "Search",
@@ -1727,7 +1735,11 @@
           "Moldes de silicona de mala calidad o sobrecargados que no capturan detalles finos"
         ],
         "image": "/pictures/tech-q3-details.jpg",
-        "imageAlt": "Comparación de detalles de figuras de resina"
+        "imageAlt": "Comparación de detalles de figuras de resina",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/small-stone-statues-weathering-texture"
+        }
       },
       {
         "icon": "AlertTriangle",
@@ -1738,7 +1750,11 @@
           "Pulido inexperto que no rellena los pequeños agujeros"
         ],
         "image": "/pictures/tech-q4-bubbles.jpg",
-        "imageAlt": "Comparación de defectos de superficie de figuras de resina"
+        "imageAlt": "Comparación de defectos de superficie de figuras de resina",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/how-to-prevent-bubbles-in-resin-figurines"
+        }
       }
     ],
     "intro": "Desde la escultura y la creación de moldes hasta el moldeo y la pintura, la producción de figuras de resina personalizadas implica muchos desafíos técnicos. Aquí hay algunos riesgos de producción comunes — y cómo los fabricantes experimentados los previenen."
