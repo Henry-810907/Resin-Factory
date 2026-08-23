@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
   if (!isLocale(params.lang)) return {};
   const lang = params.lang;
   const dict = await getDictionary(lang);
-  const title = `${dict.meta.siteName} — ${dict.meta.tagline}`;
+  const title = `${dict.meta.siteName}-${dict.meta.tagline}`;
   const desc = dict.meta.defaultDescription;
 
   // 给所有语言生成 hreflang alternates

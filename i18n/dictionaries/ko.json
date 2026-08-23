@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Resin Factory",
-    "tagline": "브랜드와 IP를 위한 맞춤 레진 피규어",
+    "tagline": "브랜드, IP 및 디자이너를 위한 커스텀 레진 피규어 제조업체 | MOQ 100",
     "defaultDescription": "선전에 위치한 B2B 맞춤 레진 피규어 제조사. 원형 제작, 몰드, 캐스팅, 핸드페인팅을 한 지붕 아래에서 일관 생산. 100개부터 가능한 낮은 MOQ, 무료 3D 조형, CE/EN71/ASTM 인증, 전 세계 배송.",
     "products": {
       "title": "맞춤 레진 피규어 제품 — 스태츄, 디자이너 토이, 블라인드박스",
@@ -46,7 +46,7 @@
     "factoryService": "브랜드 & IP를 위한 커스텀 레진 피규어"
   },
   "hero": {
-    "h1": "Resin Factory - 브랜드 및 IP를 위한 맞춤형 레진 피규어",
+    "h1": "Resin Factory - 브랜드, IP 및 디자이너를 위한 커스텀 레진 피규어 제조업체",
     "slides": [
       {
         "title": "브랜드 및 IP를 위한 맞춤형 레진 피규어",
