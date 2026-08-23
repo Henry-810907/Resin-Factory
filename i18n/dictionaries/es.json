@@ -1679,5 +1679,92 @@
         "expertise": "→ Recomendación de material · Evaluación gratuita"
       }
     ]
+  },
+  "technicalChallenges": {
+    "kicker": "Desafíos Técnicos",
+    "title": "¿Por Qué Algunas Fábricas de Figuras de Resina Tienen Problemas de Calidad?",
+    "challenges": [
+      {
+        "icon": "Eye",
+        "question": "¿Por Qué los Ojos de Algunas Figuras de Resina Se Ven Apagados, Muertos o Irreales?",
+        "causes": [
+          "Forma de ojos incorrecta, como globos oculares demasiado salientes, creando una apariencia espeluznante",
+          "Falta de líneas de pestañas, haciendo que la expresión se vea rígida y sin vida",
+          "Pupilas asimétricas, haciendo que el rostro se vea extraño"
+        ],
+        "image": "/pictures/tech-q1-eyes.jpg",
+        "imageAlt": "Comparación de calidad de ojos de figuras de resina"
+      },
+      {
+        "icon": "GitCompare",
+        "question": "¿Por Qué Algunas Fábricas Aprueban la Muestra Pero Fallan en Producción en Masa?",
+        "causes": [
+          "Los moldes de silicona se desgastan después de ~70 coladas y deben ser retirados",
+          "Mala calidad de material y lijado insuficiente causan marcas de flujo visibles en piezas de producción",
+          "Pintores a mano inexpertos causan sangrado de color y líneas borrosas"
+        ],
+        "image": "/pictures/tech-q2-consistency.jpg",
+        "imageAlt": "Comparación de consistencia entre muestra y producción en masa"
+      },
+      {
+        "icon": "Search",
+        "question": "¿Por Qué Algunas Figuras de Resina Pierden Sus Detalles Finos Después del Moldeo?",
+        "causes": [
+          "Escultura 3D áspera sin suficientes detalles de superficie",
+          "Líneas de color no marcadas con ranuras, dificultando el control de la pintura",
+          "Moldes de silicona de mala calidad o sobrecargados que no capturan detalles finos"
+        ],
+        "image": "/pictures/tech-q3-details.jpg",
+        "imageAlt": "Comparación de detalles de figuras de resina"
+      },
+      {
+        "icon": "AlertTriangle",
+        "question": "¿Por Qué Algunas Figuras de Resina Tienen Burbujas o Agujeros en la Superficie?",
+        "causes": [
+          "Bomba de vacío insuficiente que no elimina las burbujas de aire de la resina líquida",
+          "Técnicos de colado inexpertos que vierten demasiado rápido o de manera desigual",
+          "Pulido inexperto que no rellena los pequeños agujeros"
+        ],
+        "image": "/pictures/tech-q4-bubbles.jpg",
+        "imageAlt": "Comparación de defectos de superficie de figuras de resina"
+      }
+    ]
+  },
+  "qualityCommitment": {
+    "kicker": "Nuestro Compromiso de Calidad",
+    "title": "¿Cómo Garantizamos la Consistencia de Calidad?",
+    "subtitle": "Así es como nos aseguramos de que cada pieza cumpla con sus estándares:",
+    "commitments": [
+      {
+        "icon": "Eye",
+        "title": "Inspección Visual al 100%",
+        "description": "Cada pieza es inspeccionada a mano bajo iluminación estándar. Tasa de defectos: menos del 1%."
+      },
+      {
+        "icon": "CheckCircle",
+        "title": "Aprobación de Muestra Maestra",
+        "description": "Usted aprueba la muestra física antes de la producción. Cada pieza se compara con esta 'muestra dorada'."
+      },
+      {
+        "icon": "Shield",
+        "title": "Estándar AQL 2.5",
+        "description": "Seguimos estándares de calidad internacionales. Inspección de terceros (SGS/Intertek) bienvenida."
+      },
+      {
+        "icon": "Calendar",
+        "title": "Actualizaciones Semanales de Producción",
+        "description": "Fotos y videos cada semana. Sepa exactamente dónde está su lote — sin sorpresas."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Control de Calidad de Moldes",
+        "description": "Los moldes de silicona se reemplazan después de 70-80 coladas. Sin moldes desgastados en producción."
+      },
+      {
+        "icon": "Palette",
+        "title": "Garantía de Consistencia de Color",
+        "description": "Pintura mezclada en lotes. Coincidencia de colores Pantone. Cada pieza comparada con la muestra maestra."
+      }
+    ]
   }
 }

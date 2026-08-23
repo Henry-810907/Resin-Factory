@@ -1679,5 +1679,92 @@
         "expertise": "→ 소재 권장 · 무료 평가"
       }
     ]
+  },
+  "technicalChallenges": {
+    "kicker": "기술적 도전",
+    "title": "왜 일부 레진 피규어 공장은 품질 문제가 있습니까?",
+    "challenges": [
+      {
+        "icon": "Eye",
+        "question": "왜 일부 레진 피규어의 눈이 칙칙하고, 죽어 보이고, 비현실적으로 보일까요?",
+        "causes": [
+          "눈 모양이 잘못되어 안구가 너무 튀어나와 무서운 모습을 만듦",
+          "속눈썹 라인이 없어 표정이 뻣뻣하고 생명력 없어 보임",
+          "동공이 비대칭으로 얼굴이 이상해 보임"
+        ],
+        "image": "/pictures/tech-q1-eyes.jpg",
+        "imageAlt": "레진 피규어 눈 품질 비교"
+      },
+      {
+        "icon": "GitCompare",
+        "question": "왜 일부 공장은 샘플 승인을 통과하지만 양산에서는 실패할까요?",
+        "causes": [
+          "실리콘 금형이 약 70회 주입 후 마모되어 교체해야 함",
+          "나쁜 재료 품질과 불충분한 연마로 양산품에 유동 자국이 보임",
+          "경험이 부족한 핸드 페인터가 색상 번짐과 흐릿한 라인을 유발"
+        ],
+        "image": "/pictures/tech-q2-consistency.jpg",
+        "imageAlt": "샘플과 양산품 일관성 비교"
+      },
+      {
+        "icon": "Search",
+        "question": "왜 일부 레진 피규어는 금형 제작 후 미세 디테일을 잃을까요?",
+        "causes": [
+          "충분한 표면 디테일이 없는 거친 3D 스컬핑",
+          "색상 라인이 홈으로 표시되지 않아 페인팅 제어가 어려움",
+          "미세 디테일을 포착하지 못하는 나쁜 품질이나 과도하게 사용된 실리콘 금형"
+        ],
+        "image": "/pictures/tech-q3-details.jpg",
+        "imageAlt": "레진 피규어 디테일 비교"
+      },
+      {
+        "icon": "AlertTriangle",
+        "question": "왜 일부 레진 피규어 표면에 기포나 바늘 구멍이 있을까요?",
+        "causes": [
+          "액체 레진의 공기 방울을 제거하지 못하는 불충분한 진공 펌프",
+          "너무 빠르게 또는 불균일하게 붓는 경험 부족한 주입 기술자",
+          "작은 구멍을 메우지 못하는 경험 부족한 연마"
+        ],
+        "image": "/pictures/tech-q4-bubbles.jpg",
+        "imageAlt": "레진 피규어 표면 결함 비교"
+      }
+    ]
+  },
+  "qualityCommitment": {
+    "kicker": "품질 약속",
+    "title": "품질 일관성을 어떻게 보장합니까?",
+    "subtitle": "모든 제품이 귀하의 기준을 충족하도록 보장하는 방법:",
+    "commitments": [
+      {
+        "icon": "Eye",
+        "title": "100% 육안 검사",
+        "description": "모든 제품은 표준 조명 아래에서 수작업으로 검사됩니다. 불량률: 1% 미만."
+      },
+      {
+        "icon": "CheckCircle",
+        "title": "마스터 샘플 승인",
+        "description": "생산 전에 물리적 샘플을 승인합니다. 모든 양산품은 이 '골든 샘플'과 비교됩니다."
+      },
+      {
+        "icon": "Shield",
+        "title": "AQL 2.5 표준",
+        "description": "국제 품질 표준을 따릅니다. 제3자 검사(SGS/Intertek) 환영합니다."
+      },
+      {
+        "icon": "Calendar",
+        "title": "주간 생산 업데이트",
+        "description": "매주 사진과 영상 업데이트. 배치가 어디에 있는지 정확히 알 수 있습니다 — 놀랄 일 없음."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "금형 품질 관리",
+        "description": "실리콘 금형은 70-80회 주입 후 교체됩니다. 생산에 마모된 금형 사용 없음."
+      },
+      {
+        "icon": "Palette",
+        "title": "색상 일관성 보장",
+        "description": "대량 배합된 페인트. Pantone 색상 매칭. 모든 제품을 마스터 샘플과 비교."
+      }
+    ]
   }
 }

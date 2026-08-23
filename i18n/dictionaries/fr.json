@@ -1679,5 +1679,92 @@
         "expertise": "→ Recommandation de matériau · Évaluation gratuite"
       }
     ]
+  },
+  "technicalChallenges": {
+    "kicker": "Défis Techniques",
+    "title": "Pourquoi Certaines Usines de Figurines en Résine Ont-Elles des Problèmes de Qualité ?",
+    "challenges": [
+      {
+        "icon": "Eye",
+        "question": "Pourquoi les Yeux de Certaines Figurines en Résine Semblent-T-Ils Ternes, Morts ou Irréalistes ?",
+        "causes": [
+          "Forme des yeux incorrecte, comme des globes oculaires trop saillants, créant une apparence effrayante",
+          "Absence de lignes de cils, rendant l'expression raide et sans vie",
+          "Pupilles asymétriques, donnant au visage une apparence étrange"
+        ],
+        "image": "/pictures/tech-q1-eyes.jpg",
+        "imageAlt": "Comparaison de qualité des yeux de figurines en résine"
+      },
+      {
+        "icon": "GitCompare",
+        "question": "Pourquoi Certaines Usines Réussissent l'Approbation des Échantillons Mais Échouent en Production de Masse ?",
+        "causes": [
+          "Les moules en silicone s'usent après environ 70 coulées et devraient être retirés",
+          "Une mauvaise qualité de matériau et un ponçage insuffisant causent des marques d'écoulement visibles sur les pièces de production",
+          "Des peintres à la main inexpérimentés causent des bavures de couleur et des lignes floues"
+        ],
+        "image": "/pictures/tech-q2-consistency.jpg",
+        "imageAlt": "Comparaison de cohérence entre échantillon et production de masse"
+      },
+      {
+        "icon": "Search",
+        "question": "Pourquoi Certaines Figurines en Résine Perdent-Leurs Détails Fins Après le Moulage ?",
+        "causes": [
+          "Sculpture 3D rugueuse sans détails de surface suffisants",
+          "Lignes de couleur non marquées avec des rainures, rendant la peinture difficile à contrôler",
+          "Moules en silicone de mauvaise qualité ou surutilisés qui ne capturent pas les détails fins"
+        ],
+        "image": "/pictures/tech-q3-details.jpg",
+        "imageAlt": "Comparaison de détails de figurines en résine"
+      },
+      {
+        "icon": "AlertTriangle",
+        "question": "Pourquoi Certaines Figurines en Résine Ont-Elles des Bulles ou des Trous d'Aiguille à la Surface ?",
+        "causes": [
+          "Pompe à vide insuffisante qui n'élimine pas les bulles d'air de la résine liquide",
+          "Techniciens de coulée inexpérimentés qui versent trop rapidement ou de manière inégale",
+          "Polissage inexpérimenté qui ne comble pas les petits trous"
+        ],
+        "image": "/pictures/tech-q4-bubbles.jpg",
+        "imageAlt": "Comparaison de défauts de surface de figurines en résine"
+      }
+    ]
+  },
+  "qualityCommitment": {
+    "kicker": "Notre Engagement Qualité",
+    "title": "Comment Assurons-Nous la Cohérence de la Qualité ?",
+    "subtitle": "Voici comment nous garantissons que chaque pièce répond à vos standards :",
+    "commitments": [
+      {
+        "icon": "Eye",
+        "title": "Inspection Visuelle à 100%",
+        "description": "Chaque pièce est inspectée à la main sous un éclairage standard. Taux de défaut : moins de 1%."
+      },
+      {
+        "icon": "CheckCircle",
+        "title": "Approbation de l'Échantillon Maître",
+        "description": "Vous approuvez l'échantillon physique avant la production. Chaque pièce en vrac est comparée à cet 'échantillon d'or'."
+      },
+      {
+        "icon": "Shield",
+        "title": "Standard AQL 2.5",
+        "description": "Nous suivons les standards de qualité internationaux. Inspection tierce (SGS/Intertek) bienvenue."
+      },
+      {
+        "icon": "Calendar",
+        "title": "Mises à Jour Hebdomadaires de Production",
+        "description": "Photos et vidéos chaque semaine. Sachez exactement où en est votre lot — pas de surprises."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Contrôle Qualité des Moules",
+        "description": "Les moules en silicone sont remplacés après 70-80 coulées. Pas de moules usés en production."
+      },
+      {
+        "icon": "Palette",
+        "title": "Garantie de Cohérence des Couleurs",
+        "description": "Peinture mélangée en lots. Correspondance des couleurs Pantone. Chaque pièce comparée à l'échantillon maître."
+      }
+    ]
   }
 }

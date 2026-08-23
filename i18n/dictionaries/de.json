@@ -1679,5 +1679,92 @@
         "expertise": "→ Material-Empfehlung · Kostenlose Beratung"
       }
     ]
+  },
+  "technicalChallenges": {
+    "kicker": "Technische Herausforderungen",
+    "title": "Warum Haben Manche Harzfiguren-Fabriken Qualitätsprobleme?",
+    "challenges": [
+      {
+        "icon": "Eye",
+        "question": "Warum Sehen die Augen Manche Harzfiguren Matt, Leblos oder Unrealistisch Aus?",
+        "causes": [
+          "Falsche Augenform, wie zu hervorstehende Augäpfel, die ein gruseliges Aussehen erzeugen",
+          "Fehlende Wimpernlinien, die den Ausdruck steif und leblos wirken lassen",
+          "Asymmetrische Pupillen, die das Gesicht seltsam aussehen lassen"
+        ],
+        "image": "/pictures/tech-q1-eyes.jpg",
+        "imageAlt": "Qualitätsvergleich der Augen von Harzfiguren"
+      },
+      {
+        "icon": "GitCompare",
+        "question": "Warum Bestehen Manche Fabriken die Musterfreigabe, Scheitern Aber in der Serienproduktion?",
+        "causes": [
+          "Silikonformen verschleißen nach ~70 Gießvorgängen und sollten ausgetauscht werden",
+          "Schlechte Materialqualität und unzureichendes Schleifen verursachen sichtbare Fließspuren",
+          "Unerfahrene Handmaler verursachen Farbausblutungen und verschwommene Linien"
+        ],
+        "image": "/pictures/tech-q2-consistency.jpg",
+        "imageAlt": "Konsistenzvergleich zwischen Muster und Serienproduktion"
+      },
+      {
+        "icon": "Search",
+        "question": "Warum Verlieren Manche Harzfiguren Ihre Feinen Details Nach dem Gießen?",
+        "causes": [
+          "Grobe 3D-Bildhauerei ohne ausreichende Oberflächendetails",
+          "Farblinien nicht mit Rillen markiert, was die Farbkontrolle erschwert",
+          "Schlechte oder überbeanspruchte Silikonformen, die feine Details nicht erfassen"
+        ],
+        "image": "/pictures/tech-q3-details.jpg",
+        "imageAlt": "Detailvergleich von Harzfiguren"
+      },
+      {
+        "icon": "AlertTriangle",
+        "question": "Warum Haben Manche Harzfiguren Blasen oder Nadelstichlöcher auf der Oberfläche?",
+        "causes": [
+          "Unzureichende Vakuumpumpe, die Luftblasen aus dem flüssigen Harz nicht entfernt",
+          "Unerfahrene Gießtechniker, die zu schnell oder ungleichmäßig gießen",
+          "Unerfahrenes Polieren, das kleine Löcher nicht füllt"
+        ],
+        "image": "/pictures/tech-q4-bubbles.jpg",
+        "imageAlt": "Oberflächenfehler-Vergleich von Harzfiguren"
+      }
+    ]
+  },
+  "qualityCommitment": {
+    "kicker": "Unser Qualitätsversprechen",
+    "title": "Wie Stellen Wir die Qualitätskonsistenz Sicher?",
+    "subtitle": "So stellen wir sicher, dass jedes Stück Ihren Standards entspricht:",
+    "commitments": [
+      {
+        "icon": "Eye",
+        "title": "100% Visuelle Inspektion",
+        "description": "Jedes Stück wird unter Standardbeleuchtung handgeprüft. Fehlerrate: unter 1%."
+      },
+      {
+        "icon": "CheckCircle",
+        "title": "Master-Sample-Freigabe",
+        "description": "Sie genehmigen das physische Muster vor der Produktion. Jedes Serienstück wird mit diesem 'Goldmuster' verglichen."
+      },
+      {
+        "icon": "Shield",
+        "title": "AQL 2.5 Standard",
+        "description": "Wir folgen internationalen Qualitätsstandards. Drittanbieter-Inspektion (SGS/Intertek) willkommen."
+      },
+      {
+        "icon": "Calendar",
+        "title": "Wöchentliche Produktionsupdates",
+        "description": "Fotos und Videos jede Woche. Wissen Sie genau, wo Ihre Charge ist — keine Überraschungen."
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Formen-Qualitätskontrolle",
+        "description": "Silikonformen werden nach 70-80 Gießvorgängen ersetzt. Keine verschlissenen Formen in der Produktion."
+      },
+      {
+        "icon": "Palette",
+        "title": "Farbkonsistenz-Garantie",
+        "description": "Farbe in Großchargen gemischt. Pantone-Farbabstimmung. Jedes Stück mit dem Master-Sample verglichen."
+      }
+    ]
   }
 }
