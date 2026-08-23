@@ -40,12 +40,12 @@ const nextConfig = {
         ],
       },
       {
-        // HTML 页面：Cloudflare 缓存 5 分钟，过期后 10 分钟内仍可使用旧缓存
+        // HTML 页面：Cloudflare 缓存 1 小时，过期后 10 分钟内仍可使用旧缓存
         source: '/:path*',
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, s-maxage=300, stale-while-revalidate=600',
+            value: 'public, s-maxage=3600, stale-while-revalidate=600',
           },
         ],
       },
