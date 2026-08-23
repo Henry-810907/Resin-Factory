@@ -537,6 +537,18 @@
         "read": "8 min",
         "tag": "Sampling Process",
         "excerpt": "11 steps, 2 key approval milestones, 12-15 days - our complete figurine sampling process explained."
+      },
+      {
+        "title": "How to Prevent Bubbles in Resin Figurine Casts?",
+        "date": "Aug 23, 2026",
+        "read": "6 min",
+        "tag": "Technical Guide"
+      },
+      {
+        "title": "Why Do Samples and Mass Production Look Different? How to Avoid It",
+        "date": "Aug 23, 2026",
+        "read": "7 min",
+        "tag": "Quality Control"
       }
     ]
   },
@@ -788,53 +800,70 @@
   },
   "technicalChallenges": {
     "kicker": "Technical Challenges We Solve",
-    "title": "Why Do Some Custom Resin Figurines Factories Have Quality Problems?",
+    "title": "Common Technical Challenges in Custom Resin Figurine Production",
     "challenges": [
       {
         "icon": "Eye",
-        "question": "Why Do Resin Figurine Eyes from Some Factories Look Dull, Dead, or Unrealistic?",
+        "question": "Why Can Resin Figurine Eyes Look Dull, Dead, or Unrealistic?",
         "causes": [
           "Incorrect eye shape, such as eyeballs too protruding, creating a creepy appearance",
           "Lack of eyelash lines, making the expression look stiff and lifeless",
           "Asymmetrical pupils, making the face look strange"
         ],
         "image": "/pictures/tech-q1-eyes.jpg",
-        "imageAlt": "Resin figurine eye quality comparison"
+        "imageAlt": "Resin figurine eye quality comparison",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-figurine-eyes-look-unnatural"
+        }
       },
       {
         "icon": "GitCompare",
-        "question": "Why Do Some Factories Pass Sample Approval But Fail Mass Production?",
+        "question": "Why Can a Resin Sample Pass Approval but Fail in Mass Production?",
         "causes": [
           "Silicone molds wear out after ~70 castings and should be retired",
           "Poor material quality and insufficient sanding cause visible flow marks on production pieces",
           "Inexperienced hand-painters cause color bleeding and unclear lines"
         ],
         "image": "/pictures/tech-q2-consistency.jpg",
-        "imageAlt": "Sample vs mass production consistency"
+        "imageAlt": "Sample vs mass production consistency",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/why-sample-and-mass-production-look-different"
+        }
       },
       {
         "icon": "Search",
-        "question": "Why Do Fine Details Disappear After Casting in Some Resin Factories?",
+        "question": "Why Can Fine Details Disappear During Resin Casting?",
         "causes": [
           "Rough and imprecise 3D sculpting, missing fine details",
           "Color lines in 3D models not marked with grooves or raised lines",
           "Poor quality silicone molds or overused molds"
         ],
         "image": "/pictures/tech-q3-details.jpg",
-        "imageAlt": "Fine details preservation in resin casting"
+        "imageAlt": "Fine details preservation in resin casting",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/small-stone-statues-weathering-texture"
+        }
       },
       {
         "icon": "AlertTriangle",
-        "question": "Why Do Bubbles or Pinholes Appear on the Surface of Resin Products from Some Factories?",
+        "question": "Why Do Bubbles or Pinholes Appear on Resin Figurines?",
         "causes": [
-          "Insufficient vacuum pump pressure",
-          "Inexperienced casting technicians with poor timing control",
-          "Inexperienced polishing and sanding techniques"
+          "Inadequate casting process control",
+          "Air entrapment in complex areas",
+          "Improper surface finishing"
         ],
         "image": "/pictures/tech-q4-bubbles.jpg",
-        "imageAlt": "Bubble and pinhole defects on resin surface"
+        "imageAlt": "Bubble and pinhole defects on resin surface",
+        "solutionLink": {
+          "text": "How we address it",
+          "href": "/blog/how-to-prevent-bubbles-in-resin-figurines"
+        }
       }
-    ]
+    ],
+    "intro": "From sculpting and mold making to casting and painting, custom resin figurine production involves many technical challenges. Here are some common production risks—and how experienced manufacturers can prevent them."
   },
   "manufacturingProcess": {
     "kicker": "Our Manufacturing Process",

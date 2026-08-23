@@ -14,21 +14,31 @@ type Challenge = {
   causes: string[];
   image: string;
   imageAlt: string;
+  solutionLink?: {
+    text: string;
+    href: string;
+  };
 };
 
 type Props = {
   kicker: string;
   title: string;
+  intro?: string;
   challenges: Challenge[];
 };
 
-export default function TechnicalChallenges({ kicker, title, challenges }: Props) {
+export default function TechnicalChallenges({ kicker, title, intro, challenges }: Props) {
   return (
     <section className="bg-brand-bgAlt py-10 md:py-16 border-y border-slate-200">
       <div className="max-w-7xl mx-auto px-5 sm:px-6">
         <div className="text-center mb-8 md:mb-12">
           <p className="text-xs uppercase tracking-[0.2em] text-brand-orange font-bold mb-2">{kicker}</p>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">{title}</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-dark tracking-tight mb-4">{title}</h2>
+          {intro && (
+            <p className="text-sm sm:text-base text-slate-600 max-w-3xl mx-auto leading-relaxed">
+              {intro}
+            </p>
+          )}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -61,6 +71,17 @@ export default function TechnicalChallenges({ kicker, title, challenges }: Props
                     className="w-full h-auto"
                   />
                 </div>
+                {c.solutionLink && (
+                  <div className="px-5 sm:px-6 py-4 border-t border-slate-100">
+                    <a
+                      href={c.solutionLink.href}
+                      className="text-brand-orange font-semibold text-sm hover:text-brand-orangeDark transition flex items-center gap-2"
+                    >
+                      <span>→</span>
+                      <span>{c.solutionLink.text}</span>
+                    </a>
+                  </div>
+                )}
               </div>
             );
           })}
