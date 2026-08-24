@@ -27,21 +27,6 @@ export default async function HomePage({ params }: Props) {
   const dict = await getDictionary(lang);
   return (
     <>
-      {/* 响应式预加载Hero图片 */}
-      <link
-        rel="preload"
-        as="image"
-        href="/resin-figurines-collection-mobile.jpg"
-        type="image/jpeg"
-        media="(max-width: 768px)"
-      />
-      <link
-        rel="preload"
-        as="image"
-        href="/resin-figurines-collection.jpg"
-        type="image/jpeg"
-        media="(min-width: 769px)"
-      />
       <h1 className="sr-only">{dict.hero.h1}</h1>
       <Hero dict={dict.hero} lang={lang} />
       <FactoryIntro dict={dict.factoryIntro} />
