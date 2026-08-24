@@ -27,6 +27,13 @@ export default async function HomePage({ params }: Props) {
   const dict = await getDictionary(lang);
   return (
     <>
+      {/* 预加载首屏Hero图片，提升LCP */}
+      <link
+        rel="preload"
+        as="image"
+        href="/resin-figurines-collection.jpg"
+        type="image/jpeg"
+      />
       <h1 className="sr-only">{dict.hero.h1}</h1>
       <Hero dict={dict.hero} lang={lang} />
       <FactoryIntro dict={dict.factoryIntro} />
