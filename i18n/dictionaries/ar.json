@@ -1854,7 +1854,8 @@
       ],
       "packagingLabel": "التغليف/وحدة",
       "shippingLabel": "الشحن DDP",
-      "shippingValue": "يختلف حسب حجم المنتج والوجهة وطريقة الشحن"
+      "shippingValue": "يختلف حسب حجم المنتج والوجهة وطريقة الشحن",
+      "packagingValue": "10cm: $0.62 | 15cm: $0.77 | 30cm: $0.92"
     },
     "ctaButton": "احصل على عرض أسعار دقيق"
   }

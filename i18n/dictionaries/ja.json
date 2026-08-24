@@ -1854,7 +1854,8 @@
       ],
       "packagingLabel": "包装/個",
       "shippingLabel": "DDP送料",
-      "shippingValue": "製品サイズ、配送先、配送方法により異なります"
+      "shippingValue": "製品サイズ、配送先、配送方法により異なります",
+      "packagingValue": "10cm: $0.62 | 15cm: $0.77 | 30cm: $0.92"
     },
     "ctaButton": "正確な見積もりを依頼"
   }

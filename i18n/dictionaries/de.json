@@ -1854,7 +1854,8 @@
       ],
       "packagingLabel": "Verpackung/Einheit",
       "shippingLabel": "DDP-Versand",
-      "shippingValue": "Variiert je nach Produktgröße, Zielort und Versandmethode"
+      "shippingValue": "Variiert je nach Produktgröße, Zielort und Versandmethode",
+      "packagingValue": "10cm: $0.62 | 15cm: $0.77 | 30cm: $0.92"
     },
     "ctaButton": "Genaueres Angebot anfordern"
   }
