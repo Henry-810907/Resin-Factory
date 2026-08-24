@@ -1814,7 +1814,7 @@
         },
         {
           "label": "Tarifa de molde",
-          "value": "$0 (incluido)"
+          "value": "Sin cargo de molde separado"
         }
       ]
     },
@@ -1852,7 +1852,7 @@
           "size30cm": "$11.00"
         }
       ],
-      "packagingLabel": "Embalaje",
+      "packagingLabel": "Embalaje/Unidad",
       "shippingLabel": "Envío DDP",
       "shippingValue": "Varía según el tamaño del producto, destino y método de envío"
     },

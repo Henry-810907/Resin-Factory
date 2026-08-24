@@ -1814,7 +1814,7 @@
         },
         {
           "label": "Formgebühr",
-          "value": "$0 (inklusive)"
+          "value": "Keine separate Formgebühr"
         }
       ]
     },
@@ -1852,7 +1852,7 @@
           "size30cm": "$11.00"
         }
       ],
-      "packagingLabel": "Verpackung",
+      "packagingLabel": "Verpackung/Einheit",
       "shippingLabel": "DDP-Versand",
       "shippingValue": "Variiert je nach Produktgröße, Zielort und Versandmethode"
     },

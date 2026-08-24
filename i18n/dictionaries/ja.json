@@ -1814,7 +1814,7 @@
         },
         {
           "label": "金型料金",
-          "value": "$0（含む）"
+          "value": "金型料金は別途不要"
         }
       ]
     },
@@ -1852,7 +1852,7 @@
           "size30cm": "$11.00"
         }
       ],
-      "packagingLabel": "包装",
+      "packagingLabel": "包装/個",
       "shippingLabel": "DDP送料",
       "shippingValue": "製品サイズ、配送先、配送方法により異なります"
     },

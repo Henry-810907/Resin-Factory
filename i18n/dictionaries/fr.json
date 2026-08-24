@@ -1814,7 +1814,7 @@
         },
         {
           "label": "Frais de moule",
-          "value": "$0 (inclus)"
+          "value": "Pas de frais de moule séparés"
         }
       ]
     },
@@ -1852,7 +1852,7 @@
           "size30cm": "$11.00"
         }
       ],
-      "packagingLabel": "Emballage",
+      "packagingLabel": "Emballage/Unité",
       "shippingLabel": "Expédition DDP",
       "shippingValue": "Varie selon la taille du produit, la destination et la méthode d'expédition"
     },

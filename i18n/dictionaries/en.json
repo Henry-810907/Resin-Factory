@@ -1794,7 +1794,7 @@
         },
         {
           "label": "Mold Fee",
-          "value": "$0 (included)"
+          "value": "No Separate Mold Charge"
         }
       ]
     },
@@ -1832,7 +1832,7 @@
           "size30cm": "$11.00"
         }
       ],
-      "packagingLabel": "Packaging",
+      "packagingLabel": "Packaging/Unit",
       "packagingValue": "10cm: $0.62 | 15cm: $0.77 | 30cm: $0.92",
       "shippingLabel": "DDP Shipping",
       "shippingValue": "Varies by product size, destination, and shipping method"

@@ -1814,7 +1814,7 @@
         },
         {
           "label": "금형 비용",
-          "value": "$0 (포함)"
+          "value": "별도 금형 비용 없음"
         }
       ]
     },
@@ -1852,7 +1852,7 @@
           "size30cm": "$11.00"
         }
       ],
-      "packagingLabel": "포장",
+      "packagingLabel": "포장/개",
       "shippingLabel": "DDP 배송",
       "shippingValue": "제품 크기, 목적지 및 배송 방법에 따라 다름"
     },
