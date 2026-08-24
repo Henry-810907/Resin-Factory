@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary } from "@/i18n/get-dictionary";
 
@@ -99,17 +98,33 @@ export default function HeroCarousel({ dict, lang }: Props) {
         >
           {/* 克隆尾（最后一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <Image src={IMAGES[slideCount - 1]} alt={dict.slides[slideCount - 1].alt} fill sizes="100vw" quality={85} className="object-cover object-[center_30%] md:object-center" />
+            <img 
+              src={IMAGES[slideCount - 1]} 
+              alt={dict.slides[slideCount - 1].alt} 
+              className="absolute inset-0 w-full h-full object-cover object-[center_30%] md:object-center"
+              loading="lazy"
+            />
           </div>
           {/* 真实 slides */}
           {dict.slides.map((s, i) => (
             <div key={i} className="relative w-full h-full shrink-0">
-              <Image src={IMAGES[i] ?? IMAGES[0]} alt={s.alt} fill priority={i === 0} sizes="100vw" quality={85} className="object-cover object-[center_30%] md:object-center" />
+              <img 
+                src={IMAGES[i] ?? IMAGES[0]} 
+                alt={s.alt} 
+                className="absolute inset-0 w-full h-full object-cover object-[center_30%] md:object-center"
+                loading={i === 0 ? "eager" : "lazy"}
+                fetchPriority={i === 0 ? "high" : "auto"}
+              />
             </div>
           ))}
           {/* 克隆头（第一张的副本） */}
           <div className="relative w-full h-full shrink-0">
-            <Image src={IMAGES[0]} alt={dict.slides[0].alt} fill sizes="100vw" quality={85} className="object-cover object-[center_30%] md:object-center" />
+            <img 
+              src={IMAGES[0]} 
+              alt={dict.slides[0].alt} 
+              className="absolute inset-0 w-full h-full object-cover object-[center_30%] md:object-center"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
