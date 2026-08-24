@@ -43,7 +43,7 @@
       "contact": "Contacto"
     },
     "language": "Idioma",
-    "factoryService": "Figuras de resina personalizadas para marcas e IPs"
+    "factoryService": "Figuras de resina personalizadas para marcas, IP y diseñadores"
   },
   "hero": {
     "h1": "Resin Factory - Fabricante de figuras de resina personalizadas para marcas, IP y diseñadores",
@@ -1795,5 +1795,67 @@
         "description": "Pintura mezclada en lotes. Coincidencia de colores Pantone. Cada pieza comparada con la muestra maestra."
       }
     ]
+  },
+  "pricingGuide": {
+    "kicker": "Guía de Precios",
+    "title": "¿Cuánto cuestan las figuras de resina personalizadas?",
+    "subtitle": "Precios de referencia por cantidad y tamaño",
+    "disclaimer": "Los precios a continuación son nuestros criterios de cotización. Los precios de transacción reales están determinados por la complejidad del diseño, las dimensiones exactas, los requisitos de calidad y otros factores. Contáctenos para una cotización precisa.",
+    "oneTimeFees": {
+      "title": "Tarifas únicas",
+      "items": [
+        {
+          "label": "Tarifa de escultura 3D",
+          "value": "$0 – $250"
+        },
+        {
+          "label": "Tarifa de prototipo",
+          "value": "$190 – $350"
+        },
+        {
+          "label": "Tarifa de molde",
+          "value": "$0 (incluido)"
+        }
+      ]
+    },
+    "unitPrice": {
+      "title": "Precio unitario",
+      "tableHeaders": {
+        "quantity": "Cantidad",
+        "size10cm": "10cm (4\")",
+        "size15cm": "15cm (6\")",
+        "size30cm": "30cm (12\")"
+      },
+      "priceRows": [
+        {
+          "quantity": "100 pzs",
+          "size10cm": "$9.70",
+          "size15cm": "$12.90",
+          "size30cm": "$17.20"
+        },
+        {
+          "quantity": "300 pzs",
+          "size10cm": "$8.30",
+          "size15cm": "$10.40",
+          "size30cm": "$14.50"
+        },
+        {
+          "quantity": "500 pzs",
+          "size10cm": "$7.00",
+          "size15cm": "$9.00",
+          "size30cm": "$13.00"
+        },
+        {
+          "quantity": "1000 pzs",
+          "size10cm": "$6.00",
+          "size15cm": "$8.00",
+          "size30cm": "$11.00"
+        }
+      ],
+      "packagingLabel": "Embalaje",
+      "shippingLabel": "Envío DDP",
+      "shippingValue": "Varía según el tamaño del producto, destino y método de envío"
+    },
+    "ctaButton": "Obtener cotización precisa"
   }
 }

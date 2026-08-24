@@ -43,7 +43,7 @@
       "contact": "お問い合わせ"
     },
     "language": "言語",
-    "factoryService": "ブランド＆IP向けカスタムレジンフィギュア"
+    "factoryService": "ブランド・IP・デザイナー向けカスタムレジンフィギュア"
   },
   "hero": {
     "h1": "Resin Factory - ブランド・IP・デザイナー向けカスタムレジンフィギュアメーカー",
@@ -1795,5 +1795,67 @@
         "description": "塗料はバッチで一括混合。Pantone色番号で配色。すべての製品をマスターサンプルと比較。"
       }
     ]
+  },
+  "pricingGuide": {
+    "kicker": "価格ガイド",
+    "title": "カスタムレジンフィギュアの費用はどれくらいですか？",
+    "subtitle": "数量・サイズ別参考価格",
+    "disclaimer": "以下の価格は当社の見積もり基準です。実際の取引価格は、デザインの複雑さ、正確な寸法、品質要件、その他の要因によって決定されます。正確なお見積もりについては、お問い合わせください。",
+    "oneTimeFees": {
+      "title": "一時費用",
+      "items": [
+        {
+          "label": "3Dスカルプティング料金",
+          "value": "$0 – $250"
+        },
+        {
+          "label": "試作料金",
+          "value": "$190 – $350"
+        },
+        {
+          "label": "金型料金",
+          "value": "$0（含む）"
+        }
+      ]
+    },
+    "unitPrice": {
+      "title": "単価",
+      "tableHeaders": {
+        "quantity": "数量",
+        "size10cm": "10cm (4\")",
+        "size15cm": "15cm (6\")",
+        "size30cm": "30cm (12\")"
+      },
+      "priceRows": [
+        {
+          "quantity": "100個",
+          "size10cm": "$9.70",
+          "size15cm": "$12.90",
+          "size30cm": "$17.20"
+        },
+        {
+          "quantity": "300個",
+          "size10cm": "$8.30",
+          "size15cm": "$10.40",
+          "size30cm": "$14.50"
+        },
+        {
+          "quantity": "500個",
+          "size10cm": "$7.00",
+          "size15cm": "$9.00",
+          "size30cm": "$13.00"
+        },
+        {
+          "quantity": "1000個",
+          "size10cm": "$6.00",
+          "size15cm": "$8.00",
+          "size30cm": "$11.00"
+        }
+      ],
+      "packagingLabel": "包装",
+      "shippingLabel": "DDP送料",
+      "shippingValue": "製品サイズ、配送先、配送方法により異なります"
+    },
+    "ctaButton": "正確な見積もりを依頼"
   }
 }

@@ -43,7 +43,7 @@
       "contact": "문의"
     },
     "language": "언어",
-    "factoryService": "브랜드 & IP를 위한 커스텀 레진 피규어"
+    "factoryService": "브랜드, IP 및 디자이너를 위한 맞춤형 레진 피규어"
   },
   "hero": {
     "h1": "Resin Factory - 브랜드, IP 및 디자이너를 위한 커스텀 레진 피규어 제조업체",
@@ -1795,5 +1795,67 @@
         "description": "대량 배합된 페인트. Pantone 색상 매칭. 모든 제품을 마스터 샘플과 비교."
       }
     ]
+  },
+  "pricingGuide": {
+    "kicker": "가격 가이드",
+    "title": "맞춤형 레진 피규어는 얼마인가요?",
+    "subtitle": "수량 및 크기별 참고 가격",
+    "disclaimer": "아래 가격은 당사의 견적 기준입니다. 실제 거래 가격은 디자인 복잡성, 정확한 치수, 품질 요구 사항 및 기타 요인에 따라 결정됩니다. 정확한 견적을 받으려면 문의해 주세요.",
+    "oneTimeFees": {
+      "title": "일회성 비용",
+      "items": [
+        {
+          "label": "3D 스컬프팅 비용",
+          "value": "$0 – $250"
+        },
+        {
+          "label": "프로토타입 비용",
+          "value": "$190 – $350"
+        },
+        {
+          "label": "금형 비용",
+          "value": "$0 (포함)"
+        }
+      ]
+    },
+    "unitPrice": {
+      "title": "단가",
+      "tableHeaders": {
+        "quantity": "수량",
+        "size10cm": "10cm (4\")",
+        "size15cm": "15cm (6\")",
+        "size30cm": "30cm (12\")"
+      },
+      "priceRows": [
+        {
+          "quantity": "100개",
+          "size10cm": "$9.70",
+          "size15cm": "$12.90",
+          "size30cm": "$17.20"
+        },
+        {
+          "quantity": "300개",
+          "size10cm": "$8.30",
+          "size15cm": "$10.40",
+          "size30cm": "$14.50"
+        },
+        {
+          "quantity": "500개",
+          "size10cm": "$7.00",
+          "size15cm": "$9.00",
+          "size30cm": "$13.00"
+        },
+        {
+          "quantity": "1000개",
+          "size10cm": "$6.00",
+          "size15cm": "$8.00",
+          "size30cm": "$11.00"
+        }
+      ],
+      "packagingLabel": "포장",
+      "shippingLabel": "DDP 배송",
+      "shippingValue": "제품 크기, 목적지 및 배송 방법에 따라 다름"
+    },
+    "ctaButton": "정확한 견적 요청"
   }
 }

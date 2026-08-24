@@ -10,6 +10,7 @@ export const revalidate = 3600;
 const FactoryIntro = dynamic(() => import("@/components/FactoryIntro"));
 const ProductCategories = dynamic(() => import("@/components/ProductCategories"));
 const ProductGuideHint = dynamic(() => import("@/components/ProductGuideHint"));
+const PricingGuide = dynamic(() => import("@/components/PricingGuide"));
 const TechnicalChallenges = dynamic(() => import("@/components/TechnicalChallenges"));
 const QualityCommitment = dynamic(() => import("@/components/QualityCommitment"));
 const ManufacturingProcess = dynamic(() => import("@/components/ManufacturingProcess"));
@@ -37,6 +38,7 @@ export default async function HomePage({ params }: Props) {
         buttonText={dict.productGuideHint.buttonText}
         href={`/${lang}/products`}
       />
+      <PricingGuide dict={dict.pricingGuide} />
       <TechnicalChallenges {...dict.technicalChallenges} />
       <QualityCommitment {...dict.qualityCommitment} />
       <ManufacturingProcess dict={dict.manufacturingProcess} />
