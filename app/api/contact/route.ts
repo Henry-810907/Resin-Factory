@@ -4,6 +4,29 @@ import nodemailer from "nodemailer";
 // Node runtime(nodemailer 需要 Node API)
 export const runtime = "nodejs";
 
+// 全局 SMTP transport（连接池复用）
+let transport: nodemailer.Transporter | null = null;
+
+function getTransport() {
+  if (!transport) {
+    const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD } = process.env;
+    if (!SMTP_HOST || !SMTP_USER || !SMTP_PASSWORD) {
+      throw new Error("SMTP env vars missing");
+    }
+    const port = Number(SMTP_PORT) || 465;
+    transport = nodemailer.createTransport({
+      host: SMTP_HOST,
+      port,
+      secure: port === 465,
+      auth: { user: SMTP_USER, pass: SMTP_PASSWORD },
+      pool: true,
+      maxConnections: 5,
+      maxMessages: 100,
+    });
+  }
+  return transport;
+}
+
 const escapeHtml = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
@@ -87,14 +110,8 @@ export async function POST(request: NextRequest) {
       console.error("[contact] SMTP env vars missing");
       return NextResponse.json({ error: "Server not configured" }, { status: 500 });
     }
-    const port = Number(SMTP_PORT) || 465;
 
-    const transport = nodemailer.createTransport({
-      host: SMTP_HOST,
-      port,
-      secure: port === 465, // 465 → SSL,587 → STARTTLS
-      auth: { user: SMTP_USER, pass: SMTP_PASSWORD },
-    });
+    const smtpTransport = getTransport();
 
     const inquiryTo = process.env.INQUIRY_TO_EMAIL || SMTP_USER;
     const subject = `New Inquiry · ${fullName} · Resin Figurine`;
@@ -113,7 +130,7 @@ export async function POST(request: NextRequest) {
     `;
 
     // 1. 发给自己(henry@)
-    await transport.sendMail({
+    await smtpTransport.sendMail({
       from: `"Resin Factory Website" <${SMTP_USER}>`,
       to: inquiryTo,
       replyTo: `${fullName} <${email}>`, // 直接「回复」就回到客户邮箱
