@@ -19,6 +19,8 @@ function ImageBlockRenderer({ block }: { block: BlogImageBlock }) {
   
   // 根据图片数量决定布局
   let gridClass = "";
+  let aspectClass = "aspect-[16/10]"; // 默认统一用16:10横图比例
+  
   if (count === 1) {
     gridClass = "grid grid-cols-1";
   } else if (count === 2) {
@@ -34,7 +36,7 @@ function ImageBlockRenderer({ block }: { block: BlogImageBlock }) {
     <div className={`my-6 ${gridClass}`}>
       {images.map((img, idx) => (
         <figure key={idx} className="m-0">
-          <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden">
+          <div className={`relative w-full ${aspectClass} rounded-lg overflow-hidden`}>
             <Image
               src={img.src}
               alt={img.alt}

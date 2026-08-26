@@ -584,6 +584,12 @@
         "read": "8 min",
         "tag": "Processus d'échantillonnage",
         "excerpt": "11 étapes, 2 étapes clés d'approbation, 12-15 jours - notre processus complet d'échantillonnage de figurines expliqué."
+      },
+      {
+        "title": "Comment corriger les yeux et expressions peu naturels sur les figurines en résine : Deux cas réels",
+        "date": "26 août 2026",
+        "read": "8 min",
+        "tag": "Étude de cas"
       }
     ],
     "contactCtaTitle": "Vous avez un projet à discuter ?",
@@ -1708,7 +1714,7 @@
         "imageAlt": "Comparaison de qualité des yeux de figurines en résine",
         "solutionLink": {
           "text": "How we address it",
-          "href": "/blog/why-figurine-eyes-look-unnatural"
+          "href": "/blog/fixing-resin-figurine-expression-case-studies"
         }
       },
       {

@@ -467,6 +467,107 @@ export const BLOG_POSTS: BlogPost[] = [
       "- Shipping damage rate <0.5%",
     ],
   },
+  {
+    slug: "fixing-resin-figurine-expression-case-studies",
+    image: "/pics/beverly-country-club-eye-comparison.jpg",
+    dictKey: 11,
+    date: "2026-08-26",
+    intro:
+      "Two real cases: one where dull lifeless eyes ruined an otherwise good figurine, and another where a terrifying facial expression made a cultural icon unrecognizable. How we solved both — from 3D sculpting to final painting.",
+    paragraphs: [
+      "A resin figurine can have accurate proportions, detailed sculpting and good painting, yet still look \"wrong\" — the problem is almost always in the facial expression. This is particularly noticeable on character figures where expression is an important part of the design.",
+      "This article shares two real cases: one about lifeless, dull eyes, and another about a terrifying overall facial expression. Both were solved by addressing the problem at the development stage, not just the painting stage.",
+      "🔍 1. Why Are Expressions So Difficult?",
+      "Facial expression involves multiple elements working together: eye shape and positioning, pupil placement, eyelid geometry, eyebrow form, mouth detail, overall facial proportions, and painting technique.",
+      "Many people see an ugly expression and assume: \"just repaint the eyes.\" In reality, if the 3D structure itself is wrong, no amount of painting can fully fix it. Expression starts at the sculpting stage — not the painting stage.",
+      "👁️ 2. Case 1: Lifeless, Dull Eyes",
+      "Beverly Country Club is one of the most historic private golf clubs in the Chicago area. They needed a batch of promotional resin figurines. They had already produced one batch, but were not satisfied with the result — the eyes were dull and lifeless, looking strange.",
+      "❌ 2.1 The Original Product's Problems",
+      "The original product had the following issues: incorrect eye shape proportions, surface burrs affecting gloss, color overflow from hand painting making details unclear, and eyeballs lacking depth and dimension — appearing flat and lifeless.",
+      "✅ 2.2 How We Solved It",
+      "Step 1 — Analyzing the original product: We first identified where the problem came from — eye shape structure, pupil position, eyelid form, or the relationship between eyes, eyebrows, and overall facial proportions.",
+      "Step 2 — 3D sculpting stage: Correcting eye shape proportions. Before production began, we readjusted eye position, size, and angle in the 3D modeling stage to ensure facial proportions were harmonious. This step determined the foundation for all subsequent processes.",
+      "Step 3 — Sanding stage: Eliminating burrs. Surface burrs affect light reflection, making eyes appear dull. We thoroughly addressed this during sanding to ensure a smooth surface.",
+      "Step 4 — Hand painting stage: Adding eyelash lines and fixing color overflow. Two key improvements: adding eyelash lines to bring life to the eyes, and resolving the previous color overflow issues for clearer details.",
+      "Step 5 — Eyeball technique: Water decal application. This was the most critical step. We used water decal (water slide) technique for the eyeballs, giving them depth, dimension, and natural gloss — completely resolving the \"dull and lifeless\" problem.",
+      "🔧 2.3 Production Process",
+      "We did not proceed directly to mass production. We went back to the development stage, adjusting everything from 3D sculpting to painting technique, confirming the effect before proceeding to production.",
+      "✨ 2.4 Final Product",
+      "From the original product to the final result, the eye expression was completely transformed.",
+      "👀 2.5 Eye Effect Comparison",
+      "Left: Original product eyes — dull, lifeless, lacking spirit. Right: Fixed eyes — layered, natural gloss, full of life.",
+      "🎭 3. Case 2: Terrifying Facial Expression",
+      "Wuliangye is one of China's most famous baijiu (premium white liquor) brands. They needed a batch of resin figurines representing their brand heritage and culture, to be displayed in specialty stores across China.",
+      "Before finding us, they had already produced one batch — but the facial expression was terrifying, almost zombie-like.",
+      "❌ 3.1 The Original Product's Problems",
+      "The original product had: stiff facial expression lacking any vitality, uncoordinated eyes, eyebrows, and mouth, overall aesthetic completely inconsistent with the \"cultural heritage\" brand positioning, and the product was unsuitable for display in premium brand stores.",
+      "✅ 3.2 How We Solved It",
+      "Step 1 — Comprehensive expression analysis: We analyzed every facial element individually — eye position, eyebrow curvature, mouth form, facial muscle lines — to identify the root cause of the \"terrifying\" feeling.",
+      "Step 2 — Redesigning facial structure: In the 3D modeling stage, we readjusted facial proportions to make the expression more natural and warm, matching the \"cultural heritage\" brand tone.",
+      "Step 3 — Improving every detail in the production process: Sculpting stage — optimized facial muscle lines. Sanding stage — ensured smooth surfaces to avoid shadows creating eerie effects. Painting stage — adjusted skin tone, eye makeup, lip color for a vivid, natural expression. Detail work — added subtle expression variations to enhance character presence.",
+      "✨ 3.3 Final Product",
+      "The result was a collector-grade cultural heritage resin figurine, fully matching Wuliangye's brand positioning.",
+      "🔄 3.4 Before and After",
+      "💡 4. What These Cases Tell Us",
+      "1. Facial expression starts at the sculpting stage — it is not something you fix at the painting stage.",
+      "2. Small changes create major visual differences — slight adjustments to eye position, angle, or technique dramatically affect the overall expression.",
+      "3. Every step in the process matters — sculpting, sanding, painting, and detail work all contribute to the final result.",
+      "4. Problems must be solved before mass production — we never proceed to production until the expression is confirmed right.",
+      "📩 5. Do You Have a Similar Problem?",
+      "Does your resin figurine have expression or eye problems? Send us your 3D file, drawing, or existing sample. We can review the design and suggest how the issue can be addressed before production.",
+    ],
+    imageBlocks: [
+      {
+        afterParagraph: 9,
+        images: [
+          { src: "/pics/beverly-country-club-original1.jpg", alt: "Beverly Country Club original product with dull lifeless eyes", caption: "The original product" }
+        ]
+      },
+      {
+        afterParagraph: 12,
+        images: [
+          { src: "/pics/beverly-country-club-3d-modeling1.jpg", alt: "3D modeling stage — correcting eye proportions", caption: "3D sculpting stage" }
+        ]
+      },
+      {
+        afterParagraph: 17,
+        images: [
+          { src: "/pics/beverly-country-club-process1.jpg", alt: "Production process — adjusting from 3D to painting", caption: "Production process" }
+        ]
+      },
+      {
+        afterParagraph: 19,
+        images: [
+          { src: "/pics/beverly-country-club-final1.jpg", alt: "Beverly Country Club final product with vivid natural eyes", caption: "Final product" }
+        ]
+      },
+      {
+        afterParagraph: 21,
+        images: [
+          { src: "/pics/beverly-country-club-eye-comparison.jpg", alt: "Eye comparison: original dull eyes vs fixed natural eyes", caption: "Left: original — Right: fixed" }
+        ]
+      },
+      {
+        afterParagraph: 26,
+        images: [
+          { src: "/pics/resin-figurine-expression-failed.jpg", alt: "Wuliangye original product with terrifying zombie-like expression", caption: "The original product" }
+        ]
+      },
+      {
+        afterParagraph: 32,
+        images: [
+          { src: "/pics/resin-figurine-expression-success.jpg", alt: "Wuliangye final product with natural warm expression", caption: "Final product" }
+        ]
+      },
+      {
+        afterParagraph: 33,
+        images: [
+          { src: "/pics/resin-figurine-expression-failed.jpg", alt: "Failed expression", caption: "Failed" },
+          { src: "/pics/resin-figurine-expression-success.jpg", alt: "Successful expression", caption: "Success" }
+        ]
+      },
+    ],
+  },
 ];
 
 export const BLOG_SLUGS = BLOG_POSTS.map((p) => p.slug);

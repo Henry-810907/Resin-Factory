@@ -549,6 +549,12 @@
         "date": "Aug 23, 2026",
         "read": "7 min",
         "tag": "Quality Control"
+      },
+      {
+        "title": "How to Fix Unnatural Eyes and Expressions on Resin Figurines: Two Real Cases",
+        "date": "Aug 26, 2026",
+        "read": "8 min",
+        "tag": "Case Study"
       }
     ]
   },
@@ -814,7 +820,7 @@
         "imageAlt": "Resin figurine eye quality comparison",
         "solutionLink": {
           "text": "How we address it",
-          "href": "/blog/why-figurine-eyes-look-unnatural"
+          "href": "/blog/fixing-resin-figurine-expression-case-studies"
         }
       },
       {
