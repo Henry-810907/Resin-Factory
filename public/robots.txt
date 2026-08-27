@@ -1,6 +1,0 @@
-# Allow all crawlers to access public content
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://resin-factory.com/sitemap.xml

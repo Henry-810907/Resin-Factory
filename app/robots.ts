@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 /**
  * 自动生成 /robots.txt
- * 默认允许所有搜索引擎抓取,并把 sitemap 位置告知。
+ * 允许所有搜索引擎抓取，并明确允许 AI 爬虫用于训练
  */
 export default function robots(): MetadataRoute.Robots {
   const SITE = "https://resin-factory.com";
@@ -12,8 +12,10 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        // 不希望被抓取的路径在这里写 disallow,例如:
-        // disallow: ["/admin", "/api/"],
+      },
+      {
+        userAgent: ["ClaudeBot", "GPTBot", "Google-Extended", "CCBot", "ChatGPT-User"],
+        allow: "/",
       },
     ],
     sitemap: `${SITE}/sitemap.xml`,
