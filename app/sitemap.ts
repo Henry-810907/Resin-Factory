@@ -12,7 +12,7 @@ import { BLOG_SLUGS } from "@/lib/blog-posts";
  * lastModified 用一个稳定的发布日期(每次部署不变),Google 才会信任新鲜度信号。
  * 想标记真的更新,改下面 LAST_MODIFIED 常量。
  */
-const LAST_MODIFIED = new Date("2026-05-15");
+const LAST_MODIFIED = new Date();
 
 const ROUTES: { path: string; changeFrequency: "weekly" | "monthly" | "yearly"; priority: number }[] = [
   { path: "", changeFrequency: "weekly", priority: 1.0 },
