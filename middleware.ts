@@ -23,7 +23,7 @@ export function middleware(request: NextRequest) {
   const matched = preferred.find((p: string) => (locales as readonly string[]).includes(p));
   const lang = matched ?? defaultLocale;
 
-  // www 重定向到非 www (301)，直接跳到带语言的首页
+  // www 重定向到非 www，直接跳到带语言的首页
   if (hostname.startsWith("www.")) {
     const url = request.nextUrl.clone();
     url.protocol = "https";
@@ -36,14 +36,15 @@ export function middleware(request: NextRequest) {
     );
     
     if (hasLocaleInPath) {
-      // 已经有语言前缀，直接使用
       url.pathname = pathname;
     } else {
-      // 没有语言前缀，添加默认语言
       url.pathname = `/${lang}${pathname === "/" ? "" : pathname}`;
     }
     
-    return NextResponse.redirect(url, 301);
+    // POST/PUT/DELETE 等非 GET 请求用 307 保持请求方法，避免数据丢失
+    const method = request.method;
+    const isMutation = method !== "GET" && method !== "HEAD";
+    return NextResponse.redirect(url, isMutation ? 307 : 301);
   }
 
   // 把当前路径写到自定义请求头,root layout 用 headers() 读出来,
@@ -74,8 +75,11 @@ export function middleware(request: NextRequest) {
   // 直接使用硬编码域名，避免生产环境从 headers 获取到内部地址
   url.hostname = "resin-factory.com";
   
-  // 301 = Permanent Redirect。让搜索引擎把权重转过去。
-  return NextResponse.redirect(url, 301);
+  // POST/PUT/DELETE 等非 GET 请求用 307 保持请求方法，避免数据丢失
+  // GET/HEAD 请求用 301 永久重定向，让搜索引擎传递权重
+  const method = request.method;
+  const isMutation = method !== "GET" && method !== "HEAD";
+  return NextResponse.redirect(url, isMutation ? 307 : 301);
 }
 
 export const config = {
