@@ -29,7 +29,20 @@ export function middleware(request: NextRequest) {
     url.protocol = "https";
     url.hostname = "resin-factory.com";
     url.port = "";
-    url.pathname = `/${lang}${pathname === "/" ? "" : pathname}`;
+    
+    // 检查 pathname 是否已经包含语言前缀
+    const hasLocaleInPath = locales.some(
+      (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
+    );
+    
+    if (hasLocaleInPath) {
+      // 已经有语言前缀，直接使用
+      url.pathname = pathname;
+    } else {
+      // 没有语言前缀，添加默认语言
+      url.pathname = `/${lang}${pathname === "/" ? "" : pathname}`;
+    }
+    
     return NextResponse.redirect(url, 301);
   }
 
@@ -47,9 +60,9 @@ export function middleware(request: NextRequest) {
   }
 
   const url = request.nextUrl.clone();
-  // 如果路径是单段(如 /zh, /cn)，说明是无效的语言码，重定向到首页
-  const isSingleSegment = /^\/[^/]+$/.test(pathname);
-  url.pathname = isSingleSegment ? `/${lang}` : `/${lang}${pathname === "/" ? "" : pathname}`;
+  // 如果路径是单段且不是有效的语言码（如 /zh, /cn），重定向到首页
+  const isInvalidLocale = /^\/[^/]+$/.test(pathname) && !locales.includes(pathname.slice(1) as any);
+  url.pathname = isInvalidLocale ? `/${lang}` : `/${lang}${pathname === "/" ? "" : pathname}`;
   url.port = "";
   
   // 直接使用硬编码域名，避免生产环境从 headers 获取到内部地址
