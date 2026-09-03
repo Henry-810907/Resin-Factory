@@ -13,11 +13,23 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const hostname = request.headers.get("host") || "";
 
-  // www 重定向到非 www (301)
+  // 从 Accept-Language 头推断最合适的语言
+  const accept = request.headers.get("accept-language") ?? "";
+  const preferred = accept
+    .split(",")
+    .map((part: string) => part.split(";")[0].trim().toLowerCase())
+    .map((tag: string) => tag.split("-")[0]);
+
+  const matched = preferred.find((p: string) => (locales as readonly string[]).includes(p));
+  const lang = matched ?? defaultLocale;
+
+  // www 重定向到非 www (301)，直接跳到带语言的首页
   if (hostname.startsWith("www.")) {
     const url = request.nextUrl.clone();
-    url.hostname = hostname.replace("www.", "");
-    url.port = ""; // 移除端口号，生产环境使用标准端口
+    url.protocol = "https";
+    url.hostname = "resin-factory.com";
+    url.port = "";
+    url.pathname = `/${lang}${pathname === "/" ? "" : pathname}`;
     return NextResponse.redirect(url, 301);
   }
 
@@ -34,21 +46,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.next({ request: { headers: requestHeaders } });
   }
 
-  // 从 Accept-Language 头推断最合适的语言
-  const accept = request.headers.get("accept-language") ?? "";
-  const preferred = accept
-    .split(",")
-    .map((part: string) => part.split(";")[0].trim().toLowerCase())
-    .map((tag: string) => tag.split("-")[0]);
-
-  const matched = preferred.find((p: string) => (locales as readonly string[]).includes(p));
-  const lang = matched ?? defaultLocale;
-
   const url = request.nextUrl.clone();
   // 如果路径是单段(如 /zh, /cn)，说明是无效的语言码，重定向到首页
   const isSingleSegment = /^\/[^/]+$/.test(pathname);
   url.pathname = isSingleSegment ? `/${lang}` : `/${lang}${pathname === "/" ? "" : pathname}`;
-  url.port = ""; // 移除端口号，避免生产环境出现 :3000
+  url.port = "";
   
   // 直接使用硬编码域名，避免生产环境从 headers 获取到内部地址
   url.hostname = "resin-factory.com";
