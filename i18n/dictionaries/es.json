@@ -561,22 +561,23 @@
         "tag": "Detrás de escenas"
       },
       {
+        "title": "Por qué las estatuas de piedra pequeñas parecen falsas — La textura de envejecimiento es la clave",
+        "date": "Aug 11, 2026",
+        "read": "5 min",
+        "tag": "Perspectivas de la industria"
+      },
+      {
         "title": "Del diseño a la muestra física: el proceso completo de muestreo de figuras de resina",
         "date": "13 de agosto de 2026",
         "read": "8 min",
         "tag": "Proceso de muestreo"
       },
       {
-        "title": "Cómo arreglar ojos y expresiones antinaturales en figuras de resina: dos casos reales",
-        "date": "26 de agosto de 2026",
+        "title": "¿Cómo prevenir burbujas en figuras de resina?",
+        "date": "13 de agosto de 2026",
         "read": "8 min",
-        "tag": "Casos de estudio"
-      },
-      {
-        "title": "Por qué las estatuas de piedra pequeñas parecen falsas — La textura de envejecimiento es la clave",
-        "date": "Aug 11, 2026",
-        "read": "5 min",
-        "tag": "Perspectivas de la industria"
+        "tag": "Proceso de muestreo",
+        "excerpt": "11 pasos, 2 hitos clave de aprobación, 12-15 días - nuestro proceso completo de muestreo de figuras explicado."
       },
       {
         "title": "¿Por qué las muestras y la producción en masa se ven diferentes? Cómo evitarlo",
@@ -585,11 +586,10 @@
         "tag": "Guía técnica"
       },
       {
-        "title": "¿Cómo prevenir burbujas en figuras de resina?",
-        "date": "13 de agosto de 2026",
+        "title": "Cómo arreglar ojos y expresiones antinaturales en figuras de resina: dos casos reales",
+        "date": "26 de agosto de 2026",
         "read": "8 min",
-        "tag": "Proceso de muestreo",
-        "excerpt": "11 pasos, 2 hitos clave de aprobación, 12-15 días - nuestro proceso completo de muestreo de figuras explicado."
+        "tag": "Casos de estudio"
       }
     ],
     "contactCtaTitle": "¿Tienes un proyecto del que hablar?",
