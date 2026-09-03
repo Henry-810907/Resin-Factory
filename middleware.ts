@@ -49,6 +49,11 @@ export function middleware(request: NextRequest) {
   const isSingleSegment = /^\/[^/]+$/.test(pathname);
   url.pathname = isSingleSegment ? `/${lang}` : `/${lang}${pathname === "/" ? "" : pathname}`;
   url.port = ""; // 移除端口号，避免生产环境出现 :3000
+  
+  // 显式设置正确的域名，避免生产环境出现 localhost
+  const host = request.headers.get("host") || "resin-factory.com";
+  url.hostname = host.replace("www.", "");
+  
   // 301 = Permanent Redirect。让搜索引擎把权重转过去。
   return NextResponse.redirect(url, 301);
 }
