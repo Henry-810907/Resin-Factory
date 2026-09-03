@@ -48,6 +48,7 @@ export function middleware(request: NextRequest) {
   // 如果路径是单段(如 /zh, /cn)，说明是无效的语言码，重定向到首页
   const isSingleSegment = /^\/[^/]+$/.test(pathname);
   url.pathname = isSingleSegment ? `/${lang}` : `/${lang}${pathname === "/" ? "" : pathname}`;
+  url.port = ""; // 移除端口号，避免生产环境出现 :3000
   // 301 = Permanent Redirect。让搜索引擎把权重转过去。
   return NextResponse.redirect(url, 301);
 }
