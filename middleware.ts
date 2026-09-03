@@ -4,12 +4,21 @@ import { locales, defaultLocale } from "./i18n/settings";
 /**
  * 多语言重定向 + 注入 x-pathname 头(供 root layout 设置 <html lang dir>)
  *
+ *  - www 重定向到非 www (301)
  *  - 已带语言段 → 放行,但仍要写 x-pathname
- *  - 未带语言段 → 308 永久跳转到 /<lang>/...
+ *  - 未带语言段 → 301 永久跳转到 /<lang>/...
  *  - 跳过 /sitemap.xml /robots.txt /og-image.jpg /api 等
  */
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const hostname = request.headers.get("host") || "";
+
+  // www 重定向到非 www (301)
+  if (hostname.startsWith("www.")) {
+    const url = request.nextUrl.clone();
+    url.hostname = hostname.replace("www.", "");
+    return NextResponse.redirect(url, 301);
+  }
 
   // 把当前路径写到自定义请求头,root layout 用 headers() 读出来,
   // SSR 阶段就能算出正确的 lang/dir,避免 FOUC
@@ -36,8 +45,8 @@ export function middleware(request: NextRequest) {
 
   const url = request.nextUrl.clone();
   url.pathname = `/${lang}${pathname === "/" ? "" : pathname}`;
-  // 308 = Permanent Redirect。让搜索引擎把权重转过去。
-  return NextResponse.redirect(url, 308);
+  // 301 = Permanent Redirect。让搜索引擎把权重转过去。
+  return NextResponse.redirect(url, 301);
 }
 
 export const config = {
