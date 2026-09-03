@@ -60,8 +60,14 @@ export function middleware(request: NextRequest) {
   }
 
   const url = request.nextUrl.clone();
-  // 如果路径是单段且不是有效的语言码（如 /zh, /cn），重定向到首页
-  const isInvalidLocale = /^\/[^/]+$/.test(pathname) && !locales.includes(pathname.slice(1) as any);
+  
+  // 判断是否是无效的语言码（2-3个字母的单段路径，但不是有效语言）
+  const looksLikeLocale = /^\/[a-z]{2,3}$/.test(pathname);
+  const isValidLocale = locales.includes(pathname.slice(1) as any);
+  const isInvalidLocale = looksLikeLocale && !isValidLocale;
+  
+  // 如果是无效的语言码（如 /zh, /cn），重定向到首页
+  // 否则保留原路径并添加语言前缀
   url.pathname = isInvalidLocale ? `/${lang}` : `/${lang}${pathname === "/" ? "" : pathname}`;
   url.port = "";
   
