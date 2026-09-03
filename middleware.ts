@@ -17,6 +17,7 @@ export function middleware(request: NextRequest) {
   if (hostname.startsWith("www.")) {
     const url = request.nextUrl.clone();
     url.hostname = hostname.replace("www.", "");
+    url.port = ""; // 移除端口号，生产环境使用标准端口
     return NextResponse.redirect(url, 301);
   }
 
